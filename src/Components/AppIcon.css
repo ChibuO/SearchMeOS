@@ -1,0 +1,73 @@
+.task-icon {
+    padding: 0 10px 0 0;
+    margin: 0;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    border: 1px solid var(--secondary-theme-color);
+    text-align: left;
+    box-sizing: border-box;
+    height: var(--icon-size);
+    /* width: 500px; */
+}
+
+.task-icon:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.task-icon-space {
+    margin: 0;
+    padding: 0;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-icon p {
+    margin: 0 0 0 3px;
+    padding: 0;
+    font-size: 16px;
+    color: var(--theme-text-color);
+}
+
+.task-icon img {
+    margin: 0;
+    padding: 0;
+    width: var(--icon-image-size);
+    height: var(--icon-image-size);
+}
+
+.shortcut {
+    cursor: pointer;
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* transition:  .1s ease; */
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid rgba(0, 128, 0, 0); */
+    color: var(--theme-text-color);
+}
+
+.shortcut p {
+    margin: 0;
+    padding: 0;
+}
+
+.shortcut:hover {
+    box-shadow: 0px 0px 0px 1px rgb(237, 237, 237);
+}
+
+.shortcut img {
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+}

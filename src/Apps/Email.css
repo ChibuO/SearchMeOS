@@ -1,0 +1,234 @@
+.email-app * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.email-app {
+    display: flex;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.email-sidebar {
+    width: 18%;
+    background-color: #f2f2f2;
+    padding: 20px 15px;
+    border-right: 1px solid #ccc;
+}
+
+/* .email-sidebar h2 {
+} */
+
+.email-sidebar ul {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.email-sidebar ul li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.email-sidebar ul li:hover {
+    background-color: #ddd;
+}
+
+.email-sidebar ul li.selected {
+    font-weight: bold;
+    background-color: #dddddd;
+}
+
+.email-list-container {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+    padding: 20px 0px 20px 15px;
+    width: 30%;
+    /* border: 1px solid hotpink; */
+}
+
+.email-list-container h2 {
+    margin-bottom: 10px;
+}
+
+.email-list {
+    overflow-y: auto;
+    /* border: 1px solid hotpink; */
+}
+
+.email-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 90%;
+    /* border: 1px solid hotpink; */
+}
+
+.email-item:hover {
+    background-color: #ddd;
+}
+
+.email-item.selected {
+    background-color: #7235ff;
+    color: white;
+    font-weight: bold;
+}
+
+#email-list-from {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+#email-list-subject {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#email-message-preview {
+    font-size: 14px;
+    color: #888888;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.selected #email-message-preview {
+    color: white;
+}
+
+.email-side {
+    flex: 1;
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.email-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-header h2 {
+    font-weight: 500;
+}
+
+.email-contact {
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.email-contact-grid {
+    display: grid;
+    grid-template-columns: min-content  1fr;
+    grid-template-rows: min-content 1fr;
+    gap: 10px 10px;
+}
+
+.email-img-div {
+    grid-column: 1;
+    /* border: 1px solid pink; */
+}
+
+#email-contact-date {
+    font-size: 14px;
+    color: #555555;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#email-contact-from {
+    grid-column: 2;
+    align-self: center;
+}
+
+#email-contact-to-container {
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+#email-contact-to {
+    font-size: 14px;
+}
+
+.email-contact .arrow {
+    cursor: pointer;
+    color: #8b8b8b;
+    transition: transform .5s;
+}
+
+.email-contact .arrow:hover {
+    border: 1px solid black;
+}
+
+.email-contact .arrow.clicked {
+    transform: rotate(180deg);
+}
+
+.email-contact-full {
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: min-content  1fr;
+    grid-template-rows: repeat(3, min-content);
+    gap: 5px 8px;
+    font-size: 14px;
+}
+
+.email-contact-full.show {
+    display: none;
+}
+
+.email-contact-label {
+    justify-self: right;
+    align-self: start;
+    color: #888888;
+    grid-column: 1;
+}
+
+.email-contact-value {
+    grid-column: 2;
+}
+
+
+.email-contact-value p {
+    padding-bottom: 3px;
+}
+
+.email-contact-value p.is-empty {
+    padding-bottom: 0px;
+}
+
+.email-body {
+    padding-top: 10px;
+    flex: 2;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.email-body p {
+    white-space: pre-wrap;
+}

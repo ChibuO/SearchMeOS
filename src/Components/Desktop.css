@@ -1,0 +1,23 @@
+:root {
+    --icon-image-size: 28px;
+    --icon-size: 36px;
+}
+
+.desktop {
+    background-color: #646464;
+    background: url('../Images/default_bg.jpeg') center center/cover no-repeat;
+    position: relative;
+    height: calc(100% - var(--taskbar-height));
+}
+
+.desktop-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-auto-flow: column;
+    gap: 25px 0px;
+    padding: 20px;
+    position: relative;
+    width: 30%;
+}
+

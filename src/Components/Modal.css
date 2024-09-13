@@ -1,0 +1,17 @@
+.modal-background {
+    background-color: rgba(31, 38, 43, 0.498);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.modal-content {
+    /* border: 1px solid gold; */
+    width: 50%;
+}

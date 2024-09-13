@@ -1,0 +1,120 @@
+.taskbar {
+    background-color: var(--main-theme-color);
+    color: white;
+    height: var(--taskbar-height);
+    display: flex;
+    /* align-items: center; */
+    padding: 0 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.start-icon-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.start-button {
+    cursor: pointer;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-color: var(--secondary-theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.start-icon {
+    width: var(--icon-image-size);
+    height: var(--icon-image-size);
+}
+
+.start-icon-container:hover {
+    filter: brightness(120%);
+}
+
+.task-icons {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow-x: scroll;
+    margin-left: 20px;
+}
+
+.system-tray {
+    display: flex;
+    align-items: center;
+    color: var(--theme-text-color);
+}
+
+.system-icons {
+    display: flex;
+    gap: 1px;
+}
+
+.system-icon {
+    padding: 3px;
+    border-radius: 10%;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.system-icon:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.battery {
+    width: fit-content;
+    padding: 3px 5px;
+}
+
+.battery p {
+    margin: 0 5px 0 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.system-date {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 0;
+}
+
+.system-day {
+    padding: 0;
+    margin: 0;
+}
+
+.system-time-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.system-time {
+    padding: 0;
+    width: 22px;
+    text-align: right;
+    margin: 0 2px 0 0;
+}
+
+.system-m {
+    padding: 0;
+    margin: 0 0 0 3px;
+}

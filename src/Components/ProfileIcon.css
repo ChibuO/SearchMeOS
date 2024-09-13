@@ -1,0 +1,11 @@
+.profile-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.initials {
+    user-select: none;
+}

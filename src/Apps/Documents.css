@@ -1,0 +1,129 @@
+.docs-container * {
+    margin: 0;
+    padding: 0;
+}
+
+.docs-container {
+    box-sizing: border-box;
+    /* border: 2px solid rebeccapurple; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.docs-header {
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+
+.docs-list {
+    /* border: 1px solid goldenrod; */
+    flex: 2;
+    padding: 0px 20px 10px 20px;
+}
+
+.docs-item {
+    border: 1px solid rgb(208, 208, 208);
+    display: flex;
+    background-color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.docs-item:hover {
+    border: 1px solid rgb(126, 126, 255);
+}
+
+.docs-item:active {
+    background-color: rgb(174, 206, 234);
+}
+
+.docs-icon {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.docs-name {
+    text-align: left;
+    width: var(--thumbnail-width);
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: 600;
+    /* border: 1px solid olivedrab; */
+    display: flex;
+    align-items: center;
+}
+
+#docs-icon {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.document-outer-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* border: 1px solid teal; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.document-header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(70, 70, 70);
+    height: 40px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.document-title {
+    font-size: 15px;
+}
+
+#document-back-icon {
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#document-back-icon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#document-back-icon:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.document-inner-div {
+    flex: 2;
+    box-sizing: border-box;
+    background-color: rgb(215, 215, 215);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    overflow: scroll;
+}
+
+.document-doc {
+    box-sizing: border-box;
+    background-color: rgb(255, 248, 235);
+    width: 70%;
+    height: min-content;
+    min-height: 500px;
+    /* height: 500px; */
+    padding: 50px;
+    white-space: pre-wrap;
+    font-size: 14px;
+}

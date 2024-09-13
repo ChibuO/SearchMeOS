@@ -1,0 +1,200 @@
+.lock-screen * {
+    margin: 0;
+    padding: 0;
+}
+
+.login-screen-container {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+  }
+
+.lock-screen {
+    background-color: #1e1e1e;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ca3fa;
+    /* background: url('../Images/lock_screen_bg.jpg') center center/cover no-repeat; */
+    position: relative;
+}
+
+.lock-screen-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lock-screen-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.windows-logo-div {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.windows-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.lock-screen-title {
+    font-size: 25px;
+    font-weight: 200;
+    margin: 20px 0;
+}
+
+.lock-screen-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-input {
+    box-sizing: border-box;
+    padding: 10px;
+    height: 40px;
+    border-style: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    width: 250px;
+    letter-spacing: .1rem;
+}
+
+#login-input:focus {
+    outline: 1px solid black;
+    outline-offset: -2px;
+    border-radius: 4px 0 0 4px;
+}
+
+.lock-screen-form button {
+    box-sizing: border-box;
+    padding: 10px 10px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.unlock-button {
+    background-color: #292929;
+    color: white;
+    border-radius: 0 4px 4px 0;
+}
+
+.unlock-button:hover {
+    background-color: black;
+}
+
+.visibility-toggle {
+    background-color: white;
+    color: #292929;
+}
+
+.visibility-toggle:hover {
+    color: rgb(11, 164, 133);
+}
+
+.lock-screen-hint {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#lock-screen-back-btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#lock-screen-back-btn:hover {
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+#lock-screen-back-btn:active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Animation classes */
+
+.login-screen-container.fade-out {
+    animation: fade-out .6s ease-in forwards;
+}
+
+.login-screen-container.fade-in {
+    animation: fade-in .6s ease-in forwards;
+}
+
+.start-screen.slide-up {
+    animation: slide-up .7s steps(7, jump-none) forwards;
+}
+
+.start-screen.slide-down {
+    animation: slide-down .7s steps(7, jump-none) forwards;
+}
+
+/* Animation keyframes */
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+        display: block;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        display: block;
+    }
+
+    0% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes slide-up {
+    from {
+        translate: 0 0;
+        display: flex;
+    }
+
+    to {
+        translate: 0 -110vh;
+        display: none;
+    }
+}
+
+@keyframes slide-down {
+    to {
+        translate: 0 0;
+        display: flex;
+    }
+
+    from {
+        translate: 0 -110vh;
+        display: none;
+    }
+}

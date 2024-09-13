@@ -1,0 +1,118 @@
+.photos-container * {
+    margin: 0;
+    padding: 0;
+}
+
+.photos-container {
+    box-sizing: border-box;
+    /* border: 1px solid rebeccapurple; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(233, 233, 233);
+}
+
+.photos-header {
+    /* border: 1px solid red; */
+    padding: 20px 0px;
+    margin: 0px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.photos-sections-div {
+    /* border: 1px solid rgb(32, 218, 113); */
+    flex: 2;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    overflow-y: scroll;
+}
+
+/* .photos-section {
+    border: 1px solid rgb(173, 57, 57);
+} */
+
+.photos-section h4 {
+    margin-bottom: 10px;
+}
+
+.photos-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.photos-photo {
+    border: 1px solid rgba(208, 208, 208, 0);
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    /* width: fit-content;
+    height: fit-content; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid rgba(0, 128, 0, 0.788); */
+}
+
+.photos-photo:hover {
+    border: 1px solid rgb(126, 126, 255);
+}
+
+.photos-photo:active {
+    background-color: rgb(174, 206, 234);
+}
+
+.photos-photo img {
+    max-width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* #photos-icon {
+    font-size: 16px;
+    margin-right: 10px;
+} */
+
+.photo-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* border: 1px solid teal; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(233, 233, 233);
+}
+
+#photo-x-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    /* background-color: rgba(173, 216, 230, 0.459); */
+}
+
+#photo-x-icon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#photo-x-icon:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.photo-modal img {
+    width: 100%;
+    object-fit: contain;
+}
