@@ -2,7 +2,7 @@ import { React } from 'react';
 import './Desktop.css';
 import Window from './Window';
 import { Shortcut } from './AppIcon';
-import { toggleWindow } from '../animate';
+import { toggleWindow } from '../utilites/animate';
 import appData from '../Resources/appData.json';
 import { DndContext } from '@dnd-kit/core';
 // import { restrictToParentElement, restrictToWindowEdges } from '@dnd-kit/modifiers';

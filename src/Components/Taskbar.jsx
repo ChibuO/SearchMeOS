@@ -6,7 +6,7 @@ import { IoIosWifi } from "react-icons/io";
 import { RiVolumeMuteLine } from "react-icons/ri";
 // import file_icon from '../Images/file_icon.png';
 import start_icon from '../Images/start-icon.png';
-import { toggleWindow } from '../animate';
+import { toggleWindow } from '../utilites/animate';
 import computerData from '../Resources/computerData.json';
 import appData from '../Resources/appData.json';
 
