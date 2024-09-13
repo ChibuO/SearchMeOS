@@ -1,0 +1,13 @@
+{
+    "vars": {
+        "FIRSTNAME": "Jack",
+        "LASTNAME": "Riley",
+        "EMAIL": "jriley@yahoo.com"
+    },
+    "password": "red",
+    "mainColor": "#7981cd",
+    "secondColor": "#9ca3fa",
+    "textColor": "white",
+    "lockScreenImagePath": "lock_screen_bg.jpg",
+    "desktopScreenImagePath": "desktop_bg.jpg"
+}

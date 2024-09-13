@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "contactName": "Lucas Scott",
+    "email": "lucas@gmail.com"
+  },
+  {
+    "id": 2,
+    "contactName": "Nathan Scott",
+    "email": "nathan@gmail.com"
+  },
+  {
+    "id": 3,
+    "contactName": "Peyton Sawyer",
+    "email": "peyton@gmail.com"
+  },
+  {
+    "id": 4,
+    "contactName": "Brooke Davis",
+    "email": "brooke@gmail.com"
+  },
+  {
+    "id": 5,
+    "contactName": "Haley James Scott",
+    "email": "haley@gmail.com",
+    "note": "Dog's name is Shelly\nBirthday is August 7th\nHates coffee"
+  },
+  {
+    "id": 6,
+    "contactName": "Marvin McFadden",
+    "email": "mouth@gmail.com"
+  },
+  {
+    "id": 7,
+    "contactName": "Antwon Taylor",
+    "email": "skills@gmail.com"
+  },
+  {
+    "id": 8,
+    "contactName": "Jake Greenberg",
+    "email": "jake@gmail.com"
+  },
+  {
+    "id": 9,
+    "contactName": "Rachel Roth",
+    "email": "rachel@gmail.com"
+  },
+  {
+    "id": 10,
+    "contactName": "Tim Turner",
+    "email": "tim@gmail.com"
+  },
+  {
+    "id": 11,
+    "contactName": "Antwon Taylor",
+    "email": "skills@gmail.com"
+  },
+  {
+    "id": 12,
+    "contactName": "Jake Jagielski",
+    "email": "jake@gmail.com"
+  },
+  {
+    "id": 13,
+    "contactName": "Rachel Gatina",
+    "email": "rachel@gmail.com"
+  },
+  {
+    "id": 14,
+    "contactName": "Tim Turner",
+    "email": "tim@gmail.com"
+  }
+]

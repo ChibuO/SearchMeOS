@@ -1,0 +1,47 @@
+{
+    "calendar": 
+    {
+        "name": "Calendar",
+        "icon": "calendar_icon.png"
+    },
+    "email": 
+    {
+        "name": "Email",
+        "icon": "email_icon.png"
+    },
+    "photos": 
+    {
+        "name": "Photos",
+        "icon": "photos_icon.png"
+    },
+    "contacts": 
+    {
+        "name": "Contacts",
+        "icon": "contacts_icon.png"
+    },
+    "messages": 
+    {
+        "name": "Slack",
+        "icon": "messages_icon.png"
+    },
+    "music": 
+    {
+        "name": "Spotify",
+        "icon": "music_icon.png"
+    },
+    "docs": 
+    {
+        "name": "Docs",
+        "icon": "docs_icon.png"
+    },
+    "notes": 
+    {
+        "name": "Notes",
+        "icon": "notes_icon.png"
+    },
+    "internet": 
+    {
+        "name": "Internet",
+        "icon": "internet_icon.png"
+    }
+}

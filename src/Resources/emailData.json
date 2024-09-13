@@ -1,0 +1,226 @@
+{
+    "inbox": [
+        {
+            "from": {
+                "name": "Haley James Scott",
+                "email": "haley@gmail.com"
+            },
+            "to": [],
+            "cc": [
+                {
+                    "name": "Nathan Scott",
+                    "email": "nathan@gmail.com"
+                },
+                {
+                    "name": "Rachel Gatina",
+                    "email": "rachel@gmail.com"
+                }
+            ],
+            "date": "7/9/24",
+            "subject": "Meat",
+            "message": [
+                "Hey %FIRSTNAME%,\n\n",
+                "Just wanted to know if you saw this.\n\n",
+                "Regards,",
+                "Haley"
+            ],
+            "image": ""
+        },
+        {
+            "from": {
+                "name": "Lucas Scott",
+                "email": "lucas@gmail.com"
+            },
+            "to": [
+                {
+                    "name": "Brooke Davis",
+                    "email": "brooke@yahoo.com"
+                }
+            ],
+            "cc": [],
+            "date": "7/4/24",
+            "subject": "Glaze",
+            "message": [
+                "Hey %FIRSTNAME%,\n\n",
+                "Skibidi.\n\n",
+                "Regards,",
+                "Lucas"
+            ],
+            "image": ""
+        },
+        {
+            "from": {
+                "name": "",
+                "email": "spammy@gmail.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "7/2/24",
+            "subject": "Crab",
+            "message": [
+                "Hi %FIRSTNAME%,\n\n",
+                "I hope this email finds you well. I wanted to reach out regarding our plans for pizza night that we discussed earlier. I've been giving it some thought, and while I was initially excited about the idea, I've realized that I won't be able to join you this time.\n\n",
+                "It's not an easy decision for me to make because I was looking forward to catching up and enjoying some delicious pizza together. Unfortunately, [mention reason if appropriate, e.g., unexpected work commitments, prior family obligation, etc.]. I sincerely apologize for any inconvenience this may cause.\n\n",
+                "I hope you can understand my situation. Perhaps we can reschedule for another time soon when I'm more available. I genuinely value our friendship and would love to make it up to you.\n\n",
+                "Once again, I'm sorry for any disappointment this may bring. Please let me know if there's anything else planned in the future that I can join in on.\n\n",
+                "Take care and enjoy the pizza!\n\n",
+                "Best regards,",
+                "Spammy"
+            ],
+            "image": ""
+        }
+    ],
+    "sent": [
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
+                {
+                    "name": "Haley James Scott",
+                    "email": "haley@gmail.com"
+                }
+            ],
+            "cc": [],
+            "date": "7/9/24",
+            "subject": "Rangoon",
+            "message": [
+                "Hey Haley,\n\n",
+                "Just wanted to know if you saw this.\n\n",
+                "Regards,",
+                "%FIRSTNAME%"
+            ],
+            "image": ""
+        }
+    ],
+    "drafts": [
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
+                {
+                    "name": "Haley James Scott",
+                    "email": "haley@gmail.com"
+                }
+            ],
+            "cc": [],
+            "date": "7/9/24",
+            "subject": "Bugs",
+            "message": ["Hey Haley,\n\nJust wanted to know if you saw this.\n\nRegards,\n\n%FIRSTNAME%"],
+            "image": ""
+        },
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
+                {
+                    "name": "Peyton Sawyer",
+                    "email": "peyton@gmail.com"
+                },
+                {
+                    "name": "Brooke Davis",
+                    "email": "brooke@gmail.com"
+                }
+            ],
+            "cc": [
+                {
+                    "name": "Nathan Scott",
+                    "email": "nathan@gmail.com"
+                }
+            ],
+            "date": "7/10/24",
+            "subject": "Cream",
+            "message": ["Hi Peyton,\n\nStop it.\n\nSincerely,\n\n%FIRSTNAME%"],
+            "image": ""
+        }
+    ],
+    "junk": [
+        {
+            "from": {
+                "name": "Haley James Scott",
+                "email": "haley@gmail.com"
+            },
+            "to": [
+                {
+                    "name": "3Haley James Scott",
+                    "email": "haley@gmail.com"
+                }
+            ],
+            "cc": [],
+            "date": "7/9/24",
+            "subject": "CheeseMeat",
+            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
+            "image": ""
+        },
+        {
+            "from": {
+                "name": "",
+                "email": "2haley@gmail.com"
+            },
+            "to": [
+                {
+                    "name": "",
+                    "email": "7haley@gmail.com"
+                }
+            ],
+            "cc": [],
+            "date": "7/9/24",
+            "subject": "CheeseMeat",
+            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
+            "image": ""
+        },
+        {
+            "from": {
+                "name": "2Haley James Scott",
+                "email": "haley@gmail.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "7/9/24",
+            "subject": "CheeseMeat",
+            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
+            "image": ""
+        },
+        {
+            "from": {
+                "name": "4Haley James Scott",
+                "email": "haley@gmail.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "7/9/24",
+            "subject": "CheeseMeat",
+            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
+            "image": ""
+        },
+        {
+            "from": {
+                "name": "3Haley James Scott",
+                "email": "haley@gmail.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "7/9/24",
+            "subject": "CheeseMeat",
+            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
+            "image": ""
+        },
+        {
+            "from": {
+                "name": "5Haley James Scott",
+                "email": "haley@gmail.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "7/9/24",
+            "subject": "CheeseMeat",
+            "message": [],
+            "image": ""
+        }
+    ]
+}

@@ -1,0 +1,554 @@
+{
+    "groups": [
+        {
+            "name": "finance-bros",
+            "messages": [
+                {
+                    "from": "Josh",
+                    "message": "Hey, you guys down for bar-hopping tonight?"
+                },
+                {
+                    "from": "Caleb",
+                    "message": "Yeah, man. Can't wait"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "LET'S GOOOOOOO"
+                },
+                {
+                    "from": "Damien",
+                    "message": "Barney's at 6pm?",
+                    "replies": [
+                        {
+                            "from": "Caleb",
+                            "message": "We told you this last week, mate"
+                        }
+                    ]
+                },
+                {
+                    "from": "Josh",
+                    "message": "Yep."
+                }
+            ]
+        },
+        {
+            "name": "accounting-int",
+            "messages": [
+                {
+                    "from": "Josh",
+                    "message": "What are you all working on?"
+                },
+                {
+                    "from": "Caleb",
+                    "message": "Fixing last week's mistake"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Paying people"
+                },
+                {
+                    "from": "Damien",
+                    "message": "Cleaning the databases"
+                },
+                {
+                    "from": "Josh",
+                    "message": "Rounding down"
+                },
+                {
+                    "from": "Josh",
+                    "message": "What are you all working on?"
+                },
+                {
+                    "from": "Caleb",
+                    "message": "Fixing last week's mistake"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Paying people"
+                },
+                {
+                    "from": "Damien",
+                    "message": "Cleaning the databases"
+                },
+                {
+                    "from": "Josh",
+                    "message": "Rounding down"
+                },
+                {
+                    "from": "Josh",
+                    "message": "What are you all working on?"
+                },
+                {
+                    "from": "Caleb",
+                    "message": "Fixing last week's mistake"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Paying people"
+                },
+                {
+                    "from": "Damien",
+                    "message": "Cleaning the databases"
+                },
+                {
+                    "from": "Josh",
+                    "message": "Rounding Up"
+                }
+            ]
+        },
+        {
+            "name": "finance-group",
+            "messages": [
+                {
+                    "from": "Alice",
+                    "message": "Hello, everyone!"
+                },
+                {
+                    "from": "Bob",
+                    "message": "Hi Alice! How are you?"
+                },
+                {
+                    "from": "Charlie",
+                    "message": "Good Morning?"
+                },
+                {
+                    "from": "Alice",
+                    "message": "Good morning, Charlie! I'm doing great!"
+                },
+                {
+                    "from": "Bob",
+                    "message": "Excited for the meeting today?"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "LET'S GOOOOOOO!"
+                }
+            ]
+        }
+    ],
+    "DMs": [
+        {
+            "name": "Josh 🤟",
+            "messages": [
+                {
+                    "from": "Josh",
+                    "message": "Hey, are you free for a gaming session tonight?"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Hey! Yeah, I'm free. What's the plan?"
+                },
+                {
+                    "from": "Josh",
+                    "message": "I was thinking we could dive into that new co-op game that just dropped. Heard it's pretty fun."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Sounds awesome! I've been looking forward to it. What's it called again?"
+                },
+                {
+                    "from": "Josh",
+                    "message": "It's called 'Galactic Rescue Squad'. It's got great reviews and it's supposed to be a blast with a friend."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Perfect. I'm totally down. What time were you thinking of starting?"
+                },
+                {
+                    "from": "Josh",
+                    "message": "How about 7pm? Gives us enough time to get set up and maybe grab some snacks."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "7pm works for me. I'll make sure to have some snacks ready. What kind of snacks are you thinking?"
+                },
+                {
+                    "from": "Josh",
+                    "message": "I'm leaning towards chips and dip. Maybe some pizza rolls too. What about you?"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "I'm thinking of going with popcorn and maybe some pretzels. Classic gamer snacks."
+                },
+                {
+                    "from": "Josh",
+                    "message": "Nice choice. Alright, I'll send you the game invite around 7. See you then!"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Awesome, see you then! Looking forward to it!"
+                }
+            ]
+        },
+        {
+            "name": "Alice (Boss)",
+            "messages": [
+                {
+                    "from": "Alice",
+                    "message": "Hi, I wanted to check in about the project status. How's everything going?"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Hi Alice, everything is on track. We've completed the initial research and are moving into the development phase."
+                },
+                {
+                    "from": "Alice",
+                    "message": "That's great to hear. Are there any challenges you're facing or any support you need?"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "We're running into a few minor issues with the integration of the new software. It's mostly about compatibility."
+                },
+                {
+                    "from": "Alice",
+                    "message": "Understood. Do you think you'll need additional resources or expertise to address these issues?"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "It might be helpful to get some advice from the IT team. I'll draft a list of specific questions and follow up with them."
+                },
+                {
+                    "from": "Alice",
+                    "message": "Sounds like a good plan. Make sure to keep me updated on any major developments. Is there anything else you need from my end?"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Not at the moment. I'll keep you posted on our progress and let you know if anything comes up."
+                },
+                {
+                    "from": "Alice",
+                    "message": "Perfect. Also, don't forget about the team meeting on Friday. We'll be discussing the next phase of the project."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Got it. I'll prepare an update for the meeting. Thanks for checking in!"
+                },
+                {
+                    "from": "Alice",
+                    "message": "You're welcome. Have a productive day!"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "You too, Alice. Talk soon!"
+                }
+            ]
+        },
+        {
+            "name": "Phil (IT)",
+            "messages": [
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Hey Phil, the new software still isn't integrating properly. We need to fix this ASAP."
+                },
+                {
+                    "from": "Phil",
+                    "message": "I'm aware, but it's not as simple as you might think. There are compatibility issues that need thorough troubleshooting."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "I get that, but we're on a tight deadline here. Can't you expedite the process or prioritize it?"
+                },
+                {
+                    "from": "Phil",
+                    "message": "I'm already prioritizing it, but there are limitations to how fast we can resolve these issues. It's a complex system."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "I understand it's complex, but it's been over a week since we first reported this. We need results, not excuses."
+                },
+                {
+                    "from": "Phil",
+                    "message": "Look, I'm doing my best with the resources we have. Sometimes these things take time. I'm not ignoring the problem."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "It feels like it's being brushed aside. Can you give me a clearer timeline on when we can expect a fix?"
+                },
+                {
+                    "from": "Phil",
+                    "message": "I can give you an estimate, but it's subject to change based on how the troubleshooting goes. I'll update you by end of day tomorrow."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Alright, but please make this a priority. We're depending on this for our project to move forward."
+                },
+                {
+                    "from": "Phil",
+                    "message": "Understood. I'll push hard to get this resolved. Thanks for your patience."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Thanks, Phil. I'll look out for your update tomorrow."
+                }
+            ]
+        },
+        {
+            "name": "new-hire-gossip",
+            "messages": [
+                {
+                    "from": "Caleb",
+                    "message": "Hey, have you guys met the new person, Jean? What's the verdict?"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Oh, Jean? I met them this morning. They seem nice but a bit... reserved? Not really opening up yet."
+                },
+                {
+                    "from": "Damien",
+                    "message": "I noticed that too. They were super quiet in our meeting. Almost like they're trying too hard to fit in."
+                },
+                {
+                    "from": "Caleb",
+                    "message": "Yeah, it's like they're holding back. I mean, I get it's a new job and all, but come on. Lighten up a bit."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "Right? I was expecting them to be more outgoing. Maybe they're just trying to play it safe for now."
+                },
+                {
+                    "from": "Damien",
+                    "message": "Or maybe they're just shy. Who knows? It might take a bit to get them to open up."
+                },
+                {
+                    "from": "Caleb",
+                    "message": "Totally. We should definitely make an effort to include them more. Maybe a team lunch or something to break the ice?"
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "That sounds like a good idea. Thursday could work. Casual vibe might help Jean feel more at ease."
+                },
+                {
+                    "from": "Damien",
+                    "message": "Yeah, let's do that. I'll be curious to see if Jean relaxes a bit once they get to know us better."
+                },
+                {
+                    "from": "Caleb",
+                    "message": "I'll set it up. Let's hope Jean loosens up and shows us what they're really like. I'm betting they're hiding some interesting stories."
+                },
+                {
+                    "from": "%FIRSTNAME% %LASTNAME%",
+                    "message": "For sure. Looking forward to it. Let's hope Jean turns out to be a good addition after all!"
+                },
+                {
+                    "from": "Damien",
+                    "message": "Agreed. Here's to hoping! See you at the lunch."
+                }
+            ]
+        }
+    ],
+    "channels": [
+        {
+            "name": "marketing-updates-from-me",
+            "messages": [
+                {
+                    "from": "Alex",
+                    "message": "Hey guys, let's share some marketing updates! Who's got news?"
+                },
+                {
+                    "from": "Jamie",
+                    "message": "I'll go! So, our social media engagement is up like 15% this month. The new campaign seems to be working, yay!"
+                },
+                {
+                    "from": "Taylor",
+                    "message": "Nice! My email open rates are up 10% since we changed the newsletter. So that's cool."
+                },
+                {
+                    "from": "Riley",
+                    "message": "Sweet. We're seeing more leads from PPC ads. Conversions are up 8%, not too shabby."
+                },
+                {
+                    "from": "Jordan",
+                    "message": "I'm still grinding on SEO. It's slow, but we're getting there. Just not as fast as I hoped."
+                },
+                {
+                    "from": "Casey",
+                    "message": "Just published three new blog posts. Traffic's up 12% on those. Not bad, huh?"
+                },
+                {
+                    "from": "Morgan",
+                    "message": "I've been handling reviews. We're actually getting fewer negative ones lately. So, that's good news."
+                },
+                {
+                    "from": "Alex",
+                    "message": "That's great, Morgan! Any challenges or hiccups anyone's dealing with?"
+                },
+                {
+                    "from": "Jamie",
+                    "message": "We're kinda struggling to get traction on the new social media platforms we tried. Any tips?"
+                },
+                {
+                    "from": "Taylor",
+                    "message": "Oh, and I've had some issues with email automation. Nothing too crazy, but still annoying."
+                },
+                {
+                    "from": "Riley",
+                    "message": "I'm just tweaking ad targeting. Nothing major, just some adjustments."
+                },
+                {
+                    "from": "Jordan",
+                    "message": "SEO is just a long haul. I'm working on it, though. It'll get better, I'm sure."
+                },
+                {
+                    "from": "Casey",
+                    "message": "No big problems on my end. Just pushing out content and seeing how it goes."
+                },
+                {
+                    "from": "Morgan",
+                    "message": "All good here. Just tracking feedback and working on responses. Things are moving along."
+                },
+                {
+                    "from": "Alex",
+                    "message": "Awesome! Let's keep this going. Check in again next week? Sounds good to me!"
+                }
+            ]
+        },
+        {
+            "name": "grafana-help",
+            "messages": [
+                {
+                    "from": "Sam",
+                    "message": "Hey everyone, I'm having trouble with Grafana. My dashboards aren't displaying data correctly. Anyone have a moment to help?"
+                },
+                {
+                    "from": "Jordan",
+                    "message": "I'm around. What kind of issues are you seeing?"
+                },
+                {
+                    "from": "Sam",
+                    "message": "The graphs are showing errors and some data isn't coming through. I think it might be a query issue."
+                },
+                {
+                    "from": "Alex",
+                    "message": "That sounds frustrating. Have you checked if your data source is configured properly?"
+                },
+                {
+                    "from": "Sam",
+                    "message": "Yes, the connection seems fine, but the graphs are still messed up."
+                },
+                {
+                    "from": "Taylor",
+                    "message": "Hey, I have a similar problem. My alerts aren't triggering even though the conditions are met. Anyone know what could be wrong?"
+                },
+                {
+                    "from": "Casey",
+                    "message": "For alerts, it might be an issue with how the alert rules are set up. Have you double-checked those?"
+                },
+                {
+                    "from": "Taylor",
+                    "message": "I did check them, but still no luck. Maybe I'm missing something small."
+                },
+                {
+                    "from": "Jordan",
+                    "message": "Casey, if you're looking at alerts, make sure your notification channels are correctly configured too."
+                },
+                {
+                    "from": "Casey",
+                    "message": "Good point. I'll check that. Thanks, Jordan!"
+                },
+                {
+                    "from": "Riley",
+                    "message": "I've got a problem too. My dashboard is really slow to load. Any ideas why?"
+                },
+                {
+                    "from": "Alex",
+                    "message": "Slow dashboards can be due to inefficient queries or too much data. Have you tried optimizing your queries?"
+                },
+                {
+                    "from": "Riley",
+                    "message": "I haven't tried that yet. I'll look into optimizing. Thanks for the suggestion."
+                },
+                {
+                    "from": "Sam",
+                    "message": "Riley, if optimizing queries doesn't help, you might also want to check the performance settings in Grafana."
+                },
+                {
+                    "from": "Taylor",
+                    "message": "Sam, I'm still working on fixing my issue. Any updates on your end?"
+                },
+                {
+                    "from": "Sam",
+                    "message": "I'm going to run the queries directly in the data source to see if that reveals anything. I'll keep you posted."
+                },
+                {
+                    "from": "Jordan",
+                    "message": "Sounds like a plan. Let's all touch base later and see if we can figure out these issues together."
+                },
+                {
+                    "from": "Casey",
+                    "message": "Definitely. I'll update you guys on my alert setup and see if that solves the problem."
+                },
+                {
+                    "from": "Riley",
+                    "message": "Same here. I'll let you know if optimizing the queries helps with the speed."
+                },
+                {
+                    "from": "Alex",
+                    "message": "Good luck everyone! Let's tackle these issues one by one."
+                }
+            ]
+        },
+        {
+            "name": "inside-jokes",
+            "messages": [
+                {
+                    "from": "Aisha",
+                    "message": "Hey everyone, remember when Marcus tried to teach us the 'Electric Slide' at the last event? 😂"
+                },
+                {
+                    "from": "Marcus",
+                    "message": "Oh man, don't remind me! I thought I had it all down until I hit the 'slide' and went the wrong way!",
+                    "replies": [
+                        {
+                            "from": "Raymond",
+                            "message": "Haha, I remember that! It was like watching a live-action blooper reel. Classic Marcus move!"
+                        }
+                    ]
+                },
+                {
+                    "from": "Kofi",
+                    "message": "LOL! I still can't believe you had us all trying to follow along. The whole dance floor was a mess!"
+                },
+                {
+                    "from": "Tiana",
+                    "message": "I was dying laughing. The best part was when you tried to cover it up by saying, 'It's all about improvisation!' 😂"
+                },
+                {
+                    "from": "Marcus",
+                    "message": "Hey, I was just trying to make it unique! At least it gave us something to laugh about for weeks."
+                },
+                {
+                    "from": "Jamal",
+                    "message": "And don't forget how we all kept joking about it for days. I swear, that dance became our unofficial group mascot."
+                },
+                {
+                    "from": "Sasha",
+                    "message": "True! Whenever someone mentions dancing now, I can't help but think of that 'slide'. It's a classic!"
+                },
+                {
+                    "from": "Aisha",
+                    "message": "Seriously, it was one for the books. We should make a highlight reel of all our best moments. That dance definitely deserves a spot!"
+                },
+                {
+                    "from": "Marcus",
+                    "message": "If we ever get a chance to have another event, I promise I'll practice. Or at least I'll try to stick to the basics!"
+                },
+                {
+                    "from": "Tiana",
+                    "message": "We'll hold you to that, Marcus. But honestly, it's those moments that make our group so special."
+                },
+                {
+                    "from": "Kofi",
+                    "message": "Absolutely. The fun, the laughs, and the good times. That's what it's all about!"
+                },
+                {
+                    "from": "Jamal",
+                    "message": "Here's to more hilarious moments and unforgettable dances in the future!"
+                },
+                {
+                    "from": "Sasha",
+                    "message": "Cheers to that! And let's make sure our next dance moves are legendary!"
+                }
+            ]
+        }
+    ]
+}

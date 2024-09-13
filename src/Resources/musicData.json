@@ -1,0 +1,378 @@
+{
+    "albums": [
+        {
+            "title": "Trouble in Paradise",
+            "artist": "Chloe",
+            "cover": "tip.jpg",
+            "color": "blue",
+            "tracks": [
+                {
+                    "title": "New Normal",
+                    "duration": "3:56"
+                },
+                {
+                    "title": "Forever in My Mind",
+                    "duration": "3:40"
+                },
+                {
+                    "title": "Feel Something",
+                    "duration": "4:03"
+                },
+                {
+                    "title": "Too Close",
+                    "duration": "3:29"
+                },
+                {
+                    "title": "Madness",
+                    "duration": "4:15"
+                },
+                {
+                    "title": "Paradise",
+                    "duration": "3:50"
+                }
+            ]
+        },
+        {
+            "title": "BRAT",
+            "artist": "Charlie XCX",
+            "cover": "brat.jpg",
+            "color": "#8ACE00",
+            "tracks": [
+                {
+                    "title": "I Love It",
+                    "duration": "2:33"
+                },
+                {
+                    "title": "Break the Rules",
+                    "duration": "3:05"
+                },
+                {
+                    "title": "Doing It",
+                    "duration": "3:23"
+                },
+                {
+                    "title": "Gold Coins",
+                    "duration": "2:54"
+                },
+                {
+                    "title": "Vroom Vroom",
+                    "duration": "3:17"
+                },
+                {
+                    "title": "Famous",
+                    "duration": "2:47"
+                },
+                {
+                    "title": "5 In the Morning",
+                    "duration": "3:12"
+                }
+            ]
+        },
+        {
+            "title": "After Hours",
+            "artist": "The Weeknd",
+            "cover": "after_hours.jpg",
+            "color": "#FF4C4C",
+            "tracks": [
+                {
+                    "title": "Alone Again",
+                    "duration": "3:00"
+                },
+                {
+                    "title": "Blinding Lights",
+                    "duration": "3:20"
+                },
+                {
+                    "title": "In Your Eyes",
+                    "duration": "3:58"
+                },
+                {
+                    "title": "Save Your Tears",
+                    "duration": "3:35"
+                },
+                {
+                    "title": "Heartless",
+                    "duration": "3:22"
+                },
+                {
+                    "title": "After Hours",
+                    "duration": "6:01"
+                }
+            ]
+        },
+        {
+            "title": "Future Nostalgia",
+            "artist": "Dua Lipa",
+            "cover": "future_nostalgia.jpg",
+            "color": "#D6007A",
+            "tracks": [
+                {
+                    "title": "Don't Start Now",
+                    "duration": "3:03"
+                },
+                {
+                    "title": "Physical",
+                    "duration": "3:13"
+                },
+                {
+                    "title": "Levitating",
+                    "duration": "3:23"
+                },
+                {
+                    "title": "Break My Heart",
+                    "duration": "3:41"
+                },
+                {
+                    "title": "Hallucinate",
+                    "duration": "3:28"
+                },
+                {
+                    "title": "Love Again",
+                    "duration": "4:16"
+                }
+            ]
+        },
+        {
+            "title": "Daydream",
+            "artist": "Mariah Carey",
+            "cover": "daydream.jpg",
+            "color": "#1F618D",
+            "tracks": [
+                {
+                    "title": "Fantasy",
+                    "duration": "4:04"
+                },
+                {
+                    "title": "Underneath the Stars",
+                    "duration": "4:53"
+                },
+                {
+                    "title": "One Sweet Day",
+                    "artist": "Mariah Carey & Boyz II Men",
+                    "duration": "4:42"
+                },
+                {
+                    "title": "Always Be My Baby",
+                    "duration": "4:17"
+                },
+                {
+                    "title": "I Am Free",
+                    "duration": "4:22"
+                },
+                {
+                    "title": "Long Ago",
+                    "duration": "4:01"
+                },
+                {
+                    "title": "Looking In",
+                    "duration": "4:47"
+                },
+                {
+                    "title": "Daydream Interlude (Fantasy Sweet Dub Mix)",
+                    "duration": "3:39"
+                },
+                {
+                    "title": "When I Saw You",
+                    "duration": "3:53"
+                },
+                {
+                    "title": "The Roof (Back in Time)",
+                    "duration": "5:04"
+                },
+                {
+                    "title": "Close My Eyes",
+                    "duration": "4:20"
+                }
+            ]
+        }
+    ],
+    "playlists": [
+        {
+            "title": "Tracks to Sleep to at Night Under Covers Restlessly",
+            "color": "#2C3E50",
+            "tracks": [
+                {
+                    "title": "Weightless",
+                    "artist": "Marconi Union",
+                    "duration": "8:00"
+                },
+                {
+                    "title": "Clair de Lune",
+                    "artist": "Claude Debussy",
+                    "duration": "5:00"
+                },
+                {
+                    "title": "Nocturne in E-flat major",
+                    "artist": "Frederic Chopin",
+                    "duration": "4:30"
+                }
+            ]
+        },
+        {
+            "title": "Gym Rat",
+            "color": "#1C2833",
+            "tracks": [
+                {
+                    "title": "Eye of the Tiger",
+                    "artist": "Survivor",
+                    "duration": "4:05"
+                },
+                {
+                    "title": "Lose Yourself",
+                    "artist": "Eminem",
+                    "duration": "3:20"
+                },
+                {
+                    "title": "Uptown Funk",
+                    "artist": "Mark Ronson ft. Bruno Mars",
+                    "duration": "4:30"
+                }
+            ]
+        },
+        {
+            "title": "Chill Vibes",
+            "color": "#34495E",
+            "tracks": [
+                {
+                    "title": "Sunflower",
+                    "artist": "Post Malone & Swae Lee",
+                    "duration": "2:38"
+                },
+                {
+                    "title": "Slow Dancing in a Burning Room",
+                    "artist": "John Mayer",
+                    "duration": "4:01"
+                },
+                {
+                    "title": "Put Your Records On",
+                    "artist": "Corinne Bailey Rae",
+                    "duration": "3:35"
+                }
+            ]
+        },
+        {
+            "title": "Road Trip Classics",
+            "color": "#7F8C8D",
+            "tracks": [
+                {
+                    "title": "Sweet Home Alabama",
+                    "artist": "Lynyrd Skynyrd",
+                    "duration": "4:43"
+                },
+                {
+                    "title": "Go Your Own Way",
+                    "artist": "Fleetwood Mac",
+                    "duration": "3:43"
+                },
+                {
+                    "title": "Life is a Highway",
+                    "artist": "Tom Cochrane",
+                    "duration": "4:26"
+                }
+            ]
+        },
+        {
+            "title": "Sunday Brunch",
+            "color": "#27AE60",
+            "tracks": [
+                {
+                    "title": "Sunday Morning",
+                    "artist": "Maroon 5",
+                    "duration": "4:02"
+                },
+                {
+                    "title": "Put It All On Me",
+                    "artist": "Ed Sheeran",
+                    "duration": "3:20"
+                },
+                {
+                    "title": "Watermelon Sugar",
+                    "artist": "Harry Styles",
+                    "duration": "2:54"
+                }
+            ]
+        },
+        {
+            "title": "Dance Party",
+            "color": "#F39C12",
+            "tracks": [
+                {
+                    "title": "Levitating",
+                    "artist": "Dua Lipa",
+                    "duration": "3:23"
+                },
+                {
+                    "title": "Don't Stop the Music",
+                    "artist": "Rihanna",
+                    "duration": "4:27"
+                },
+                {
+                    "title": "Can't Stop the Feeling!",
+                    "artist": "Justin Timberlake",
+                    "duration": "3:56"
+                }
+            ]
+        },
+        {
+            "title": "Disco Fever",
+            "color": "#900C3F",
+            "tracks": [
+                {
+                    "title": "Stayin' Alive",
+                    "artist": "Bee Gees",
+                    "duration": "4:45"
+                },
+                {
+                    "title": "I Will Survive",
+                    "artist": "Gloria Gaynor",
+                    "duration": "3:17"
+                },
+                {
+                    "title": "Don't Stop 'Til You Get Enough",
+                    "artist": "Michael Jackson",
+                    "duration": "3:58"
+                },
+                {
+                    "title": "Le Freak",
+                    "artist": "Chic",
+                    "duration": "5:31"
+                },
+                {
+                    "title": "Super Freak",
+                    "artist": "Rick James",
+                    "duration": "3:25"
+                }
+            ]
+        }
+    ],
+    "artists": [
+        {
+            "name": "Chloe",
+            "image": "chloe.jpg"
+        },
+        {
+            "name": "Usher",
+            "image": "usher.jpg"
+        },
+        {
+            "name": "Charlie XCX",
+            "image": "charlie.jpg"
+        },
+        {
+            "name": "Marconi Union",
+            "image": "marconi.jpg"
+        },
+        {
+            "name": "The Weeknd",
+            "image": "weeknd.jpg"
+        },
+        {
+            "name": "Dua Lipa",
+            "image": "dua_lipa.jpg"
+        },
+        {
+            "name": "Mariah Carey",
+            "image": "mariah_carey.jpg"
+        }
+    ]
+}
