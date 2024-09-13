@@ -19,32 +19,8 @@
     },
     {
         "id": 3,
-        "photo": "wifi.png",
-        "alt": "wifi",
-        "date": "March 2023"
-    },
-    {
-        "id": 4,
-        "photo": "frog.jpg",
-        "alt": "frog",
-        "date": "April 2024"
-    },
-    {
-        "id": 5,
-        "photo": "greenroom.jpg",
-        "alt": "greenroom",
-        "date": "October 2022"
-    },
-    {
-        "id": 6,
         "photo": "2N.jpg",
         "alt": "2N",
         "date": "March 2023"
-    },
-    {
-        "id": 7,
-        "photo": "universe.jpg",
-        "alt": "universe",
-        "date": "June 2024"
     }
 ]
