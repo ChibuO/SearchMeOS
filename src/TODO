@@ -1,0 +1,47 @@
+Add ability to return icons to default position.
+Add real battery indicator
+Figure out where to position new windows
+Resize windows
+Fix window controls styling
+Fix z-index (auto sets it to original layering)
+Styling
+App Layouts
+App Lock Screens
+App Content
+clear window after hide animation ends
+be able to click start button again to hide menu
+
+
+Notes:
+styling
+figure out overlay
+Figure out note (grid?) layout
+Add "add note" button
+Add filter/search
+
+Contacts:
+styling
+Sort alphabetically
+
+Email:
+styling
+Add ability for email thread
+
+Documents:
+Styling
+multiple pages (can use line height and number of chars)
+set popup over content so that going back home doesn't have to rerender
+
+Photos:
+styling
+
+Messages:
+Styling
+Company logo and profile photo
+Maybe a way to see all the users in a channel
+
+Spotify:
+styling
+figure out what to do if image not found
+play music?
+

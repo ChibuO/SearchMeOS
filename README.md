@@ -1,3 +1,17 @@
+```
+<a target="_blank" href="https://icons8.com/icon/11651/file">File</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a href="https://www.flaticon.com/free-icons/wifi" title="wifi icons">Wifi icons created by Google - Flaticon</a>
+
+Photo by <a href="https://unsplash.com/@chatelp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pierre Châtel-Innocenti</a> on <a href="https://unsplash.com/photos/blue-architectural-design-N6Hx4HT4mHg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/chat-app" title="chat app icons">Chat app icons created by Shahzaib Ahmad - Flaticon</a>
+  
+```
+https://animate.style/#migration
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
