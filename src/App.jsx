@@ -8,7 +8,7 @@ import { fadeLockScreen, slideStartScreen } from './utilites/helpers';
 import './App.css';
 
 export const App = () => {
-    const [isLoggedIn, setIsLoggedIn] = useState(true);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [showStartMenu, setShowStartMenu] = useState(false);
 
     //(Math.ceil(window.innerWidth) - document.querySelector(".desktop-window")?.offsetWidth ) / 2

@@ -73,7 +73,7 @@ const Taskbar = ({windowsState, setWindowsState, openWindows, showStartMenu, set
           <AppIcon
             key={index}
             name={appData[window].name}
-            image={require(`../Images/${appData[window].icon}`)}
+            image={appData[window].icon}
             onClick={() => showWindow(window, windowsState[window])}
             borderColor={computerData.secondColor}
             textColor={computerData.textColor} />

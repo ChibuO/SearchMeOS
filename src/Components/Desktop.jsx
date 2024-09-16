@@ -5,6 +5,7 @@ import { Shortcut } from './AppIcon';
 import { toggleWindow } from '../utilites/animate';
 import appData from '../Resources/appData.json';
 import { DndContext } from '@dnd-kit/core';
+import { Img } from '../Components/CustomImage';
 // import { restrictToParentElement, restrictToWindowEdges } from '@dnd-kit/modifiers';
 
 const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, setOpenWindows, bgImagePath }) => {
@@ -75,7 +76,7 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
         <div className="desktop-icons">
           {appData &&
             Object.keys(appData).map((app, index) => 
-              <Shortcut key={index} name={appData[app].name} image={require(`../Images/${appData[app].icon}`)} 
+              <Shortcut key={index} name={appData[app].name} image={appData[app].icon} 
                 onClick={() => {
                   if (app === 'internet') {
                     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'Got Ya');

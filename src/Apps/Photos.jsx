@@ -1,5 +1,6 @@
 import React, { useState, forwardRef, useImperativeHandle } from 'react';
 import { MdKeyboardBackspace } from "react-icons/md";
+import Img from '../Components/CustomImage';
 import photos from '../Resources/photoData.json';
 import './Photos.css';
 
@@ -35,7 +36,7 @@ export const PhotosApp = forwardRef((props, ref) => {
               <div className='photos-list'>
                 {photos.filter(p => p.date === date).map((photo, i) => (
                   <div key={i} className='photos-photo' onClick={() => openPhoto(photo.id)}>
-                    <img src={require(`../Images/${photo.photo}`)} alt={photo.alt} title={photo.alt} draggable="false" />
+                    <Img imageName={photo.photo} alt={photo.alt} title={photo.alt} draggable="false" />
                   </div>
                 ))}
               </div>
@@ -51,7 +52,7 @@ const PhotoModal = ({ photo, setShowPhoto }) => {
   return (
     <div className='photo-modal'>
       <MdKeyboardBackspace id="photo-x-icon" onClick={() => setShowPhoto(false)} />
-      <img src={require(`../Images/${photo.photo}`)} alt={photo.alt} draggable="false" />
+      <Img imageName={photo.photo} alt={photo.alt} draggable="false" />
     </div>
   );
 }

@@ -3,7 +3,7 @@
         {
             "title": "Trouble in Paradise",
             "artist": "Chloe",
-            "cover": "tip.jpg",
+            "cover": "fake_album.jpg",
             "color": "blue",
             "tracks": [
                 {
@@ -103,7 +103,7 @@
         {
             "title": "Future Nostalgia",
             "artist": "Dua Lipa",
-            "cover": "future_nostalgia.jpg",
+            "cover": "2N.jpg",
             "color": "#D6007A",
             "tracks": [
                 {

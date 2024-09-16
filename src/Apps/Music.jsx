@@ -3,7 +3,8 @@ import { TbPlayerPlayFilled } from "react-icons/tb";
 import { TbPlayerSkipForwardFilled } from "react-icons/tb";
 import { TbPlayerSkipBackFilled } from "react-icons/tb";
 import { GoHome } from "react-icons/go";
-import { capitlaizeWord } from '../utilites/helpers';
+import { capitlaizeWord, handleImageError } from '../utilites/helpers';
+import Img from '../Components/CustomImage';
 import album_cover from '../Images/fake_album.jpg';
 import musics from '../Resources/musicData.json';
 import './Music.css';
@@ -125,8 +126,7 @@ const MusicItemCard = ({ item, onClick, itemType, additionalClassNames = [] }) =
         className='music-item'
         style={{ backgroundColor: `${item?.color}` }}
       >
-        {!isPlaylist && <img src={album_cover} alt={item.title} title={item.title} draggable="false" />}
-        {/* {!isPlaylist &&  <img src={require(`../Images/${item?.cover}`)} alt={item.title} title={item.title} draggable="false" />} */}
+        {!isPlaylist &&  <Img imageName={item?.cover} alt={item.title} title={item.title} draggable="false" />}
       </div>
       {!isAlbum && <p>{item?.title || item?.name}</p>}
     </div>
@@ -150,8 +150,7 @@ const MusicItemPage = ({ openPage, showPage, itemType, setShowPage, selectedPage
           <p className='item-header-type'>{capitlaizeWord(itemType)} - <span>{selectedPage.tracks.length} songs</span></p>
         </div>
         <div className='music-item-header-img-div'>
-          {isAlbum && <img src={album_cover} alt={selectedPage.title} title={selectedPage.title} draggable="false" />}
-          {/* <img src={require(`../Images/${selectedPage?.cover}`)} alt={selectedPage.title} title={selectedPage.title} draggable="false" /> */}
+          {isAlbum && <Img imageName={selectedPage?.cover} alt={selectedPage.title} title={selectedPage.title} draggable="false" />}
         </div>
       </div>
       <div 
