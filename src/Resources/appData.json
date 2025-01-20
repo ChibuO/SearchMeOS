@@ -2,42 +2,58 @@
     "calendar": 
     {
         "name": "Calendar",
-        "icon": "calendar_icon.png"
+        "icon": "calendar_icon.png",
+        "entry": "0927",
+        "hint": "Her birthday"
     },
     "email": 
     {
         "name": "Email",
-        "icon": "email_icon.png"
+        "icon": "email_icon.png",
+        "entry": "0927",
+        "hint": "Her birthday"
     },
     "photos": 
     {
         "name": "Photos",
-        "icon": "photos_icon.png"
+        "icon": "photos_icon.png",
+        "entry": "0927",
+        "hint": "Her birthday"
     },
     "contacts": 
     {
         "name": "Contacts",
-        "icon": "contacts_icon.png"
+        "icon": "contacts_icon.png",
+        "entry": "0927",
+        "hint": "Her birthday"
     },
     "messages": 
     {
         "name": "Slack",
-        "icon": "messages_icon.png"
+        "icon": "messages_icon.png",
+        "entry": "0927",
+        "hint": "Her birthday"
     },
     "music": 
     {
         "name": "Spotify",
-        "icon": "music_icon.png"
+        "icon": "music_icon.png",
+        "entry": "0927",
+        "hint": "Her birthday"
     },
     "docs": 
     {
         "name": "Docs",
-        "icon": "docs_icon.png"
+        "icon": "docs_icon.png",
+        "entry": "peach",
+        "hint": "Mario's princess"
     },
     "notes": 
     {
         "name": "Notes",
-        "icon": "notes_icon.png"
+        "icon": "notes_icon.png",
+        "entry": "0927",
+        "hint": "Her birthday"
     },
     "internet": 
     {

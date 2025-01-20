@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { StartScreen } from './StartScreen';
 import windows_icon from '../Images/2N.jpg';
 import { PiEyeClosedLight } from "react-icons/pi";
 import { PiEye } from "react-icons/pi";
 import { MdKeyboardBackspace } from "react-icons/md";
 import computerData from '../Resources/computerData.json';
+import { PasswordForm } from './PasswordForm';
 import { fadeLockScreen, slideStartScreen, getFullName } from '../utilites/helpers';
 import './LockScreen.css';
 
@@ -13,30 +14,13 @@ const LockScreen = ({ isLoggedIn, setIsLoggedIn, bgImagePath }) => {
   const [showPassword, setShowPassword] = useState(false);
   // const [showLogin, setShowLogin] = useState(false);
 
-  const checkPassword = () => {
-    let isCorrect = password === computerData.password;
+  const checkPassword = (entry) => {
+    let isCorrect = entry === computerData.password;
     if (isCorrect) {
       fadeLockScreen();
       setIsLoggedIn(true);
     }
-    setPassword("");
   }
-
-  useEffect(() => {
-    const pressEnter = (e) => {
-      if (e.key === "Enter") {
-        e.preventDefault();
-        checkPassword();
-      }
-    }
-
-    const loginInput = document.getElementById('login-input');
-    loginInput?.addEventListener('keypress', pressEnter);
-
-    return () => {
-      loginInput?.removeEventListener('keypress', pressEnter);
-    }
-  });
 
   const goBack = () => {
     slideStartScreen();
@@ -55,19 +39,7 @@ const LockScreen = ({ isLoggedIn, setIsLoggedIn, bgImagePath }) => {
             </div>
             <h3 className="lock-screen-title">{getFullName()}</h3>
           </div>
-          <div className="lock-screen-main">
-            <div className="lock-screen-form">
-              <input
-                type={`${showPassword ? 'text' : 'password'}`}
-                placeholder="Password"
-                id="login-input"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)} />
-              <button className="visibility-toggle" onClick={() => setShowPassword(!showPassword)}>{showPassword ? <PiEye /> : <PiEyeClosedLight />}</button>
-              <button className="unlock-button" onClick={checkPassword}>⇥</button>
-            </div>
-            <p className='lock-screen-hint'>Hint: You love this</p>
-          </div>
+          <PasswordForm handlePassword={checkPassword} inputId={'computer-login'} />
         </div>
       </div>
     );

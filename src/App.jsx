@@ -7,6 +7,15 @@ import computerData from './Resources/computerData.json';
 import { fadeLockScreen, slideStartScreen } from './utilites/helpers';
 import './App.css';
 
+const WINDOW_KEYS = ['calendar', 'email', 'photos', 'contacts', 'messages', 'music', 'docs', 'notes', 'internet'];
+
+const initialWindowState = (position, size) => {
+    return WINDOW_KEYS.reduce((acc, key) => {
+        acc[key] = { open: false, maximized: false, fullScreen: false, unlocked: false, ...position, ...size };
+        return acc;
+    }, {});
+};
+
 export const App = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [showStartMenu, setShowStartMenu] = useState(false);
@@ -22,17 +31,7 @@ export const App = () => {
         h: '60%',
     };
 
-    const [windowsState, setWindowsState] = useState({
-        'calendar': { open: false, maximized: false, fullScreen: false, x: startingPosition.x, y: startingPosition.y, w: startingSize.w, h: startingSize.h },
-        'email': { open: false, maximized: false, fullScreen: false, x: startingPosition.x, y: startingPosition.y, w: startingSize.w, h: startingSize.h },
-        'photos': { open: false, maximized: false, fullScreen: false, x: startingPosition.x, y: startingPosition.y, w: startingSize.w, h: startingSize.h },
-        'contacts': { open: false, maximized: false, fullScreen: false, x: startingPosition.x, y: startingPosition.y, w: startingSize.w, h: startingSize.h },
-        'messages': { open: false, maximized: false, fullScreen: false, x: startingPosition.x, y: startingPosition.y, w: startingSize.w, h: startingSize.h },
-        'music': { open: false, maximized: false, fullScreen: false, x: startingPosition.x, y: startingPosition.y, w: startingSize.w, h: startingSize.h },
-        'docs': { open: false, maximized: false, fullScreen: false, x: startingPosition.x, y: startingPosition.y, w: startingSize.w, h: startingSize.h },
-        'notes': { open: false, maximized: false, fullScreen: false, x: startingPosition.x, y: startingPosition.y, w: startingSize.w, h: startingSize.h },
-        'internet': { open: false, maximized: false, fullScreen: false, x: startingPosition.x, y: startingPosition.y, w: startingSize.w, h: startingSize.h },
-    });
+    const [windowsState, setWindowsState] = useState(initialWindowState(startingPosition, startingSize));
 
     const [openWindows, setOpenWindows] = useState([]);
 
@@ -45,20 +44,20 @@ export const App = () => {
 
     const menuRef = useRef(null);
 
-    const handleClickOutside = (e) => {
-        if (menuRef?.current && !menuRef.current?.contains(e.target)) {
-            setShowStartMenu(false);
-        }
-    }
-
     useEffect(() => {
-        // const modalElement = document.getElementById('outside-container');
-        document.addEventListener('mousedown', handleClickOutside, true);
+        const handleClickOutside = (e) => {
+            if (menuRef?.current && !menuRef.current?.contains(e.target)) {
+                setShowStartMenu(false);
+            }
+        }
+
+        const modalElement = document.getElementById('outside-container');
+        modalElement.addEventListener('click', handleClickOutside, true);
         
         return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
+            modalElement.removeEventListener('click', handleClickOutside);
         }
-    });
+    }, []);
 
     const logOut = () => {
         setShowStartMenu(false);
@@ -67,9 +66,10 @@ export const App = () => {
         slideStartScreen();
     }
 
-    const computer = () => {
-        return (
-            <div className='desktop-screen-container' id="outside-container">
+    return (
+        <div className='computer-screen-container'>
+            {!isLoggedIn &&  <LockScreen isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} bgImagePath={computerData.lockScreenImagePath}/>}
+            <div className='desktop-screen-container'>
                 {showStartMenu && <StartMenu menuRef={menuRef} setShowStartMenu={setShowStartMenu} logOut={logOut}/>}
                 <Desktop
                     windowsState={windowsState}
@@ -86,13 +86,6 @@ export const App = () => {
                     setShowStartMenu={setShowStartMenu}
                     bringToFront={bringToFront} />
             </div>
-        );
-    }
-
-    return (
-        <div className='computer-screen-container'>
-            {isLoggedIn && <LockScreen isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} bgImagePath={computerData.lockScreenImagePath}/>}
-            {computer()}
         </div>
     );
 };

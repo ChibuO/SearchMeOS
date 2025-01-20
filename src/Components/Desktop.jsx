@@ -5,7 +5,6 @@ import { Shortcut } from './AppIcon';
 import { toggleWindow } from '../utilites/animate';
 import appData from '../Resources/appData.json';
 import { DndContext } from '@dnd-kit/core';
-import { Img } from '../Components/CustomImage';
 // import { restrictToParentElement, restrictToWindowEdges } from '@dnd-kit/modifiers';
 
 const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, setOpenWindows, bgImagePath }) => {
@@ -37,6 +36,27 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
     }
   }
 
+  const unlockWindow = (windowName) => {
+    setWindowsState({
+      ...windowsState,
+      [windowName]: {
+        ...windowsState[windowName],
+        unlocked: true
+      }
+    });
+  }
+
+  const resizeWindow = (windowName, windowState) => {
+    const { fullScreen } = windowState;
+    setWindowsState({
+      ...windowsState,
+      [windowName]: {
+        ...windowsState[windowName],
+        fullScreen: !fullScreen
+      }
+    });
+  }
+
   //for the window control buttons (minimize and close)
   const hideWindow = (window, windowState, option) => {
     bringToFront(`${window}-window`);
@@ -50,6 +70,7 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
           ...windowsState[window],
           open: option === 'close' ? false : true,
           maximized: false,
+          fullScreen: false,
         }
       });
       toggleWindow(window, maximized);
@@ -72,7 +93,7 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
 
   return (
     <DndContext onDragEnd={handleDragEnd} modifiers={[]}>
-      <div className="desktop" style={{"backgroundImage": `url(${bgImagePath})`}}>
+      <div className="desktop" style={{"backgroundImage": `url(${bgImagePath})`}} id="outside-container">
         <div className="desktop-icons">
           {appData &&
             Object.keys(appData).map((app, index) => 
@@ -86,9 +107,9 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
                 }}/>)}
         </div>
         {appData &&
-          Object.keys(appData).map((app, index) => 
-            <Window key={index} window={app} setWindowsState={setWindowsState} windowState={windowsState[app]} 
-              hideWindow={hideWindow} bringToFront={bringToFront} app={app}/>
+          Object.keys(appData).map((appName, index) => 
+            <Window key={index} windowName={appName} unlockWindow={unlockWindow} windowState={windowsState[appName]} 
+              hideWindow={hideWindow} bringToFront={bringToFront} resizeWindow={resizeWindow} />
             )}
       </div>
     </DndContext>

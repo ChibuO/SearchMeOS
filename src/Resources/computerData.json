@@ -1,12 +1,12 @@
 {
     "vars": {
-        "FIRSTNAME": "Jack",
-        "LASTNAME": "Riley",
-        "EMAIL": "jriley@yahoo.com"
+        "FIRSTNAME": "Chaz",
+        "LASTNAME": "Monerainian",
+        "EMAIL": "cmoner@yahoo.com"
     },
     "password": "red",
-    "mainColor": "#7981cd",
-    "secondColor": "#9ca3fa",
+    "mainColor": "#54ad4e",
+    "secondColor": "#69a165",
     "textColor": "white",
     "lockScreenImagePath": "lock_screen_bg.jpg",
     "desktopScreenImagePath": "desktop_bg.jpg"

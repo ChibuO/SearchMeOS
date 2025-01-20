@@ -60,12 +60,32 @@ const Taskbar = ({windowsState, setWindowsState, openWindows, showStartMenu, set
     });
   }
 
+  const onStartClick = (e) => {
+    // console.log(e.target.id, showStartMenu);
+    let startBtn = document.getElementById(e.target.id);
+    // startBtn.disabled = true;
+    setShowStartMenu(!showStartMenu);
+  }
+
+  // const onStartUp = (e) => {
+  //   if (!showStartMenu) {
+
+  //   }
+  //   console.log(e.target.id, showStartMenu);
+  //   let startBtn = document.getElementById(e.target.id);
+  //   // startBtn.disabled = true;
+  //   setShowStartMenu(!showStartMenu);
+  // }
+
   return (
     <div className="taskbar" style={{"backgroundColor": computerData.mainColor }}>
-      <div className="start-icon-container" onClick={() => setShowStartMenu(!showStartMenu)}>
-        <div className="start-button" style={{"backgroundColor": computerData.secondColor }}>
-          <img src={start_icon} alt="Start" className="start-icon" draggable="false" />
-        </div>
+      <div className="start-icon-container">
+        <button 
+          id="start-button"
+          onClick={(e) => onStartClick(e)}
+          style={{"backgroundColor": computerData.secondColor }}>
+          <img src={start_icon} alt="Start" className="start-img" draggable="false" />
+        </button>
       </div>
       <div className="task-icons">
         {appData && openWindows && 

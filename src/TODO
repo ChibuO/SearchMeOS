@@ -10,6 +10,7 @@ App Lock Screens
 App Content
 clear window after hide animation ends
 be able to click start button again to hide menu
+maybe should use useCallback()
 
 
 Notes:
@@ -44,4 +45,9 @@ Spotify:
 styling
 figure out what to do if image not found
 play music?
+
+Calendar:
+make events relative to date
+styling
+set recurring events
 

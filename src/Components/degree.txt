@@ -1,0 +1,36 @@
+@Test
+    void testPatchLinkThrowsRuntimeException() {
+        LinkService linkServiceSpy = Mockito.spy(linkService);
+
+        // parameters
+        String shortCode = "MZMYzVmz8t";
+        Integer status = 0;
+
+        // set initial link
+        Link initialLink = new Link();
+        initialLink.setShortCode("MZMYzVmz8t");
+        initialLink.setStatus(1);
+        initialLink.setDomainAccount(this.domainAccount);
+        initialLink.setDestination("https://test.com/");
+        initialLink.setMessage(Map.of("schema", "sms-click", "data", Map.of("key1", "value1", "key2", "value2")));
+        initialLink.setResponseHeaders(null);
+        initialLink.setCreatedAt(Instant.now());
+        initialLink.setUpdatedAt(Instant.now());
+
+        // Set up the mock to return the initial link
+        Mockito.doReturn(initialLink).when(linkServiceSpy).getLinkByShortCode(shortCode);
+
+        // Set up the mock to throw an exception
+        Mockito.doThrow(new ConstraintViolationException("Failed to save", new SQLException("Duplicate entry"), null))
+                .when(this.em).flush();
+
+        // Call the method under test
+        // Assert that the method throws an exception
+        Assertions.assertThrows(RuntimeException.class, () -> linkServiceSpy.patchLink(shortCode, status));
+        
+        // Verify the method calls
+        Mockito.verify(this.emUtil.getEm(), Mockito.times(1)).merge(Mockito.any());
+        Mockito.verify(this.em, Mockito.times(1)).getTransaction();
+        Mockito.verify(this.tx, Mockito.times(1)).begin();
+        Mockito.verify(this.emUtil.getEm(), Mockito.times(1)).flush();
+    }

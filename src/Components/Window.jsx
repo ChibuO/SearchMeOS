@@ -6,6 +6,7 @@ import { useDraggable } from '@dnd-kit/core';
 import { AiOutlineClose } from "react-icons/ai";
 import { TbArrowsDiagonalMinimize2 } from "react-icons/tb";
 import { TbMaximize } from "react-icons/tb";
+import { PasswordScreen } from './PasswordScreen';
 import { EmailApp } from '../Apps/Email';
 import { NotesApp } from '../Apps/Notes';
 import { ContactsApp } from '../Apps/Contacts';
@@ -16,9 +17,9 @@ import { MessengerApp } from '../Apps/Messenger';
 import { MusicApp } from '../Apps/Music';
 import computerData from '../Resources/computerData.json';
 
-const Window = ({ window, windowState, setWindowsState, hideWindow, bringToFront, app }) => {
+const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFront, resizeWindow }) => {
   const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform } = useDraggable({
-    id: `${window}-draggable`,
+    id: `${windowName}-draggable`,
   });
 
   const positionStyle = {
@@ -35,28 +36,35 @@ const Window = ({ window, windowState, setWindowsState, hideWindow, bringToFront
     transform: `translate3d(${transform.x}px, ${transform.y}px, 0)`,
   } : undefined;
 
-  const setFullScreen = () => {
-    if(!windowState.fullScreen) {
-      // setWindowsState({
-      //   ...windowsState,
-      //   [window]: {
-      //     ...windowsState[window],
-      //     maximized: !maximized,
-      //   }
-      // });
-    } else {
-      sizeStyle = {
-        width: "60%",
-        height: "60%"
-      }
-    }
+  const toggleFullScreen = () => {
+    // const { fullScreen } = windowState;
+    // resizeWindow(windowName, windowState);
+    // const w = document.getElementById(`${windowName}-window`);
+    // console.log(fullScreen, w.classList);
+    // if (!fullScreen) {
+    //   w.classList.add('fullScreen');
+    //   transform = `translate3d(${-positionStyle.left}px, ${-positionStyle.top}px, 0)`;
+    // } else {
+    //   w.classList.remove('fullScreen');
+    // }
+    
+    // if(!windowState.fullScreen) {
+    //   resizeWindow
+    // } else {
+    //   sizeStyle = {
+    //     width: "60%",
+    //     height: "60%"
+    //   }
+    // }
   }
 
   const closeRef = useRef(null);
 
   function handleCloseWindow() {
-    hideWindow(window, windowState, 'close');
-    closeRef.current.clearWindow();
+    hideWindow(windowName, windowState, 'close');
+    if (windowState.unlocked) {
+      closeRef.current.clearWindow();
+    }
   }
 
   const displayContent = (app) => {
@@ -85,24 +93,24 @@ const Window = ({ window, windowState, setWindowsState, hideWindow, bringToFront
   }
 
   return (
-    <div id={`${window}-window`} className="desktop-window" onFocus={(event) => bringToFront(event.target.id)}
-      ref={setNodeRef} style={{...positionStyle, ...transformStyle, ...sizeStyle}} {...attributes}>
+    <div id={`${windowName}-window`} className="desktop-window" onFocus={(event) => bringToFront(event.target.id)}
+      ref={setNodeRef} style={{...positionStyle, ...transformStyle}} {...attributes}>
       <div className="title-bar" style={{"backgroundColor": computerData.mainColor }}>
         <div className="title" ref={setActivatorNodeRef} {...listeners}>
-          <p>{appData[window].name}</p>
+          <p>{appData[windowName].name}</p>
         </div>
         <div className="window-controls">
           {/* need preventDefault because button interferes with onFocus */}
           <button 
             className="control-button" 
             onMouseDown={(event) => {event.preventDefault()}} 
-            onClick={() => hideWindow(window, windowState, 'minimize')}>
+            onClick={() => hideWindow(windowName, windowState, 'minimize')}>
               <TbArrowsDiagonalMinimize2 />
           </button>
           <button 
             className="control-button" 
             onMouseDown={(event) => {event.preventDefault()}}
-            onClick={setFullScreen}>
+            onClick={toggleFullScreen}>
               <TbMaximize />
           </button>
           <button 
@@ -114,7 +122,7 @@ const Window = ({ window, windowState, setWindowsState, hideWindow, bringToFront
         </div>
       </div>
       <div className="window-content">
-        {displayContent(app)}
+        {windowState.unlocked ? displayContent(windowName) : <PasswordScreen appName={windowName} bgColor={computerData.secondColor} unlockWindow={unlockWindow} />}
       </div>
     </div>
   );

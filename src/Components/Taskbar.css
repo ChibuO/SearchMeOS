@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.start-button {
+#start-button {
     cursor: pointer;
     width: var(--icon-size);
     height: var(--icon-size);
@@ -29,13 +29,18 @@
     border-radius: 5px;
 }
 
-.start-icon {
+#start-button:disabled {
+    background-color: red;
+}
+
+.start-img {
     width: var(--icon-image-size);
     height: var(--icon-image-size);
+    pointer-events: none;
 }
 
 .start-icon-container:hover {
-    filter: brightness(120%);
+    filter: brightness(105%);
 }
 
 .task-icons {
