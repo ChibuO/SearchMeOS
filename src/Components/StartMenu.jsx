@@ -10,7 +10,7 @@ export const StartMenu = ({menuRef, logOut}) => {
             <div className="menu-header" style={{"backgroundColor": computerData.secondColor, "color": computerData.textColor  }}>
                 <div className="menu-logo">OS 76</div>
                 <div className="menu-user">
-                    <ProfileIcon name={getFullName()} size={30} textColor='white' color={computerData.mainColor} />
+                    <ProfileIcon name={getFullName()} size={30} textColor='white' color={computerData.mainColor} img={computerData.profileImagePath} />
                     <div className="user-name">{computerData && getFullName()}</div>
                 </div>
             </div>

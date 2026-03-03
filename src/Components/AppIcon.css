@@ -9,7 +9,7 @@
     border: 1px solid var(--secondary-theme-color);
     text-align: left;
     box-sizing: border-box;
-    height: var(--icon-size);
+    height: var(--taskbar-icon-size);
     /* width: 500px; */
 }
 
@@ -20,8 +20,8 @@
 .task-icon-space {
     margin: 0;
     padding: 0;
-    width: var(--icon-size);
-    height: var(--icon-size);
+    width: var(--taskbar-icon-size);
+    height: var(--taskbar-icon-size);
     /* background-color: aquamarine; */
     display: flex;
     align-items: center;
@@ -38,8 +38,8 @@
 .task-icon img {
     margin: 0;
     padding: 0;
-    width: var(--icon-image-size);
-    height: var(--icon-image-size);
+    width: var(--taskbar-icon-img-size);
+    height: var(--taskbar-icon-img-size);
 }
 
 .shortcut {
@@ -68,6 +68,6 @@
 .shortcut img {
     margin: 0;
     padding: 0;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }

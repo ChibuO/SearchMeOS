@@ -1,0 +1,36 @@
+Lab Report: The Effect of Different Color Light Bulbs on Sunflower Growth
+
+Objective:
+To investigate how different colors of light bulbs (red, blue, green, and white) affect the growth of sunflower (Helianthus annuus) plants.
+
+Materials:
+- 16 sunflower seeds
+- 4 pots (same size)
+- Potting soil
+- Measuring cup
+- Ruler
+- 4 light bulbs (red, blue, green, white)
+- 4 lamp fixtures
+- Water
+- Labels
+
+Method:
+1. Fill each pot with equal amounts of potting soil.
+2. Plant 4 sunflower seeds in each pot at the same depth.
+3. Label each pot according to the light color it will receive.
+4. Place each pot under a separate lamp fitted with a different colored bulb (red, blue, green, white).
+5. Ensure all pots receive the same amount of water and are kept at the same temperature.
+6. Turn on the lamps for 12 hours each day.
+7. Measure and record the height of each plant every 2 days for 3 weeks.
+8. Record observations on leaf color, stem thickness, and overall health.
+
+Results:
+| Light Color | Average Height (cm) | Leaf Color      | Stem Thickness | Notes                                 |
+|-------------|---------------------|-----------------|---------------|---------------------------------------|
+| Red         | 12                  | Pale green      | Thin          | Plants appeared weak, some wilting    |
+| Blue        | 18                  | Dark green      | Thick         | Plants healthy, strong stems          |
+| Green       | 9                   | Yellowish green | Very thin     | Poor growth, leaves curled            |
+| White       | 20                  | Bright green    | Thick         | Plants tallest, very healthy overall  |
+
+Conclusion:
+Sunflowers grown under white light had the greatest average height and appeared the healthiest, with thick stems and bright green leaves. Blue light also supported good growth, resulting in strong, healthy plants. Red and green lights led to weaker, shorter plants with paler leaves and thinner stems. This suggests that full-spectrum (white) and blue light are most beneficial for sunflower growth, likely because they provide the wavelengths most efficiently used in photosynthesis. Future experiments could test additional light colors or intensities and use a larger sample size for more robust results.

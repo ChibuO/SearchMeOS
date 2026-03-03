@@ -68,7 +68,7 @@ export const App = () => {
 
     return (
         <div className='computer-screen-container'>
-            {!isLoggedIn &&  <LockScreen isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} bgImagePath={computerData.lockScreenImagePath}/>}
+            {!isLoggedIn && <LockScreen isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} bgImagePath={computerData.lockScreenImagePath}/>}
             <div className='desktop-screen-container'>
                 {showStartMenu && <StartMenu menuRef={menuRef} setShowStartMenu={setShowStartMenu} logOut={logOut}/>}
                 <Desktop

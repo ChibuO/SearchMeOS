@@ -1,73 +1,78 @@
 [
   {
-    "id": 1,
-    "contactName": "Lucas Scott",
-    "email": "lucas@gmail.com"
+    "contactName": "Danny Clay 🐐",
+    "email": "imdagreatest8@flymail.com",
+    "note": ""
   },
   {
-    "id": 2,
-    "contactName": "Nathan Scott",
-    "email": "nathan@gmail.com"
+    "contactName": "Daniella Cevilla ❤️",
+    "email": "dseeya@flymail.com",
+    "note": "dog's name is shelly\nbday is dec 12\nhates coffee\nlikes lillies and chocolate"
   },
   {
-    "id": 3,
-    "contactName": "Peyton Sawyer",
-    "email": "peyton@gmail.com"
+    "contactName": "Nathan Scott 🏀",
+    "email": "bbal4life@inward.com"
   },
   {
-    "id": 4,
-    "contactName": "Brooke Davis",
-    "email": "brooke@gmail.com"
+    "contactName": "Peyton Sawyer 🎨",
+    "email": "stillhere@flymail.com"
   },
   {
-    "id": 5,
-    "contactName": "Haley James Scott",
-    "email": "haley@gmail.com",
-    "note": "Dog's name is Shelly\nBirthday is August 7th\nHates coffee"
+    "contactName": "Lucas Scott 🐟",
+    "email": "moodyboi@bmail.com",
+    "note": "case"
   },
   {
-    "id": 6,
-    "contactName": "Marvin McFadden",
-    "email": "mouth@gmail.com"
+    "contactName": "Brooke Davis 👗",
+    "email": "clothesoverbros@fmail.com"
   },
   {
-    "id": 7,
-    "contactName": "Antwon Taylor",
-    "email": "skills@gmail.com"
+    "contactName": "Professor Keith 🪦",
+    "email": "professor.keith@u.othello.edu"
   },
   {
-    "id": 8,
-    "contactName": "Jake Greenberg",
-    "email": "jake@gmail.com"
+    "contactName": "Marvin McFadden 🎤",
+    "email": "mouth@inward.com",
+    "note": "owes me $20"
   },
   {
-    "id": 9,
-    "contactName": "Rachel Roth",
-    "email": "rachel@gmail.com"
+    "contactName": "Haley James 🎶",
+    "email": "haleyjames@flymail.com"
   },
   {
-    "id": 10,
-    "contactName": "Tim Turner",
-    "email": "tim@gmail.com"
+    "contactName": "Professor Whitey 🧠",
+    "email": "professor.whitey@u.othello.edu"
   },
   {
-    "id": 11,
-    "contactName": "Antwon Taylor",
-    "email": "skills@gmail.com"
+    "contactName": "Rachel Gatina 👑",
+    "email": "rachelgat9@flymail.com",
+    "note": "keep away from Dani\nowes me $40"
   },
   {
-    "id": 12,
-    "contactName": "Jake Jagielski",
-    "email": "jake@gmail.com"
+    "contactName": "Lindsay James 📸",
+    "email": "ljphotog@flymail.com",
+    "note": "haley's sister\nphotographer\nhire her for the next party"
   },
   {
-    "id": 13,
-    "contactName": "Rachel Gatina",
-    "email": "rachel@gmail.com"
+
+    "contactName": "Professor Dan 🧠",
+    "email": "professor.dan@u.othello.edu",
+    "note": "takes off points for late attendance"
   },
   {
-    "id": 14,
-    "contactName": "Tim Turner",
-    "email": "tim@gmail.com"
+
+    "contactName": "Antwon Taylor 🐈",
+    "email": "skills@bmail.com",
+    "note": "book"
+  },
+  {
+
+    "contactName": "Jake Jagielski 🍼",
+    "email": "luvubaby@flymail.com"
+  },
+  {
+
+    "contactName": "Tim Turner 🧢",
+    "email": "dunksalot@flymail.com"
   }
 ]

@@ -78,14 +78,6 @@ const MusicLibrary = ({ openPage, showPage, setShowPage, selectedPageIndex, setS
           ))}
         </div>
       </section>
-      <section className="music-row">
-        <h2>Artists</h2>
-        <div className="music-row-content">
-          {musics && musics["artists"].map((artist, index) => (
-            <MusicItemCard key={index} item={artist} itemType={'artist'} additionalClassNames={['music-artist-item']} />
-          ))}
-        </div>
-      </section>
     </div>
   );
 };
@@ -171,14 +163,16 @@ const MusicItemPage = ({ openPage, showPage, itemType, setShowPage, selectedPage
           </div>
         }
         <div className='music-item-list-contents'>
-          {selectedPage && selectedPage.tracks.map((song, index) => (
-            <div key={index} className={`music-item-list music-item-list-row ${isPlaylist ? 'playlist-list' : 'album-list'}`}>
+          {selectedPage && selectedPage.tracks.map((songId, index) => {
+            const song = musics.songs.find(s => s.id === songId);
+            return song && (<div key={index} className={`music-item-list music-item-list-row ${isPlaylist ? 'playlist-list' : 'album-list'}`}>
               <div>{index}</div>
               <div>{song.title}</div>
               {isPlaylist && <div>{song.artist}</div>}
               <div>{song.duration}</div>
             </div>
-          ))}
+            )
+          })}
         </div>
       </div>
     </div>

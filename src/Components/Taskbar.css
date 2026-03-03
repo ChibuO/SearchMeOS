@@ -20,8 +20,8 @@
 
 #start-button {
     cursor: pointer;
-    width: var(--icon-size);
-    height: var(--icon-size);
+    width: var(--taskbar-icon-size);
+    height: var(--taskbar-icon-size);
     background-color: var(--secondary-theme-color);
     display: flex;
     align-items: center;
@@ -34,8 +34,8 @@
 }
 
 .start-img {
-    width: var(--icon-image-size);
-    height: var(--icon-image-size);
+    width: var(--taskbar-icon-img-size);
+    height: var(--taskbar-icon-img-size);
     pointer-events: none;
 }
 
@@ -48,8 +48,28 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    overflow-x: scroll;
+    /* show a scrollbar only when content actually overflows */
+    overflow-x: auto;
+    /* prevent a vertical scrollbar from ever appearing here */
+    overflow-y: hidden;
     margin-left: 20px;
+}
+
+/* hide default scrollbars on supported browsers for a cleaner look when not needed */
+.task-icons {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: thin; /* Firefox: 'auto' | 'thin' | 'none' */
+}
+
+.task-icons::-webkit-scrollbar {
+    height: 8px; /* keep a small track if it appears */
+}
+.task-icons::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.15);
+    border-radius: 6px;
+}
+.task-icons::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .system-tray {
@@ -66,8 +86,8 @@
 .system-icon {
     padding: 3px;
     border-radius: 10%;
-    width: var(--icon-size);
-    height: var(--icon-size);
+    width: var(--taskbar-icon-size);
+    height: var(--taskbar-icon-size);
     font-size: 20px;
     cursor: pointer;
     display: flex;

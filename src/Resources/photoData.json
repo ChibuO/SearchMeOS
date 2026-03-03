@@ -1,26 +1,26 @@
 [
     {
         "id": 0,
-        "photo": "doc-icon.png",
-        "alt": "doc",
-        "date": "March 2023"
+        "photo": "econHW3.png",
+        "alt": "eceonHW3",
+        "date": "March 2025"
     },
     {
         "id": 1,
-        "photo": "file_icon.png",
+        "photo": "goose.png",
         "alt": "file",
-        "date": "May 2023"
+        "date": "May 2025"
     },
     {
         "id": 2,
-        "photo": "start-icon.png",
+        "photo": "poster1.png",
         "alt": "start",
-        "date": "June 2024"
+        "date": "June 2025"
     },
     {
         "id": 3,
-        "photo": "2N.jpg",
+        "photo": "shhh.jpg",
         "alt": "2N",
-        "date": "March 2023"
+        "date": "March 2025"
     }
 ]

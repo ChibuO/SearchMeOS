@@ -36,8 +36,8 @@ export const NotesApp = forwardRef((props, ref) => {
         <h4>Search</h4>
       </div>
       <div className="notes-list">
-        {notes.map((note) => (
-          <div key={note.id} className="notes-note small-note"
+        {notes.map((note, index) => (
+          <div key={index} className="notes-note small-note"
             onClick={() => {
               setSelectedNote(note.id)
               setShowNote(true)}

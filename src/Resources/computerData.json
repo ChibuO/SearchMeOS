@@ -1,13 +1,14 @@
 {
     "vars": {
         "FIRSTNAME": "Chaz",
-        "LASTNAME": "Monerainian",
-        "EMAIL": "cmoner@yahoo.com"
+        "LASTNAME": "Yuan",
+        "EMAIL": "cyuanfight@zmail.com"
     },
     "password": "red",
-    "mainColor": "#54ad4e",
-    "secondColor": "#69a165",
+    "mainColor": "#062c73",
+    "secondColor": "#0255ed",
     "textColor": "white",
-    "lockScreenImagePath": "lock_screen_bg.jpg",
-    "desktopScreenImagePath": "desktop_bg.jpg"
+    "lockScreenImagePath": "lockscreen_bg.jpg",
+    "desktopScreenImagePath": "desktop_bg.jpg",
+    "profileImagePath": "goose.jpg"
 }

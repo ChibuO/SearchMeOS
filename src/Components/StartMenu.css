@@ -54,7 +54,8 @@
     padding: 10px;
     border-left: 1px solid #333;
     height: 80%;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     /* border: 1px solid yellow; */
 }
 

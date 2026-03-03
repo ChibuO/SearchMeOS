@@ -25,8 +25,8 @@ export const ContactsApp = forwardRef((props, ref) => {
         <h2>Contacts</h2>
         <div className='contacts-list'>
           <ul>
-            {contacts.map((contact) => (
-              <li key={contact.id} className={selectedContact === contact ? 'contacts-selected' : ''} onClick={() => selectContact(contact)}>
+            {contacts.map((contact, index) => (
+              <li key={index} className={selectedContact === contact ? 'contacts-selected' : ''} onClick={() => selectContact(contact)}>
                 {contact.contactName}
               </li>
             ))}

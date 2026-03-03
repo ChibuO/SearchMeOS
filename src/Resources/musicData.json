@@ -1,378 +1,145 @@
 {
+    "songs": [
+        { "id": 0, "title": "Weightless", "artist": "Marconi Union", "duration": "8:00" },
+        { "id": 1, "title": "Clair de Lune", "artist": "Claude Debussy", "duration": "5:00" },
+        { "id": 2, "title": "Nocturne in E-flat major", "artist": "Frederic Chopin", "duration": "4:30" },
+        { "id": 3, "title": "Lost In Your Eyes", "artist": "Dinah Carolina", "duration": "4:01" },
+        { "id": 4, "title": "Alone Again", "artist": "Billie Nelson", "duration": "3:00" },
+        { "id": 5, "title": "Eye of the Tiger", "artist": "Survivor", "duration": "4:05" },
+        { "id": 6, "title": "Lose Yourself", "artist": "Eminem", "duration": "3:20" },
+        { "id": 7, "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "duration": "4:30" },
+        { "id": 8, "title": "Backflip", "artist": "Dinah Carolina", "duration": "5:04" },
+        { "id": 9, "title": "Trucks", "artist": "Willie Parden", "duration": "3:56" },
+        { "id": 10, "title": "Sunflower", "artist": "Post Malone & Swae Lee", "duration": "2:38" },
+        { "id": 11, "title": "Slow Dancing in a Burning Room", "artist": "John Mayer", "duration": "4:01" },
+        { "id": 12, "title": "Put Your Records On", "artist": "Corinne Bailey Rae", "duration": "3:35" },
+        { "id": 13, "title": "Too Close", "artist": "Willie Parden", "duration": "3:29" },
+        { "id": 14, "title": "Madness", "artist": "Willie Parden", "duration": "4:15" },
+        { "id": 15, "title": "Party With the Stars", "artist": "Dinah Carolina", "duration": "4:53" },
+        { "id": 16, "title": "Sweet Home Alabama", "artist": "Lynyrd Skynyrd", "duration": "4:43" },
+        { "id": 17, "title": "Go Your Own Way", "artist": "Fleetwood Mac", "duration": "3:43" },
+        { "id": 18, "title": "Life is a Highway", "artist": "Tom Cochrane", "duration": "4:26" },
+        { "id": 19, "title": "South of Texas", "artist": "Van + Trey", "duration": "2:54" },
+        { "id": 20, "title": "Her Smile", "artist": "Van + Trey", "duration": "3:17" },
+        { "id": 21, "title": "Famous Tatoos", "artist": "Van + Trey", "duration": "2:47" },
+        { "id": 22, "title": "Sunday Morning", "artist": "Maroon 5", "duration": "4:02" },
+        { "id": 23, "title": "Put It All On Me", "artist": "Ed Sheeran", "duration": "3:20" },
+        { "id": 24, "title": "Watermelon Sugar", "artist": "Harry Styles", "duration": "2:54" },
+        { "id": 25, "title": "Levitating", "artist": "Dua Lipa", "duration": "3:23" },
+        { "id": 26, "title": "Don't Stop the Music", "artist": "Rihanna", "duration": "4:27" },
+        { "id": 27, "title": "Can't Stop the Feeling!", "artist": "Justin Timberlake", "duration": "3:56" },
+        { "id": 28, "title": "SICKO MODE", "artist": "Travis Scott", "duration": "5:12" },
+        { "id": 29, "title": "God's Plan", "artist": "Drake", "duration": "3:19" },
+        { "id": 30, "title": "HUMBLE.", "artist": "Kendrick Lamar", "duration": "2:57" },
+        { "id": 31, "title": "Suge", "artist": "DaBaby", "duration": "2:36" },
+        { "id": 32, "title": "Stop Thinking About Me", "artist": "Willie Parden", "duration": "3:40" },
+        { "id": 33, "title": "My G-Ma", "artist": "Willie Parden", "duration": "4:03" },
+        { "id": 34, "title": "Too Close", "artist": "Willie Parden", "duration": "3:29" },
+        { "id": 35, "title": "Late Night Paradise", "artist": "Willie Parden", "duration": "3:50" },
+        { "id": 36, "title": "Delicious", "artist": "Van + Trey", "duration": "2:33" },
+        { "id": 37, "title": "Break the Rules", "artist": "Van + Trey", "duration": "3:05" },
+        { "id": 38, "title": "Doing It", "artist": "Van + Trey", "duration": "3:23" },
+        { "id": 39, "title": "5 In the Morning", "artist": "Van + Trey", "duration": "3:12" },
+        { "id": 40, "title": "No Tornados Here", "artist": "Billie Nelson", "duration": "3:20" },
+        { "id": 41, "title": "Love Won't Stop Me", "artist": "Billie Nelson", "duration": "3:58" },
+        { "id": 42, "title": "Whiskey Full o' Tears", "artist": "Billie Nelson", "duration": "3:35" },
+        { "id": 43, "title": "Heartless", "artist": "Billie Nelson", "duration": "3:22" },
+        { "id": 44, "title": "Ranch Girl", "artist": "Billie Nelson", "duration": "6:01" },
+        { "id": 45, "title": "Don't Start This Again", "artist": "Johnny Bills", "duration": "3:03" },
+        { "id": 46, "title": "Weekend Trip", "artist": "Johnny Bills", "duration": "3:13" },
+        { "id": 47, "title": "Sleazy", "artist": "Johnny Bills", "duration": "3:23" },
+        { "id": 48, "title": "Bless Her Heart", "artist": "Johnny Bills", "duration": "3:41" },
+        { "id": 49, "title": "Yes He Will", "artist": "Johnny Bills", "duration": "3:28" },
+        { "id": 50, "title": "We're All Country 'Round Here", "artist": "Johnny Bills", "duration": "4:16" },
+        { "id": 51, "title": "Illusion", "artist": "Dinah Carolina", "duration": "4:04" },
+        { "id": 52, "title": "That Smug Look", "artist": "Dinah Carolina", "duration": "4:17" },
+        { "id": 53, "title": "Rock Like This", "artist": "Dinah Carolina", "duration": "4:22" },
+        { "id": 54, "title": "Steel-toed Boots", "artist": "Dinah Carolina", "duration": "4:47" },
+        { "id": 55, "title": "Daydreaming", "artist": "Dinah Carolina", "duration": "3:39" },
+        { "id": 56, "title": "Fourth Grade", "artist": "Dinah Carolina", "duration": "3:53" },
+        { "id": 57, "title": "Still Growing", "artist": "Dinah Carolina", "duration": "4:20" },
+        { "id": 58, "title": "Can't Keep Quiet", "artist": "Dinah Carolina & Billie Nelson", "duration": "4:42" },
+        { "id": 59, "title": "Pull Up", "artist": "Gas Petrol", "duration": "2:43" },
+        { "id": 60, "title": "Like Billie", "artist": "Gas Petrol", "duration": "4:17" },
+        { "id": 61, "title": "Speedrun", "artist": "Gas Petrol", "duration": "3:09" },
+        { "id": 62, "title": "Flashing Grandma", "artist": "Gas Petrol", "duration": "3:13" },
+        { "id": 63, "title": "Grandma's Apology", "artist": "Gas Petrol", "duration": "1:12" },
+        { "id": 64, "title": "Diesel Girls", "artist": "Gas Petrol & Billie Nelson", "duration": "16:06" }
+    ],
     "albums": [
         {
-            "title": "Trouble in Paradise",
-            "artist": "Chloe",
+            "title": "Country As It Gets",
+            "artist": "Willie Parden",
             "cover": "fake_album.jpg",
             "color": "blue",
-            "tracks": [
-                {
-                    "title": "New Normal",
-                    "duration": "3:56"
-                },
-                {
-                    "title": "Forever in My Mind",
-                    "duration": "3:40"
-                },
-                {
-                    "title": "Feel Something",
-                    "duration": "4:03"
-                },
-                {
-                    "title": "Too Close",
-                    "duration": "3:29"
-                },
-                {
-                    "title": "Madness",
-                    "duration": "4:15"
-                },
-                {
-                    "title": "Paradise",
-                    "duration": "3:50"
-                }
-            ]
+            "tracks": [9, 13, 14, 32, 33, 34, 35]
         },
         {
-            "title": "BRAT",
-            "artist": "Charlie XCX",
+            "title": "Freshly Baked Goods",
+            "artist": "Van + Trey",
             "cover": "brat.jpg",
             "color": "#8ACE00",
-            "tracks": [
-                {
-                    "title": "I Love It",
-                    "duration": "2:33"
-                },
-                {
-                    "title": "Break the Rules",
-                    "duration": "3:05"
-                },
-                {
-                    "title": "Doing It",
-                    "duration": "3:23"
-                },
-                {
-                    "title": "Gold Coins",
-                    "duration": "2:54"
-                },
-                {
-                    "title": "Vroom Vroom",
-                    "duration": "3:17"
-                },
-                {
-                    "title": "Famous",
-                    "duration": "2:47"
-                },
-                {
-                    "title": "5 In the Morning",
-                    "duration": "3:12"
-                }
-            ]
+            "tracks": [19, 20, 21, 36, 37, 38, 39]
         },
         {
-            "title": "After Hours",
-            "artist": "The Weeknd",
+            "title": "Don't Press 96",
+            "artist": "Gas Petrol",
+            "cover": "gaspetrol.jpg",
+            "color": "#F1C40F",
+            "tracks": [59, 60, 61, 62, 63, 64]
+        },
+        {
+            "title": "Ranch Girl",
+            "artist": "Billie Nelson",
             "cover": "after_hours.jpg",
             "color": "#FF4C4C",
-            "tracks": [
-                {
-                    "title": "Alone Again",
-                    "duration": "3:00"
-                },
-                {
-                    "title": "Blinding Lights",
-                    "duration": "3:20"
-                },
-                {
-                    "title": "In Your Eyes",
-                    "duration": "3:58"
-                },
-                {
-                    "title": "Save Your Tears",
-                    "duration": "3:35"
-                },
-                {
-                    "title": "Heartless",
-                    "duration": "3:22"
-                },
-                {
-                    "title": "After Hours",
-                    "duration": "6:01"
-                }
-            ]
+            "tracks": [4, 40, 41, 42, 43, 44, 58]
         },
         {
-            "title": "Future Nostalgia",
-            "artist": "Dua Lipa",
+            "title": "City Boy",
+            "artist": "Johnny Bills",
             "cover": "2N.jpg",
             "color": "#D6007A",
-            "tracks": [
-                {
-                    "title": "Don't Start Now",
-                    "duration": "3:03"
-                },
-                {
-                    "title": "Physical",
-                    "duration": "3:13"
-                },
-                {
-                    "title": "Levitating",
-                    "duration": "3:23"
-                },
-                {
-                    "title": "Break My Heart",
-                    "duration": "3:41"
-                },
-                {
-                    "title": "Hallucinate",
-                    "duration": "3:28"
-                },
-                {
-                    "title": "Love Again",
-                    "duration": "4:16"
-                }
-            ]
+            "tracks": [45, 46, 47, 48, 49, 50]
         },
         {
-            "title": "Daydream",
-            "artist": "Mariah Carey",
+            "title": "Daydreaming",
+            "artist": "Dinah Carolina",
             "cover": "daydream.jpg",
             "color": "#1F618D",
-            "tracks": [
-                {
-                    "title": "Fantasy",
-                    "duration": "4:04"
-                },
-                {
-                    "title": "Underneath the Stars",
-                    "duration": "4:53"
-                },
-                {
-                    "title": "One Sweet Day",
-                    "artist": "Mariah Carey & Boyz II Men",
-                    "duration": "4:42"
-                },
-                {
-                    "title": "Always Be My Baby",
-                    "duration": "4:17"
-                },
-                {
-                    "title": "I Am Free",
-                    "duration": "4:22"
-                },
-                {
-                    "title": "Long Ago",
-                    "duration": "4:01"
-                },
-                {
-                    "title": "Looking In",
-                    "duration": "4:47"
-                },
-                {
-                    "title": "Daydream Interlude (Fantasy Sweet Dub Mix)",
-                    "duration": "3:39"
-                },
-                {
-                    "title": "When I Saw You",
-                    "duration": "3:53"
-                },
-                {
-                    "title": "The Roof (Back in Time)",
-                    "duration": "5:04"
-                },
-                {
-                    "title": "Close My Eyes",
-                    "duration": "4:20"
-                }
-            ]
+            "tracks": [3, 8, 15, 51, 52, 53, 54, 55, 56, 57, 58]
         }
     ],
     "playlists": [
         {
             "title": "Tracks to Sleep to at Night Under Covers Restlessly",
             "color": "#2C3E50",
-            "tracks": [
-                {
-                    "title": "Weightless",
-                    "artist": "Marconi Union",
-                    "duration": "8:00"
-                },
-                {
-                    "title": "Clair de Lune",
-                    "artist": "Claude Debussy",
-                    "duration": "5:00"
-                },
-                {
-                    "title": "Nocturne in E-flat major",
-                    "artist": "Frederic Chopin",
-                    "duration": "4:30"
-                }
-            ]
+            "tracks": [0, 1, 2, 64, 3, 4]
         },
         {
             "title": "Gym Rat",
             "color": "#1C2833",
-            "tracks": [
-                {
-                    "title": "Eye of the Tiger",
-                    "artist": "Survivor",
-                    "duration": "4:05"
-                },
-                {
-                    "title": "Lose Yourself",
-                    "artist": "Eminem",
-                    "duration": "3:20"
-                },
-                {
-                    "title": "Uptown Funk",
-                    "artist": "Mark Ronson ft. Bruno Mars",
-                    "duration": "4:30"
-                }
-            ]
+            "tracks": [5, 6, 7, 8, 9]
         },
         {
-            "title": "Chill Vibes",
+            "title": "Chill Vibes 😜",
             "color": "#34495E",
-            "tracks": [
-                {
-                    "title": "Sunflower",
-                    "artist": "Post Malone & Swae Lee",
-                    "duration": "2:38"
-                },
-                {
-                    "title": "Slow Dancing in a Burning Room",
-                    "artist": "John Mayer",
-                    "duration": "4:01"
-                },
-                {
-                    "title": "Put Your Records On",
-                    "artist": "Corinne Bailey Rae",
-                    "duration": "3:35"
-                }
-            ]
+            "tracks": [10, 11, 12, 59, 13, 14, 15]
         },
         {
             "title": "Road Trip Classics",
             "color": "#7F8C8D",
-            "tracks": [
-                {
-                    "title": "Sweet Home Alabama",
-                    "artist": "Lynyrd Skynyrd",
-                    "duration": "4:43"
-                },
-                {
-                    "title": "Go Your Own Way",
-                    "artist": "Fleetwood Mac",
-                    "duration": "3:43"
-                },
-                {
-                    "title": "Life is a Highway",
-                    "artist": "Tom Cochrane",
-                    "duration": "4:26"
-                }
-            ]
+            "tracks": [16, 17, 18, 19, 20, 21]
         },
         {
             "title": "Sunday Brunch",
             "color": "#27AE60",
-            "tracks": [
-                {
-                    "title": "Sunday Morning",
-                    "artist": "Maroon 5",
-                    "duration": "4:02"
-                },
-                {
-                    "title": "Put It All On Me",
-                    "artist": "Ed Sheeran",
-                    "duration": "3:20"
-                },
-                {
-                    "title": "Watermelon Sugar",
-                    "artist": "Harry Styles",
-                    "duration": "2:54"
-                }
-            ]
+            "tracks": [22, 23, 61, 24]
         },
         {
-            "title": "Dance Party",
+            "title": "June Party",
             "color": "#F39C12",
-            "tracks": [
-                {
-                    "title": "Levitating",
-                    "artist": "Dua Lipa",
-                    "duration": "3:23"
-                },
-                {
-                    "title": "Don't Stop the Music",
-                    "artist": "Rihanna",
-                    "duration": "4:27"
-                },
-                {
-                    "title": "Can't Stop the Feeling!",
-                    "artist": "Justin Timberlake",
-                    "duration": "3:56"
-                }
-            ]
-        },
-        {
-            "title": "Disco Fever",
-            "color": "#900C3F",
-            "tracks": [
-                {
-                    "title": "Stayin' Alive",
-                    "artist": "Bee Gees",
-                    "duration": "4:45"
-                },
-                {
-                    "title": "I Will Survive",
-                    "artist": "Gloria Gaynor",
-                    "duration": "3:17"
-                },
-                {
-                    "title": "Don't Stop 'Til You Get Enough",
-                    "artist": "Michael Jackson",
-                    "duration": "3:58"
-                },
-                {
-                    "title": "Le Freak",
-                    "artist": "Chic",
-                    "duration": "5:31"
-                },
-                {
-                    "title": "Super Freak",
-                    "artist": "Rick James",
-                    "duration": "3:25"
-                }
-            ]
-        }
-    ],
-    "artists": [
-        {
-            "name": "Chloe",
-            "image": "chloe.jpg"
-        },
-        {
-            "name": "Usher",
-            "image": "usher.jpg"
-        },
-        {
-            "name": "Charlie XCX",
-            "image": "charlie.jpg"
-        },
-        {
-            "name": "Marconi Union",
-            "image": "marconi.jpg"
-        },
-        {
-            "name": "The Weeknd",
-            "image": "weeknd.jpg"
-        },
-        {
-            "name": "Dua Lipa",
-            "image": "dua_lipa.jpg"
-        },
-        {
-            "name": "Mariah Carey",
-            "image": "mariah_carey.jpg"
+            "tracks": [25, 62, 26, 59, 60, 27, 28, 29, 30, 31]
         }
     ]
 }

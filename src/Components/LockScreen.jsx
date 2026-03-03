@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { StartScreen } from './StartScreen';
+import { ProfileIcon } from './ProfileIcon';
 import windows_icon from '../Images/2N.jpg';
 import { PiEyeClosedLight } from "react-icons/pi";
 import { PiEye } from "react-icons/pi";
@@ -34,9 +35,10 @@ const LockScreen = ({ isLoggedIn, setIsLoggedIn, bgImagePath }) => {
         <MdKeyboardBackspace id="lock-screen-back-btn" onClick={goBack}/>
         <div className="lock-screen-content">
           <div className="lock-screen-header">
-            <div className="windows-logo-div">
-              <img src={windows_icon} alt="Windows Logo" className="windows-logo" draggable="false" />
-            </div>
+            <ProfileIcon size={70} img={computerData.profileImagePath}/>
+            {/* <div className="windows-logo-div">
+              <img src={computerData.profileImagePath} alt="Profile Pic" className="windows-logo" draggable="false" />
+            </div> */}
             <h3 className="lock-screen-title">{getFullName()}</h3>
           </div>
           <PasswordForm handlePassword={checkPassword} inputId={'computer-login'} />

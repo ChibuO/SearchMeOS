@@ -1,6 +1,6 @@
 :root {
-    --icon-image-size: 28px;
-    --icon-size: 36px;
+    --taskbar-icon-img-size: 28px;
+    --taskbar-icon-size: 36px;
 }
 
 .desktop {

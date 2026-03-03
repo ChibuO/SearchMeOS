@@ -1,0 +1,63 @@
+# Yau [Last Name]
+[City, State]  
+[Email Address] | [Phone Number] | [LinkedIn Profile]
+
+---
+
+## Education
+
+**Bachelor of Arts in Economics**  
+[University Name], [City, State]  
+Expected Graduation: [Month, Year]  
+- Relevant Coursework: Microeconomics, Macroeconomics, Econometrics, Statistics, Financial Accounting
+
+---
+
+## Skills
+
+- Data Analysis (Excel, R, Stata)
+- Economic Research
+- Statistical Modeling
+- Report Writing
+- Critical Thinking
+
+---
+
+## Experience
+
+**Research Assistant**  
+[Department or Professor Name], [University Name]  
+[Month, Year] – [Month, Year]  
+- Collected and analyzed economic data for faculty research projects  
+- Prepared literature reviews and assisted with drafting research papers
+
+**Intern, Economic Consulting**  
+[Company Name], [City, State]  
+[Month, Year] – [Month, Year]  
+- Supported consultants with market analysis and data visualization  
+- Assisted in preparing client presentations and economic impact reports
+
+---
+
+## Projects
+
+**Economic Impact Analysis**  
+- Conducted a study on the economic effects of [topic] using regression analysis  
+- Presented findings to classmates and faculty
+
+---
+
+## Leadership & Activities
+
+- Member, Economics Club, [University Name]
+- Volunteer, [Relevant Organization or Event]
+
+---
+
+## Certifications
+
+- Bloomberg Market Concepts (BMC) – [Year, if applicable]
+
+---
+
+_References available upon request._
