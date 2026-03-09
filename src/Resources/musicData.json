@@ -9,12 +9,12 @@
         { "id": 6, "title": "Lose Yourself", "artist": "Eminem", "duration": "3:20" },
         { "id": 7, "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "duration": "4:30" },
         { "id": 8, "title": "Backflip", "artist": "Dinah Carolina", "duration": "5:04" },
-        { "id": 9, "title": "Trucks", "artist": "Willie Parden", "duration": "3:56" },
+        { "id": 9, "title": "Trucks", "artist": "Wallie Parden", "duration": "3:56" },
         { "id": 10, "title": "Sunflower", "artist": "Post Malone & Swae Lee", "duration": "2:38" },
         { "id": 11, "title": "Slow Dancing in a Burning Room", "artist": "John Mayer", "duration": "4:01" },
         { "id": 12, "title": "Put Your Records On", "artist": "Corinne Bailey Rae", "duration": "3:35" },
-        { "id": 13, "title": "Too Close", "artist": "Willie Parden", "duration": "3:29" },
-        { "id": 14, "title": "Madness", "artist": "Willie Parden", "duration": "4:15" },
+        { "id": 13, "title": "Too Close", "artist": "Wallie Parden", "duration": "3:29" },
+        { "id": 14, "title": "Madness", "artist": "Wallie Parden", "duration": "4:15" },
         { "id": 15, "title": "Party With the Stars", "artist": "Dinah Carolina", "duration": "4:53" },
         { "id": 16, "title": "Sweet Home Alabama", "artist": "Lynyrd Skynyrd", "duration": "4:43" },
         { "id": 17, "title": "Go Your Own Way", "artist": "Fleetwood Mac", "duration": "3:43" },
@@ -32,10 +32,10 @@
         { "id": 29, "title": "God's Plan", "artist": "Drake", "duration": "3:19" },
         { "id": 30, "title": "HUMBLE.", "artist": "Kendrick Lamar", "duration": "2:57" },
         { "id": 31, "title": "Suge", "artist": "DaBaby", "duration": "2:36" },
-        { "id": 32, "title": "Stop Thinking About Me", "artist": "Willie Parden", "duration": "3:40" },
-        { "id": 33, "title": "My G-Ma", "artist": "Willie Parden", "duration": "4:03" },
-        { "id": 34, "title": "Too Close", "artist": "Willie Parden", "duration": "3:29" },
-        { "id": 35, "title": "Late Night Paradise", "artist": "Willie Parden", "duration": "3:50" },
+        { "id": 32, "title": "Stop Thinking About Me", "artist": "Wallie Parden", "duration": "3:40" },
+        { "id": 33, "title": "My G-Ma", "artist": "Wallie Parden", "duration": "4:03" },
+        { "id": 34, "title": "Too Close", "artist": "Wallie Parden", "duration": "3:29" },
+        { "id": 35, "title": "Late Night Paradise", "artist": "Wallie Parden", "duration": "3:50" },
         { "id": 36, "title": "Delicious", "artist": "Van + Trey", "duration": "2:33" },
         { "id": 37, "title": "Break the Rules", "artist": "Van + Trey", "duration": "3:05" },
         { "id": 38, "title": "Doing It", "artist": "Van + Trey", "duration": "3:23" },
@@ -69,7 +69,7 @@
     "albums": [
         {
             "title": "Country As It Gets",
-            "artist": "Willie Parden",
+            "artist": "Wallie Parden",
             "cover": "fake_album.jpg",
             "color": "blue",
             "tracks": [9, 13, 14, 32, 33, 34, 35]
@@ -113,32 +113,32 @@
     "playlists": [
         {
             "title": "Tracks to Sleep to at Night Under Covers Restlessly",
-            "color": "#2C3E50",
+            "color": "#FCC6BB",
             "tracks": [0, 1, 2, 64, 3, 4]
         },
         {
+            "title": "Sunday Brunch",
+            "color": "#F87C63",
+            "tracks": [22, 23, 61, 24]
+        },
+        {
             "title": "Gym Rat",
-            "color": "#1C2833",
+            "color": "#F54927",
             "tracks": [5, 6, 7, 8, 9]
         },
         {
             "title": "Chill Vibes 😜",
-            "color": "#34495E",
+            "color": "#F4320B",
             "tracks": [10, 11, 12, 59, 13, 14, 15]
         },
         {
             "title": "Road Trip Classics",
-            "color": "#7F8C8D",
+            "color": "#C82909",
             "tracks": [16, 17, 18, 19, 20, 21]
         },
         {
-            "title": "Sunday Brunch",
-            "color": "#27AE60",
-            "tracks": [22, 23, 61, 24]
-        },
-        {
             "title": "June Party",
-            "color": "#F39C12",
+            "color": "#2BD6BA",
             "tracks": [25, 62, 26, 59, 60, 27, 28, 29, 30, 31]
         }
     ]

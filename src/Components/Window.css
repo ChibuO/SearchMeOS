@@ -1,10 +1,10 @@
 .desktop-window {
-    width: 60%;
+    width: 55%;
     max-width: 90%;
-    background-color: #f1f1f1;
-    /* border: 1px solid #ccc; */
+    background-color: #191919;
+    border: .5px solid var(--main-theme-color);
     border-radius: 8px;
-    height: 60%;
+    height: 70%;
     box-sizing: border-box;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: absolute;

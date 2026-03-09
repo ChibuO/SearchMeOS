@@ -22,7 +22,7 @@
     },
     "contacts": 
     {
-        "name": "Contacts",
+        "name": "My World",
         "icon": "contacts_icon.png",
         "entry": "0927",
         "hint": "Her birthday"
@@ -36,7 +36,7 @@
     },
     "music": 
     {
-        "name": "Spotify",
+        "name": "Symph",
         "icon": "music_icon.png",
         "entry": "0927",
         "hint": "Her birthday"

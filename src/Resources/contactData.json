@@ -1,78 +1,110 @@
 [
   {
-    "contactName": "Danny Clay 🐐",
+    "contactName": "Danny Clay",
+    "emoji": "🐐",
     "email": "imdagreatest8@flymail.com",
+    "phone": "173-4067",
     "note": ""
   },
   {
-    "contactName": "Daniella Cevilla ❤️",
+    "contactName": "Daniella Cevilla",
+    "emoji": "❤️",
     "email": "dseeya@flymail.com",
+    "phone": "648-8200",
     "note": "dog's name is shelly\nbday is dec 12\nhates coffee\nlikes lillies and chocolate"
   },
   {
-    "contactName": "Nathan Scott 🏀",
-    "email": "bbal4life@inward.com"
+    "contactName": "Nathan Scott",
+    "emoji": "🏀",
+    "email": "bbal4life@inward.com",
+    "phone": "626-6383",
+    "note": "score:\nme - 20\nhim - 40"
   },
   {
-    "contactName": "Peyton Sawyer 🎨",
+    "contactName": "Peyton Sawyer",
+    "emoji": "🎨",
+    "phone": "699-2522",
     "email": "stillhere@flymail.com"
   },
   {
-    "contactName": "Lucas Scott 🐟",
+    "contactName": "Lucas Scott",
+    "emoji": "🐟",
+    "phone": "908-3290",
     "email": "moodyboi@bmail.com",
     "note": "case"
   },
   {
-    "contactName": "Brooke Davis 👗",
-    "email": "clothesoverbros@fmail.com"
+    "contactName": "Brooke Davis",
+    "emoji": "👗",
+    "phone": "685-1065",
+    "email": "clothesoverbros@fmail.com",
+    "note": "makes awesome halloween costumes, ~$70"
   },
   {
-    "contactName": "Professor Keith 🪦",
+    "contactName": "Professor Keith",
+    "emoji": "🪦",
+    "phone": "646-8639",
     "email": "professor.keith@u.othello.edu"
   },
   {
-    "contactName": "Marvin McFadden 🎤",
+    "contactName": "Marvin McFadden",
+    "emoji": "🎤",
+    "phone": "451-3334",
     "email": "mouth@inward.com",
     "note": "owes me $20"
   },
   {
-    "contactName": "Haley James 🎶",
+    "contactName": "Haley James",
+    "emoji": "🎶",
+    "phone": "908-9269",
     "email": "haleyjames@flymail.com"
   },
   {
-    "contactName": "Professor Whitey 🧠",
-    "email": "professor.whitey@u.othello.edu"
+    "contactName": "Professor Whitey",
+    "emoji": "🧠",
+    "phone": "487-0389",
+    "email": "professor.whitey@u.othello.edu",
+    "note": "extra credit project due finals week"
   },
   {
-    "contactName": "Rachel Gatina 👑",
+    "contactName": "Rachel Gatina",
+    "emoji": "👑",
+    "phone": "448-4409",
     "email": "rachelgat9@flymail.com",
     "note": "keep away from Dani\nowes me $40"
   },
   {
-    "contactName": "Lindsay James 📸",
+    "contactName": "Lindsay James",
+    "emoji": "📸",
+    "phone": "648-4598",
     "email": "ljphotog@flymail.com",
     "note": "haley's sister\nphotographer\nhire her for the next party"
   },
   {
-
-    "contactName": "Professor Dan 🧠",
+    "contactName": "Professor Dan",
+    "emoji": "📚",
+    "phone": "205-0950",
     "email": "professor.dan@u.othello.edu",
     "note": "takes off points for late attendance"
   },
   {
-
-    "contactName": "Antwon Taylor 🐈",
+    "contactName": "Antwon Taylor",
+    "emoji": "🐈",
+    "phone": "392-92679",
     "email": "skills@bmail.com",
     "note": "book"
   },
   {
-
-    "contactName": "Jake Jagielski 🍼",
+    "contactName": "Jake Jagielski",
+    "emoji": "🍼",
+    "phone": "406-3335",
     "email": "luvubaby@flymail.com"
   },
   {
-
-    "contactName": "Tim Turner 🧢",
-    "email": "dunksalot@flymail.com"
+    "contactName": "Tim Turner",
+    "emoji": "🧢",
+    "phone": "646-6091",
+    "email": "dunksalot@flymail.com",
+    "note": "physics 302 partner\nfree sun, mon, and wed 5-9pm\ngive back his calculator"
   }
 ]

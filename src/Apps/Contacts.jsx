@@ -6,6 +6,9 @@ import './Contacts.css';
 export const ContactsApp = forwardRef((props, ref) => {
   const [selectedContact, setSelectedContact] = useState(null);
 
+  const profileBgColor = "rgba(20, 20, 20, 0.521)";
+  const profileBorderColor = "1px solid rgba(255, 255, 255, 0.44)";
+
   // Function to select a contact
   const selectContact = (contact) => {
     setSelectedContact(contact);
@@ -22,7 +25,7 @@ export const ContactsApp = forwardRef((props, ref) => {
   return (
     <div className="contacts-app">
       <div className="contacts-sidebar">
-        <h2>Contacts</h2>
+        <h2>Population</h2>
         <div className='contacts-list'>
           <ul>
             {contacts.map((contact, index) => (
@@ -37,15 +40,12 @@ export const ContactsApp = forwardRef((props, ref) => {
         {selectedContact ? (
           <div className="contacts-contact">
             <div className='contact-pic-container'>
-              <ProfileIcon name={selectedContact.contactName} borderRadius='5px'/>
-              {/* <div className="contact-pic">
-                <img src="" alt="pic" className="contact-img" draggable="false" />
-              </div> */}
+              <ProfileIcon letter={selectedContact.emoji} borderRadius='5px' color={profileBgColor} border={profileBorderColor} />
             </div>
             <h2 className='contact-name'>{selectedContact.contactName}</h2>
             <div className='contact-info'>
               <p className='contact-text'>Email: {selectedContact.email}</p>
-              <p className='contact-text'>Phone: 555-5555</p>
+              <p className='contact-text'>Phone: {selectedContact.phone}</p>
               {selectedContact.note && 
                 <>
                   <p className='contact-text'>Notes:</p>

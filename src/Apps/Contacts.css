@@ -6,7 +6,7 @@
     padding: 0;
     height: 100%;
     overflow: hidden;
-    border: 1px solid rebeccapurple;
+    background: url('../Images/world.jpg') center center/cover no-repeat;;
 }
 
 .contacts-sidebar {
@@ -15,11 +15,12 @@
     flex-direction: column;
     width: 35%;
     /* width: 250px; */
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
     padding: 20px 0 20px 20px;
     margin: 0;
     border-right: 1px solid #ccc;
     height: 100%;
+    color: white;
     /* border: 1px solid red; */
 }
 
@@ -38,8 +39,26 @@
     padding: 0;
     flex: 2;
     overflow-y: scroll;
+    scrollbar-color: rgba(255, 255, 255, 0.44) transparent;
+    scrollbar-width: thin;
     /* border: 1px solid green; */
 }
+
+/* .contacts-list::-webkit-scrollbar {
+  scrollbar-width: thin;
+}
+
+.contacts-list::-webkit-scrollbar-track {
+  background-color: #189c3700;
+}
+
+.contacts-list::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.44);
+}
+
+.contacts-list::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: rgba(183, 42, 42, 0.44);
+} */
 
 .contacts-sidebar ul {
     list-style-type: none;
@@ -52,18 +71,18 @@
 .contacts-sidebar ul li {
     cursor: pointer;
     padding: 10px 0 10px 10px;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     transition: background-color 0.3s ease;
 }
 
 .contacts-sidebar ul li:hover {
-    background-color: #e0e0e0;
+    background-color: #00000073;
 }
 
 .contacts-sidebar ul li.contacts-selected {
     font-weight: bold;
-    background-color: #007bff;
-    color: white;
+    background-color: #000000a6;
+    color: rgb(255, 255, 255);
 }
 
 .contacts-main {
@@ -72,10 +91,14 @@
 }
 
 .contacts-contact {
-    background-color: #fff;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    color: white;
     padding: 20px;
     margin: 0;
-    border: 1px solid #ccc;
     border-radius: 4px;
     display: grid;
     grid-template-columns: min-content  1fr;
@@ -132,30 +155,34 @@
 }
 
 .contact-text {
-   
     margin: 0;
     padding: 5px 0px;
 }
 
 .contact-note {
-    background-color: #ebebeb;
+    background: rgba(0, 0, 0, 0.671);
+    border: 1px solid rgba(255, 255, 255, 0.44);
     border-radius: 5px;
     min-height: 70px;
     padding: 10px;
     margin: 0;
     white-space: pre-wrap;
+    line-height: 20px;
+    font-size: 14px;
 }
 
 .contacts-no-contact-selected {
-    background-color: #f9f9f9;
+    background: rgba(20, 20, 20, 0.521);
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     padding: 20px;
     text-align: center;
-    border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 .contacts-no-contact-selected p {
     margin: 0;
     font-size: 1rem;
-    color: #666;
+    color: white;
 }
