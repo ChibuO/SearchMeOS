@@ -2,13 +2,11 @@ import React, { useState, forwardRef, useImperativeHandle } from 'react';
 import { TbPlayerPlayFilled } from "react-icons/tb";
 import { TbPlayerSkipForwardFilled } from "react-icons/tb";
 import { TbPlayerSkipBackFilled } from "react-icons/tb";
-import { GoHome } from "react-icons/go";
 import { capitlaizeWord, handleImageError } from '../utilites/helpers';
 import Img from '../Components/CustomImage';
 import album_cover from '../Images/fake_album.jpg';
 import musics from '../Resources/musicData.json';
 import './Music.css';
-import { se } from 'date-fns/locale';
 
 export const MusicApp = forwardRef((props, ref) => {
   const [selectedPlaylist, setSelectedPlaylist] = useState(musics?.playlists[0] || null);
@@ -153,7 +151,7 @@ const MusicItemPage = ({ itemType, selectedPage }) => {
   const isPlaylist = itemType === "playlist";
   const isAlbum = itemType === "album";
   const pageTitle = isPlaylist ? selectedPage?.title : selectedPage?.title || selectedPage?.name || "";
-  const pageColor = selectedPage?.color || "--var(--music-accent-color)";
+  // const pageColor = selectedPage?.color || "--var(--music-accent-color)";
   const pageArtist = isAlbum ? selectedPage?.artist : null;
   const pageListLength = selectedPage?.tracks?.length || 0;
   const pageAlbumCover = isAlbum ? selectedPage?.cover : null;
