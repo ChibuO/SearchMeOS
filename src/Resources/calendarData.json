@@ -1,121 +1,131 @@
 [
     {
-        "date": "03-01-2026",
+        "date": "M/01/Y",
         "time": "09:00 am - 09:30 am",
         "event": "Quarterly Tax Filing Deadline"
     },
     {
-        "date": "03-10-2026",
+        "date": "M/10/Y",
+        "time": "05:00 pm",
+        "event": "Stretch"
+    },
+    {
+        "date": "M/10/Y",
         "time": "02:00 pm",
         "event": "Review Financial Statements for Client"
     },
     {
-        "date": "03-15-2026",
+        "date": "M/15/Y",
         "time": "07:00 pm",
         "event": "Dinner and Discussion on Accounting Trends"
     },
     {
-        "date": "03-20-2026",
+        "date": "M/20/Y",
         "time": "10:00 am",
         "event": "Client Meeting: Quarterly Review"
     },
     {
-        "date": "03-25-2026",
+        "date": "M/25/Y",
         "time": "05:00 pm",
         "event": "Watch 'RoboCop' in IMAX"
     },
     {
-        "date": "03-30-2026",
+        "date": "M/30/Y",
         "time": "12:00 pm",
         "event": "Webinar: Innovations in Accounting Software"
     },
     {
-        "date": "05-01-2026",
+        "date": "M+1/01/Y",
         "time": "02:00 pm",
-        "event": "Attend Robot Expo 2026"
+        "event": "Attend Robot Expo Y"
     },
     {
-        "date": "05-05-2026",
+        "date": "M+1/05/Y",
         "time": "09:00 am",
         "event": "Monthly Budget Review Meeting"
     },
     {
-        "date": "05-10-2026",
+        "date": "M+1/10/Y",
         "time": "01:00 pm",
         "event": "Lunch and Learn: Accounting Best Practices"
     },
     {
-        "date": "05-15-2026",
+        "date": "M+1/15/Y",
         "time": "06:30 pm",
         "event": "Movie Night: 'Blade Runner 2049'"
     },
     {
-        "date": "05-17-2026",
+        "date": "M+1/17/Y",
         "time": "08:00 am",
         "event": "Early Morning Workout"
     },
     {
-        "date": "05-17-2026",
+        "date": "M+1/17/Y",
         "time": "10:00 am",
         "event": "Financial Planning Workshop"
     },
     {
-        "date": "05-17-2026",
+        "date": "M+1/17/Y",
         "time": "01:00 pm",
         "event": "Lunch with Clients"
     },
     {
-        "date": "05-17-2026",
+        "date": "M+1/17/Y",
         "time": "03:00 pm",
         "event": "Attend a Panel Discussion on Robotics"
     },
     {
-        "date": "05-17-2026",
+        "date": "M+1/17/Y",
         "time": "06:00 pm",
         "event": "Watch 'Ex Machina' with Friends"
     },
     {
-        "date": "05-29-2026",
+        "date": "M+1/29/Y",
         "time": "12:00 am",
         "event": "My B-day!"
     },
     {
-        "date": "05-31-2026",
+        "date": "M+1/31/Y",
         "time": "08:00 pm",
         "event": "Watch 'Ex Machina' with Friends"
     },
     {
-        "date": "09-02-2026",
+        "date": "5/1/Y",
+        "time": "09:00 pm",
+        "event": "Review 'Ex Machina' with Friends"
+    },
+    {
+        "date": "M-1/02/Y",
         "time": "10:00 am",
         "event": "Prepare for Upcoming Tax Changes Webinar"
     },
     {
-        "date": "09-08-2026",
+        "date": "M-1/08/Y",
         "time": "04:00 pm",
         "event": "Networking Event: Accounting Professionals"
     },
     {
-        "date": "09-15-2026",
+        "date": "M-1/15/Y",
         "time": "07:00 pm",
         "event": "Movie Night: 'The Terminator'"
     },
     {
-        "date": "09-18-2026",
+        "date": "M-1/18/Y",
         "time": "07:00 pm",
         "event": "Screening of 'RoboCop' at Local Theater"
     },
     {
-        "date": "09-22-2026",
+        "date": "M-1/22/Y",
         "time": "12:00 pm",
         "event": "Update Financial Planning Software"
     },
     {
-        "date": "09-25-2026",
+        "date": "M-2/25/Y",
         "time": "09:00 am",
         "event": "Annual Office Review Meeting"
     },
     {
-        "date": "09-30-2026",
+        "date": "M+3/30/Y",
         "time": "11:00 am",
         "event": "Submit Annual Tax Reports"
     }

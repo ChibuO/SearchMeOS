@@ -1,23 +1,23 @@
 {
-    "inbox": [
+    "arriving": [
         {
             "from": {
                 "name": "Haley James Scott",
-                "email": "haley@gmail.com"
+                "email": "haleyjames@flymail.com"
             },
             "to": [],
             "cc": [
                 {
                     "name": "Nathan Scott",
-                    "email": "nathan@gmail.com"
+                    "email": "bball4life@inward.com"
                 },
                 {
                     "name": "Rachel Gatina",
-                    "email": "rachel@gmail.com"
+                    "email": "rachelgat9@flymail.com"
                 }
             ],
-            "date": "7/9/24",
-            "subject": "Meat",
+            "date": "M-1/9/Y",
+            "subject": "Meat is for martians",
             "message": [
                 "Hey %FIRSTNAME%,\n\n",
                 "Just wanted to know if you saw this.\n\n",
@@ -29,7 +29,7 @@
         {
             "from": {
                 "name": "Lucas Scott",
-                "email": "lucas@gmail.com"
+                "email": "moodyboi@bmail.com"
             },
             "to": [
                 {
@@ -38,7 +38,7 @@
                 }
             ],
             "cc": [],
-            "date": "7/4/24",
+            "date": "M+3/4/Y",
             "subject": "Glaze",
             "message": [
                 "Hey %FIRSTNAME%,\n\n",
@@ -55,7 +55,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "7/2/24",
+            "date": "M/2/Y",
             "subject": "Crab",
             "message": [
                 "Hi %FIRSTNAME%,\n\n",
@@ -70,7 +70,7 @@
             "image": ""
         }
     ],
-    "sent": [
+    "departed": [
         {
             "from": {
                 "name": "%FIRSTNAME% %LASTNAME%",
@@ -83,7 +83,7 @@
                 }
             ],
             "cc": [],
-            "date": "7/9/24",
+            "date": "M-1/9/Y",
             "subject": "Rangoon",
             "message": [
                 "Hey Haley,\n\n",
@@ -94,7 +94,7 @@
             "image": ""
         }
     ],
-    "drafts": [
+    "planned": [
         {
             "from": {
                 "name": "%FIRSTNAME% %LASTNAME%",
@@ -107,7 +107,7 @@
                 }
             ],
             "cc": [],
-            "date": "7/9/24",
+            "date": "M+2/9/Y",
             "subject": "Bugs",
             "message": ["Hey Haley,\n\nJust wanted to know if you saw this.\n\nRegards,\n\n%FIRSTNAME%"],
             "image": ""
@@ -133,13 +133,13 @@
                     "email": "nathan@gmail.com"
                 }
             ],
-            "date": "7/10/24",
+            "date": "M+2/10/Y",
             "subject": "Cream",
             "message": ["Hi Peyton,\n\nStop it.\n\nSincerely,\n\n%FIRSTNAME%"],
             "image": ""
         }
     ],
-    "trash": [
+    "canceled": [
         {
             "from": {
                 "name": "Haley James Scott",
@@ -152,7 +152,7 @@
                 }
             ],
             "cc": [],
-            "date": "7/9/24",
+            "date": "M/9/Y-1",
             "subject": "CheeseMeat",
             "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
             "image": ""
@@ -169,7 +169,7 @@
                 }
             ],
             "cc": [],
-            "date": "7/9/24",
+            "date": "7/9/Y-1",
             "subject": "CheeseMeat",
             "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
             "image": ""
@@ -181,7 +181,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "7/9/24",
+            "date": "M/9/Y-1",
             "subject": "CheeseMeat",
             "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
             "image": ""
@@ -193,7 +193,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "7/9/24",
+            "date": "M/9/Y-1",
             "subject": "CheeseMeat",
             "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
             "image": ""
@@ -205,7 +205,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "7/9/24",
+            "date": "M-4/9/Y-1",
             "subject": "CheeseMeat",
             "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
             "image": ""
@@ -217,7 +217,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "7/9/24",
+            "date": "M-4/9/Y-1",
             "subject": "CheeseMeat",
             "message": [],
             "image": ""

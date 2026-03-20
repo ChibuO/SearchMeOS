@@ -4,7 +4,7 @@ import computerData from '../Resources/computerData.json';
 
 export const ProfileIcon = ({ name, letter="", size = 40, color, textColor = "#ffffff", borderRadius = "50%", img = "", border = "" }) => {
     const symbol = letter || (name ? name.slice(0, 1) : '~');
-    console.log("ProfileIcon rendered with name:", name, "and symbol:", symbol);
+    // console.log("ProfileIcon rendered with name:", name, "and symbol:", symbol);
     return (
         <div
             style={{
@@ -14,7 +14,8 @@ export const ProfileIcon = ({ name, letter="", size = 40, color, textColor = "#f
                 border: border || 'none',
                 color: textColor,
                 borderRadius: borderRadius,
-                overflow: 'hidden'
+                overflow: 'hidden',
+                fontSize: `${size / 2}px`,
             }}
             className="profile-icon">
             {img && img !== "" ? <img src={img} alt="Profile Pic" className='profile-img' draggable="false" /> :

@@ -8,10 +8,12 @@
     },
     "email": 
     {
-        "name": "Email",
+        "name": "FlyMail",
         "icon": "email_icon.png",
         "entry": "0927",
-        "hint": "Her birthday"
+        "hint": "Her birthday",
+        "entry2": "0927",
+        "hint2": "Her bday"
     },
     "photos": 
     {

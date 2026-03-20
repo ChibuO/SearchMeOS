@@ -3,7 +3,7 @@ import messages from '../Resources/messengerData.json';
 import { ProfileIcon } from '../Components/ProfileIcon';
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { AiOutlineClose } from "react-icons/ai";
-import { capitlaizeWord, insertData } from '../utilites/helpers';
+import { capitlaizeWord, insertGlobalData } from '../utilites/helpers';
 import './Messenger.css';
 
 export const MessengerApp = forwardRef((props, ref) => {
@@ -118,11 +118,11 @@ const SingleChatMessage = ({ chat, index, setSelectedMessageId, showThread, setS
     return (
         <div className="messenger-message">
             <div className='messenger-message-pic'>
-                <ProfileIcon name={insertData(chat.from)} borderRadius='5px' size='35' color='#3f0f40' />
+                <ProfileIcon name={insertGlobalData(chat.from)} borderRadius='5px' size='35' color='#3f0f40' />
             </div>
             <div className='messenger-message-text-div'>
-                <p className='messenger-message-name'><strong>{insertData(chat.from)}</strong></p>
-                <p className='messenger-message-content'>{insertData(chat.message)}</p>
+                <p className='messenger-message-name'><strong>{insertGlobalData(chat.from)}</strong></p>
+                <p className='messenger-message-content'>{insertGlobalData(chat.message)}</p>
                 {chat.replies && !copy &&
                     <div className='messenger-message-replies-box'
                         onClick={() => {

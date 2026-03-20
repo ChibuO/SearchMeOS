@@ -8,11 +8,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import events from '../Resources/calendarData.json';
 import './Calendar.css';
-
-const parseDate = (dateText) => {
-  const [parsedMonth, parsedDay, parsedYear] = dateText.split(/\W/);
-  return new Date(parsedYear, parsedMonth - 1, parsedDay);
-}
+import { parseDate } from '../utilites/helpers';
 
 export const CalendarApp = forwardRef((props, ref) => {
   const currentDate = new Date();
