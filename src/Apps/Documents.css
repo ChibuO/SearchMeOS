@@ -3,47 +3,76 @@
     padding: 0;
 }
 
-.docs-container {
+.docs-container-outer {
+    --docs-header-color: rgb(255, 241, 227);
+    --docs-bg-color: #648484;
+    --docs-light-color: #1a2727;
+    --docs-accent-color: teal;
+    --docs-doc-bg-color: rgb(215, 215, 215);
     box-sizing: border-box;
     /* border: 2px solid rebeccapurple; */
     height: 100%;
     display: flex;
-    flex-direction: column;
     position: relative;
 }
 
-.docs-header {
-    /* border: 1px solid red; */
-    padding: 20px;
+.docs-container {
+    box-sizing: border-box;
+    /* border: 2px solid rebeccapurple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    font-family: serif;
+    background-color: var(--docs-bg-color);
 }
 
-.docs-list {
-    /* border: 1px solid goldenrod; */
-    flex: 2;
-    padding: 0px 20px 10px 20px;
+.docs-header-div {
+    /* border: 1px solid red; */
+    padding: 0px 10px;
+    background-color: var(--docs-header-color);
+    color: black;
+    border-right: 1px solid lightgray;
+    writing-mode: vertical-rl;
+    scale: -1; /* to flip the text back to normal orientation */
+}
+
+#docs-header {
+    box-sizing: border-box;
+    border-left: 3px solid var(--docs-accent-color);
+    border-right: 3px solid var(--docs-accent-color);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: .2em;
+    font-size: 3em;
+}
+
+.docs-list-div {
+    width: 100%;
+    padding: 20px;
+    overflow-y: auto;
+    scrollbar-color: var(--scrollbar-standard-color) transparent;
+    scrollbar-width: thin;
 }
 
 .docs-item {
     border: 1px solid rgb(208, 208, 208);
     display: flex;
-    background-color: aliceblue;
+    background-color: white;
     cursor: pointer;
     margin-bottom: 7px;
+    color: var(--docs-light-color);
 }
 
 .docs-item:hover {
-    border: 1px solid rgb(126, 126, 255);
+    border: 1px solid var(--docs-accent-color);
 }
 
 .docs-item:active {
-    background-color: rgb(174, 206, 234);
-}
-
-.docs-icon {
-    width: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--docs-accent-color);
+    color: white;
 }
 
 .docs-name {
@@ -77,8 +106,8 @@
 }
 
 .document-header {
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(70, 70, 70);
+    background-color: white;
+    border-bottom: 2px solid var(--docs-accent-color);
     height: 40px;
     padding: 5px 10px;
     display: flex;
@@ -87,6 +116,8 @@
 
 .document-title {
     font-size: 15px;
+    color: var(--docs-light-color);
+    font-family: serif;
 }
 
 #document-back-icon {
@@ -95,30 +126,34 @@
     font-size: 18px;
     margin-right: 10px;
     cursor: pointer;
+    color: var(--docs-light-color);
 }
 
 #document-back-icon:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(from var(--docs-light-color) r g b / 0.1);;
 }
 
 #document-back-icon:active {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(from var(--docs-light-color) r g b / 0.5);;
 }
 
 .document-inner-div {
+    --scrollbar-standard-color: rgba(126, 126, 126, 0.788);
     flex: 2;
     box-sizing: border-box;
-    background-color: rgb(215, 215, 215);
+    background-color: var(--docs-doc-bg-color);
     position: relative;
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    overflow: scroll;
+    overflow-y: scroll;
+    scrollbar-color: var(--scrollbar-standard-color) transparent;
+    scrollbar-width: thin;
 }
 
 .document-doc {
     box-sizing: border-box;
-    background-color: rgb(255, 248, 235);
+    background-color: white;
     width: 70%;
     height: min-content;
     min-height: 500px;

@@ -27,27 +27,24 @@ export const NotesApp = forwardRef((props, ref) => {
     <div id="notes-app-container">
       {showNote &&
         <Modal id="notes-modal" childRef={noteRef} onClickOutside={onClickOutside}>
-          <NoteModal note={notes[selectedNote - 1]} noteRef={noteRef} />
+          <NoteModal note={notes[selectedNote]} noteRef={noteRef} />
         </Modal>
       }
       <div id="notes-app">
-      <div className='notes-header'>
-        <h3>All Notes</h3>
-        <h4>Search</h4>
-      </div>
-      <div className="notes-list">
-        {notes.map((note, index) => (
-          <div key={index} className="notes-note small-note"
-            onClick={() => {
-              setSelectedNote(note.id)
-              setShowNote(true)}
-            }
-          >
-            <h3 className='note-title'>{note.title}</h3>
-            <p className='note-content'>{note.content}</p>
-          </div>
-        ))}
-      </div>
+        <div className='notes-header-div'>
+            <h1 id='notes-header'>NOTES</h1>
+        </div>
+        <div className="notes-list">
+          {notes.map((note, index) => (
+            <div key={index} className="notes-note display-note"
+              onClick={() => {
+                setSelectedNote(index)
+                setShowNote(true)}
+              }>
+              <h3 className='note-text note-title'>{note.title}</h3>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
@@ -55,9 +52,9 @@ export const NotesApp = forwardRef((props, ref) => {
 
 const NoteModal = ({ note, noteRef }) => {
   return (
-    <div key={note.id} className="notes-note modal-note" ref={noteRef}>
-      <h3 className='note-title'>{note.title}</h3>
-      <p className='note-content'>{note.content}</p>
+    <div className="notes-note modal-note" ref={noteRef}>
+      <h3 className='note-text note-title'>{note.title}</h3>
+      <p className='note-text note-content'>{note.content}</p>
     </div>
   );
 }

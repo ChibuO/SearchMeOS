@@ -1,12 +1,11 @@
-import { React, useState } from 'react';
 import appData from '../Resources/appData.json';
 import './PasswordScreen.css';
 import { PasswordForm } from './PasswordForm';
 
 export const PasswordScreen = ({ appName, bgColor, unlockWindow, givenEntry = "", givenHint = "", unlockFunction = null }) => {
-  const hint = givenHint ?? appData[appName].hint;
+  const hint = givenHint || appData[appName].hint;
   const checkPassword = (entry) => {
-    const expectedEntry = givenEntry ?? appData[appName].entry;
+    const expectedEntry = givenEntry || appData[appName].entry;
     const isCorrect = entry === expectedEntry;
 
     if (isCorrect) {

@@ -1,12 +1,13 @@
 .photos-container * {
     margin: 0;
     padding: 0;
-    --photos-accent-color: rgb(255, 241, 227);
-    --photos-bg-color: #648484;
-    --photos-light-color: #1a2727;
 }
 
 .photos-container {
+    --photos-header-color: rgb(255, 241, 227);
+    --photos-bg-color: #648484;
+    --photos-light-color: #1a2727;
+    --photos-accent-color: teal;
     box-sizing: border-box;
     /* border: 1px solid rebeccapurple; */
     height: 100%;
@@ -22,7 +23,7 @@
 .photos-header-div {
     /* border: 1px solid red; */
     padding: 0px 10px;
-    background-color: var(--photos-accent-color);
+    background-color: var(--photos-header-color);
     color: black;
     border-right: 1px solid lightgray;
     writing-mode: vertical-rl;
@@ -31,8 +32,8 @@
 
 #photos-header {
     box-sizing: border-box;
-    border-left: 3px solid teal;
-    border-right: 3px solid teal;
+    border-left: 3px solid var(--photos-accent-color);
+    border-right: 3px solid var(--photos-accent-color);
     margin: 0;
     padding: 0;
     text-align: center;
@@ -122,7 +123,7 @@
     font-size: 24px;
     margin-right: 10px;
     cursor: pointer;
-    color: var(--photos-accent-color);
+    color: var(--photos-header-color);
 }
 
 #photo-x-icon:hover {

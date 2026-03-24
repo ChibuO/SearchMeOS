@@ -18,7 +18,7 @@ export const DocumentsApp = forwardRef((props, ref) => {
     }, []);
 
     return (
-        <div className='docs-container'>
+        <div className='docs-container-outer'>
             {showDocument ?
                 <DocumentModal setShowDocument={setShowDocument} doc={documents[selectedDocumentIndex]} index={selectedDocumentIndex} /> :
                 <DocumentsHome setSelectedDocumentIndex={setSelectedDocumentIndex} setShowDocument={setShowDocument} />}
@@ -34,10 +34,10 @@ const DocumentsHome = ({ setShowDocument, setSelectedDocumentIndex }) => {
 
     return (
         <div className='docs-container'>
-            <div className='docs-header'>
-                <h3>Recent Documents</h3>
+            <div className='docs-header-div'>
+                <h1 id='docs-header'>DOCUMENTS</h1>
             </div>
-            <div className='docs-list'>
+            <div className='docs-list-div'>
                 {documents && documents.map((doc, index) => (
                     <div key={index} className='docs-item' onClick={() => openDocument(index)}>
                         <p className='docs-name'>
