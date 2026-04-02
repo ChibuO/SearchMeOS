@@ -41,10 +41,32 @@
     "note": "makes awesome halloween costumes, ~$70"
   },
   {
-    "contactName": "Professor Keith",
+    "contactName": "Professor Ana Winto",
+    "emoji": "🖼️",
+    "phone": "",
+    "email": "professor.winto@othello.edu",
+    "note": "art101\noffice hours tues 3-5pm"
+  },
+  {
+    "contactName": "Professor Keith O'Hara",
     "emoji": "🪦",
-    "phone": "646-8639",
-    "email": "professor.keith@u.othello.edu"
+    "phone": "",
+    "email": "professor.ohara@othello.edu",
+    "note": "math211\noffice hours wed 1-3pm"
+  },
+  {
+    "contactName": "Professor Felix Becker",
+    "emoji": "🍺",
+    "phone": "",
+    "email": "professor.becker@othello.edu",
+    "note": "german2\noffice hours thurs 2-4pm"
+  },
+  {
+    "contactName": "Professor Melanie Trill",
+    "emoji": "📈",
+    "phone": "",
+    "email": "professor.trill@othello.edu",
+    "note": "econ310\noffice hours mon 12-2pm"
   },
   {
     "contactName": "Marvin McFadden",
@@ -60,11 +82,11 @@
     "email": "haleyjames@flymail.com"
   },
   {
-    "contactName": "Professor Whitey",
+    "contactName": "Professor Carl Whitey",
     "emoji": "🧠",
-    "phone": "487-0389",
-    "email": "professor.whitey@u.othello.edu",
-    "note": "extra credit project due finals week"
+    "phone": "",
+    "email": "professor.whitey@othello.edu",
+    "note": "econ121\nextra credit project due finals week"
   },
   {
     "contactName": "Rachel Gatina",
@@ -84,7 +106,7 @@
     "contactName": "Professor Dan",
     "emoji": "📚",
     "phone": "205-0950",
-    "email": "professor.dan@u.othello.edu",
+    "email": "professor.dan@othello.edu",
     "note": "takes off points for late attendance"
   },
   {

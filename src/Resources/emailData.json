@@ -2,72 +2,182 @@
     "arriving": [
         {
             "from": {
-                "name": "Haley James Scott",
-                "email": "haleyjames@flymail.com"
+                "name": "Steven Stoica",
+                "email": "stoiccity@inward.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/19/Y",
+            "subject": "request to dj othello party",
+            "message": [
+                "Sup %FIRSTNAME%,\n\n",
+                "Thanks for reaching out. Yeah, I can dj your party that weekend. I'll send you the invoice and you let me know what you're going for.\n\n",
+                "Feel free to text me. Email's the new snail-mail.\n\n",
+                "Later,\n",
+                "Stoica\n\n",
+                "Stoic City Entertainment",
+                "www.stoiccity.com",
+                "597-6646"
+            ]
+        },
+        {
+            "from": {
+                "name": "Classroom",
+                "email": "notifications@classroom.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/9/Y",
+            "subject": "ECON311 - A New Grade Has Been Posted",
+            "message": [
+                "Hi %FIRSTNAME% %LASTNAME%,\n\n",
+                "You received a grade for Assignment 5.\n\n",
+                "75%\n\n",
+                "See comments."
+            ]
+        },
+        {
+            "from": {
+                "name": "Felix Becker",
+                "email": "professor.becker@othello.edu"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/8/Y",
+            "subject": "extension on assignment",
+            "message": [
+                "Gutentag %FIRSTNAME%,\n\n",
+                "No, you may not have a extension. The reading and worksheet is due Thursday at midnight.\n\n",
+                "Come to my office hours if you have any questions.\n\n",
+                "Regards,",
+                "F. Becker"
+            ]
+        },
+        {
+            "from": {
+                "name": "OU Fun Swim",
+                "email": "oufunswim@u.othello.edu"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/2/Y",
+            "subject": "Fun Swim Meeting this Week!",
+            "message": [
+                "Hey all,\n\n",
+                "Meet in the OU Arena this Saturday at 3pm for our weekly swim club meeting! All skill levels are welcome.\n\n",
+                "Don't forget to bring your swimsuit and a towel. See you there!\n\n",
+                "See you there!,",
+                "Fun Swim Exec"
+            ]
+        },
+        {
+            "from": {
+                "name": "Classroom",
+                "email": "notifications@classroom.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/2/Y",
+            "subject": "New Assignment Posted in Art 101",
+            "message": [
+                "Hi %FIRSTNAME% %LASTNAME%,\n\n",
+                "A new assignment has been posted in Art 101.\n\n",
+                "Ming Dynasty Painting Discussion"
+            ]
+        },
+        {
+            "from": {
+                "name": "Jason MountCappen",
+                "email": "jmountcappen@u.othello.edu"
+            },
+            "to": [
+                {
+                    "name": "Natalie Beso",
+                    "email": "nbeso@u.othello.edu"
+                }
+            ],
+            "cc": [],
+            "date": "M/2/Y",
+            "subject": "Econ 311 Group Project Meeting",
+            "message": [
+                "Hi guys,\n\n",
+                "When would you be able to meet? I can do Monday 5-7pm, Tuesday 4-10pm, Wednesday 12-4pm, Friday all day, and Saturday 8am-1pm.\n\n",
+                "And Natalie, we can work in that study room in your dorm that you mentioned\n\n",
+                "Also, %FIRSTNAME%, shouldn't you be using your school email instead of your personal one?\n\n",
+                "Best,",
+                "Jason"
+            ]
+        },
+        {
+            "from": {
+                "name": "Danny Clay",
+                "email": "imdagreatest8@flymail.com"
             },
             "to": [],
             "cc": [
                 {
                     "name": "Nathan Scott",
                     "email": "bball4life@inward.com"
-                },
-                {
-                    "name": "Rachel Gatina",
-                    "email": "rachelgat9@flymail.com"
                 }
             ],
-            "date": "M-1/9/Y",
-            "subject": "Meat is for martians",
+            "date": "M/20/Y",
+            "subject": "Boom Meeting Invite",
             "message": [
-                "Hey %FIRSTNAME%,\n\n",
-                "Just wanted to know if you saw this.\n\n",
-                "Regards,",
-                "Haley"
-            ],
-            "image": ""
+                "You received a Boom meeting invite from Danny Clay:\n\n",
+                "Title: We need to go over this mess NOW",
+                "Link: https://boom.com/meeting/1x3ju45",
+                "Password: 123456\n\n",
+                "This link will open the meeting in the Boom app."
+            ]
         },
         {
             "from": {
-                "name": "Lucas Scott",
-                "email": "moodyboi@bmail.com"
-            },
-            "to": [
-                {
-                    "name": "Brooke Davis",
-                    "email": "brooke@yahoo.com"
-                }
-            ],
-            "cc": [],
-            "date": "M+3/4/Y",
-            "subject": "Glaze",
-            "message": [
-                "Hey %FIRSTNAME%,\n\n",
-                "Skibidi.\n\n",
-                "Regards,",
-                "Lucas"
-            ],
-            "image": ""
-        },
-        {
-            "from": {
-                "name": "",
-                "email": "spammy@gmail.com"
+                "name": "Othello Overview",
+                "email": "othello-overview@othello.edu"
             },
             "to": [],
             "cc": [],
-            "date": "M/2/Y",
-            "subject": "Crab",
+            "date": "M-1/29/Y",
+            "subject": "News - Your Weekly Othello Overview",
             "message": [
-                "Hi %FIRSTNAME%,\n\n",
-                "I hope this email finds you well. I wanted to reach out regarding our plans for pizza night that we discussed earlier. I've been giving it some thought, and while I was initially excited about the idea, I've realized that I won't be able to join you this time.\n\n",
-                "It's not an easy decision for me to make because I was looking forward to catching up and enjoying some delicious pizza together. Unfortunately, [mention reason if appropriate, e.g., unexpected work commitments, prior family obligation, etc.]. I sincerely apologize for any inconvenience this may cause.\n\n",
-                "I hope you can understand my situation. Perhaps we can reschedule for another time soon when I'm more available. I genuinely value our friendship and would love to make it up to you.\n\n",
-                "Once again, I'm sorry for any disappointment this may bring. Please let me know if there's anything else planned in the future that I can join in on.\n\n",
-                "Take care and enjoy the pizza!\n\n",
-                "Best regards,",
-                "Spammy"
-            ],
-            "image": ""
+                "A New Original Musical 'Something Happened' from the Oh You Theatre Company!\n\n",
+                "Geffaulty Research Lab Publishes Paper on New Optical Lens Technology!\n\n",
+                "The Lady Playwrights Score Another Victory in the NCAA Basketball Tournament!\n\n",
+                "Compainies Announced for the Annual STEM Careeer Fair!\n\n"
+            ]
+        },
+        {
+            "from": {
+                "name": "Grate Library",
+                "email": "grate-library@othello.edu"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M-1/20/Y",
+            "subject": "Overdue Item",
+            "message": [
+                "%FIRSTNAME% %LASTNAME%,\n\n",
+                "Please return the following item as soon as possible:\n\n",
+                "[CD] Party Maiden - DJ Kaine\n\n",
+                "A late fee of $0.25 per day will be applied to your account until the item is returned.\n\n",
+                "Thank you,\n",
+                "Grate Library Front Desk"
+            ]
+        },
+        {
+            "from": {
+                "name": "Classroom",
+                "email": "notifications@classroom.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M-1/19/Y",
+            "subject": "Art101 - A New Comment Has Been Posted",
+            "message": [
+                "Hi %FIRSTNAME% %LASTNAME%,\n\n",
+                "You received a comment for Western Tapestry in the 90s.\n\n",
+                "Please use proper capitalization. You are a college student."
+            ]
         }
     ],
     "departed": [
@@ -78,20 +188,83 @@
             },
             "to": [
                 {
-                    "name": "Haley James Scott",
-                    "email": "haley@gmail.com"
+                    "name": "Felix Becker",
+                    "email": "professor.becker@othello.edu"
                 }
             ],
             "cc": [],
-            "date": "M-1/9/Y",
-            "subject": "Rangoon",
+            "date": "M/8/Y",
+            "subject": "extension on assignment",
             "message": [
-                "Hey Haley,\n\n",
-                "Just wanted to know if you saw this.\n\n",
-                "Regards,",
+                "dear professor becker,\n\n",
+                "can i please get an extension on the reading? at this time in the quarter, i get really sick and it affects my studies. i woke up to today and i think i feel the sickness coming on.\n\n",
+                "thank you,",
                 "%FIRSTNAME%"
+            ]
+        },
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
+                {
+                    "name": "WEED LISTSERV",
+                    "email": "listserv@othello.edu"
+                }
             ],
-            "image": ""
+            "cc": [],
+            "date": "M-3/10/Y",
+            "subject": "UNSUBSCRIBE FROM WEED LISTSERV",
+            "message": [
+                "You are requesting to be unsubscribed from the WEED listserv.\n\n",
+                "We're sad to see you go,",
+                "WEED - When Everyone Eats Daily"
+            ]
+        },
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
+                {
+                    "name": "Beatman & Blue",
+                    "email": "beatmanblue@flymail.com"
+                }
+            ],
+            "cc": [],
+            "date": "M/2/Y",
+            "subject": "request to work with ou radio",
+            "message": [
+                "dear beatman & blue,\n\n",
+                "i saw you perform at ace of clubs last week and really enjoyed it. i'm part of the othello radio station and wanted to know if you would be interested in working with us.\n\n",
+                "we could do an interview or you could host a show or something. let me know if you're interested!\n\n",
+                "best,",
+                "%FIRSTNAME% %LASTNAME%"
+            ]
+        },
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
+                {
+                    "name": "Ana Winto",
+                    "email": "professor.winto@othello.edu"
+                }
+            ],
+            "cc": [],
+            "date": "M-3/1/Y",
+            "subject": "art101 class permission",
+            "message": [
+                "dear professor winto,\n\n",
+                "can i please enter your art101 class. i need another credit and the class was full but i know some students drop in the first week.\n\n",
+                "i think art is cool and i want to learn more about it. art101 would be a good class for my arts requirement. it counters the econ-heavy side of my courseload and thinking.\n\n",
+                "please and thank you,",
+                "%FIRSTNAME% %LASTNAME%"
+            ]
         }
     ],
     "planned": [
@@ -102,15 +275,19 @@
             },
             "to": [
                 {
-                    "name": "Haley James Scott",
-                    "email": "haley@gmail.com"
+                    "name": "Melanie Trill",
+                    "email": "professor.trill@othello.edu"
                 }
             ],
             "cc": [],
-            "date": "M+2/9/Y",
-            "subject": "Bugs",
-            "message": ["Hey Haley,\n\nJust wanted to know if you saw this.\n\nRegards,\n\n%FIRSTNAME%"],
-            "image": ""
+            "date": "M/5/Y",
+            "subject": "go over econ310 grades",
+            "message": [
+                "dear professor trill,\n\n",
+                "can we meet to go over my grades? i'm concerned about my performance in class and want to discuss ways to improve.\n\n",
+                "thank you,",
+                "%FIRSTNAME% %LASTNAME%"
+            ]
         },
         {
             "from": {
@@ -119,108 +296,163 @@
             },
             "to": [
                 {
-                    "name": "Peyton Sawyer",
-                    "email": "peyton@gmail.com"
-                },
-                {
-                    "name": "Brooke Davis",
-                    "email": "brooke@gmail.com"
+                    "name": "Daniella Cevilla",
+                    "email": "dseeya@flymail.com"
                 }
             ],
-            "cc": [
+            "cc": [],
+            "date": "M-5/21/Y-1",
+            "subject": "what you mean to me",
+            "message": [
+                "hey dani,\n\n",
+                "you really mean everything to me. i don't know how i could've gotten this far without you.\n\n",
+                "i love spending time you and looking at you and getting deep with you. i don't really get that with other people, even danny\n\n",
+                "after graduation, i want to move in with you and get a dog and just... be together. i want us to grow together baby.\n\n",
+                "love,",
+                "your boo ❤️"
+            ]
+        },
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
                 {
-                    "name": "Nathan Scott",
-                    "email": "nathan@gmail.com"
+                    "name": "The Othello Update",
+                    "email": "othelloupdate@u.othello.com"
                 }
             ],
-            "date": "M+2/10/Y",
-            "subject": "Cream",
-            "message": ["Hi Peyton,\n\nStop it.\n\nSincerely,\n\n%FIRSTNAME%"],
-            "image": ""
+            "cc": [],
+            "date": "M-5/13/Y",
+            "subject": "something fishy about Eden Swiseman",
+            "message": [
+                "dear othello update,\n\n",
+                "i have some intersting information concerning eden swiseman. it involves some suspicious financial activities.\n\n",
+                "have you ever seen them fundrraise? how does the newly-formed magic the gathering club afford all their cards and trips?\n\n",
+                "contact me if you want to know more. i have receipts.\n\n",
+                "thank you,",
+                "%FIRSTNAME% %LASTNAME%"
+            ]
         }
     ],
     "canceled": [
         {
             "from": {
-                "name": "Haley James Scott",
-                "email": "haley@gmail.com"
-            },
-            "to": [
-                {
-                    "name": "3Haley James Scott",
-                    "email": "haley@gmail.com"
-                }
-            ],
-            "cc": [],
-            "date": "M/9/Y-1",
-            "subject": "CheeseMeat",
-            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
-            "image": ""
-        },
-        {
-            "from": {
-                "name": "",
-                "email": "2haley@gmail.com"
-            },
-            "to": [
-                {
-                    "name": "",
-                    "email": "7haley@gmail.com"
-                }
-            ],
-            "cc": [],
-            "date": "7/9/Y-1",
-            "subject": "CheeseMeat",
-            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
-            "image": ""
-        },
-        {
-            "from": {
-                "name": "2Haley James Scott",
-                "email": "haley@gmail.com"
+                "name": "Rachel Gatina",
+                "email": "rachelgat9@flymail.com"
             },
             "to": [],
             "cc": [],
-            "date": "M/9/Y-1",
-            "subject": "CheeseMeat",
-            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
-            "image": ""
+            "date": "M-2/7/Y",
+            "subject": "Study Buddies?",
+            "message": [
+                "Hi %FIRSTNAME%,\n\n",
+                "I find studying alone so boring...want to study together? 😉\n\n",
+                "My #: 448-4409\n\n",
+                "see you in class,",
+                "Rachel"
+            ]
         },
         {
             "from": {
-                "name": "4Haley James Scott",
-                "email": "haley@gmail.com"
+                "name": "OU Comedy Club",
+                "email": "oucomedyclub@u.othello.com"
             },
             "to": [],
             "cc": [],
-            "date": "M/9/Y-1",
-            "subject": "CheeseMeat",
-            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
-            "image": ""
+            "date": "M-3/16/Y",
+            "subject": "The Show's Over",
+            "message": [
+                "Hi %FIRSTNAME%,\n\n",
+                "Unfortunately, you didn't make the cut for the comedy club. But no worries! Come to our workshops, keep working at it and we're sure you'll succeed next year.\n\n",
+                "Thank you,",
+                "OU Comedy Club Executive Board"
+            ]
         },
         {
             "from": {
-                "name": "3Haley James Scott",
-                "email": "haley@gmail.com"
+                "name": "OU Matchmaker",
+                "email": "oumatchmaker@u.othello.com"
             },
             "to": [],
             "cc": [],
-            "date": "M-4/9/Y-1",
-            "subject": "CheeseMeat",
-            "message": ["Hey %FIRSTNAME%,\n\nJust wanted to know if you saw this.\n\nRegards,\n\nHaley"],
-            "image": ""
+            "date": "M/4/Y-1",
+            "subject": "Your Results Are In",
+            "message": [
+                "Hi %FIRSTNAME%,\n\n",
+                "After thorough compatibility tests by our algorithm, we have found a perfect match for you!\n\n",
+                "Your match is... Jenny Bloccio!",
+                "Comatability Level: Friend, 90%",
+                "Quote: 'I like grunge music and grungey guys. Spaghettti all day, Four Loko all night!'\n\n",
+                "Happy dating!",
+                "OU Matchmaker"
+            ]
         },
         {
             "from": {
-                "name": "5Haley James Scott",
-                "email": "haley@gmail.com"
+                "name": "Danny Clay",
+                "email": "imdagreatest8@flymail.com"
             },
             "to": [],
             "cc": [],
-            "date": "M-4/9/Y-1",
-            "subject": "CheeseMeat",
-            "message": [],
-            "image": ""
+            "date": "M/19/Y",
+            "subject": "Party Invite List",
+            "message": [
+                "Hey dude,\n\n",
+                "Here's the invite list for the Phi Mega Psi party\n\n",
+                "Invite List\n\n",
+                "Bye dude,",
+                "Danny"
+            ]
+        },
+        {
+            "from": {
+                "name": "Othello Overview",
+                "email": "othello-overview@othello.edu"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M-2/29/Y",
+            "subject": "News - Your Weekly Othello Overview",
+            "message": [
+                "Input Wanted for New Park in the Quad!\n\n",
+                "Comedian Zack Radley Coming to Campus this Quarter!\n\n",
+                "Harley Dining Hall Now Open Until Midnight!\n\n",
+                "OU Soccer - The OU Playwrights Take on the NU Wildcats!\n\n"
+            ]
+        },
+        {
+            "from": {
+                "name": "Othello Overview",
+                "email": "othello-overview@othello.edu"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M-3/29/Y",
+            "subject": "News - Your Weekly Othello Overview",
+            "message": [
+                "The Ethics of Social Media!\n\n",
+                "Find Out How (Badly) COVID Affected You!\n\n",
+                "Oli Oluwa Investing a Million Dollars in Mysterious OU Project!\n\n",
+                "An Interview with the OU Campus Superhero!\n\n"
+            ]
+        },
+        {
+            "from": {
+                "name": "Othello Overview",
+                "email": "othello-overview@othello.edu"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M-4/29/Y",
+            "subject": "News - Your Weekly Othello Overview",
+            "message": [
+                "University Considering Tracking Email Engagement!\n\n",
+                "Bachbach Music Senior Nominated for a Grammy Award!\n\n",
+                "Come See 'Hairspray' at the Acropolis Theatre by the Othello Thespians!\n\n",
+                "Harley Dining Hall Closed After Food Poisoning Incident!\n\n"
+            ]
         }
     ]
 }

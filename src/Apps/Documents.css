@@ -4,10 +4,10 @@
 }
 
 .docs-container-outer {
-    --docs-header-color: rgb(255, 241, 227);
-    --docs-bg-color: #648484;
+    --docs-header-color: rgb(228, 228, 228);
+    --docs-bg-color: rgb(51, 51, 51);
     --docs-light-color: #1a2727;
-    --docs-accent-color: teal;
+    --docs-accent-color: rgb(18, 117, 76);
     --docs-doc-bg-color: rgb(215, 215, 215);
     box-sizing: border-box;
     /* border: 2px solid rebeccapurple; */
@@ -33,7 +33,6 @@
     padding: 0px 10px;
     background-color: var(--docs-header-color);
     color: black;
-    border-right: 1px solid lightgray;
     writing-mode: vertical-rl;
     scale: -1; /* to flip the text back to normal orientation */
 }
@@ -47,6 +46,8 @@
     text-align: center;
     letter-spacing: .2em;
     font-size: 3em;
+    -webkit-user-select: none; /* Safari */
+    user-select: none; /* Standard syntax */
 }
 
 .docs-list-div {
@@ -71,8 +72,8 @@
 }
 
 .docs-item:active {
-    background-color: var(--docs-accent-color);
-    color: white;
+    background-color: var(--docs-header-color);
+    color: var(--docs-light-color);
 }
 
 .docs-name {

@@ -4,6 +4,7 @@
   --theme-text-color: white;
   --taskbar-height: 55px;
   --scrollbar-standard-color: rgba(255, 255, 255, 0.44);
+  --scrollbar-darker-color: rgba(126, 126, 126, 0.788);
 }
 
 .computer-screen-container {

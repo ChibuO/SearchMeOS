@@ -103,7 +103,7 @@ const EmailDisplay = ({ selectedCategory, selectedEmailId }) => {
     if (fullToList.length > 0 && ![sent, drafts].includes(selectedCategory)) fullListString += ', ';
 
     fullListString += fullToList.map(toEmail => (
-      toEmail.name !== "" ? toEmail.name.split(' ')[0] : toEmail.email
+      toEmail.name !== "" ? toEmail.name : toEmail.email
     )).join(", ");
 
     return fullListString;
@@ -203,11 +203,11 @@ const parseEmail = (emailObject, type) => {
       return "[no sender]";
     case "to":
       return emailObject.to.map(toEmail => (
-        toEmail.name !== "" ? toEmail.name.split(' ')[0] : toEmail.email
+        toEmail.name !== "" ? toEmail.name : toEmail.email
       )).join(", ");
     case "cc":
       return emailObject.cc.map(ccEmail => (
-        ccEmail.name !== "" ? ccEmail.name.split(' ')[0] : ccEmail.email
+        ccEmail.name !== "" ? ccEmail.name : ccEmail.email
       )).join(", ");
     case "message":
       return emailObject.message !== "" ? insertGlobalData(emailObject.message) : "[no message]";

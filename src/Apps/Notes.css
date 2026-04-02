@@ -1,9 +1,8 @@
 #notes-app-container {
-    --notes-header-color: rgb(255, 241, 227);
-    --notes-primary-color: #648484;
-    --notes-bg-color: #1a2727;
+    --notes-header-color: rgb(51, 51, 51);
+    --notes-primary-color: rgb(138, 138, 138);
+    --notes-bg-color: rgb(228, 228, 228);
     --notes-accent-color: teal;
-    --notes-doc-bg-color: rgb(215, 215, 215);
     box-sizing: border-box;
     position: relative;
     height: 100%;
@@ -20,15 +19,14 @@
     position: relative;
     overflow: hidden;
     font-family: serif;
-    background-color: var(--docs-bg-color);
+    background-color: black;
 }
 
 .notes-header-div {
     /* border: 1px solid red; */
     padding: 0px 10px;
     background-color: var(--notes-header-color);
-    color: black;
-    border-right: 1px solid lightgray;
+    color: white;
     writing-mode: vertical-rl;
     scale: -1; /* to flip the text back to normal orientation */
 }
@@ -42,6 +40,8 @@
     text-align: center;
     letter-spacing: .5em;
     font-size: 3em;
+    -webkit-user-select: none; /* Safari */
+    user-select: none; /* Standard syntax */
 }
 
 /* .notes-list {
@@ -65,7 +65,7 @@
 }
 
 .notes-note {
-    background-color: var(--notes-primary-color);
+    background-color: var(--notes-header-color);
     border-radius: 8px;
     white-space: pre-wrap;
     margin: 0;
@@ -129,22 +129,5 @@
     /* border: 1px solid #dedede; */
     margin: 0;
     cursor: auto;
+    background-color: var(--notes-bg-color);
 }
-
-/* .modal-note h3 {
-    font-size: 1rem;
-    letter-spacing: .00625em;
-    font-family: "Google Sans", Roboto, Arial, sans-serif;
-    font-weight: 500;
-    line-height: 1.5rem;
-    padding: 16px 16px 0 16px;
-} */
-
-/* .modal-note p {
-    font-family: "Google Sans", Roboto, Arial, sans-serif;
-    font-size: 1.125rem;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.5rem;
-    padding: 12px 16px 12px 16px;
-} */
