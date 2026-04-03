@@ -1,0 +1,32 @@
+College Class Schedule - Fall Semester
+
+Student: [Your Name Here]
+
+Classes:
+- Art 101: Introduction to Art
+- Econ 310: Intermediate Macroeconomics
+- Econ 311: Intermediate Microeconomics
+- German 200: Intermediate German
+
+Weekly Schedule:
+
++-------------------+------------+------------+------------+------------+------------+
+| Time              | Monday     | Tuesday    | Wednesday  | Thursday   | Friday     |
++-------------------+------------+------------+------------+------------+------------+
+| 8:00 AM - 9:30 AM |            | Art 101    |            | Art 101    |            |
+|                   |            | (Studio)   |            | (Studio)   |            |
++-------------------+------------+------------+------------+------------+------------+
+| 10:00 AM - 11:30 AM| Econ 310   |            | Econ 310   |            | Econ 310   |
+|                   | (Lecture)  |            | (Lecture)  |            | (Lecture)  |
++-------------------+------------+------------+------------+------------+------------+
+| 1:00 PM - 2:30 PM |            | Econ 311   |            | Econ 311   |            |
+|                   |            | (Lecture)  |            | (Lecture)  |            |
++-------------------+------------+------------+------------+------------+------------+
+| 3:00 PM - 4:30 PM | German 200 |            | German 200 |            | German 200 |
+|                   | (Language) |            | (Language) |            | (Language) |
++-------------------+------------+------------+------------+------------+------------+
+
+Notes:
+- All classes meet twice a week as per standard schedule.
+- Adjust times and locations as needed based on actual university offerings.
+- This is a stylized representation; use a text editor or markdown viewer for best display.

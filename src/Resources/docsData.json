@@ -1,78 +1,57 @@
 [
     {
         "documentName": "resume",
-        "textContent": [
-            "Incident 1291 - Projector 4ap6us2-78 Failed",
-            "What happened: The Projector in Denver Internal",
-            "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;",
-            "Duis auctor augue in libero maximus, nec tristique leo mattis."
-        ]
+        "file": "resume.txt",
+        "textContent": []
+    },
+    {
+        "documentName": "radio club notes",
+        "file": "radio_club.txt",
+        "textContent": []
     },
     {
         "documentName": "german words",
-        "textContent": [
-            "Sed non justo sed tortor mollis tincidunt.",
-            "Maecenas sed semper lectus.",
-            "Fusce pretium lorem sit amet velit blandit, nec cursus libero dapibus.",
-            "Sed aliquam, sapien sed pellentesque finibus, urna libero bibendum nunc, nec tincidunt ipsum libero nec mi."
-        ]
+        "file": "german.txt",
+        "textContent": []
     },
     {
         "documentName": "schedule",
-        "textContent": [
-            "Proin eget nisi quis ante fermentum lacinia.",
-            "Sed vel ex a nisi euismod consectetur.",
-            "Mauris ut nisi sit amet metus tempus ultrices.",
-            "Cras sit amet leo sagittis, ultricies lorem non, maximus metus."
-        ]
+        "file": "schedule.txt",
+        "textContent": []
     },
     {
         "documentName": "ming dynasty paper",
-        "textContent": [
-            "Fusce dignissim magna sed augue euismod, quis scelerisque ligula ultrices.",
-            "Proin convallis, urna et vehicula vehicula, nulla ligula ultricies ipsum, ac laoreet dui odio non risus.",
-            "Nam sed volutpat odio, eget auctor est.",
-            "Fusce dignissim magna sed augue euismod, quis scelerisque ligula ultrices.",
-            "Proin convallis, urna et vehicula vehicula, nulla ligula ultricies ipsum, ac laoreet dui odio non risus.",
-            "Nam sed volutpat odio, eget auctor est.",
-            "Fusce dignissim magna sed augue euismod, quis scelerisque ligula ultrices.",
-            "Proin convallis, urna et vehicula vehicula, nulla ligula ultricies ipsum, ac laoreet dui odio non risus.",
-            "Nam sed volutpat odio, eget auctor est.",
-            "Fusce dignissim magna sed augue euismod, quis scelerisque ligula ultrices.",
-            "Proin convallis, urna et vehicula vehicula, nulla ligula ultricies ipsum, ac laoreet dui odio non risus.",
-            "Nam sed volutpat odio, eget auctor est."
-        ]
+        "file": "essay.txt",
+        "textContent": []
     },
     {
         "documentName": "econ hw2",
-        "textContent": [
-            "Integer tincidunt, felis nec consequat tincidunt, mi sapien sagittis magna, a tincidunt metus metus vel nulla.",
-            "Ut dignissim aliquam felis, vel tincidunt justo vehicula in.",
-            "Praesent tincidunt arcu at tellus ultricies, vel luctus nulla fermentum."
-        ]
+        "file": "econ_hw2.txt",
+        "textContent": []
+    },
+    {
+        "documentName": "econ hw1",
+        "file": "econ_hw1.txt",
+        "textContent": []
+    },
+    {
+        "documentName": "econ hw3",
+        "file": "econ_hw3.txt",
+        "textContent": []
     },
     {
         "documentName": "art101 syllabus",
-        "textContent": [
-            "Integer tincidunt, felis nec consequat tincidunt, mi sapien sagittis magna, a tincidunt metus metus vel nulla.",
-            "Ut dignissim aliquam felis, vel tincidunt justo vehicula in.",
-            "Praesent tincidunt arcu at tellus ultricies, vel luctus nulla fermentum."
-        ]
+        "file": "syllabus.txt",
+        "textContent": []
     },
     {
         "documentName": "dani's song list",
-        "textContent": [
-            "Integer tincidunt, felis nec consequat tincidunt, mi sapien sagittis magna, a tincidunt metus metus vel nulla.",
-            "Ut dignissim aliquam felis, vel tincidunt justo vehicula in.",
-            "Praesent tincidunt arcu at tellus ultricies, vel luctus nulla fermentum."
-        ]
+        "file": "songs.txt",
+        "textContent": []
     },
     {
         "documentName": "local food vendors",
-        "textContent": [
-            "Integer tincidunt, felis nec consequat tincidunt, mi sapien sagittis magna, a tincidunt metus metus vel nulla.",
-            "Ut dignissim aliquam felis, vel tincidunt justo vehicula in.",
-            "Praesent tincidunt arcu at tellus ultricies, vel luctus nulla fermentum."
-        ]
+        "file": "vendors.txt",
+        "textContent": []
     }
 ]
