@@ -9,6 +9,7 @@ import resume from './docs/resume.txt';
 import songs from './docs/songs.txt';
 import syllabus from './docs/syllabus.txt';
 import vendors from './docs/vendors.txt';
+import friendEssay from './docs/friend_essay.txt';
 
 export const documentMap = {
   'schedule.txt': schedule,
@@ -22,4 +23,5 @@ export const documentMap = {
   'songs.txt': songs,
   'syllabus.txt': syllabus,
   'vendors.txt': vendors,
+  'friend_essay.txt': friendEssay
 };

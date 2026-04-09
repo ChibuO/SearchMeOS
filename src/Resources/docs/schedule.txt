@@ -1,32 +1,37 @@
-College Class Schedule - Fall Semester
+Othello University
+Course Schedule
 
-Student: [Your Name Here]
+Student: %FIRSTNAME% %LASTNAME%
 
-Classes:
-- Art 101: Introduction to Art
-- Econ 310: Intermediate Macroeconomics
-- Econ 311: Intermediate Microeconomics
-- German 200: Intermediate German
+Courses (4.0 credits):
++--------------------------------------------------------+
 
-Weekly Schedule:
+ ART 101: WORLD HISTORY OF ART & INK
+ Ana Winto
+ M/W/F - 9:00 AM - 9:50 AM
+ 1.0 credit
 
-+-------------------+------------+------------+------------+------------+------------+
-| Time              | Monday     | Tuesday    | Wednesday  | Thursday   | Friday     |
-+-------------------+------------+------------+------------+------------+------------+
-| 8:00 AM - 9:30 AM |            | Art 101    |            | Art 101    |            |
-|                   |            | (Studio)   |            | (Studio)   |            |
-+-------------------+------------+------------+------------+------------+------------+
-| 10:00 AM - 11:30 AM| Econ 310   |            | Econ 310   |            | Econ 310   |
-|                   | (Lecture)  |            | (Lecture)  |            | (Lecture)  |
-+-------------------+------------+------------+------------+------------+------------+
-| 1:00 PM - 2:30 PM |            | Econ 311   |            | Econ 311   |            |
-|                   |            | (Lecture)  |            | (Lecture)  |            |
-+-------------------+------------+------------+------------+------------+------------+
-| 3:00 PM - 4:30 PM | German 200 |            | German 200 |            | German 200 |
-|                   | (Language) |            | (Language) |            | (Language) |
-+-------------------+------------+------------+------------+------------+------------+
++--------------------------------------------------------+
 
-Notes:
-- All classes meet twice a week as per standard schedule.
-- Adjust times and locations as needed based on actual university offerings.
-- This is a stylized representation; use a text editor or markdown viewer for best display.
+ ECON 310: INTERMEDIATE MACROECONOMICS
+ Melanie Trill
+ T/TH - 10:00 AM - 11:50 AM
+ Discussion: M/W/F - 10:00 AM - 11:00 AM
+ 1.0 credit
+
++--------------------------------------------------------+
+
+ ECON 311: INTERMEDIATE MICROECONOMICS
+ Sigmund Trickle-Down
+ W - 12:00 PM - 2:50 PM
+ Discussion: M/F - 12:00 PM - 12:30 PM
+ 1.0 credit
+
++--------------------------------------------------------+
+
+ GER 200: INTERMEDIATE GERMAN 2
+ Felix Becker
+ M/W/F - 3:00 PM - 4:30 PM
+ 1.0 credit
+
++--------------------------------------------------------+

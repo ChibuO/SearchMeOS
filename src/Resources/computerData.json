@@ -1,7 +1,7 @@
 {
     "vars": {
-        "FIRSTNAME": "Chaz",
-        "LASTNAME": "Yuan",
+        "FIRSTNAME": "chaz",
+        "LASTNAME": "yuan",
         "EMAIL": "cyuanfight@flymail.com"
     },
     "password": "red",

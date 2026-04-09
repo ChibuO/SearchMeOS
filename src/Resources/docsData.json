@@ -53,5 +53,10 @@
         "documentName": "local food vendors",
         "file": "vendors.txt",
         "textContent": []
+    },
+    {
+        "documentName": "danny's petition",
+        "file": "friend_essay.txt",
+        "textContent": []
     }
 ]

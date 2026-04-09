@@ -9,6 +9,9 @@ export const ContactsApp = forwardRef((props, ref) => {
   const profileBgColor = "rgba(20, 20, 20, 0.521)";
   const profileBorderColor = "1px solid rgba(255, 255, 255, 0.44)";
 
+  // Sort contacts alphabetically by name in place
+  const sortedContacts = contacts.sort((a, b) => a.contactName.localeCompare(b.contactName));
+
   // Function to select a contact
   const selectContact = (contact) => {
     setSelectedContact(contact);
@@ -28,7 +31,7 @@ export const ContactsApp = forwardRef((props, ref) => {
         <h2>Population</h2>
         <div className='contacts-list'>
           <ul>
-            {contacts.map((contact, index) => (
+            {sortedContacts.map((contact, index) => (
               <li key={index} className={selectedContact === contact ? 'contacts-selected' : ''} onClick={() => selectContact(contact)}>
                 {contact.contactName}
               </li>

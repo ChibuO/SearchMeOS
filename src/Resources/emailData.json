@@ -188,6 +188,28 @@
             },
             "to": [
                 {
+                    "name": "Ana Winto",
+                    "email": "professor.winto@othello.edu"
+                }
+            ],
+            "cc": [],
+            "date": "M-3/1/Y",
+            "subject": "art101 class permission",
+            "message": [
+                "dear professor winto,\n\n",
+                "can i please enter your art101 class. i need another credit and the class was full but i know some students drop in the first week.\n\n",
+                "i think art is cool and i want to learn more about it. art101 would be a good class for my arts requirement. it counters the econ-heavy side of my courseload and thinking.\n\n",
+                "please and thank you,",
+                "%FIRSTNAME% %LASTNAME%"
+            ]
+        },
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
+                {
                     "name": "Felix Becker",
                     "email": "professor.becker@othello.edu"
                 }
@@ -241,28 +263,6 @@
                 "i saw you perform at ace of clubs last week and really enjoyed it. i'm part of the othello radio station and wanted to know if you would be interested in working with us.\n\n",
                 "we could do an interview or you could host a show or something. let me know if you're interested!\n\n",
                 "best,",
-                "%FIRSTNAME% %LASTNAME%"
-            ]
-        },
-        {
-            "from": {
-                "name": "%FIRSTNAME% %LASTNAME%",
-                "email": "%EMAIL%"
-            },
-            "to": [
-                {
-                    "name": "Ana Winto",
-                    "email": "professor.winto@othello.edu"
-                }
-            ],
-            "cc": [],
-            "date": "M-3/1/Y",
-            "subject": "art101 class permission",
-            "message": [
-                "dear professor winto,\n\n",
-                "can i please enter your art101 class. i need another credit and the class was full but i know some students drop in the first week.\n\n",
-                "i think art is cool and i want to learn more about it. art101 would be a good class for my arts requirement. it counters the econ-heavy side of my courseload and thinking.\n\n",
-                "please and thank you,",
                 "%FIRSTNAME% %LASTNAME%"
             ]
         }
@@ -329,7 +329,7 @@
             "message": [
                 "dear othello update,\n\n",
                 "i have some intersting information concerning eden swiseman. it involves some suspicious financial activities.\n\n",
-                "have you ever seen them fundrraise? how does the newly-formed magic the gathering club afford all their cards and trips?\n\n",
+                "have you ever seen them fundraise? how does the newly-formed magic the gathering club afford all their cards and trips?\n\n",
                 "contact me if you want to know more. i have receipts.\n\n",
                 "thank you,",
                 "%FIRSTNAME% %LASTNAME%"

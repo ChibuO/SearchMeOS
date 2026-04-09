@@ -1,14 +1,14 @@
-# Yau [Last Name]
-[City, State]  
-[Email Address] | [Phone Number] | [LinkedIn Profile]
+%FIRSTNAME% %LASTNAME%
+--------------------------------------------------------------------
+cyuanfight@flymail.com | 565-7674 | https://chaz-yuan.linkedin.com | Duluth, Minnesota
 
 ---
 
 ## Education
 
-**Bachelor of Arts in Economics**  
-[University Name], [City, State]  
-Expected Graduation: [Month, Year]  
+Bachelor of Arts in Economics 
+Othello University, Shakes, Utah  
+Expected Graduation: in 2 years
 - Relevant Coursework: Microeconomics, Macroeconomics, Econometrics, Statistics, Financial Accounting
 
 ---
@@ -25,13 +25,7 @@ Expected Graduation: [Month, Year]
 
 ## Experience
 
-**Research Assistant**  
-[Department or Professor Name], [University Name]  
-[Month, Year] – [Month, Year]  
-- Collected and analyzed economic data for faculty research projects  
-- Prepared literature reviews and assisted with drafting research papers
-
-**Intern, Economic Consulting**  
+Intern, Economic Consulting
 [Company Name], [City, State]  
 [Month, Year] – [Month, Year]  
 - Supported consultants with market analysis and data visualization  
@@ -41,23 +35,19 @@ Expected Graduation: [Month, Year]
 
 ## Projects
 
-**Economic Impact Analysis**  
-- Conducted a study on the economic effects of [topic] using regression analysis  
+Economic Impact Analysis
+- Conducted a study on the economic effects of fast fashion using regression analysis  
 - Presented findings to classmates and faculty
 
 ---
 
 ## Leadership & Activities
 
-- Member, Economics Club, [University Name]
-- Volunteer, [Relevant Organization or Event]
+- Member, OU Radio
+- Community Social Gathering Coordinator
 
 ---
 
-## Certifications
+References available upon request.
 
-- Bloomberg Market Concepts (BMC) – [Year, if applicable]
-
----
-
-_References available upon request._
+-- Generated at ResumeAI.com --

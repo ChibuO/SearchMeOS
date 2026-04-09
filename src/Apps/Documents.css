@@ -63,12 +63,15 @@
     display: flex;
     background-color: white;
     cursor: pointer;
-    margin-bottom: 7px;
+    margin-bottom: 15px;
     color: var(--docs-light-color);
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .docs-item:hover {
     border: 1px solid var(--docs-accent-color);
+    background-color: var(--docs-accent-color);
+    color: white;
 }
 
 .docs-item:active {
@@ -166,6 +169,7 @@
     padding: 0;
     margin: 0;
     white-space: pre-wrap;
-    font-size: 15px;
+    line-height: 25px;
+    font-size: 14px;
     /* border: 1px solid red; */
 }

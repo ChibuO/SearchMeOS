@@ -3,6 +3,8 @@ import { CiTextAlignLeft } from "react-icons/ci";
 import { MdKeyboardBackspace } from "react-icons/md";
 import documents from '../Resources/docsData.json';
 import { documentMap } from '../Resources/documentMap.js';
+import { insertGlobalData } from '../utilites/helpers';
+
 import './Documents.css';
 
 export const DocumentsApp = forwardRef((props, ref) => {
@@ -28,7 +30,7 @@ export const DocumentsApp = forwardRef((props, ref) => {
         }
         const fullPath = documentMap[fileName];
         fetch(fullPath).then(response => response.text()).then(text => setDocumentContent(text));
-    }, [fileName]);
+    }, [fileName, documentContent]);
 
     const openDocument = (index) => {
         setFileName(documents[index]?.file || '');
@@ -50,13 +52,16 @@ export const DocumentsApp = forwardRef((props, ref) => {
 });
 
 const DocumentsHome = ({ openDocument }) => {
+    // Sort documents alphabetically by name in place
+    const sortedDocuments = documents.sort((a, b) => a.documentName.localeCompare(b.documentName));
+
     return (
         <div className='docs-container'>
             <div className='docs-header-div'>
                 <h1 id='docs-header'>DOCUMENTS</h1>
             </div>
             <div className='docs-list-div'>
-                {documents && documents.map((doc, index) => (
+                {sortedDocuments && sortedDocuments.map((doc, index) => (
                     <div key={index} className='docs-item' onClick={() => openDocument(index)}>
                         <p className='docs-name'>
                             <CiTextAlignLeft id="docs-icon" />
@@ -70,7 +75,6 @@ const DocumentsHome = ({ openDocument }) => {
 
 const DocumentModal = ({ doc, documentContent, setShowDocument, setDocumentContent }) => {
     const onClose = () => {
-        console.log('Closing document modal');
         setShowDocument(false);
         setDocumentContent('');
     }
@@ -83,7 +87,7 @@ const DocumentModal = ({ doc, documentContent, setShowDocument, setDocumentConte
             </div>
             <div className='document-inner-div'>
                 <div className='document-doc'>
-                    <p id="document-text">{documentContent}</p>
+                    <p id="document-text">{insertGlobalData(documentContent)}</p>
                 </div>
             </div>
         </div>
