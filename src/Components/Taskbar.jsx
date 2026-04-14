@@ -39,7 +39,7 @@ const Taskbar = ({windowsState, setWindowsState, openWindows, showStartMenu, set
   const showWindow = (window, windowState) => {
     const maximized = windowState.maximized;
     const isLast = maximized && (Object.keys(appData).filter(app => windowsState[app].maximized).length === 1);
-
+    
     // if last window max, don't bring to front
     // if window isn't active window, bring to front,
     // if window is not max, bring to front when maxing

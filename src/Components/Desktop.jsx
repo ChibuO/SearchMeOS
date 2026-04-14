@@ -1,4 +1,4 @@
-import { React } from 'react';
+import { React, useEffect } from 'react';
 import './Desktop.css';
 import Window from './Window';
 import { Shortcut } from './AppIcon';
@@ -11,8 +11,8 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
   const showWindows = (window, windowState) => {
     bringToFront(`${window}-window`);
     const { open, maximized } = windowState;
-    //not open and not max -> add to task and max
-    //open and not max -> don't add to task and max
+    // not open and not max -> add to task and max
+    // open and not max -> don't add to task and max
     if (!open && !maximized) {
       setOpenWindows([...openWindows, window]);
       setWindowsState({
@@ -37,24 +37,26 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
   }
 
   const unlockWindow = (windowName) => {
-    setWindowsState({
+    const newWindowsState = {
       ...windowsState,
       [windowName]: {
         ...windowsState[windowName],
         unlocked: true
       }
-    });
+    };
+    setWindowsState(newWindowsState);
   }
 
   const resizeWindow = (windowName, windowState) => {
     const { fullScreen } = windowState;
-    setWindowsState({
+    const newWindowsState = {
       ...windowsState,
       [windowName]: {
         ...windowsState[windowName],
         fullScreen: !fullScreen
       }
-    });
+    };
+    setWindowsState(newWindowsState);
   }
 
   //for the window control buttons (minimize and close)
@@ -90,6 +92,19 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
       }
     });
   }
+
+  useEffect(() => {
+    localStorage.setItem("windowsState", JSON.stringify(windowsState));
+    localStorage.setItem("openWindowsState", JSON.stringify(openWindows));
+  }, [windowsState, openWindows]);
+
+  useEffect(() => {
+    openWindows.forEach(window => {
+      if (windowsState[window]?.maximized) {
+        toggleWindow(window, false);
+      }
+    });
+  }, []);
 
   return (
     <DndContext onDragEnd={handleDragEnd} modifiers={[]}>

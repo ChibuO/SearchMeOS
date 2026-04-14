@@ -1,26 +1,102 @@
-[
+{
+    "mathhw1" :
     {
-        "id": 0,
-        "photo": "econHW3.png",
-        "alt": "eceonHW3",
-        "date": "March 2025"
+        "photo": "hw1.jpg",
+        "alt": "math hw 1",
+        "date": "5 months ago"
     },
+    "mathhw2" :
     {
-        "id": 1,
-        "photo": "goose.png",
-        "alt": "file",
-        "date": "May 2025"
+        "photo": "hw2.jpg",
+        "alt": "math hw 2",
+        "date": "5 months ago"
     },
+    "mathhw3" :
     {
-        "id": 2,
-        "photo": "poster1.png",
-        "alt": "start",
-        "date": "June 2025"
+        "photo": "hw3.jpg",
+        "alt": "math hw 3",
+        "date": "5 months ago"
     },
+    "mathhw4" :
     {
-        "id": 3,
-        "photo": "shhh.jpg",
-        "alt": "2N",
-        "date": "March 2025"
+        "photo": "hw4.jpg",
+        "alt": "math hw 4",
+        "date": "5 months ago"
+    },
+    "mathhw5" :
+    {
+        "photo": "hw5.jpg",
+        "alt": "math hw 5",
+        "date": "5 months ago"
+    },
+    "mathhw6" :
+    {
+        "photo": "hw6.jpg",
+        "alt": "math hw 6",
+        "date": "6 months ago"
+    },
+    "mathhw7" :
+    {
+        "photo": "hw7.jpg",
+        "alt": "math hw 7",
+        "date": "6 months ago"
+    },
+    "mathhw8" :
+    {
+        "photo": "hw8.jpg",
+        "alt": "math hw 8",
+        "date": "5 months ago"
+    },
+    "goose1" :
+    {
+        "photo": "goose1.png",
+        "alt": "a goose",
+        "source": "https://www.reddit.com/r/geese/comments/1obt3c7/befriending_campus_geese",
+        "date": "1 week ago"
+    },
+    "goose2" :
+    {
+        "photo": "geese2.jpeg",
+        "alt": "two goose",
+        "source": "https://www.ctvnews.ca/kitchener/article/waddleloo-map-helps-university-students-avoid-geese-during-nesting-season",
+        "date": "1 week ago"
+    },
+    "goose3" :
+    {
+        "photo": "geese3.png",
+        "alt": "goose on a roof",
+        "source": "https://www.reddit.com/r/geese/comments/1sjc0zn/he_lords_over_us_all_with_threatening_honks_from",
+        "date": "2 months ago"
+    },
+    "goose4" :
+    {
+        "photo": "geese4.png",
+        "alt": "goose couple",
+        "source": "https://www.reddit.com/r/geese/comments/1sbk6jj/meeting_the_daddy_goose_and_his_mrs",
+        "date": "2 days ago"
+    },
+    "flyer1" : 
+    {
+        "photo": "flyer_knights.png",
+        "alt": "flyer for knight-themed party",
+        "date": "5 months ago"
+    },
+    "shhh1" :
+    {
+        "photo": "dm.png",
+        "alt": "text screenshot - track 7",
+        "date": "1 year ago"
+    },
+    "flyer2" :
+    {
+        "photo": "flyer_build.png",
+        "alt": "flyer for builder-themed party",
+        "date": "1 year ago"
+    },
+    "flyer3" :
+    {
+        "photo": "flyer_tree.png",
+        "alt": "flyer for forest-themed party",
+        "date": "1 week ago"
     }
-]
+}

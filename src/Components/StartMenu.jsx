@@ -4,11 +4,11 @@ import { ProfileIcon } from './ProfileIcon';
 import { getFullName } from '../utilites/helpers';
 import './StartMenu.css';
 
-export const StartMenu = ({menuRef, logOut}) => {
+export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {
     return (
         <div ref={menuRef} id="start-menu">
             <div className="menu-header" style={{"backgroundColor": computerData.secondColor, "color": computerData.textColor  }}>
-                <div className="menu-logo">OS 76</div>
+                <div className="menu-logo">SM OS</div>
                 <div className="menu-user">
                     <ProfileIcon name={getFullName()} size={30} textColor='white' color={computerData.mainColor} img={computerData.profileImagePath} />
                     <div className="user-name">{computerData && getFullName()}</div>
@@ -18,6 +18,7 @@ export const StartMenu = ({menuRef, logOut}) => {
                 <div className='menu-body-buttons-div'>
                     <MenuItem label="Settings" icon="⚙️" />
                     <MenuItem label="Log Out" icon="↩︎" onClick={logOut}/>
+                    <MenuItem label="Start Game Over" icon="🔄" onClick={resetWindowsState} />
                 </div>
                 <div className='menu-body-info-div'>
                     <p>Welcome.</p>

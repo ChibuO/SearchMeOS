@@ -31,9 +31,44 @@ export const App = () => {
         h: '60%',
     };
 
-    const [windowsState, setWindowsState] = useState(initialWindowState(startingPosition, startingSize));
+    const getInitialWindowsState = () => {
+        const storedState = localStorage.getItem('windowsState');
+        if (storedState) {
+            try {
+                return JSON.parse(storedState);
+            } catch (error) {
+                console.error('Failed to parse stored windowsState:', error);
+            }
+        }
+        return initialWindowState(startingPosition, startingSize);
+    };
 
-    const [openWindows, setOpenWindows] = useState([]);
+    const getOpenWindowsState = () => {
+        const storedState = localStorage.getItem('openWindowsState');
+        if (storedState) {
+            try {
+                return JSON.parse(storedState);
+            } catch (error) {
+                console.error('Failed to parse stored openWindowsState:', error);
+            }
+        }
+        return []; // Default to an empty array if no state is stored
+    };
+
+    const [windowsState, setWindowsState] = useState(getInitialWindowsState);
+
+    const [openWindows, setOpenWindows] = useState(getOpenWindowsState);
+
+    const resetWindowsState = () => {
+        if (window.confirm("Are you sure you want to start over?")) {
+            const newState = initialWindowState(startingPosition, startingSize);
+            setWindowsState(newState);
+            setOpenWindows([]);
+            localStorage.setItem("windowsState", JSON.stringify(newState));
+            localStorage.setItem("openWindowsState", JSON.stringify([]));
+            logOut();
+        }
+    }
 
     const bringToFront = (id) => {
         document.querySelectorAll(".desktop-window").forEach((w) => {
@@ -70,7 +105,7 @@ export const App = () => {
         <div className='computer-screen-container'>
             {!isLoggedIn && <LockScreen isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} bgImagePath={computerData.lockScreenImagePath}/>}
             <div className='desktop-screen-container'>
-                {showStartMenu && <StartMenu menuRef={menuRef} setShowStartMenu={setShowStartMenu} logOut={logOut}/>}
+                {showStartMenu && <StartMenu menuRef={menuRef} setShowStartMenu={setShowStartMenu} logOut={logOut} resetWindowsState={resetWindowsState} />}
                 <Desktop
                     windowsState={windowsState}
                     setWindowsState={setWindowsState}
