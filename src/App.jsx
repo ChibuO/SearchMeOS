@@ -5,13 +5,15 @@ import LockScreen from './Components/LockScreen';
 import { StartMenu } from './Components/StartMenu';
 import computerData from './Resources/computerData.json';
 import { fadeLockScreen, slideStartScreen } from './utilites/helpers';
+import { toggleWindow } from './utilites/animate';
 import './App.css';
 
 const WINDOW_KEYS = ['calendar', 'email', 'photos', 'contacts', 'messages', 'music', 'docs', 'notes', 'internet'];
 
 const initialWindowState = (position, size) => {
     return WINDOW_KEYS.reduce((acc, key) => {
-        acc[key] = { open: false, maximized: false, fullScreen: false, unlocked: false, ...position, ...size };
+        let unlocked = computerData[key]?.unlocked || false;
+        acc[key] = { open: false, maximized: false, fullScreen: false, unlocked: unlocked, ...position, ...size };
         return acc;
     }, {});
 };
@@ -59,17 +61,6 @@ export const App = () => {
 
     const [openWindows, setOpenWindows] = useState(getOpenWindowsState);
 
-    const resetWindowsState = () => {
-        if (window.confirm("Are you sure you want to start over?")) {
-            const newState = initialWindowState(startingPosition, startingSize);
-            setWindowsState(newState);
-            setOpenWindows([]);
-            localStorage.setItem("windowsState", JSON.stringify(newState));
-            localStorage.setItem("openWindowsState", JSON.stringify([]));
-            logOut();
-        }
-    }
-
     const bringToFront = (id) => {
         document.querySelectorAll(".desktop-window").forEach((w) => {
             w.style.zIndex = "auto";
@@ -93,6 +84,22 @@ export const App = () => {
             modalElement.removeEventListener('click', handleClickOutside);
         }
     }, []);
+
+    const resetWindowsState = () => {
+        if (window.confirm("Are you sure you want to start over?")) {
+            openWindows.forEach(window => {
+                if (windowsState[window]?.maximized) {
+                toggleWindow(window, true);
+                }
+            });
+            const newState = initialWindowState(startingPosition, startingSize);
+            setWindowsState(newState);
+            setOpenWindows([]);
+            localStorage.setItem("windowsState", JSON.stringify(newState));
+            localStorage.setItem("openWindowsState", JSON.stringify([]));
+            logOut();
+        }
+    }
 
     const logOut = () => {
         setShowStartMenu(false);

@@ -93,11 +93,13 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
     });
   }
 
+  // save window to local storage when the windowsState changes
   useEffect(() => {
     localStorage.setItem("windowsState", JSON.stringify(windowsState));
     localStorage.setItem("openWindowsState", JSON.stringify(openWindows));
   }, [windowsState, openWindows]);
 
+  // open all windows that were open before refresh when the page loads
   useEffect(() => {
     openWindows.forEach(window => {
       if (windowsState[window]?.maximized) {
