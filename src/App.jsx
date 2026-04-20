@@ -4,6 +4,7 @@ import Desktop from './Components/Desktop';
 import LockScreen from './Components/LockScreen';
 import { StartMenu } from './Components/StartMenu';
 import computerData from './Resources/computerData.json';
+import appData from './Resources/appData.json';
 import { fadeLockScreen, slideStartScreen } from './utilites/helpers';
 import { toggleWindow } from './utilites/animate';
 import './App.css';
@@ -12,7 +13,7 @@ const WINDOW_KEYS = ['calendar', 'email', 'photos', 'contacts', 'messages', 'mus
 
 const initialWindowState = (position, size) => {
     return WINDOW_KEYS.reduce((acc, key) => {
-        let unlocked = computerData[key]?.unlocked || false;
+        let unlocked = appData[key]?.unlocked || false;
         acc[key] = { open: false, maximized: false, fullScreen: false, unlocked: unlocked, ...position, ...size };
         return acc;
     }, {});

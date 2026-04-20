@@ -64,7 +64,36 @@
         { "id": 61, "title": "Speedrun", "artist": "Gas Petrol", "duration": "3:09" },
         { "id": 62, "title": "Flashing Grandma", "artist": "Gas Petrol", "duration": "3:13" },
         { "id": 63, "title": "Grandma's Apology", "artist": "Gas Petrol", "duration": "1:12" },
-        { "id": 64, "title": "Diesel Girls", "artist": "Gas Petrol & Billie Nelson", "duration": "16:06" }
+        { "id": 64, "title": "Diesel Girls", "artist": "Gas Petrol & Billie Nelson", "duration": "16:06" },
+        { "id": 65, "title": "On the Ropes", "artist": "Gas Petrol", "duration": "3:15" },
+        { "id": 66, "title": "Red Skies Over Wheaton", "artist": "Gas Petrol", "duration": "3:43" },
+        { "id": 67, "title": "My Fair Lady", "artist": "Gas Petrol", "duration": "3:17" },
+        { "id": 68, "title": "Dovetail", "artist": "Gas Petrol", "duration": "3:45" },
+        { "id": 69, "title": "Stale Crust", "artist": "Gas Petrol", "duration": "3:53" },
+        { "id": 70, "title": "Better Off Dead", "artist": "Gas Petrol", "duration": "2:18" },
+        { "id": 71, "title": "Pillow", "artist": "Gas Petrol", "duration": "10:29" },
+
+        { "id": 72, "title": "Turn the TV Off", "artist": "Gas Petrol & Billie Nelson", "duration": "2:12" },
+        { "id": 73, "title": "Swinging", "artist": "Gas Petrol", "duration": "3:25" },
+        { "id": 74, "title": "If It Hurts", "artist": "Gas Petrol", "duration": "2:30" },
+        { "id": 75, "title": "Tight", "artist": "Gas Petrol", "duration": "2:15" },
+        { "id": 76, "title": "The System", "artist": "Gas Petrol", "duration": "5:55" },
+        { "id": 78, "title": "Airstrike", "artist": "Gas Petrol", "duration": "3:41" },
+        { "id": 79, "title": "For the Boys", "artist": "Gas Petrol", "duration": "1:28" },
+        { "id": 80, "title": "Barrels Over Waterfalls", "artist": "Gas Petrol", "duration": "3:49" },
+
+        { "id": 81, "title": "offroad", "artist": "Gas Petrol & Billie Nelson", "duration": "2:52" },
+        { "id": 82, "title": "downhill", "artist": "Gas Petrol", "duration": "4:05" },
+        { "id": 83, "title": "in a ditch", "artist": "Gas Petrol", "duration": "3:09" },
+        { "id": 84, "title": "desert angel", "artist": "Gas Petrol", "duration": "3:32" },
+        { "id": 85, "title": "helicopter helicopter", "artist": "Gas Petrol", "duration": "1:42" },
+
+        { "id": 86, "title": "top down", "artist": "Gas Petrol & Billie Nelson", "duration": "3:52" },
+        { "id": 87, "title": "exhausting", "artist": "Gas Petrol", "duration": "5:05" },
+        { "id": 88, "title": "manually", "artist": "Gas Petrol", "duration": "1:09" },
+        { "id": 89, "title": "wrapped", "artist": "Gas Petrol", "duration": "3:12" },
+        { "id": 90, "title": "fuzzy dice", "artist": "Gas Petrol", "duration": "2:59" },
+        { "id": 91, "title": "left-side blues", "artist": "Gas Petrol", "duration": "3:16" }
     ],
     "albums": [
         {
@@ -87,6 +116,34 @@
             "cover": "gaspetrol.jpg",
             "color": "#F1C40F",
             "tracks": [59, 60, 61, 62, 63, 64]
+        },
+        {
+            "title": "Pillow",
+            "artist": "Gas Petrol",
+            "cover": "gaspetrol.jpg",
+            "color": "#F1C40F",
+            "tracks": [65, 66, 67, 68, 69, 70, 71]
+        },
+        {
+            "title": "Whiplash",
+            "artist": "Gas Petrol",
+            "cover": "gaspetrol.jpg",
+            "color": "#F1C40F",
+            "tracks": [72, 73, 74, 75, 76, 78, 79, 80]
+        },
+        {
+            "title": "one night in arizona",
+            "artist": "Gas Petrol",
+            "cover": "gaspetrol.jpg",
+            "color": "#F1C40F",
+            "tracks": [81, 82, 83, 84, 85]
+        },
+        {
+            "title": "stick shift",
+            "artist": "Gas Petrol",
+            "cover": "gaspetrol.jpg",
+            "color": "#F1C40F",
+            "tracks": [86, 87, 88, 89, 90, 91]
         },
         {
             "title": "Ranch Girl",

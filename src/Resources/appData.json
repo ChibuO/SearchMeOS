@@ -27,21 +27,23 @@
         "name": "My World",
         "icon": "contacts_icon.png",
         "entry": "0927",
-        "hint": "Her birthday"
+        "hint": "Her birthday",
+        "unlocked": true
     },
     "messages": 
     {
         "name": "Chatto",
         "icon": "messages_icon.png",
-        "entry": "0927",
-        "hint": "Her birthday"
+        "entry": "benzin",
+        "hint": ""
     },
     "music": 
     {
         "name": "Symph",
         "icon": "music_icon.png",
         "entry": "0927",
-        "hint": "Her birthday"
+        "hint": "Her birthday",
+        "unlocked": true
     },
     "docs": 
     {
@@ -55,7 +57,8 @@
         "name": "Notes",
         "icon": "notes_icon.png",
         "entry": "0927",
-        "hint": "Her birthday"
+        "hint": "Her birthday",
+        "unlocked": true
     },
     "internet": 
     {

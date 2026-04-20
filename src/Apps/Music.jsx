@@ -26,11 +26,27 @@ export const MusicApp = forwardRef((props, ref) => {
     setSelectedSection("album");
   }
 
+  const clickAlbum = (shouldShow) => {
+    setShowAlbumPage(shouldShow);
+    const musicLibrary = document.getElementById("music-library");
+    if (musicLibrary) {
+      musicLibrary.scrollTop = 0;
+    }
+  }
+
+  const clickPlaylist = (playlist) => {
+    setSelectedPlaylist(playlist);
+    const musicLibrary = document.getElementById("music-library");
+    if (musicLibrary) {
+      musicLibrary.scrollTop = 0;
+    }
+  }
+
   return (
     <div className="music-app-container">
       <MusicPlayer />
       {/* Music Library */}
-      <div className="music-library"
+      <div className="music-library" id="music-library"
         style={{ background: `linear-gradient(0deg, ${selectedPlaylist ? selectedPlaylist.color : 'var(--music-accent-color)'} -80%, var(--music-bg-color) 50%)` }}>
         <div className='music-section-toggle-container'>
           <div 
@@ -48,8 +64,8 @@ export const MusicApp = forwardRef((props, ref) => {
         </div>
         <div className="music-library-content">
           {selectedSection === "playlist" ?
-            <MusicPlaylist selectedPlaylist={selectedPlaylist} setSelectedPlaylist={setSelectedPlaylist}/>
-            : <MusicAlbum setShowAlbumPage={setShowAlbumPage} showAlbumPage={showAlbumPage}/>}
+            <MusicPlaylist selectedPlaylist={selectedPlaylist} clickPlaylist={clickPlaylist}/>
+            : <MusicAlbum clickAlbum={clickAlbum} showAlbumPage={showAlbumPage}/>}
         </div>
       </div>
     </div>
@@ -77,7 +93,7 @@ const MusicPlayer = () => {
   );
 }
 
-const MusicPlaylist = ({ selectedPlaylist, setSelectedPlaylist }) => {
+const MusicPlaylist = ({ selectedPlaylist, clickPlaylist }) => {
   return (
     <div 
       className="music-app-page music-playlist-page">
@@ -87,7 +103,7 @@ const MusicPlaylist = ({ selectedPlaylist, setSelectedPlaylist }) => {
             <li 
               key={index} 
               className={`music-playlist-item ${selectedPlaylist === playlist ? 'music-playlist-selected' : ''}`} 
-              onClick={() => setSelectedPlaylist(playlist)}
+              onClick={() => clickPlaylist(playlist)}
               style={{ borderTop: `2px solid ${playlist?.color}` }}>
               {playlist.title}
             </li>
@@ -104,12 +120,12 @@ const MusicPlaylist = ({ selectedPlaylist, setSelectedPlaylist }) => {
   );
 }
 
-const MusicAlbum = ({ setShowAlbumPage, showAlbumPage }) => {
+const MusicAlbum = ({ clickAlbum, showAlbumPage }) => {
   const [selectedAlbum, setSelectedAlbum] = useState("");
   
   const openAlbum = (selected) => {
     setSelectedAlbum(selected);
-    setShowAlbumPage(true);
+    clickAlbum(true);
   }
   
   return (
