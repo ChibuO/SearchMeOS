@@ -36,21 +36,25 @@
         { "id": 33, "title": "My G-Ma", "artist": "Wallie Parden", "duration": "4:03" },
         { "id": 34, "title": "Too Close", "artist": "Wallie Parden", "duration": "3:29" },
         { "id": 35, "title": "Late Night Paradise", "artist": "Wallie Parden", "duration": "3:50" },
+        
         { "id": 36, "title": "Delicious", "artist": "Van + Trey", "duration": "2:33" },
         { "id": 37, "title": "Break the Rules", "artist": "Van + Trey", "duration": "3:05" },
         { "id": 38, "title": "Doing It", "artist": "Van + Trey", "duration": "3:23" },
         { "id": 39, "title": "5 In the Morning", "artist": "Van + Trey", "duration": "3:12" },
+        
         { "id": 40, "title": "No Tornados Here", "artist": "Billie Nelson", "duration": "3:20" },
         { "id": 41, "title": "Love Won't Stop Me", "artist": "Billie Nelson", "duration": "3:58" },
         { "id": 42, "title": "Whiskey Full o' Tears", "artist": "Billie Nelson", "duration": "3:35" },
         { "id": 43, "title": "Heartless", "artist": "Billie Nelson", "duration": "3:22" },
         { "id": 44, "title": "Ranch Girl", "artist": "Billie Nelson", "duration": "6:01" },
+        
         { "id": 45, "title": "Don't Start This Again", "artist": "Johnny Bills", "duration": "3:03" },
         { "id": 46, "title": "Weekend Trip", "artist": "Johnny Bills", "duration": "3:13" },
         { "id": 47, "title": "Sleazy", "artist": "Johnny Bills", "duration": "3:23" },
         { "id": 48, "title": "Bless Her Heart", "artist": "Johnny Bills", "duration": "3:41" },
         { "id": 49, "title": "Yes He Will", "artist": "Johnny Bills", "duration": "3:28" },
         { "id": 50, "title": "We're All Country 'Round Here", "artist": "Johnny Bills", "duration": "4:16" },
+        
         { "id": 51, "title": "Illusion", "artist": "Dinah Carolina", "duration": "4:04" },
         { "id": 52, "title": "That Smug Look", "artist": "Dinah Carolina", "duration": "4:17" },
         { "id": 53, "title": "Rock Like This", "artist": "Dinah Carolina", "duration": "4:22" },
@@ -59,12 +63,14 @@
         { "id": 56, "title": "Fourth Grade", "artist": "Dinah Carolina", "duration": "3:53" },
         { "id": 57, "title": "Still Growing", "artist": "Dinah Carolina", "duration": "4:20" },
         { "id": 58, "title": "Can't Keep Quiet", "artist": "Dinah Carolina & Billie Nelson", "duration": "4:42" },
+        
         { "id": 59, "title": "Pull Up", "artist": "Gas Petrol", "duration": "2:43" },
         { "id": 60, "title": "Like Billie", "artist": "Gas Petrol", "duration": "4:17" },
         { "id": 61, "title": "Speedrun", "artist": "Gas Petrol", "duration": "3:09" },
         { "id": 62, "title": "Flashing Grandma", "artist": "Gas Petrol", "duration": "3:13" },
         { "id": 63, "title": "Grandma's Apology", "artist": "Gas Petrol", "duration": "1:12" },
         { "id": 64, "title": "Diesel Girls", "artist": "Gas Petrol & Billie Nelson", "duration": "16:06" },
+        
         { "id": 65, "title": "On the Ropes", "artist": "Gas Petrol", "duration": "3:15" },
         { "id": 66, "title": "Red Skies Over Wheaton", "artist": "Gas Petrol", "duration": "3:43" },
         { "id": 67, "title": "My Fair Lady", "artist": "Gas Petrol", "duration": "3:17" },
@@ -93,7 +99,14 @@
         { "id": 88, "title": "manually", "artist": "Gas Petrol", "duration": "1:09" },
         { "id": 89, "title": "wrapped", "artist": "Gas Petrol", "duration": "3:12" },
         { "id": 90, "title": "fuzzy dice", "artist": "Gas Petrol", "duration": "2:59" },
-        { "id": 91, "title": "left-side blues", "artist": "Gas Petrol", "duration": "3:16" }
+        { "id": 91, "title": "left-side blues", "artist": "Gas Petrol", "duration": "3:16" },
+
+        { "id": 92, "title": "Hood Life", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
+        { "id": 93, "title": "Junk in the Trunk", "artist": "Gas Petrol", "duration": "4:08" },
+        { "id": 94, "title": "T-Bone", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
+        { "id": 95, "title": "Billboard Sucks", "artist": "Gas Petrol", "duration": "3:52" },
+        { "id": 96, "title": "rearview", "artist": "Gas Petrol", "duration": "3:29" },
+        { "id": 97, "title": "Talladega Sunsets", "artist": "Gas Petrol", "duration": "4:00" }
     ],
     "albums": [
         {
@@ -115,21 +128,21 @@
             "artist": "Gas Petrol",
             "cover": "gaspetrol.jpg",
             "color": "#F1C40F",
-            "tracks": [59, 60, 61, 62, 63, 64]
+            "tracks": [59, 60, 92, 61, 62, 63, 64, 95]
         },
         {
             "title": "Pillow",
             "artist": "Gas Petrol",
             "cover": "gaspetrol.jpg",
             "color": "#F1C40F",
-            "tracks": [65, 66, 67, 68, 69, 70, 71]
+            "tracks": [65, 66, 67, 68, 69, 70, 93, 71]
         },
         {
             "title": "Whiplash",
             "artist": "Gas Petrol",
             "cover": "gaspetrol.jpg",
             "color": "#F1C40F",
-            "tracks": [72, 73, 74, 75, 76, 78, 79, 80]
+            "tracks": [72, 73, 94, 74, 97, 75, 76, 78, 79, 80]
         },
         {
             "title": "one night in arizona",
@@ -143,7 +156,7 @@
             "artist": "Gas Petrol",
             "cover": "gaspetrol.jpg",
             "color": "#F1C40F",
-            "tracks": [86, 87, 88, 89, 90, 91]
+            "tracks": [86, 87, 88, 89, 90, 96, 91]
         },
         {
             "title": "Ranch Girl",

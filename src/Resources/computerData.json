@@ -5,6 +5,7 @@
         "EMAIL": "cyuanfight@flymail.com"
     },
     "password": "red",
+    "hint": "It's a color and a fruit",
     "mainColor": "#062c73",
     "secondColor": "#0255ed",
     "textColor": "white",

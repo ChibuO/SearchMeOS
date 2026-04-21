@@ -41,7 +41,7 @@ const LockScreen = ({ isLoggedIn, setIsLoggedIn, bgImagePath }) => {
             </div> */}
             <h3 className="lock-screen-title">{getFullName()}</h3>
           </div>
-          <PasswordForm handlePassword={checkPassword} inputId={'computer-login'} />
+          <PasswordForm handlePassword={checkPassword} inputId={'computer-login'} hint={computerData.hint} />
         </div>
       </div>
     );

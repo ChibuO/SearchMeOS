@@ -3,24 +3,24 @@
     {
         "name": "Calendar",
         "icon": "calendar_icon.png",
-        "entry": "0927",
-        "hint": "Her birthday"
+        "entry": "airstrike",
+        "hint": ""
     },
     "email": 
     {
         "name": "FlyMail",
         "icon": "email_icon.png",
-        "entry": "0927",
-        "hint": "Her birthday",
-        "entry2": "0927",
-        "hint2": "Her bday"
+        "entry": "benzin",
+        "hint": "my fave scent",
+        "entry2": "prayers",
+        "hint2": "(7)"
     },
     "photos": 
     {
         "name": "Photos",
         "icon": "photos_icon.png",
-        "entry": "0927",
-        "hint": "Her birthday"
+        "entry": "wiccita",
+        "hint": "go beavers!"
     },
     "contacts": 
     {
@@ -34,7 +34,7 @@
     {
         "name": "Chatto",
         "icon": "messages_icon.png",
-        "entry": "benzin",
+        "entry": "bookcase",
         "hint": ""
     },
     "music": 
@@ -49,8 +49,10 @@
     {
         "name": "Docs",
         "icon": "docs_icon.png",
-        "entry": "peach",
-        "hint": "Mario's princess"
+        "entry": "0818",
+        "hint": "",
+        "forgotPassword": true,
+        "forgotClicked": false
     },
     "notes": 
     {

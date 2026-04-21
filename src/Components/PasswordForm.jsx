@@ -41,7 +41,7 @@ export const PasswordForm = ({ handlePassword, inputId, hint }) => {
                 <button className="visibility-toggle" onClick={() => setShowPassword(!showPassword)}>{showPassword ? <PiEye /> : <PiEyeClosedLight />}</button>
                 <button className="unlock-button" onClick={() => checkPassword(password)}>⇥</button>
             </div>
-            <p className="pw-hint" >Hint: {hint ? hint : 'You love this'}</p>
+            {hint && <p className="pw-hint" >Hint: {hint}</p>}
         </div>
     )
 }
