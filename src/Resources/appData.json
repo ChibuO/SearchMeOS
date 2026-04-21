@@ -51,8 +51,7 @@
         "icon": "docs_icon.png",
         "entry": "0818",
         "hint": "",
-        "forgotPassword": true,
-        "forgotClicked": false
+        "forgotPassword": true
     },
     "notes": 
     {

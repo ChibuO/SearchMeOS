@@ -125,9 +125,16 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
         </div>
         {appData &&
           Object.keys(appData).map((appName, index) => 
-            <Window key={index} windowName={appName} unlockWindow={unlockWindow} windowState={windowsState[appName]} 
-              hideWindow={hideWindow} bringToFront={bringToFront} resizeWindow={resizeWindow} />
-            )}
+            <Window 
+              key={index} 
+              windowName={appName} 
+              unlockWindow={unlockWindow} 
+              windowState={windowsState[appName]} 
+              hideWindow={hideWindow} 
+              bringToFront={bringToFront} 
+              resizeWindow={resizeWindow}
+            />
+          )}
       </div>
     </DndContext>
   );

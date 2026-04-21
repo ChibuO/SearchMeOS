@@ -3,13 +3,19 @@ import { PiEyeClosedLight } from "react-icons/pi";
 import { PiEye } from "react-icons/pi";
 import './PasswordForm.css';
 
-export const PasswordForm = ({ handlePassword, inputId, hint }) => {
+export const PasswordForm = ({ handlePassword, inputId, hint, forgotPassword=false, clickForgotPassword }) => {
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
+    const [forgotClicked, setForgotClicked] = useState(false);
 
     const checkPassword = (entry) => {
         handlePassword(entry);
         setPassword("");
+    }
+
+    const handleForgotClicked = () => {
+        setForgotClicked(true);
+        clickForgotPassword();
     }
 
     useEffect(() => {
@@ -41,7 +47,11 @@ export const PasswordForm = ({ handlePassword, inputId, hint }) => {
                 <button className="visibility-toggle" onClick={() => setShowPassword(!showPassword)}>{showPassword ? <PiEye /> : <PiEyeClosedLight />}</button>
                 <button className="unlock-button" onClick={() => checkPassword(password)}>⇥</button>
             </div>
-            {hint && <p className="pw-hint" >Hint: {hint}</p>}
+            {hint && <p className="below-textbox" id="pw-hint" >Hint: {hint}</p>}
+            {forgotPassword && 
+                (!forgotClicked ? 
+                    <p id="forgot-password" className="below-textbox" onClick={handleForgotClicked}>Forgot Password?</p> 
+                    : <p className="below-textbox">Reminder Email Sent!</p>)}
         </div>
     )
 }

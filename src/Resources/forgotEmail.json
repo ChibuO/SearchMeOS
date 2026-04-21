@@ -1,0 +1,18 @@
+{
+    "from": {
+        "name": "SM OS Support",
+        "email": "sm-os@searchme.org"
+    },
+    "to": [],
+    "cc": [],
+    "date": "M/20/Y",
+    "subject": "Docs - Forgot Password Reminder",
+    "message": [
+        "Hello %FIRSTNAME%,\n\n",
+        "You have requested a reminder for your Docs password. Here is the hint you provided:\n\n",
+        "cryptic cryptic cryptic\n\n",
+        "If you need further assistance, feel free to reach out.\n\n",
+        "Thank you,\n",
+        "SM OS Support\n\n"
+    ]
+}

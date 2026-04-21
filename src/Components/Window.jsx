@@ -16,6 +16,8 @@ import { DocumentsApp } from '../Apps/Documents';
 import { MessengerApp } from '../Apps/Messenger';
 import { MusicApp } from '../Apps/Music';
 import computerData from '../Resources/computerData.json';
+import initialEmails from '../Resources/emailData.json';
+import forgotEmail from '../Resources/forgotEmail.json';
 
 const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFront, resizeWindow }) => {
   const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform } = useDraggable({
@@ -64,6 +66,12 @@ const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFron
     hideWindow(windowName, windowState, 'close');
     if (windowState.unlocked) {
       closeRef.current.clearWindow();
+    }
+  }
+
+  const clickForgotPassword = () => {
+    if (windowName === 'docs' && initialEmails) {
+      initialEmails.arriving.unshift(forgotEmail);
     }
   }
 
@@ -122,7 +130,15 @@ const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFron
         </div>
       </div>
       <div className="window-content">
-        {windowState.unlocked ? displayContent(windowName) : <PasswordScreen appName={windowName} bgColor={computerData.secondColor} unlockWindow={unlockWindow} />}
+        {windowState.unlocked ? 
+          displayContent(windowName) : 
+            <PasswordScreen 
+              appName={windowName} 
+              bgColor={computerData.secondColor} 
+              unlockWindow={unlockWindow} 
+              clickForgotPassword={clickForgotPassword} 
+            />
+        }
       </div>
     </div>
   );
