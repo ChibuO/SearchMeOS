@@ -106,7 +106,43 @@
         { "id": 94, "title": "T-Bone", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
         { "id": 95, "title": "Billboard Sucks", "artist": "Gas Petrol", "duration": "3:52" },
         { "id": 96, "title": "rearview", "artist": "Gas Petrol", "duration": "3:29" },
-        { "id": 97, "title": "Talladega Sunsets", "artist": "Gas Petrol", "duration": "4:00" }
+        { "id": 97, "title": "Talladega Sunsets", "artist": "Gas Petrol", "duration": "4:00" },
+
+        { "id": 93, "title": "Stairs to Heaven", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
+        { "id": 94, "title": "Intro", "artist": "Gas Petrol", "duration": "4:08" },
+        { "id": 95, "title": "All for Nothing", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
+        { "id": 96, "title": "Love is Blind", "artist": "Gas Petrol", "duration": "3:52" },
+        { "id": 97, "title": "Get Over It", "artist": "Gas Petrol", "duration": "3:29" },
+        { "id": 98, "title": "The Drive", "artist": "Gas Petrol", "duration": "4:00" },
+
+        { "id": 99, "title": "The Drive (interlude)", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
+        { "id": 100, "title": "my truth", "artist": "Gas Petrol", "duration": "4:08" },
+        { "id": 101, "title": "Invasive", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
+        { "id": 102, "title": "Heaven is a Massive Place", "artist": "Gas Petrol", "duration": "3:52" },
+        { "id": 103, "title": "Remember It All", "artist": "Gas Petrol", "duration": "3:29" },
+        { "id": 104, "title": "Train-trippn'", "artist": "Gas Petrol", "duration": "4:00" },
+
+        { "id": 105, "title": "if I stay, will you go", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
+        { "id": 106, "title": "Heat Lamp", "artist": "Gas Petrol", "duration": "4:08" },
+        { "id": 107, "title": "Time Waits For Me", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
+        { "id": 108, "title": "Sythesis of the Souls", "artist": "Gas Petrol", "duration": "3:52" },
+        { "id": 109, "title": "Neon Green", "artist": "Gas Petrol", "duration": "3:29" },
+        { "id": 110, "title": "New to This", "artist": "Gas Petrol", "duration": "4:00" },
+
+        { "id": 111, "title": "Too Good To Forget", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
+        { "id": 112, "title": "fun fun", "artist": "Gas Petrol", "duration": "4:08" },
+        { "id": 113, "title": "In My Bag Wit It", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
+        { "id": 114, "title": "Slay the Day", "artist": "Gas Petrol", "duration": "3:52" },
+        { "id": 115, "title": "ifykyk", "artist": "Gas Petrol", "duration": "3:29" },
+        { "id": 116, "title": "My Mother's Mother", "artist": "Gas Petrol", "duration": "4:00" },
+
+        { "id": 117, "title": "Caleb", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
+        { "id": 118, "title": "Nectar", "artist": "Gas Petrol", "duration": "4:08" },
+        { "id": 119, "title": "Rack 'em", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
+        { "id": 120, "title": "The Top of the Tower", "artist": "Gas Petrol", "duration": "3:52" },
+        { "id": 121, "title": "You Peaked", "artist": "Gas Petrol", "duration": "3:29" },
+        { "id": 122, "title": "Capri", "artist": "Gas Petrol", "duration": "4:00" },
+        { "id": 123, "title": "Where There's Smoke", "artist": "Gas Petrol", "duration": "4:00" }
     ],
     "albums": [
         {

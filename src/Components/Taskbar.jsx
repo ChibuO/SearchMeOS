@@ -115,10 +115,10 @@ const Taskbar = ({windowsState, setWindowsState, openWindows, showStartMenu, set
         <div className="system-date">
           <p className="system-day">{systemDay}</p>
           <div className="system-time-container">
-          <p className="system-time hours">{systemTime.split(" ")[0].split(":")[0]}</p>
-            <span>:</span>
+            <p className="system-time hours">{systemTime.split(" ")[0].split(":")[0]}</p>
+            <span className='system-time-colon'>:</span>
             <p className="system-time minutes">{systemTime.split(" ")[0].split(":")[1]}</p>
-            <span>:</span>
+            <span className='system-time-colon'>:</span>
             <p className="system-time seconds">{systemTime.split(" ")[0].split(":")[2]}</p>
           </div>
           <p className="system-m">{systemTime.split(" ")[1]}</p>

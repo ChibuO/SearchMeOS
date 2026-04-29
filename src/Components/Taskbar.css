@@ -113,7 +113,7 @@
 }
 
 .system-date {
-    margin-left: 10px;
+    margin-left: 5px;
     display: flex;
     align-items: center;
     font-size: 16px;
@@ -123,6 +123,7 @@
 .system-day {
     padding: 0;
     margin: 0;
+    margin-right: 10px;
 }
 
 .system-time-container {
@@ -134,9 +135,13 @@
 
 .system-time {
     padding: 0;
-    width: 22px;
     text-align: right;
     margin: 0 2px 0 0;
+}
+
+.system-time-colon {
+    padding: 0;
+    margin: 0 1px 0 1px;
 }
 
 .system-m {

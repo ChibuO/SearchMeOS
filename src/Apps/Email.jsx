@@ -51,7 +51,9 @@ export const EmailApp = forwardRef((props, ref) => {
           bgColor={computerData.secondColor} 
           unlockFunction={() => setTrashUnlocked(true)}
           givenHint={appData["email"]["hint2"]}
-          givenEntry={appData["email"]["entry2"]} />
+          givenEntry={appData["email"]["entry2"]}
+          givenForgotPassword={false}
+          />
       </div>
       : <div className='email-main-app'>
         <div className="email-list-container">

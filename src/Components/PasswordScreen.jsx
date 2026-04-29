@@ -2,12 +2,13 @@ import appData from '../Resources/appData.json';
 import './PasswordScreen.css';
 import { PasswordForm } from './PasswordForm';
 
-export const PasswordScreen = ({ appName, bgColor, unlockWindow, givenEntry = "", givenHint = "", unlockFunction = null, clickForgotPassword }) => {
+export const PasswordScreen = ({ appName, bgColor, unlockWindow, givenEntry = "", givenHint = "", unlockFunction = null, clickForgotPassword = null, givenForgotPassword = null }) => {
+  const  inputId = `${appName}-login`;
   const hint = givenHint || appData[appName].hint;
-  const forgotPassword = appData[appName].forgotPassword;
+  const forgotPassword = givenForgotPassword || appData[appName]?.forgotPassword;
+  const expectedEntry = givenEntry || appData[appName].entry;
 
   const checkPassword = (entry) => {
-    const expectedEntry = givenEntry || appData[appName].entry;
     const isCorrect = entry === expectedEntry;
 
     if (isCorrect) {
@@ -25,7 +26,7 @@ export const PasswordScreen = ({ appName, bgColor, unlockWindow, givenEntry = ""
       <h3 id="pw-title">Enter Password</h3>
       <PasswordForm 
         handlePassword={checkPassword} 
-        inputId={`${appName}-login`} 
+        inputId={inputId} 
         hint={hint} 
         forgotPassword={forgotPassword} 
         clickForgotPassword={clickForgotPassword} />

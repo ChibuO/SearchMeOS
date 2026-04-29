@@ -1,8 +1,3 @@
-.lock-screen * {
-    /* margin: 0;
-    padding: 0; */
-}
-
 .login-screen-container {
     margin: 0;
     padding: 0;
@@ -71,19 +66,27 @@
 /* Animation classes */
 
 .login-screen-container.fade-out {
-    animation: fade-out .6s ease-in forwards;
+    /* animation: fade-out .6s ease-in forwards; */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s .6s, opacity .6s linear;
 }
 
 .login-screen-container.fade-in {
-    animation: fade-in .6s ease-in forwards;
+    /* animation: fade-in .6s ease-in forwards; */
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s linear;
 }
 
 .start-screen.slide-up {
-    animation: slide-up .7s steps(7, jump-none) forwards;
+    animation: slide-up 1s linear forwards;
 }
 
 .start-screen.slide-down {
-    animation: slide-down .7s steps(7, jump-none) forwards;
+    animation: slide-down 1s linear forwards;
+    /* for future reference */
+    /* animation: slide-down .7s steps(15, jump-none) forwards; */
 }
 
 /* Animation keyframes */
