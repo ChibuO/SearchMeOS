@@ -5,33 +5,33 @@
         { "id": 2, "title": "Nocturne in E-flat major", "artist": "Frederic Chopin", "duration": "4:30" },
         { "id": 3, "title": "Lost In Your Eyes", "artist": "Dinah Carolina", "duration": "4:01" },
         { "id": 4, "title": "Alone Again", "artist": "Billie Nelson", "duration": "3:00" },
-        { "id": 5, "title": "Eye of the Tiger", "artist": "Survivor", "duration": "4:05" },
-        { "id": 6, "title": "Lose Yourself", "artist": "Eminem", "duration": "3:20" },
-        { "id": 7, "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "duration": "4:30" },
+        { "id": 5, "title": "Eye of the Viper", "artist": "Destin", "duration": "4:05" },
+        { "id": 6, "title": "Chopped", "artist": "Xhao", "duration": "3:20" },
+        { "id": 7, "title": "Downtown Swing", "artist": "Roan ft. Julio Venus", "duration": "4:30" },
         { "id": 8, "title": "Backflip", "artist": "Dinah Carolina", "duration": "5:04" },
         { "id": 9, "title": "Trucks", "artist": "Wallie Parden", "duration": "3:56" },
-        { "id": 10, "title": "Sunflower", "artist": "Post Malone & Swae Lee", "duration": "2:38" },
-        { "id": 11, "title": "Slow Dancing in a Burning Room", "artist": "John Mayer", "duration": "4:01" },
-        { "id": 12, "title": "Put Your Records On", "artist": "Corinne Bailey Rae", "duration": "3:35" },
+        { "id": 10, "title": "Mayflower", "artist": "Sway & Postie", "duration": "2:38" },
+        { "id": 11, "title": "Slow Dancing", "artist": "Haresh", "duration": "4:01" },
+        { "id": 12, "title": "Record Scratches", "artist": "Z0n3", "duration": "3:35" },
         { "id": 13, "title": "Too Close", "artist": "Wallie Parden", "duration": "3:29" },
         { "id": 14, "title": "Madness", "artist": "Wallie Parden", "duration": "4:15" },
         { "id": 15, "title": "Party With the Stars", "artist": "Dinah Carolina", "duration": "4:53" },
-        { "id": 16, "title": "Sweet Home Alabama", "artist": "Lynyrd Skynyrd", "duration": "4:43" },
-        { "id": 17, "title": "Go Your Own Way", "artist": "Fleetwood Mac", "duration": "3:43" },
-        { "id": 18, "title": "Life is a Highway", "artist": "Tom Cochrane", "duration": "4:26" },
+        { "id": 16, "title": "Sweet Sweet Alaska", "artist": "Kreep", "duration": "4:43" },
+        { "id": 17, "title": "Highway", "artist": "X86ARM", "duration": "3:43" },
+        { "id": 18, "title": "Life is a Rollercoaster", "artist": "Dinah Carolina", "duration": "4:26" },
         { "id": 19, "title": "South of Texas", "artist": "Van + Trey", "duration": "2:54" },
         { "id": 20, "title": "Her Smile", "artist": "Van + Trey", "duration": "3:17" },
         { "id": 21, "title": "Famous Tatoos", "artist": "Van + Trey", "duration": "2:47" },
-        { "id": 22, "title": "Sunday Morning", "artist": "Maroon 5", "duration": "4:02" },
-        { "id": 23, "title": "Put It All On Me", "artist": "Ed Sheeran", "duration": "3:20" },
-        { "id": 24, "title": "Watermelon Sugar", "artist": "Harry Styles", "duration": "2:54" },
-        { "id": 25, "title": "Levitating", "artist": "Dua Lipa", "duration": "3:23" },
-        { "id": 26, "title": "Don't Stop the Music", "artist": "Rihanna", "duration": "4:27" },
-        { "id": 27, "title": "Can't Stop the Feeling!", "artist": "Justin Timberlake", "duration": "3:56" },
-        { "id": 28, "title": "SICKO MODE", "artist": "Travis Scott", "duration": "5:12" },
-        { "id": 29, "title": "God's Plan", "artist": "Drake", "duration": "3:19" },
-        { "id": 30, "title": "HUMBLE.", "artist": "Kendrick Lamar", "duration": "2:57" },
-        { "id": 31, "title": "Suge", "artist": "DaBaby", "duration": "2:36" },
+        { "id": 22, "title": "Monday Morning", "artist": "Shoelace", "duration": "4:02" },
+        { "id": 23, "title": "Put It All On Him", "artist": "Red Knight", "duration": "3:20" },
+        { "id": 24, "title": "High Fructose Corn Syrup", "artist": "Stylus", "duration": "2:54" },
+        { "id": 25, "title": "Hover", "artist": "Dula Peep", "duration": "3:23" },
+        { "id": 26, "title": "All Night", "artist": "Riri", "duration": "4:27" },
+        { "id": 27, "title": "Trollin'", "artist": "Sync'd", "duration": "3:56" },
+        { "id": 28, "title": "Power Trip", "artist": "Scottie Trav", "duration": "5:12" },
+        { "id": 29, "title": "He's Got It", "artist": "Josh", "duration": "3:19" },
+        { "id": 30, "title": "Patience", "artist": "Lamar K", "duration": "2:57" },
+        { "id": 31, "title": "SUGA", "artist": "DaMan", "duration": "2:36" },
         { "id": 32, "title": "Stop Thinking About Me", "artist": "Wallie Parden", "duration": "3:40" },
         { "id": 33, "title": "My G-Ma", "artist": "Wallie Parden", "duration": "4:03" },
         { "id": 34, "title": "Too Close", "artist": "Wallie Parden", "duration": "3:29" },
@@ -101,48 +101,48 @@
         { "id": 90, "title": "fuzzy dice", "artist": "Gas Petrol", "duration": "2:59" },
         { "id": 91, "title": "left-side blues", "artist": "Gas Petrol", "duration": "3:16" },
 
-        { "id": 92, "title": "Hood Life", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
+        { "id": 92, "title": "Hood Life", "artist": "Gas Petrol", "duration": "3:22" },
         { "id": 93, "title": "Junk in the Trunk", "artist": "Gas Petrol", "duration": "4:08" },
         { "id": 94, "title": "T-Bone", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
         { "id": 95, "title": "Billboard Sucks", "artist": "Gas Petrol", "duration": "3:52" },
         { "id": 96, "title": "rearview", "artist": "Gas Petrol", "duration": "3:29" },
         { "id": 97, "title": "Talladega Sunsets", "artist": "Gas Petrol", "duration": "4:00" },
+        
+        { "id": 93, "title": "Stairs to Heaven", "artist": "Billie Nelson", "duration": "3:22" },
+        { "id": 94, "title": "Intro", "artist": "Dinah Carolina", "duration": "4:08" },
+        { "id": 95, "title": "All for Nothing", "artist": "Dinah Carolina", "duration": "2:29" },
+        { "id": 96, "title": "Love is Blind", "artist": "Dinah Carolina", "duration": "3:52" },
+        { "id": 97, "title": "Get Over It", "artist": "Shoelace", "duration": "3:29" },
+        { "id": 98, "title": "The Drive", "artist": "Dinah Carolina", "duration": "4:00" },
 
-        { "id": 93, "title": "Stairs to Heaven", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
-        { "id": 94, "title": "Intro", "artist": "Gas Petrol", "duration": "4:08" },
-        { "id": 95, "title": "All for Nothing", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
-        { "id": 96, "title": "Love is Blind", "artist": "Gas Petrol", "duration": "3:52" },
-        { "id": 97, "title": "Get Over It", "artist": "Gas Petrol", "duration": "3:29" },
-        { "id": 98, "title": "The Drive", "artist": "Gas Petrol", "duration": "4:00" },
+        { "id": 99, "title": "The Drive (interlude)", "artist": "Dinah Carolina", "duration": "3:22" },
+        { "id": 100, "title": "my truth", "artist": "Caniope", "duration": "4:08" },
+        { "id": 101, "title": "Invasive", "artist": "Billie Nelson", "duration": "2:29" },
+        { "id": 102, "title": "Heaven is a Massive Place", "artist": "Shoelace", "duration": "3:52" },
+        { "id": 103, "title": "Remember It All", "artist": "Billie Nelson", "duration": "3:29" },
+        { "id": 104, "title": "Train-trippn'", "artist": "Dinah Carolina", "duration": "4:00" },
 
-        { "id": 99, "title": "The Drive (interlude)", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
-        { "id": 100, "title": "my truth", "artist": "Gas Petrol", "duration": "4:08" },
-        { "id": 101, "title": "Invasive", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
-        { "id": 102, "title": "Heaven is a Massive Place", "artist": "Gas Petrol", "duration": "3:52" },
-        { "id": 103, "title": "Remember It All", "artist": "Gas Petrol", "duration": "3:29" },
-        { "id": 104, "title": "Train-trippn'", "artist": "Gas Petrol", "duration": "4:00" },
+        { "id": 105, "title": "if I stay, will you go", "artist": "Caniope", "duration": "3:22" },
+        { "id": 106, "title": "Heat Lamp", "artist": "Z0n3", "duration": "4:08" },
+        { "id": 107, "title": "Time Waits For Me", "artist": "Billie Nelson", "duration": "2:29" },
+        { "id": 108, "title": "Sythesis of the Souls", "artist": "X86ARM", "duration": "3:52" },
+        { "id": 109, "title": "Neon Green", "artist": "Sir Kiki", "duration": "3:29" },
+        { "id": 110, "title": "New to This", "artist": "Dinah Carolina", "duration": "4:00" },
 
-        { "id": 105, "title": "if I stay, will you go", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
-        { "id": 106, "title": "Heat Lamp", "artist": "Gas Petrol", "duration": "4:08" },
-        { "id": 107, "title": "Time Waits For Me", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
-        { "id": 108, "title": "Sythesis of the Souls", "artist": "Gas Petrol", "duration": "3:52" },
-        { "id": 109, "title": "Neon Green", "artist": "Gas Petrol", "duration": "3:29" },
-        { "id": 110, "title": "New to This", "artist": "Gas Petrol", "duration": "4:00" },
+        { "id": 111, "title": "Too Good To Forget", "artist": "Wallie Parden", "duration": "3:22" },
+        { "id": 112, "title": "fun fun", "artist": "Caniope", "duration": "4:08" },
+        { "id": 113, "title": "In My Bag Wit It", "artist": "Van + Trey", "duration": "2:29" },
+        { "id": 114, "title": "Slay the Day", "artist": "Dinah Carolina", "duration": "3:52" },
+        { "id": 115, "title": "ifykyk", "artist": "Caniope", "duration": "3:29" },
+        { "id": 116, "title": "My Mother's Mother", "artist": "Billie Nelson", "duration": "4:00" },
 
-        { "id": 111, "title": "Too Good To Forget", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
-        { "id": 112, "title": "fun fun", "artist": "Gas Petrol", "duration": "4:08" },
-        { "id": 113, "title": "In My Bag Wit It", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
-        { "id": 114, "title": "Slay the Day", "artist": "Gas Petrol", "duration": "3:52" },
-        { "id": 115, "title": "ifykyk", "artist": "Gas Petrol", "duration": "3:29" },
-        { "id": 116, "title": "My Mother's Mother", "artist": "Gas Petrol", "duration": "4:00" },
-
-        { "id": 117, "title": "Caleb", "artist": "Gas Petrol & Billie Nelson", "duration": "3:22" },
-        { "id": 118, "title": "Nectar", "artist": "Gas Petrol", "duration": "4:08" },
-        { "id": 119, "title": "Rack 'em", "artist": "Gas Petrol ft. Radical Defect", "duration": "2:29" },
-        { "id": 120, "title": "The Top of the Tower", "artist": "Gas Petrol", "duration": "3:52" },
-        { "id": 121, "title": "You Peaked", "artist": "Gas Petrol", "duration": "3:29" },
-        { "id": 122, "title": "Capri", "artist": "Gas Petrol", "duration": "4:00" },
-        { "id": 123, "title": "Where There's Smoke", "artist": "Gas Petrol", "duration": "4:00" }
+        { "id": 117, "title": "caleb", "artist": "Caniope", "duration": "3:22" },
+        { "id": 118, "title": "Nectar", "artist": "Haresh", "duration": "4:08" },
+        { "id": 119, "title": "Rack 'em", "artist": "Johnny Bills", "duration": "2:29" },
+        { "id": 120, "title": "The Top of the Tower", "artist": "Billie Nelson", "duration": "3:52" },
+        { "id": 121, "title": "You Peaked", "artist": "Shoelace", "duration": "3:29" },
+        { "id": 122, "title": "Capri", "artist": "Haresh", "duration": "4:00" },
+        { "id": 123, "title": "Where There's Smoke", "artist": "Billie Nelson", "duration": "4:00" }
     ],
     "albums": [
         {
@@ -150,14 +150,14 @@
             "artist": "Wallie Parden",
             "cover": "fake_album.jpg",
             "color": "blue",
-            "tracks": [9, 13, 14, 32, 33, 34, 35]
+            "tracks": [9, 13, 14, 32, 33, 34, 35, 111]
         },
         {
             "title": "Freshly Baked Goods",
             "artist": "Van + Trey",
             "cover": "brat.jpg",
             "color": "#8ACE00",
-            "tracks": [19, 20, 21, 36, 37, 38, 39]
+            "tracks": [19, 20, 21, 36, 37, 38, 39, 113]
         },
         {
             "title": "Don't Press 96",
@@ -192,21 +192,21 @@
             "artist": "Gas Petrol",
             "cover": "gaspetrol.jpg",
             "color": "#F1C40F",
-            "tracks": [86, 87, 88, 89, 90, 96, 91]
+            "tracks": [86, 87, 88, 89, 90, 96, 91, 106]
         },
         {
             "title": "Ranch Girl",
             "artist": "Billie Nelson",
             "cover": "after_hours.jpg",
             "color": "#FF4C4C",
-            "tracks": [4, 40, 41, 42, 43, 44, 58]
+            "tracks": [4, 40, 41, 42, 43, 44, 58, 101]
         },
         {
             "title": "City Boy",
             "artist": "Johnny Bills",
             "cover": "2N.jpg",
             "color": "#D6007A",
-            "tracks": [45, 46, 47, 48, 49, 50]
+            "tracks": [45, 46, 47, 48, 49, 50, 119]
         },
         {
             "title": "Daydreaming",
@@ -214,38 +214,67 @@
             "cover": "daydream.jpg",
             "color": "#1F618D",
             "tracks": [3, 8, 15, 51, 52, 53, 54, 55, 56, 57, 58]
+        },
+        {
+            "title": "As It Seems",
+            "artist": "Dinah Carolina",
+            "cover": "daydream.jpg",
+            "color": "#1F618D",
+            "tracks": [94, 96, 98, 104, 110, 114, 99, 95]
+        },
+        {
+            "title": "Riff",
+            "artist": "Billie Nelson",
+            "cover": "daydream.jpg",
+            "color": "#1F618D",
+            "tracks": [93, 103, 107, 116, 120, 123, 86]
         }
     ],
     "playlists": [
         {
-            "title": "Tracks to Sleep to at Night Under Covers Restlessly",
-            "color": "#FCC6BB",
-            "tracks": [0, 1, 2, 64, 3, 4]
+            "title": "party king",
+            "color": "#FF3D00",
+            "tracks": [7, 15, 24, 25, 26, 27, 28, 31, 37, 38, 59, 73, 93, 109]
         },
         {
-            "title": "Sunday Brunch",
-            "color": "#F87C63",
-            "tracks": [22, 23, 61, 24]
-        },
-        {
-            "title": "Gym Rat",
+            "title": "gym mode - no excuses",
             "color": "#F54927",
-            "tracks": [5, 6, 7, 8, 9]
+            "tracks": [5, 6, 28, 30, 31, 61, 65, 78, 92, 94, 95, 70, 75, 76]
         },
         {
-            "title": "Chill Vibes 😜",
-            "color": "#F4320B",
-            "tracks": [10, 11, 12, 59, 13, 14, 15]
+            "title": "recharge",
+            "color": "#4CC9F0",
+            "tracks": [0, 1, 2, 12, 22, 55, 118, 122, 107, 103, 71, 87, 66]
         },
         {
-            "title": "Road Trip Classics",
-            "color": "#C82909",
-            "tracks": [16, 17, 18, 19, 20, 21]
+            "title": "hype pregame",
+            "color": "#FF7A00",
+            "tracks": [7, 15, 24, 25, 26, 27, 28, 31, 37, 38, 59, 73, 93, 113]
         },
         {
-            "title": "June Party",
-            "color": "#2BD6BA",
-            "tracks": [25, 62, 26, 59, 60, 27, 28, 29, 30, 31]
+            "title": "chill vibes 😜",
+            "color": "#FF4D6D",
+            "tracks": [3, 11, 20, 23, 35, 51, 55, 96, 105, 110, 118, 122]
+        },
+        {
+            "title": "locked in",
+            "color": "#4361EE",
+            "tracks": [1, 2, 12, 22, 30, 33, 56, 57, 60, 68, 76, 108]
+        },
+        {
+            "title": "sleepy Time",
+            "color": "#90DBF4",
+            "tracks": [0, 1, 2, 4, 40, 55, 71, 87, 103, 107, 116, 120]
+        },
+        {
+            "title": "for my boo ❤️",
+            "color": "#FF6F91",
+            "tracks": [3, 10, 11, 20, 23, 41, 96, 105, 55, 110, 51, 12, 118]
+        },
+        {
+            "title": "revenge mode",
+            "color": "#111111",
+            "tracks": [5, 6, 14, 28, 32, 43, 65, 70, 74, 78, 92, 95, 121]
         }
     ]
 }

@@ -1,6 +1,62 @@
 [
     {
         "date": "M/01/Y",
+        "day": "Friday",
+        "time": "10:00 am - 11:00 am",
+        "event": "econ311 prof office hours",
+        "repeat": true
+    },
+    {
+        "date": "M/02/Y",
+        "day": "Tuesday",
+        "time": "10:00 am - 11:00 am",
+        "event": "econ311 TA office hours",
+        "repeat": true
+    },
+    {
+        "date": "M/01/Y",
+        "day": "Monday",
+        "time": "12:00 pm - 02:00 pm",
+        "event": "econ310 prof office hours",
+        "repeat": true
+    },
+    {
+        "date": "M/02/Y",
+        "day": "Wednesday",
+        "time": "08:00 am - 09:00 am",
+        "event": "econ310 TA office hours",
+        "repeat": true
+    },
+    {
+        "date": "M/03/Y",
+        "day": "Tuesday",
+        "time": "03:00 pm - 5:00 pm",
+        "event": "art101 prof office hours",
+        "repeat": true
+    },
+    {
+        "date": "M/04/Y",
+        "day": "Monday",
+        "time": "10:00 am - 11:00 am",
+        "event": "art101 TA office hours",
+        "repeat": true
+    },
+    {
+        "date": "M/04/Y",
+        "day": "Thursday",
+        "time": "02:00 pm - 04:00 pm",
+        "event": "german2 prof office hours",
+        "repeat": true
+    },
+    {
+        "date": "M/04/Y",
+        "day": "Friday",
+        "time": "12:00 pm - 1:00 pm",
+        "event": "german2 TA office hours",
+        "repeat": true
+    },
+    {
+        "date": "M/01/Y",
         "time": "09:00 am - 09:30 am",
         "event": "Quarterly Tax Filing Deadline"
     },
