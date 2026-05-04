@@ -20,18 +20,20 @@
 }
 
 #start-screen-text-div {
-    background-color: rgba(0, 0, 0, 0.74);
+    opacity: .2;;
+    background-color: rgba(0, 0, 0, 1);
     margin: 0;
     padding: 20px 40px;
     border-radius: 10px;
     align-items: center;
     width: 60%;
-    transition: background-color 0.3s ease;
+    transition: opacity 0.3s ease;
     cursor: default;
 }
 
 #start-screen-text-div:hover {
-    background-color: rgba(0, 0, 0, 0.914);
+    opacity: 1;
+    /* background-color: rgba(0, 0, 0, 0.914); */
 }
 
 #start-screen-text {

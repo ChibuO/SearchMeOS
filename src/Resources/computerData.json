@@ -4,14 +4,14 @@
         "LASTNAME": "yuan",
         "EMAIL": "cyuanfight@flymail.com"
     },
-    "password": "red",
-    "hint": "Go back",
+    "password": "top secret",
+    "hint": "go back",
     "mainColor": "#062c73",
     "secondColor": "#0255ed",
     "textColor": "white",
-    "lockScreenImagePath": "lockscreen_bg.jpg",
-    "desktopScreenImagePath": "desktop_bg.jpg",
-    "profileImagePath": "goose.jpg",
+    "lockScreenImagePath": "lockscreen_bg.png",
+    "desktopScreenImagePath": "desktop_bg.png",
+    "profileImagePath": "gooseknife.jpg",
     "introText": [
         "You are the greatest private investigator at Othello University and have been hired to investigate a recent incident at a Phi Mega Psi house party.\n\n\n",
         "Which you weren't invited to.\n\n\n",
@@ -20,6 +20,6 @@
         "Unfortunately, it turns out that anyone who drank the serum will lose their eyesight in 2 days.\n\n",
         "The chemist-in-training has developed a cure, but needs to know who to give it to. Thankfully, these house parties are strictly invite-only, so all you need is the list of attendees.\n\n",
         "The chemist has paid good money to keep this quiet, so you've ~acquired~ one of the event organizer's laptops.\n\n\n",
-        "Find the list and save the day!"
+        "Find the list and pay your rent!"
     ]
 }

@@ -2,9 +2,9 @@ import React, { useState, forwardRef, useImperativeHandle } from 'react';
 import { TbPlayerPlayFilled } from "react-icons/tb";
 import { TbPlayerSkipForwardFilled } from "react-icons/tb";
 import { TbPlayerSkipBackFilled } from "react-icons/tb";
-import { capitlaizeWord, handleImageError } from '../utilites/helpers';
+import { capitlaizeWord } from '../utilites/helpers';
 import Img from '../Components/CustomImage';
-import album_cover from '../Images/fake_album.jpg';
+import record_img from '../Images/record.png';
 import musics from '../Resources/musicData.json';
 import './Music.css';
 
@@ -144,21 +144,30 @@ const MusicAlbum = ({ clickAlbum, showAlbumPage }) => {
 
 const MusicAlbumCard = ({ album, onClick, additionalClassNames = [] }) => {
   const albumColor = album?.color || "var(--music-accent-color)";
-  const albumCover = album?.cover || album_cover;
+  const albumCover = album?.cover || record_img;
   const albumTitle = album?.title || "";
+  const albumArtist = album?.artist || "";
   
   return (
     <div
       className={`music-album-card-wrap ${additionalClassNames.toString()}`}
       onClick={() => { onClick(album) }}
     >
-      <div
-        className='music-album-card'
-        style={{ backgroundColor: `${albumColor}` }}
-      >
-        <Img imageName={albumCover} alt={albumTitle} title={albumTitle} draggable="false" />
+      <MusicAlbumRecordImage albumCover={albumCover} albumTitle={albumTitle} albumColor={albumColor} />
+      <p className='music-album-card-title'>{albumTitle}</p>
+      <p className='music-album-card-artist'>{albumArtist}</p>
+    </div>
+  );
+}
+
+const MusicAlbumRecordImage = ({ albumCover, albumTitle, albumColor }) => {
+  return (
+    <div className='music-album-card-record-div'>
+      <div className='music-album-card'>
+        <Img imageName={albumCover} defaultImg={record_img} alt={albumTitle} title={albumTitle} draggable="false" />
       </div>
-      {/* {!isAlbum && <p>{item?.title || item?.name}</p>} */}
+      <div style={{ background: `${albumColor}` }} className='music-album-card-center'></div>
+      <div className='music-album-card-center-dot'></div>
     </div>
   );
 }
@@ -167,7 +176,7 @@ const MusicItemPage = ({ itemType, selectedPage }) => {
   const isPlaylist = itemType === "playlist";
   const isAlbum = itemType === "album";
   const pageTitle = isPlaylist ? selectedPage?.title : selectedPage?.title || selectedPage?.name || "";
-  // const pageColor = selectedPage?.color || "--var(--music-accent-color)";
+  const pageColor = selectedPage?.color || "--var(--music-accent-color)";
   const pageArtist = isAlbum ? selectedPage?.artist : null;
   const pageListLength = selectedPage?.tracks?.length || 0;
   const pageAlbumCover = isAlbum ? selectedPage?.cover : null;
@@ -182,11 +191,10 @@ const MusicItemPage = ({ itemType, selectedPage }) => {
           {isAlbum && <p className='page-header-artist'>{pageArtist}</p>}
           <p className='page-header-type'>{capitlaizeWord(itemType)} - <span>{pageListLength} songs</span></p>
         </div>
-        {isAlbum && (
-          <div className='music-page-header-img-div'>
-            <Img imageName={pageAlbumCover} alt={pageTitle} title={pageTitle} draggable="false" />
-          </div>
-        )}
+        {isAlbum && 
+          <div className='music-page-header-record-div'>
+            <MusicAlbumRecordImage albumCover={pageAlbumCover} albumTitle={pageTitle} albumColor={pageColor} />
+          </div>}
       </div>
       <div className='music-page-table-div'>
         {isPlaylist ?

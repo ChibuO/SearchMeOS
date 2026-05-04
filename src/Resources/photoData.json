@@ -98,5 +98,17 @@
         "photo": "flyer_tree.png",
         "alt": "flyer for forest-themed party",
         "date": "1 week ago"
+    },
+    "goosebat" :
+    {
+        "photo": "goose.jpg",
+        "alt": "goose holding a bat",
+        "date": "1 year ago"
+    },
+    "gooseknife" :
+    {
+        "photo": "gooseknife.jpg",
+        "alt": "goose holding a knife",
+        "date": "11 months ago"
     }
 }

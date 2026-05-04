@@ -142,91 +142,109 @@
         { "id": 120, "title": "The Top of the Tower", "artist": "Billie Nelson", "duration": "3:52" },
         { "id": 121, "title": "You Peaked", "artist": "Shoelace", "duration": "3:29" },
         { "id": 122, "title": "Capri", "artist": "Haresh", "duration": "4:00" },
-        { "id": 123, "title": "Where There's Smoke", "artist": "Billie Nelson", "duration": "4:00" }
+        { "id": 123, "title": "Where There's Smoke", "artist": "Billie Nelson", "duration": "4:00" },
+
+        { "id": 124, "title": "You and Yours", "artist": "Dinah Carolina", "duration": "3:04" },
+        { "id": 125, "title": "Chicken", "artist": "Dinah Carolina", "duration": "2:17" },
+        { "id": 126, "title": "Still Waters", "artist": "Dinah Carolina", "duration": "4:22" },
+        { "id": 127, "title": "Country-fried Steak", "artist": "Dinah Carolina", "duration": "3:47" },
+        { "id": 128, "title": "Her", "artist": "Dinah Carolina", "duration": "4:39" },
+        { "id": 129, "title": "Unleashed", "artist": "Dinah Carolina", "duration": "3:03" },
+        { "id": 130, "title": "I Still Want You", "artist": "Dinah Carolina", "duration": "3:20" },
+        { "id": 131, "title": "Bonfire", "artist": "Dinah Carolina", "duration": "3:44" },
+        { "id": 132, "title": "Wish Her Well", "artist": "Dinah Carolina", "duration": "3:20" },
+        { "id": 133, "title": "Whiplash", "artist": "Dinah Carolina", "duration": "3:44" }
     ],
     "albums": [
         {
-            "title": "Country As It Gets",
-            "artist": "Wallie Parden",
-            "cover": "fake_album.jpg",
-            "color": "blue",
-            "tracks": [9, 13, 14, 32, 33, 34, 35, 111]
+            "title": "stick shift",
+            "artist": "Gas Petrol",
+            "cover": "",
+            "color": "#9ca8ad",
+            "tracks": [86, 87, 88, 89, 90, 96, 91, 106]
         },
         {
-            "title": "Freshly Baked Goods",
-            "artist": "Van + Trey",
-            "cover": "brat.jpg",
-            "color": "#8ACE00",
-            "tracks": [19, 20, 21, 36, 37, 38, 39, 113]
+            "title": "Whiplash",
+            "artist": "Dinah Carolina",
+            "cover": "",
+            "color": "#e00202",
+            "tracks": [124, 125, 126, 127, 128, 129, 130, 131, 132, 133]
+        },
+        {
+            "title": "Country As It Gets",
+            "artist": "Wallie Parden",
+            "cover": "",
+            "color": "linear-gradient(0deg,rgba(34, 195, 90, 1) 0%, rgba(253, 187, 45, 1) 86%)",
+            "tracks": [9, 13, 14, 32, 33, 34, 35, 111]
         },
         {
             "title": "Don't Press 96",
             "artist": "Gas Petrol",
-            "cover": "gaspetrol.jpg",
-            "color": "#F1C40F",
+            "cover": "",
+            "color": "#a83434",
             "tracks": [59, 60, 92, 61, 62, 63, 64, 95]
+        },
+        {
+            "title": "Freshly Baked Goods",
+            "artist": "Van + Trey",
+            "cover": "",
+            "color": "radial-gradient(circle,rgba(251, 135, 63, 1) 0%, rgba(140, 244, 255, 1) 64%)",
+            "tracks": [19, 20, 21, 36, 37, 38, 39, 113]
         },
         {
             "title": "Pillow",
             "artist": "Gas Petrol",
-            "cover": "gaspetrol.jpg",
-            "color": "#F1C40F",
+            "cover": "",
+            "color": "#fce6e6",
             "tracks": [65, 66, 67, 68, 69, 70, 93, 71]
-        },
-        {
-            "title": "Whiplash",
-            "artist": "Gas Petrol",
-            "cover": "gaspetrol.jpg",
-            "color": "#F1C40F",
-            "tracks": [72, 73, 94, 74, 97, 75, 76, 78, 79, 80]
-        },
-        {
-            "title": "one night in arizona",
-            "artist": "Gas Petrol",
-            "cover": "gaspetrol.jpg",
-            "color": "#F1C40F",
-            "tracks": [81, 82, 83, 84, 85]
-        },
-        {
-            "title": "stick shift",
-            "artist": "Gas Petrol",
-            "cover": "gaspetrol.jpg",
-            "color": "#F1C40F",
-            "tracks": [86, 87, 88, 89, 90, 96, 91, 106]
-        },
-        {
-            "title": "Ranch Girl",
-            "artist": "Billie Nelson",
-            "cover": "after_hours.jpg",
-            "color": "#FF4C4C",
-            "tracks": [4, 40, 41, 42, 43, 44, 58, 101]
-        },
-        {
-            "title": "City Boy",
-            "artist": "Johnny Bills",
-            "cover": "2N.jpg",
-            "color": "#D6007A",
-            "tracks": [45, 46, 47, 48, 49, 50, 119]
         },
         {
             "title": "Daydreaming",
             "artist": "Dinah Carolina",
-            "cover": "daydream.jpg",
-            "color": "#1F618D",
+            "cover": "",
+            "color": "linear-gradient(90deg,rgba(166, 130, 0, 1) 0%, rgba(181, 169, 89, 1) 35%, rgba(255, 252, 176, 1) 100%)",
             "tracks": [3, 8, 15, 51, 52, 53, 54, 55, 56, 57, 58]
+        },
+        {
+            "title": "Ranch Girl",
+            "artist": "Billie Nelson",
+            "cover": "",
+            "color": "#FF4C4C",
+            "tracks": [4, 40, 41, 42, 43, 44, 58, 101]
+        },
+        {
+            "title": "one night in arizona",
+            "artist": "Gas Petrol",
+            "cover": "",
+            "color": "radial-gradient(circle,rgba(180, 58, 125, 1) 10%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 86%)",
+            "tracks": [81, 82, 83, 84, 85]
+        },
+        {
+            "title": "City Boy",
+            "artist": "Johnny Bills",
+            "cover": "",
+            "color": "#299fff",
+            "tracks": [45, 46, 47, 48, 49, 50, 119]
+        },
+        {
+            "title": "Whiplash",
+            "artist": "Gas Petrol",
+            "cover": "",
+            "color": "linear-gradient(46deg,rgba(157, 0, 255, 1) 47%, rgba(0, 0, 0, 1) 42%)",
+            "tracks": [72, 73, 94, 74, 97, 75, 76, 78, 79, 80]
         },
         {
             "title": "As It Seems",
             "artist": "Dinah Carolina",
-            "cover": "daydream.jpg",
-            "color": "#1F618D",
+            "cover": "",
+            "color": "linear-gradient(136deg,rgba(115, 32, 138, 1) 0%, rgba(255, 5, 176, 1) 50%, rgba(83, 237, 232, 1) 100%",
             "tracks": [94, 96, 98, 104, 110, 114, 99, 95]
         },
         {
             "title": "Riff",
             "artist": "Billie Nelson",
-            "cover": "daydream.jpg",
-            "color": "#1F618D",
+            "cover": "",
+            "color": "linear-gradient(0deg,rgba(21, 97, 13, 1) 0%, rgba(58, 196, 20, 1) 12%, rgba(26, 69, 8, 1) 29%, rgba(76, 207, 6, 1) 44%, rgba(43, 99, 12, 1) 60%, rgba(79, 214, 0, 1) 77%, rgba(41, 89, 12, 1) 89%, rgba(79, 214, 0, 1) 100%)",
             "tracks": [93, 103, 107, 116, 120, 123, 86]
         }
     ],
@@ -260,6 +278,11 @@
             "title": "locked in",
             "color": "#4361EE",
             "tracks": [1, 2, 12, 22, 30, 33, 56, 57, 60, 68, 76, 108]
+        },
+        {
+            "title": "daily pushup grind",
+            "color": "#4361EE",
+            "tracks": [8, 25, 37, 61]
         },
         {
             "title": "sleepy Time",

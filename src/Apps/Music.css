@@ -236,18 +236,19 @@
 }
 
 .music-album-list {
+    padding: 20px 50px 50px 50px;
     display: flex;
     flex-flow: row wrap;
-    align-items: flex-start;
-    justify-content: start;
+    justify-content: center;
     gap: 15px;
+    row-gap: 40px;
+    overflow:visible;
 }
 
 .music-album-card-wrap {
     width: 150px;
     height: 150px;
-    background-color: #161616;
-    border-radius: 4px;
+    border-radius: 50%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -259,16 +260,8 @@
 }
 
 .music-album-card-wrap:hover {
-    transform: scale(1.05);
-}
-
-.music-album-card-wrap p {
-    color: #f0f0f0;
-    font-size: 15px;
-    font-weight: bold;
-    position: absolute;
-    pointer-events: none;
-    margin: 10px;
+    transform: scale(2);
+    z-index: 10;
 }
 
 .music-album-card {
@@ -285,6 +278,68 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.music-album-card-record-div {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.music-album-card-center {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.music-album-card-center-dot {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    border-radius: 50%;
+    background-color: var(--music-bg-color);
+    pointer-events: none;
+}
+
+.music-album-card-wrap p {
+    color: #f0f0f0;
+    font-weight: bold;
+    pointer-events: none;
+    text-shadow: 0px 0px 3px rgb(31, 31, 31);
+}
+
+.music-album-card-title {
+    margin: 5px;
+    font-size: 18px;
+    position: absolute;
+}
+
+.music-album-card-artist {
+    font-size: 12px;
+    margin: 20px;
+    position: absolute;
+    bottom: 5px;
+    visibility:hidden;
+    opacity:0;
+    z-index: 12;
+    transition:visibility 0.2s linear,opacity 0.2s linear;
+}
+
+.music-album-card-wrap:hover .music-album-card-artist {
+    visibility:visible;
+    opacity:1;
 }
 
 /* Music Tracklist Page Styles */
@@ -328,17 +383,9 @@
     color: #dcdcdc;
 }
 
-.music-page-header-img-div {
+.music-page-header-record-div {
     width: 120px;
     height: 120px;
-    border-radius: 4px;
-    /* border: 1px solid honeydew; */
-}
-
-.music-page-header-img-div img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
 }
 
 .music-page-table-div {

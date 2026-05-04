@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { StartScreen } from './StartScreen';
 import { ProfileIcon } from './ProfileIcon';
-import windows_icon from '../Images/2N.jpg';
 import { PiEyeClosedLight } from "react-icons/pi";
 import { PiEye } from "react-icons/pi";
 import { MdKeyboardBackspace } from "react-icons/md";

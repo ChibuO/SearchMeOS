@@ -26,8 +26,8 @@
     {
         "name": "My World",
         "icon": "contacts_icon.png",
-        "entry": "0927",
-        "hint": "Her birthday",
+        "entry": "",
+        "hint": "",
         "unlocked": true
     },
     "messages": 
@@ -41,15 +41,15 @@
     {
         "name": "Symph",
         "icon": "music_icon.png",
-        "entry": "0927",
-        "hint": "Her birthday",
+        "entry": "",
+        "hint": "",
         "unlocked": true
     },
     "docs": 
     {
         "name": "Docs",
         "icon": "docs_icon.png",
-        "entry": "0818",
+        "entry": "14m41s",
         "hint": "",
         "forgotPassword": true
     },
@@ -57,8 +57,8 @@
     {
         "name": "Notes",
         "icon": "notes_icon.png",
-        "entry": "0927",
-        "hint": "Her birthday",
+        "entry": "",
+        "hint": "",
         "unlocked": true
     },
     "internet": 

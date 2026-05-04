@@ -1,14 +1,14 @@
 // so I can handle img require exceptions
 import React from 'react';
-import default_image from '../Images/fake_album.jpg';
+import default_image from '../Images/start-icon.png';
 
-const Img = ({imageName, ...props}) => {
+const Img = ({imageName, defaultImg, alt, ...props}) => {
 
     const CheckSrc = () => {
         try {
-            return <img src={require(`../Images/${imageName}`)} {...props} />
+            return <img src={require(`../Images/${imageName}`)} alt={alt} {...props} />
         } catch(err) {  
-            return <img src={default_image} {...props} />
+            return <img src={defaultImg || default_image } alt={alt} {...props} />
         }
     }
 
