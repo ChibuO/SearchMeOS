@@ -107,13 +107,6 @@
         { "id": 95, "title": "Billboard Sucks", "artist": "Gas Petrol", "duration": "3:52" },
         { "id": 96, "title": "rearview", "artist": "Gas Petrol", "duration": "3:29" },
         { "id": 97, "title": "Talladega Sunsets", "artist": "Gas Petrol", "duration": "4:00" },
-        
-        { "id": 93, "title": "Stairs to Heaven", "artist": "Billie Nelson", "duration": "3:22" },
-        { "id": 94, "title": "Intro", "artist": "Dinah Carolina", "duration": "4:08" },
-        { "id": 95, "title": "All for Nothing", "artist": "Dinah Carolina", "duration": "2:29" },
-        { "id": 96, "title": "Love is Blind", "artist": "Dinah Carolina", "duration": "3:52" },
-        { "id": 97, "title": "Get Over It", "artist": "Shoelace", "duration": "3:29" },
-        { "id": 98, "title": "The Drive", "artist": "Dinah Carolina", "duration": "4:00" },
 
         { "id": 99, "title": "The Drive (interlude)", "artist": "Dinah Carolina", "duration": "3:22" },
         { "id": 100, "title": "my truth", "artist": "Caniope", "duration": "4:08" },
@@ -153,7 +146,14 @@
         { "id": 130, "title": "I Still Want You", "artist": "Dinah Carolina", "duration": "3:20" },
         { "id": 131, "title": "Bonfire", "artist": "Dinah Carolina", "duration": "3:44" },
         { "id": 132, "title": "Wish Her Well", "artist": "Dinah Carolina", "duration": "3:20" },
-        { "id": 133, "title": "Whiplash", "artist": "Dinah Carolina", "duration": "3:44" }
+        { "id": 133, "title": "Whiplash", "artist": "Dinah Carolina", "duration": "3:44" },
+
+        { "id": 134, "title": "Stairs to Heaven", "artist": "Billie Nelson", "duration": "3:22" },
+        { "id": 135, "title": "Intro", "artist": "Dinah Carolina", "duration": "4:08" },
+        { "id": 136, "title": "All for Nothing", "artist": "Dinah Carolina", "duration": "2:29" },
+        { "id": 137, "title": "Love is Blind", "artist": "Dinah Carolina", "duration": "3:52" },
+        { "id": 138, "title": "Get Over It", "artist": "Shoelace", "duration": "3:29" },
+        { "id": 139, "title": "The Drive", "artist": "Dinah Carolina", "duration": "4:00" }
     ],
     "albums": [
         {
@@ -237,15 +237,15 @@
             "title": "As It Seems",
             "artist": "Dinah Carolina",
             "cover": "",
-            "color": "linear-gradient(136deg,rgba(115, 32, 138, 1) 0%, rgba(255, 5, 176, 1) 50%, rgba(83, 237, 232, 1) 100%",
-            "tracks": [94, 96, 98, 104, 110, 114, 99, 95]
+            "color": "linear-gradient(136deg,rgba(115, 32, 138, 1) 0%, rgba(255, 5, 176, 1) 50%, rgba(83, 237, 232, 1) 100%)",
+            "tracks": [135, 137, 139, 104, 110, 114, 99, 136]
         },
         {
             "title": "Riff",
             "artist": "Billie Nelson",
             "cover": "",
             "color": "linear-gradient(0deg,rgba(21, 97, 13, 1) 0%, rgba(58, 196, 20, 1) 12%, rgba(26, 69, 8, 1) 29%, rgba(76, 207, 6, 1) 44%, rgba(43, 99, 12, 1) 60%, rgba(79, 214, 0, 1) 77%, rgba(41, 89, 12, 1) 89%, rgba(79, 214, 0, 1) 100%)",
-            "tracks": [93, 103, 107, 116, 120, 123, 86]
+            "tracks": [134, 103, 107, 116, 120, 123, 86]
         }
     ],
     "playlists": [
@@ -257,7 +257,7 @@
         {
             "title": "gym mode - no excuses",
             "color": "#F54927",
-            "tracks": [5, 6, 28, 30, 31, 61, 65, 78, 92, 94, 95, 70, 75, 76]
+            "tracks": [5, 6, 28, 30, 31, 61, 65, 138, 78, 92, 94, 95, 70, 75, 76]
         },
         {
             "title": "recharge",
@@ -292,7 +292,7 @@
         {
             "title": "for my boo ❤️",
             "color": "#FF6F91",
-            "tracks": [3, 10, 11, 20, 23, 41, 96, 105, 55, 110, 51, 12, 118]
+            "tracks": [3, 10, 11, 20, 23, 41, 137, 105, 55, 110, 51, 12, 118]
         },
         {
             "title": "revenge mode",

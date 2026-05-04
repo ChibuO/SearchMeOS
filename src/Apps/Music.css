@@ -249,6 +249,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    background-color: var(--music-bg-color-dark);
     text-align: center;
     display: flex;
     align-items: center;
@@ -257,6 +258,7 @@
     cursor: pointer;
     overflow: hidden;
     position: relative;
+    clip-path: circle(50%);
 }
 
 .music-album-card-wrap:hover {

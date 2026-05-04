@@ -21,6 +21,20 @@
     "note": "score:\nme - 20\nhim - 40"
   },
   {
+    "contactName": "Jachristopher Wallins",
+    "emoji": "🧊",
+    "email": "jwpepp@bmail.com",
+    "phone": "606-6283",
+    "note": "black"
+  },
+  {
+    "contactName": "Colter Shaw",
+    "emoji": "👑",
+    "email": "tracker@inward.com",
+    "phone": "906-6223",
+    "note": ""
+  },
+  {
     "contactName": "Peyton Sawyer",
     "emoji": "🎨",
     "phone": "699-2522",
@@ -31,7 +45,7 @@
     "emoji": "🐟",
     "phone": "908-3290",
     "email": "moodyboi@bmail.com",
-    "note": "case"
+    "note": "insane pec routine"
   },
   {
     "contactName": "Brooke Davis",
@@ -97,10 +111,17 @@
   },
   {
     "contactName": "Rachel Gatina",
-    "emoji": "👑",
+    "emoji": "❌",
     "phone": "448-4409",
     "email": "rachelgat9@flymail.com",
-    "note": "keep away from Dani\nowes me $40"
+    "note": "keep away from dani\nowes me $40"
+  },
+  {
+    "contactName": "Dmitria Mendeleieva",
+    "emoji": "🧪",
+    "phone": "348-0967",
+    "email": "dmitriam@othello.edu",
+    "note": "chem major\na little weird\nmade our eyes glow, def hire again"
   },
   {
     "contactName": "Lindsay James",
@@ -121,13 +142,20 @@
     "emoji": "🐈",
     "phone": "392-92679",
     "email": "skills@bmail.com",
-    "note": "book"
+    "note": "cat is named smitty\nfree snuggles if you pet him"
   },
   {
     "contactName": "Jake Jagielski",
     "emoji": "🍼",
     "phone": "406-3335",
     "email": "luvubaby@flymail.com"
+  },
+  {
+    "contactName": "Carole Smithe",
+    "emoji": "💎",
+    "phone": "806-3365",
+    "email": "carolequeen@flymail.com",
+    "note": "smith"
   },
   {
     "contactName": "Tim Turner",

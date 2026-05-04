@@ -3,8 +3,8 @@
     {
         "name": "Calendar",
         "icon": "calendar_icon.png",
-        "entry": "airstrike",
-        "hint": ""
+        "entry": "81032671459",
+        "hint": "no punctuation"
     },
     "email": 
     {
@@ -19,8 +19,8 @@
     {
         "name": "Photos",
         "icon": "photos_icon.png",
-        "entry": "wiccita",
-        "hint": "go beavers!"
+        "entry": "richfield",
+        "hint": "go spartans! no hs"
     },
     "contacts": 
     {
@@ -34,7 +34,7 @@
     {
         "name": "Chatto",
         "icon": "messages_icon.png",
-        "entry": "bookcase",
+        "entry": "blacksmith",
         "hint": ""
     },
     "music": 

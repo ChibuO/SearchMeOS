@@ -17,6 +17,8 @@ export const MusicApp = forwardRef((props, ref) => {
     return {
       clearWindow() {
         setSelectedSection("playlist");
+        setSelectedPlaylist(musics?.playlists[0] || null);
+        setShowAlbumPage(false);
       }
     };
   }, []);
@@ -214,7 +216,7 @@ const MusicItemPage = ({ itemType, selectedPage }) => {
           {selectedPage && selectedPage.tracks.map((songId, index) => {
             const song = musics.songs.find(s => s.id === songId);
             return song && (<div key={index} className={`music-page-row music-page-track-row ${isPlaylist ? 'music-page-playlist-track' : 'music-page-album-track'}`}>
-              <div>{index}</div>
+              <div>{index+1}</div>
               <div>{song.title}</div>
               {isPlaylist && <div>{song.artist}</div>}
               <div>{song.duration}</div>

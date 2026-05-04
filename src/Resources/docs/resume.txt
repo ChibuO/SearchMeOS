@@ -1,53 +1,40 @@
 %FIRSTNAME% %LASTNAME%
---------------------------------------------------------------------
-cyuanfight@flymail.com | 565-7674 | https://chaz-yuan.linkedin.com | Duluth, Minnesota
-
 ---
+cyuanfight@flymail.com | 565-7674 | https://chaz-yuan.linkedin.com | Dutruth, Minnesota
 
-## Education
+# Education
+> Bachelor of Arts in Economics 
+   Othello University, Shakes, Utah  
+   Expected Graduation: in 2 years
+   Relevant Coursework: Microeconomics, Macroeconomics, Econometrics, Statistics, Financial Accounting
+> Richfield High School
+   Activities: Swim Club, Student Gov, Computer Club
 
-Bachelor of Arts in Economics 
-Othello University, Shakes, Utah  
-Expected Graduation: in 2 years
-- Relevant Coursework: Microeconomics, Macroeconomics, Econometrics, Statistics, Financial Accounting
+# Skills
+> Data Analysis
+> Economic Research
+> Statistical Modeling
+> Report Writing
+> Critical Thinking
 
----
-
-## Skills
-
-- Data Analysis (Excel, R, Stata)
-- Economic Research
-- Statistical Modeling
-- Report Writing
-- Critical Thinking
-
----
-
-## Experience
-
+# Experience
 Intern, Economic Consulting
 [Company Name], [City, State]  
 [Month, Year] – [Month, Year]  
-- Supported consultants with market analysis and data visualization  
-- Assisted in preparing client presentations and economic impact reports
+> Supported consultants with market analysis and data visualization  
+> Assisted in preparing client presentations and economic impact reports
 
----
-
-## Projects
-
+# Projects
 Economic Impact Analysis
-- Conducted a study on the economic effects of fast fashion using regression analysis  
-- Presented findings to classmates and faculty
+> Conducted a study on the economic effects of fast fashion using regression analysis  
+> Presented findings to classmates and faculty
 
----
-
-## Leadership & Activities
-
-- Member, OU Radio
-- Community Social Gathering Coordinator
-
----
+# Leadership & Activities
+> Member, OU Radio
+> Community Social Gathering Coordinator
 
 References available upon request.
 
--- Generated at ResumeAI.com --
+----------------------------------------
+
+--> Generated with ResumeAI.com <--
