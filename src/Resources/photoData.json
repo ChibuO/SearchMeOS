@@ -97,6 +97,12 @@
     {
         "photo": "flyer_tree.png",
         "alt": "flyer for forest-themed party",
+        "date": "2 months ago"
+    },
+    "flyer4" :
+    {
+        "photo": "flyer_sight.jpg",
+        "alt": "flyer for glow-in-the-dark party",
         "date": "1 week ago"
     },
     "goosebat" :

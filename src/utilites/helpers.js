@@ -60,6 +60,7 @@ export const parseDate = (dateText) => {
   // Dates can also be explicitly set
   const currentYear = new Date().getFullYear();
   const currentMonth = new Date().getMonth() + 1;
+  const currentDay = new Date().getDate();
   if (parsedMonth.startsWith('M') && parsedMonth.length > 1) {
     let distance = parseInt(parsedMonth.slice(1));
     // To prevent overflow, if the distance is greater than 12 or less than -12, we can cap it at 11 or -11,
@@ -80,7 +81,7 @@ export const parseDate = (dateText) => {
   } else if (parsedMonth === 'M') {
     parsedMonth = currentMonth;
   }
-  
+
   if (parsedYear.startsWith('Y') && parsedYear.length > 1) {
     let distance = parseInt(parsedYear.slice(1));
     parsedYear = currentYear + distance;
@@ -88,11 +89,26 @@ export const parseDate = (dateText) => {
     parsedYear = currentYear;
   }
 
-  // Handle day overflow
-  let intendedDate = new Date(parsedYear, parsedMonth - 1, parsedDay);
-  if (intendedDate.getMonth() !== parsedMonth - 1) {
-    intendedDate = endOfMonth(new Date(parsedYear, parsedMonth - 1, 1));
+  if (parsedDay.startsWith('D') && parsedDay.length > 1) {
+    let distance = parseInt(parsedDay.slice(1));
+    parsedDay = currentDay + distance;
+  } else if (parsedDay === 'D') {
+    parsedDay = currentDay;
+  } else if (parsedDay.startsWith('S') && parsedDay.length > 1) {
+    let parsedRelativeDate = parsedDay.slice(1).split('+');
+    let parsedRelativeDay = parseInt(parsedRelativeDate[0]);
+    let distance = parseInt(parsedRelativeDate[1]);
+    parsedDay = parsedRelativeDay + distance;
   }
+
+  // day should correct itself if it overflows the number of days in the month (e.g. April 31 -> May 1)
+  let intendedDate = new Date(parsedYear, parsedMonth - 1, parsedDay);
+
+  // Handle day overflow
+//   let intendedDate = new Date(parsedYear, parsedMonth - 1, parsedDay);
+//   if (intendedDate.getMonth() !== parsedMonth - 1) {
+//     intendedDate = endOfMonth(new Date(parsedYear, parsedMonth - 1, 1));
+//   }
   
   return intendedDate;
 }

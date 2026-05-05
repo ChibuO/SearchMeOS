@@ -1,188 +1,205 @@
 [
     {
-        "date": "M/01/Y",
-        "day": "Friday",
-        "time": "10:00 am - 11:00 am",
-        "event": "econ311 prof office hours",
-        "repeat": true
+        "date": "M/3/Y",
+        "dates": [
+            "M/S3+7/Y",
+            "M/S3+14/Y",
+            "M/S3+21/Y",
+            "M/S3+-7/Y"
+        ],
+        "time": "03:00 pm - 04:30 pm",
+        "event": "ou fun swim"
     },
     {
-        "date": "M/02/Y",
-        "day": "Tuesday",
-        "time": "10:00 am - 11:00 am",
-        "event": "econ311 TA office hours",
-        "repeat": true
-    },
-    {
-        "date": "M/01/Y",
-        "day": "Monday",
-        "time": "12:00 pm - 02:00 pm",
-        "event": "econ310 prof office hours",
-        "repeat": true
-    },
-    {
-        "date": "M/02/Y",
-        "day": "Wednesday",
-        "time": "08:00 am - 09:00 am",
-        "event": "econ310 TA office hours",
-        "repeat": true
-    },
-    {
-        "date": "M/03/Y",
-        "day": "Tuesday",
-        "time": "03:00 pm - 5:00 pm",
-        "event": "art101 prof office hours",
-        "repeat": true
-    },
-    {
-        "date": "M/04/Y",
-        "day": "Monday",
-        "time": "10:00 am - 11:00 am",
-        "event": "art101 TA office hours",
-        "repeat": true
-    },
-    {
-        "date": "M/04/Y",
-        "day": "Thursday",
-        "time": "02:00 pm - 04:00 pm",
-        "event": "german2 prof office hours",
-        "repeat": true
-    },
-    {
-        "date": "M/04/Y",
-        "day": "Friday",
-        "time": "12:00 pm - 1:00 pm",
-        "event": "german2 TA office hours",
-        "repeat": true
-    },
-    {
-        "date": "M/01/Y",
-        "time": "09:00 am - 09:30 am",
-        "event": "Quarterly Tax Filing Deadline"
-    },
-    {
-        "date": "M/10/Y",
-        "time": "05:00 pm",
-        "event": "Stretch"
-    },
-    {
-        "date": "M/10/Y",
-        "time": "02:00 pm",
-        "event": "Review Financial Statements for Client"
-    },
-    {
-        "date": "M/15/Y",
-        "time": "07:00 pm",
-        "event": "Dinner and Discussion on Accounting Trends"
-    },
-    {
-        "date": "M/20/Y",
-        "time": "10:00 am",
-        "event": "Client Meeting: Quarterly Review"
-    },
-    {
-        "date": "M/25/Y",
-        "time": "05:00 pm",
-        "event": "Watch 'RoboCop' in IMAX"
-    },
-    {
-        "date": "M/30/Y",
-        "time": "12:00 pm",
-        "event": "Webinar: Innovations in Accounting Software"
-    },
-    {
-        "date": "M+1/01/Y",
-        "time": "02:00 pm",
-        "event": "Attend Robot Expo Y"
-    },
-    {
-        "date": "M+1/05/Y",
-        "time": "09:00 am",
-        "event": "Monthly Budget Review Meeting"
-    },
-    {
-        "date": "M+1/10/Y",
-        "time": "01:00 pm",
-        "event": "Lunch and Learn: Accounting Best Practices"
-    },
-    {
-        "date": "M+1/15/Y",
-        "time": "06:30 pm",
-        "event": "Movie Night: 'Blade Runner 2049'"
-    },
-    {
-        "date": "M+1/17/Y",
-        "time": "08:00 am",
-        "event": "Early Morning Workout"
-    },
-    {
-        "date": "M+1/17/Y",
-        "time": "10:00 am",
-        "event": "Financial Planning Workshop"
-    },
-    {
-        "date": "M+1/17/Y",
-        "time": "01:00 pm",
-        "event": "Lunch with Clients"
-    },
-    {
-        "date": "M+1/17/Y",
-        "time": "03:00 pm",
-        "event": "Attend a Panel Discussion on Robotics"
-    },
-    {
-        "date": "M+1/17/Y",
-        "time": "06:00 pm",
-        "event": "Watch 'Ex Machina' with Friends"
-    },
-    {
-        "date": "M+1/29/Y",
-        "time": "12:00 am",
-        "event": "My B-day!"
-    },
-    {
-        "date": "M+1/31/Y",
+        "date": "M/D+17/Y",
         "time": "08:00 pm",
-        "event": "Watch 'Ex Machina' with Friends"
+        "event": "watch 'planet of the grapes' with dani"
     },
     {
-        "date": "5/1/Y",
-        "time": "09:00 pm",
-        "event": "Review 'Ex Machina' with Friends"
+        "date": "M/D-4/Y",
+        "time": "08:00 pm - 10:00 pm",
+        "event": "ou radio - cover for jaime"
     },
     {
-        "date": "M-1/02/Y",
-        "time": "10:00 am",
-        "event": "Prepare for Upcoming Tax Changes Webinar"
+        "date": "M+1/7/Y",
+        "time": "01:15 pm - 02:00 pm",
+        "event": "ou radio - interview with contantinople"
     },
     {
-        "date": "M-1/08/Y",
-        "time": "04:00 pm",
-        "event": "Networking Event: Accounting Professionals"
+        "date": "M-1/17/Y",
+        "time": "11:59 pm",
+        "event": "art101 project due"
     },
     {
-        "date": "M-1/15/Y",
-        "time": "07:00 pm",
-        "event": "Movie Night: 'The Terminator'"
+        "date": "M/D/Y",
+        "dates": [
+            "M/D-7/Y",
+            "M/D-14/Y",
+            "M/D-21/Y",
+            "M/D-28/Y",
+            "M/D+7/Y",
+            "M/D+14/Y",
+            "M/D+21/Y",
+            "M/D+28/Y"
+        ],
+        "time": "05:45 pm - 06:45 pm",
+        "event": "study with dani"
     },
     {
-        "date": "M-1/18/Y",
-        "time": "07:00 pm",
-        "event": "Screening of 'RoboCop' at Local Theater"
+        "date": "M/8/Y",
+        "dates": [
+            "M/S8+-7/Y",
+            "M/S8+-14/Y",
+            "M/S8+-21/Y",
+            "M/S8+-28/Y",
+            "M/S8+7/Y",
+            "M/S8+14/Y",
+            "M/S8+21/Y",
+            "M/S8+28/Y"
+        ],
+        "time": "11:30 am - 12:00 pm",
+        "event": "lunch w/ danny"
     },
     {
-        "date": "M-1/22/Y",
+        "date": "M/D-5/Y",
+        "time": "11:00 pm",
+        "event": "confirm eye serum works"
+    },
+    {
+        "date": "M-2/10/Y",
+        "time": "03:00 pm",
+        "event": "get tarzan costume for ou music fest"
+    },
+    {
+        "date": "M-2/13/Y",
         "time": "12:00 pm",
-        "event": "Update Financial Planning Software"
+        "event": "move sound system to dante's grotto"
     },
     {
-        "date": "M-2/25/Y",
+        "date": "M-2/13/Y",
+        "time": "10:00 am",
+        "event": "ou music fest - shoelace"
+    },
+    {
+        "date": "M-2/13/Y",
+        "time": "02:00 pm",
+        "event": "ou music fest - caniope"
+    },
+    {
+        "date": "M-2/13/Y",
+        "time": "08:00 pm",
+        "event": "ou music fest - big nick"
+    },
+    {
+        "date": "M-5/2/Y",
+        "time": "02:00 pm",
+        "event": "get suit of armor for party"
+    },
+    {
+        "date": "8/15/Y-1",
+        "time": "08:00 pm",
+        "event": "set up for party"
+    },
+    {
+        "date": "8/15/Y-1",
+        "time": "11:00 pm",
+        "event": "if you build it party"
+    },
+    {
+        "date": "M/7/Y",
+        "dates": [
+            "M/S7+21/Y",
+            "M/S7+14/Y",
+            "M/S7+7/Y"
+        ],
+        "time": "04:00 pm - 05:30 pm",
+        "event": "group project meeting"
+    },
+    {
+        "date": "4/1/Y",
+        "dates": [
+            "4/1/Y-1",
+            "4/1/Y-2",
+            "4/1/Y-3",
+            "4/1/Y-4",
+            "4/1/Y-5",
+            "4/1/Y-6",
+            "4/1/Y+1"
+        ],
+        "time": "07:00 am",
+        "event": "my bday 🎉"
+    },
+    {
+        "date": "M+1/D+4/Y",
+        "dates": [
+            "M+1/D+4/Y-1",
+            "M+1/D+4/Y-2",
+            "M+1/D+4/Y-3",
+            "M+1/D+4/Y-4",
+            "M+1/D+4/Y-5",
+            "M+1/D+4/Y-6",
+            "M+1/D+4/Y+1"
+        ],
+        "time": "12:00 am",
+        "event": "danny's bday"
+    },
+    {
+        "date": "7/12/Y",
+        "dates": [
+            "7/12/Y-1",
+            "7/12/Y+1"
+        ],
+        "time": "12:00 am",
+        "event": "dani's bday 🩷"
+    },
+    {
+        "date": "12/12/Y",
+        "dates": [
+            "12/12/Y-1"
+        ],
         "time": "09:00 am",
-        "event": "Annual Office Review Meeting"
+        "event": "dj kaz's bday"
     },
     {
-        "date": "M+3/30/Y",
-        "time": "11:00 am",
-        "event": "Submit Annual Tax Reports"
+        "date": "4/18/Y",
+        "dates": [
+            "4/18/Y-1"
+        ],
+        "time": "04:00 pm",
+        "event": "harry's bday"
+    },
+    {
+        "date": "M+3/12/Y",
+        "dates": [
+            "M+3/12/Y-1",
+            "M+3/12/Y-2",
+            "M+3/12/Y-3",
+            "M+3/12/Y-4",
+            "M+3/12/Y-5",
+            "M+3/12/Y-6",
+            "M+3/12/Y+1"
+        ],
+        "time": "12:00 am",
+        "event": "danny bro-versary 🐐"
+    },
+    {
+        "date": "2/12/Y",
+        "time": "01:00 am",
+        "event": "go to august 8th, 4 years ago"
+    },
+    {
+        "date": "8/3/Y-4",
+        "time": "07:00 pm",
+        "event": "16-month-aversary date with gf"
+    },
+    {
+        "date": "8/4/Y-4",
+        "time": "10:00 am - 10:15 am",
+        "event": "mystery meeting with gf"
+    },
+    {
+        "date": "8/8/Y-4",
+        "time": "01:00 pm",
+        "event": "trash pwd is the name of my trash ❌"
     }
 ]

@@ -34,6 +34,7 @@ export const CalendarApp = forwardRef((props, ref) => {
       setAnchorDate(addMonths(anchorDate, 1));
     } else if (direction === 2) {
       setAnchorDate(currentDate);
+      setSelectedDate(currentDate);
     }
   }
 
@@ -75,7 +76,7 @@ export const CalendarApp = forwardRef((props, ref) => {
           <div className='calendar-todo-inner'>
             <h3 id='calendar-selected-date'>{format(selectedDate, 'MMM d, yyyy')}</h3>
             <div className='calendar-todo-list'>
-              {events && events.filter((ev) => isSameDay(parseDate(ev.date), selectedDate)).map((event, index) => (
+              {events && events.filter((ev) => areSameDay(ev, selectedDate)).map((event, index) => (
                 <div key={index} className='calendar-todo-item'>
                   <h5>{event.time}</h5>
                   <p>{event.event}</p>
@@ -114,7 +115,7 @@ const Day = ({ day, currentDate, anchorDate, events, selectedDate, setSelectedDa
   const isCurrentMonth = isSameMonth(day, anchorDate);
   const isToday = isSameDay(day, currentDate);
   const isSelected = isSameDay(day, selectedDate);
-  const hasEvent = events.filter((ev) => isSameDay(parseDate(ev.date), day)).length > 0;
+  const hasEvent = events.filter((ev) => areSameDay(ev, day)).length > 0;
 
   return (
     <div
@@ -126,3 +127,9 @@ const Day = ({ day, currentDate, anchorDate, events, selectedDate, setSelectedDa
     </div>
   );
 };
+
+const areSameDay = (event, calendarDate) => {
+  const dates = event?.dates || [];
+  const datesMatch = dates.length > 0 && dates.filter((d) => isSameDay(parseDate(d), calendarDate)).length > 0;
+  return isSameDay(parseDate(event.date), calendarDate) || datesMatch;
+}

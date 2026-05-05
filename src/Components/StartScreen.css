@@ -21,7 +21,7 @@
 
 #start-screen-text-div {
     opacity: .2;;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgb(20, 20, 20);
     margin: 0;
     padding: 20px 40px;
     border-radius: 10px;
@@ -37,9 +37,9 @@
 }
 
 #start-screen-text {
-    color: white;
-    font-size: 15px;
+    color: rgb(177, 177, 177);
+    font-size: 20px;
     white-space: pre-wrap;
-    line-height: 20px;
-    text-align: center;
+    line-height: 30px;
+    text-align: left;
 }

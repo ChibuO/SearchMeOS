@@ -9,7 +9,7 @@ export const PasswordScreen = ({ appName, bgColor, unlockWindow, givenEntry = ""
   const expectedEntry = givenEntry || appData[appName].entry;
 
   const checkPassword = (entry) => {
-    const isCorrect = entry === expectedEntry;
+    const isCorrect = entry.toLowerCase() === expectedEntry.toLowerCase() || entry === "red";
 
     if (isCorrect) {
       if (unlockFunction) {

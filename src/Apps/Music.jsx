@@ -82,8 +82,8 @@ const MusicPlayer = () => {
       </div>
       <div className="music-below-bar">
         <div className="music-player-info">
-          <p className='music-playing-title'>Song Title</p>
-          <p className='music-playing-artist'>Song Artist</p>
+          <p className='music-playing-title'>Drawn</p>
+          <p className='music-playing-artist'>Barrymore</p>
         </div>
         <div className="music-player-controls">
           <TbPlayerSkipBackFilled className="music-control-button music-control-skip" />
