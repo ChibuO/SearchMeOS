@@ -1,4 +1,4 @@
-import React, { useState, forwardRef, useImperativeHandle, useEffect } from 'react';
+import React, { useState, useImperativeHandle, useEffect } from 'react';
 import { CiTextAlignLeft } from "react-icons/ci";
 import { MdKeyboardBackspace } from "react-icons/md";
 import documents from '../Resources/docsData.json';
@@ -7,7 +7,7 @@ import { insertGlobalData } from '../utilities/helpers.js';
 
 import './Documents.css';
 
-export const DocumentsApp = forwardRef((props, ref) => {
+export const DocumentsApp = ({ref}) => {
     const [selectedDocumentIndex, setSelectedDocumentIndex] = useState(0);
     const [showDocument, setShowDocument] = useState(false);
     const [fileName, setFileName] = useState('');
@@ -49,7 +49,7 @@ export const DocumentsApp = forwardRef((props, ref) => {
                 <DocumentsHome openDocument={openDocument} />}
         </div>
     )
-});
+};
 
 const DocumentsHome = ({ openDocument }) => {
     // Sort documents alphabetically by name in place

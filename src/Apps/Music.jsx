@@ -1,4 +1,4 @@
-import React, { useState, forwardRef, useImperativeHandle } from 'react';
+import React, { useState, useImperativeHandle } from 'react';
 import { TbPlayerPlayFilled } from "react-icons/tb";
 import { TbPlayerSkipForwardFilled } from "react-icons/tb";
 import { TbPlayerSkipBackFilled } from "react-icons/tb";
@@ -8,7 +8,7 @@ import record_img from '../Images/record.png';
 import musics from '../Resources/musicData.json';
 import './Music.css';
 
-export const MusicApp = forwardRef((props, ref) => {
+export const MusicApp = ({ref}) => {
   const [selectedPlaylist, setSelectedPlaylist] = useState(musics?.playlists[0] || null);
   const [selectedSection, setSelectedSection] = useState("playlist");
   const [showAlbumPage, setShowAlbumPage] = useState(false);
@@ -72,7 +72,7 @@ export const MusicApp = forwardRef((props, ref) => {
       </div>
     </div>
   );
-});
+};
 
 const MusicPlayer = () => {
   return (

@@ -98,6 +98,7 @@ export const App = () => {
             setOpenWindows([]);
             localStorage.setItem("windowsState", JSON.stringify(newState));
             localStorage.setItem("openWindowsState", JSON.stringify([]));
+            localStorage.setItem("windowUnlocked", false);
             logOut();
         }
     }

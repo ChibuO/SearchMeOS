@@ -1,10 +1,10 @@
-import React, { useState, forwardRef, useImperativeHandle, useMemo } from 'react';
+import React, { useState, useImperativeHandle, useMemo } from 'react';
 import { MdKeyboardBackspace } from "react-icons/md";
 import Img from '../Components/CustomImage';
 import photos from '../Resources/photoData.json';
 import './Photos.css';
 
-export const PhotosApp = forwardRef((props, ref) => {
+export const PhotosApp = ({ref}) => {
   const [selectedPhotoKey, setSelectedPhotoKey] = useState("");
   const [showPhoto, setShowPhoto] = useState(false);
 
@@ -64,7 +64,7 @@ export const PhotosApp = forwardRef((props, ref) => {
       </div>
     </div>
   )
-});
+};
 
 const PhotoModal = ({ photo, setShowPhoto }) => {
   return (

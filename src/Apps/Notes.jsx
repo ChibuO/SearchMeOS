@@ -1,9 +1,9 @@
-import React, { useState, useRef, forwardRef, useImperativeHandle } from 'react';
+import React, { useState, useRef, useImperativeHandle } from 'react';
 import { Modal } from '../Components/Modal';
 import notes from '../Resources/noteData.json';
 import './Notes.css';
 
-export const NotesApp = forwardRef((props, ref) => {
+export const NotesApp = ({ref}) => {
   const [selectedNote, setSelectedNote] = useState(null);
 
   const [showNote, setShowNote] = useState(false);
@@ -48,7 +48,7 @@ export const NotesApp = forwardRef((props, ref) => {
       </div>
     </div>
   );
-});
+};
 
 const NoteModal = ({ note, noteRef }) => {
   return (

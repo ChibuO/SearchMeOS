@@ -1,9 +1,9 @@
-import React, { useState, forwardRef, useImperativeHandle } from 'react';
+import React, { useState, useImperativeHandle } from 'react';
 import contacts from '../Resources/contactData.json';
 import { ProfileIcon } from '../Components/ProfileIcon';
 import './Contacts.css';
 
-export const ContactsApp = forwardRef((props, ref) => {
+export const ContactsApp = ({ref}) => {
   const [selectedContact, setSelectedContact] = useState(null);
 
   const profileBgColor = "rgba(20, 20, 20, 0.521)";
@@ -65,4 +65,4 @@ export const ContactsApp = forwardRef((props, ref) => {
       </div>
     </div>
   );
-});
+};

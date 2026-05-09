@@ -1,4 +1,4 @@
-import React, { useState, forwardRef, useImperativeHandle } from 'react';
+import React, { useState, useImperativeHandle } from 'react';
 import {
   format, startOfMonth, endOfMonth,
   startOfWeek, endOfWeek, addDays, isSameMonth,
@@ -10,7 +10,7 @@ import events from '../Resources/calendarData.json';
 import './Calendar.css';
 import { parseDate } from '../utilities/helpers';
 
-export const CalendarApp = forwardRef((props, ref) => {
+export const CalendarApp = ({ref}) => {
   const currentDate = new Date();
   const [anchorDate, setAnchorDate] = useState(currentDate);
   const [selectedDate, setSelectedDate] = useState(currentDate);
@@ -88,7 +88,7 @@ export const CalendarApp = forwardRef((props, ref) => {
       </div>
     </div>
   );
-});
+};
 
 const Calendar = ({ currentDate, anchorDate, days, events, selectedDate, setSelectedDate }) => {
   const dayNames = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur"];

@@ -1,4 +1,4 @@
-import React, { useState, forwardRef, useImperativeHandle, useEffect } from 'react';
+import React, { useState, useImperativeHandle, useEffect } from 'react';
 import messages from '../Resources/messengerData.json';
 import computerData from '../Resources/computerData.json';
 import { ProfileIcon } from '../Components/ProfileIcon';
@@ -8,7 +8,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { capitlaizeWord, insertGlobalData } from '../utilities/helpers';
 import './Messenger.css';
 
-export const MessengerApp = forwardRef((props, ref) => {
+export const MessengerApp = ({ref}) => {
     const [selectedCategory, setSelectedCategory] = useState(Object.keys(messages.chats)[0]);
     const [selectedChannel, setSelectedChannel] = useState(messages.chats[selectedCategory][0].name);
     const [selectedChannelId, setSelectedChannelId] = useState(0);
@@ -75,7 +75,7 @@ export const MessengerApp = forwardRef((props, ref) => {
             />
         </div>
     );
-});
+};
 
 const ChatArea = ({ selectedCategory, selectedChannel, selectedChannelId, showThread, setShowThread, inputText, setInputText }) => {
     const [selectedMessageId, setSelectedMessageId] = useState(0);

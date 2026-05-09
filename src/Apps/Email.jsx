@@ -1,4 +1,4 @@
-import React, { useState, forwardRef, useImperativeHandle } from 'react';
+import React, { useState, useImperativeHandle } from 'react';
 import computerData from '../Resources/computerData.json';
 import appData from '../Resources/appData.json';
 import initialEmails from '../Resources/emailData.json';
@@ -14,10 +14,24 @@ const drafts = "planned";
 const inbox = "arriving";
 const trash = "canceled";
 
-export const EmailApp = forwardRef((props, ref) => {
+export const EmailApp = ({ref}) => {
   const [selectedCategory, setSelectedCategory] = useState(inbox);
   const [selectedEmailId, setSelectedEmailId] = useState(0);
-  const [trashUnlocked, setTrashUnlocked] = useState(false);
+
+  const getInitialWindowState = () => {
+    const storedState = localStorage.getItem('windowUnlocked');
+    if (storedState) {
+        return storedState === 'true';
+    }
+    return false;
+  };
+
+  const [trashUnlocked, setTrashUnlocked] = useState(getInitialWindowState);
+
+  const unlockTrash = () => {
+    localStorage.setItem("windowUnlocked", true);
+    setTrashUnlocked(true);
+  }
 
   useImperativeHandle(ref, () => {
     return {
@@ -49,7 +63,7 @@ export const EmailApp = forwardRef((props, ref) => {
         <PasswordScreen 
           appName="emailTrash" 
           bgColor={computerData.secondColor} 
-          unlockFunction={() => setTrashUnlocked(true)}
+          unlockFunction={unlockTrash}
           givenHint={appData["email"]["hint2"]}
           givenEntry={appData["email"]["entry2"]}
           givenForgotPassword={false}
@@ -83,7 +97,7 @@ export const EmailApp = forwardRef((props, ref) => {
       }
     </div>
   );
-});
+};
 
 const EmailDisplay = ({ selectedCategory, selectedEmailId }) => {
   const [showFullDetail, setShowFullDetail] = useState(false);
