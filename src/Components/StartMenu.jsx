@@ -1,7 +1,7 @@
 import React from 'react';
 import computerData from '../Resources/computerData.json';
 import { ProfileIcon } from './ProfileIcon';
-import { getFullName } from '../utilites/helpers';
+import { getFullName } from '../utilities/helpers';
 import './StartMenu.css';
 
 export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {

@@ -2,7 +2,7 @@ import React, { useState, forwardRef, useImperativeHandle } from 'react';
 import { TbPlayerPlayFilled } from "react-icons/tb";
 import { TbPlayerSkipForwardFilled } from "react-icons/tb";
 import { TbPlayerSkipBackFilled } from "react-icons/tb";
-import { capitlaizeWord } from '../utilites/helpers';
+import { capitlaizeWord } from '../utilities/helpers';
 import Img from '../Components/CustomImage';
 import record_img from '../Images/record.png';
 import musics from '../Resources/musicData.json';

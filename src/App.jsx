@@ -1,12 +1,12 @@
-import { React, useState, useRef, useEffect } from 'react';
+import { React, useState, useRef, useEffect, useContext } from 'react';
 import Taskbar from './Components/Taskbar';
 import Desktop from './Components/Desktop';
 import LockScreen from './Components/LockScreen';
 import { StartMenu } from './Components/StartMenu';
 import computerData from './Resources/computerData.json';
 import appData from './Resources/appData.json';
-import { fadeLockScreen, slideStartScreen } from './utilites/helpers';
-import { toggleWindow } from './utilites/animate';
+import { fadeLockScreen, slideStartScreen } from './utilities/helpers.js';
+import { toggleWindow } from './utilities/animate.js';
 import './App.css';
 
 const WINDOW_KEYS = ['calendar', 'email', 'photos', 'contacts', 'messages', 'music', 'docs', 'notes', 'internet'];

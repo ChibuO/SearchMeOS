@@ -6,7 +6,7 @@ import contacts from '../Resources/contactData.json';
 import { ProfileIcon } from '../Components/ProfileIcon';
 import { IoMdArrowDropdown } from "react-icons/io";
 import { PasswordScreen } from '../Components/PasswordScreen';
-import { capitlaizeWord, insertGlobalData, getFullName, parseDate } from '../utilites/helpers';
+import { capitlaizeWord, insertGlobalData, getFullName, parseDate } from '../utilities/helpers';
 import './Email.css'
 
 const sent = "departed";

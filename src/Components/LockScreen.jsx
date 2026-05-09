@@ -6,7 +6,7 @@ import { PiEye } from "react-icons/pi";
 import { MdKeyboardBackspace } from "react-icons/md";
 import computerData from '../Resources/computerData.json';
 import { PasswordForm } from './PasswordForm';
-import { fadeLockScreen, slideStartScreen, getFullName } from '../utilites/helpers';
+import { fadeLockScreen, slideStartScreen, getFullName } from '../utilities/helpers';
 import './LockScreen.css';
 
 const LockScreen = ({ isLoggedIn, setIsLoggedIn, bgImagePath }) => {

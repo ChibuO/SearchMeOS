@@ -3,7 +3,7 @@ import { CiTextAlignLeft } from "react-icons/ci";
 import { MdKeyboardBackspace } from "react-icons/md";
 import documents from '../Resources/docsData.json';
 import { documentMap } from '../Resources/documentMap.js';
-import { insertGlobalData } from '../utilites/helpers';
+import { insertGlobalData } from '../utilities/helpers.js';
 
 import './Documents.css';
 

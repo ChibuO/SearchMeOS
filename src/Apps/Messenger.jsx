@@ -5,7 +5,7 @@ import { ProfileIcon } from '../Components/ProfileIcon';
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { FaPaperPlane } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
-import { capitlaizeWord, insertGlobalData } from '../utilites/helpers';
+import { capitlaizeWord, insertGlobalData } from '../utilities/helpers';
 import './Messenger.css';
 
 export const MessengerApp = forwardRef((props, ref) => {
