@@ -58,9 +58,9 @@ const DocumentsHome = ({ openDocument }) => {
     return (
         <div className='docs-container'>
             <div className='docs-header-div'>
-                <h1 id='docs-header'>DOCUMENTS</h1>
+                <h1 id='docs-header' className='bold-font-heavy'>DOCUMENTS</h1>
             </div>
-            <div className='docs-list-div'>
+            <div className='docs-list-div secondary-font'>
                 {sortedDocuments && sortedDocuments.map((doc, index) => (
                     <div key={index} className='docs-item' onClick={() => openDocument(index)}>
                         <p className='docs-name'>
@@ -83,11 +83,11 @@ const DocumentModal = ({ doc, documentContent, setShowDocument, setDocumentConte
         <div className='document-outer-div'>
             <div className='document-header'>
                 <MdKeyboardBackspace id="document-back-icon" onClick={onClose} />
-                <h4 className='document-title'>{doc?.documentName}</h4>
+                <h4 className='document-title secondary-font-heavy'>{doc?.documentName}</h4>
             </div>
             <div className='document-inner-div'>
                 <div className='document-doc'>
-                    <p id="document-text">{insertGlobalData(documentContent)}</p>
+                    <p id="document-text" className='secondary-font'>{insertGlobalData(documentContent)}</p>
                 </div>
             </div>
         </div>

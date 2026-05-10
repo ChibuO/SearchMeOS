@@ -100,9 +100,8 @@
 /* Header styling in the chat area */
 .messenger-chat-header {
     color: white;
-    padding: 10px;
-    padding-top: 0px;
-    font-size: 16px;
+    padding: 0 0 5px 0;
+    font-size: 20px;
     font-weight: bold;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }

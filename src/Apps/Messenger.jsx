@@ -32,7 +32,7 @@ export const MessengerApp = ({ref}) => {
         <div className="messenger-app-container">
             <div className="messenger-sidebar">
                 <div className='messenger-company-name-div'>
-                    <h3 className='messenger-company-name'>{messages && messages.companyName}</h3>
+                    <h3 className='messenger-company-name chat-font-bold'>{messages && messages.companyName}</h3>
                     <ProfileIcon 
                         size={35}
                         color={'var(--messages-accent-color-2)'}
@@ -43,8 +43,8 @@ export const MessengerApp = ({ref}) => {
                 <ul className='messenger-category-ul'>
                     {messages && Object.keys(messages.chats).map((category, index) => (
                         <li className='messenger-category-li' key={index}>
-                            {capitlaizeWord(category)}
-                            <ul className='messenger-channel-ul'>
+                            <span className='chat-font-bold'>{capitlaizeWord(category)}</span>
+                            <ul className='messenger-channel-ul chat-font-reg'>
                                 {messages.chats[category].map((chat, i) => (
                                     <li
                                         key={i}
@@ -99,8 +99,8 @@ const ChatArea = ({ selectedCategory, selectedChannel, selectedChannelId, showTh
 
     return (
         <div className="messenger-chat-area">
-            <div className="messenger-chat-header"># {selectedChannel}</div>
-            <div className='messenger-chat-body'>
+            <div className="messenger-chat-header chat-font-bold"># {selectedChannel}</div>
+            <div className='messenger-chat-body chat-font-reg'>
                 <div className="messenger-messages-list">
                     {selectedMessages.map((chat, index) => (
                         <SingleChatMessage key={index} chat={chat} index={index} setSelectedMessageId={setSelectedMessageId} showThread={showThread} setShowThread={setShowThread} />
@@ -115,6 +115,7 @@ const ChatArea = ({ selectedCategory, selectedChannel, selectedChannelId, showTh
             </div>
             <div className='messenger-input-div'>
                 <input
+                    className='chat-font-reg'
                     type="text"
                     autoFocus
                     placeholder="Type here..."

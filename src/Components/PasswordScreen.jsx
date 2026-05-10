@@ -23,7 +23,7 @@ export const PasswordScreen = ({ appName, bgColor, unlockWindow, givenEntry = ""
   return (
     <div className='pw-screen-div' style={{ "backgroundColor": bgColor }}>
       <div className='pw-screen-inner'>
-      <h3 id="pw-title">Enter Password</h3>
+      <h3 id="pw-title" className="secondary-font">Enter Password</h3>
       <PasswordForm 
         handlePassword={checkPassword} 
         inputId={inputId} 

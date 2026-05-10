@@ -40,18 +40,18 @@ export const PasswordForm = ({ handlePassword, inputId, hint, forgotPassword=fal
                 <input
                     type={`${showPassword ? 'text' : 'password'}`}
                     placeholder="Password"
-                    className="login-input"
+                    className="login-input meta-font"
                     id={inputId}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)} />
                 <button className="visibility-toggle" onClick={() => setShowPassword(!showPassword)}>{showPassword ? <PiEye /> : <PiEyeClosedLight />}</button>
                 <button className="unlock-button" onClick={() => checkPassword(password)}>⇥</button>
             </div>
-            {hint && <p className="below-textbox" id="pw-hint" >Hint: {hint}</p>}
+            {hint && <p className="below-textbox secondary-font" id="pw-hint" >Hint: {hint}</p>}
             {forgotPassword && 
                 (!forgotClicked ? 
-                    <p id="forgot-password" className="below-textbox" onClick={handleForgotClicked}>Forgot Password?</p> 
-                    : <p className="below-textbox">Reminder Email Sent!</p>)}
+                    <p id="forgot-password" className="below-textbox secondary-font" onClick={handleForgotClicked}>Forgot Password?</p> 
+                    : <p className="below-textbox secondary-font">Reminder Email Sent!</p>)}
         </div>
     )
 }

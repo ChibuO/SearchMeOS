@@ -45,13 +45,13 @@ export const PhotosApp = ({ref}) => {
   return (
     <div className='photos-container'>
       <div className='photos-header-div'>
-        <h1 id='photos-header'>PHOTOS</h1>
+        <h1 id='photos-header' className='bold-font-heavy'>PHOTOS</h1>
       </div>
       <div className='photos-sections-div'>
         {showPhoto && <PhotoModal setShowPhoto={setShowPhoto} photo={photos[selectedPhotoKey]} />}
         {photos && uniqueDates.map((date, dateIndex) => (
           <div key={dateIndex} className='photos-section'>
-            <h3 id='photos-section-header'>{date.toLowerCase()}</h3>
+            <h3 id='photos-section-header' className='secondary-font-heavy'>{date.toLowerCase()}</h3>
             <div className='photos-list'>
               {Object.entries(photos).filter(([key, p]) => p.date === date).map(([photoKey, photo], index) => (
                 <div key={index} className='photos-photo' onClick={() => openPhoto(photoKey)}>

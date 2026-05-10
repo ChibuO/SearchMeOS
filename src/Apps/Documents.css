@@ -61,7 +61,7 @@
 .docs-item {
     border: 1px solid rgb(208, 208, 208);
     display: flex;
-    background-color: white;
+    background-color: rgb(219, 219, 219);
     cursor: pointer;
     margin-bottom: 15px;
     color: var(--docs-light-color);

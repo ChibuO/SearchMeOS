@@ -50,7 +50,7 @@ export const MusicApp = ({ref}) => {
       {/* Music Library */}
       <div className="music-library" id="music-library"
         style={{ background: `linear-gradient(0deg, ${selectedPlaylist ? selectedPlaylist.color : 'var(--music-accent-color)'} -80%, var(--music-bg-color) 50%)` }}>
-        <div className='music-section-toggle-container'>
+        <div className='music-section-toggle-container music-font-reg'>
           <div 
             className={`music-toggle-button ${selectedSection === 'playlist' ? 'music-toggle-button-selected' : ''}`} 
             id='music-toggle-playlist' 
@@ -81,7 +81,7 @@ const MusicPlayer = () => {
         <div className="music-progress"></div>
       </div>
       <div className="music-below-bar">
-        <div className="music-player-info">
+        <div className="music-player-info music-font-light">
           <p className='music-playing-title'>Drawn</p>
           <p className='music-playing-artist'>Barrymore</p>
         </div>
@@ -99,7 +99,7 @@ const MusicPlaylist = ({ selectedPlaylist, clickPlaylist }) => {
   return (
     <div 
       className="music-app-page music-playlist-page">
-      <div className='music-playlist-list'>
+      <div className='music-playlist-list music-font-reg'>
         <ul>
           {musics && musics["playlists"].map((playlist, index) => (
             <li 
@@ -156,8 +156,8 @@ const MusicAlbumCard = ({ album, onClick, additionalClassNames = [] }) => {
       onClick={() => { onClick(album) }}
     >
       <MusicAlbumRecordImage albumCover={albumCover} albumTitle={albumTitle} albumColor={albumColor} />
-      <p className='music-album-card-title'>{albumTitle}</p>
-      <p className='music-album-card-artist'>{albumArtist}</p>
+      <p className='music-album-card-title music-font-bold'>{albumTitle}</p>
+      <p className='music-album-card-artist music-font-reg'>{albumArtist}</p>
     </div>
   );
 }
@@ -189,16 +189,16 @@ const MusicItemPage = ({ itemType, selectedPage }) => {
         className='music-page-header'
       >
         <div className='music-page-header-text'>
-          <h1 className='page-header-title'>{pageTitle}</h1>
-          {isAlbum && <p className='page-header-artist'>{pageArtist}</p>}
-          <p className='page-header-type'>{capitlaizeWord(itemType)} - <span>{pageListLength} songs</span></p>
+          <h1 className='page-header-title music-font-bold'>{pageTitle}</h1>
+          {isAlbum && <p className='page-header-artist music-font-light'>{pageArtist}</p>}
+          <p className='page-header-type music-font-light'>{capitlaizeWord(itemType)} - <span>{pageListLength} songs</span></p>
         </div>
         {isAlbum && 
           <div className='music-page-header-record-div'>
             <MusicAlbumRecordImage albumCover={pageAlbumCover} albumTitle={pageTitle} albumColor={pageColor} />
           </div>}
       </div>
-      <div className='music-page-table-div'>
+      <div className='music-page-table-div music-font-light'>
         {isPlaylist ?
           <div className={`music-page-row music-page-table-head ${isPlaylist ? 'music-page-playlist-track' : 'music-page-album-track'} `}>
             <div>#</div>

@@ -6,7 +6,7 @@ export const Shortcut = ({name, image, onClick, textColor}) => {
     return (
             <div className="shortcut" onDoubleClick={onClick}>
                 <Img draggable="false" imageName={image} alt={name} />
-                <p style={{"color": textColor}}>{name}</p>
+                <p style={{"color": textColor}} className='secondary-font'>{name}</p>
             </div>
     );
 };
@@ -17,7 +17,7 @@ export const AppIcon = ({name, image, onClick, borderColor, textColor}) => {
             <div className='task-icon-space'>
                 <Img imageName={image} alt={name} draggable="false" />
             </div>
-            <p>{name}</p>
+            <p className="bold-font">{name}</p>
         </div>
     );
 };

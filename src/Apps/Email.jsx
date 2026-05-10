@@ -45,10 +45,10 @@ export const EmailApp = ({ref}) => {
   return (
     <div className="email-app">
       <div className="email-sidebar">
-        <h3 id="email-welcome">Welcome Aboard!</h3>
+        <h3 id="email-welcome" className="email-font-bold">Welcome Aboard!</h3>
         <ul>
           {initialEmails && Object.keys(initialEmails).map((category, index) => (
-            <li className={`${selectedCategory === category ? 'selected' : ''}`} key={index} onClick={() => {
+            <li className={`email-font-reg ${selectedCategory === category ? 'selected' : ''}`} key={index} onClick={() => {
               if (category !== selectedCategory) {
                 setSelectedEmailId(0);
                 setSelectedCategory(category);
@@ -71,21 +71,21 @@ export const EmailApp = ({ref}) => {
       </div>
       : <div className='email-main-app'>
         <div className="email-list-container">
-          <h2 id="email-list-header">{capitlaizeWord(selectedCategory)}</h2>
+          <h2 id="email-list-header" className="email-font-bold">{capitlaizeWord(selectedCategory)}</h2>
           <div className="email-list">
             {initialEmails && sortEmailsByDateDesc(initialEmails[selectedCategory]).map((email, index) => (
               <div key={index}
-                className={`email-item ${selectedEmailId === index ? 'selected' : ''}`}
+                className={` email-item ${selectedEmailId === index ? 'selected' : ''}`}
                 onClick={() => setSelectedEmailId(index)}>
-                <p id="email-list-from">
+                <p id="email-list-from" className='email-font-2'>
                   <b>
                     {![sent, drafts].includes(selectedCategory) ?
                       parseEmail(email, 'from') :
                       parseEmail(email, 'to')}
                   </b>
                 </p>
-                <p id="email-list-subject">{parseEmail(email, 'subject')}</p>
-                <p id='email-message-preview'>{parseEmail(email, 'message')}</p>
+                <p id="email-list-subject" className='email-font-reg'>{parseEmail(email, 'subject')}</p>
+                <p id='email-message-preview' className='email-font-reg'>{parseEmail(email, 'message')}</p>
               </div>
             ))}
           </div>
@@ -129,8 +129,8 @@ const EmailDisplay = ({ selectedCategory, selectedEmailId }) => {
     <div className='email-side'>
       <div className="email-container">
           <div className='email-header'>
-            <h2>{parseEmail(selectedEmail, 'subject')}</h2>
-            <div className='email-contact'>
+            <h2 className='email-font-2'>{parseEmail(selectedEmail, 'subject')}</h2>
+            <div className='email-contact email-font-reg'>
               <p id="email-contact-date" className="email-contact-faded">
                 {readableDate(selectedEmail.date)}
               </p>
@@ -157,7 +157,7 @@ const EmailDisplay = ({ selectedCategory, selectedEmailId }) => {
             </div>
             <EmailContactBox showFullDetail={showFullDetail} selectedCategory={selectedCategory} selectedEmail={selectedEmail} />
           </div>
-          <div className='email-body'>
+          <div className='email-body email-font-reg'>
             {selectedEmail.message.length > 0 ?
               selectedEmail.message.map((p, index) => (
                 <p key={index}>{p}</p>
@@ -174,7 +174,7 @@ const EmailContactBox = ({ showFullDetail, selectedCategory, selectedEmail }) =>
   const fromContactString = `${parseEmail(selectedEmail, 'from')} [${selectedEmail.from.email}]`
 
   return (
-    <div className={`email-contact-full ${showFullDetail ? '' : 'show'}`}>
+    <div className={`email-font-reg email-contact-full ${showFullDetail ? '' : 'show'}`}>
       <p className='email-contact-label'>from: </p>
       <div>
       <p className='email-contact-value'>

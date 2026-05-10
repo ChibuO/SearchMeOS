@@ -8,13 +8,13 @@ export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {
     return (
         <div ref={menuRef} id="start-menu">
             <div className="menu-header" style={{"backgroundColor": computerData.secondColor, "color": computerData.textColor  }}>
-                <div className="menu-logo">SM OS</div>
+                <div className="menu-logo bold-font">SM OS</div>
                 <div className="menu-user">
                     <ProfileIcon name={getFullName()} size={30} textColor='white' color={computerData.mainColor} img={computerData.profileImagePath} />
-                    <div className="user-name">{computerData && getFullName()}</div>
+                    <div className="user-name secondary-font">{computerData && getFullName()}</div>
                 </div>
             </div>
-            <div className="menu-body">
+            <div className="menu-body secondary-font-light">
                 <div className='menu-body-buttons-div'>
                     <MenuItem label="Settings" icon="⚙️" />
                     <MenuItem label="Log Out" icon="↩︎" onClick={logOut}/>

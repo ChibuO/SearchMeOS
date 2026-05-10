@@ -67,11 +67,11 @@
 .music-player-info p {
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 .music-playing-artist {
     color: lightgrey;
-    font-size: 13px;
 }
 
 .music-player-controls {
@@ -149,7 +149,7 @@
     padding: 5px 0;
     cursor: pointer;
     color: silver;
-    font-size: 14px;
+    font-size: 16px;
     transition: background-color .3s, color .3s;
 }
 
@@ -212,7 +212,7 @@
     transition: transform .2s;
     cursor: pointer;
     color: #f0f0f0;
-    font-size: 14px;
+    font-size: 16px;
     box-shadow: rgba(132, 132, 132, 0.435) 0px -2px 5px;
 }
 
@@ -376,12 +376,12 @@
 }
 
 .page-header-artist {
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
 .page-header-type {
-    font-size: 15px;
+    font-size: 18px;
     color: #dcdcdc;
 }
 
@@ -399,6 +399,7 @@
 .music-page-row {
     display: grid;
     padding: 10px;
+    font-size: 18px;
     /* border: 1px solid yellow; */
 }
 

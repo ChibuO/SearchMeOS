@@ -105,7 +105,7 @@ const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFron
       ref={setNodeRef} style={{...positionStyle, ...transformStyle}} {...attributes}>
       <div className="title-bar" style={{"backgroundColor": computerData.mainColor }}>
         <div className="title" ref={setActivatorNodeRef} {...listeners}>
-          <p>{appData[windowName].name}</p>
+          <p className="bold-font">{appData[windowName].name}</p>
         </div>
         <div className="window-controls">
           {/* need preventDefault because button interferes with onFocus */}

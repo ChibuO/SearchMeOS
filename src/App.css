@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Grenze+Gotisch:wght@100..900&family=Gluten:slnt,wght@3,300..400&family=Tektur:wght@400..900&family=Roboto+Mono:ital@0;1&family=Racing+Sans+One&Gugi&family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&family=MuseoModerno:ital@0;1&&family=Poiret+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   --main-theme-color: #062c73;
   --secondary-theme-color: #0255ed;
@@ -20,4 +22,137 @@
   position: relative;
   margin: 0;
   padding: 0;
+}
+
+.bold-font-2 {
+  font-family: "Gugi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.meta-font {
+  font-family: "Red Hat Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.bold-font {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bold-font-heavy {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.secondary-font-2 {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secondary-font {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.secondary-font-heavy {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.secondary-font-light {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.music-font-bold {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.music-font-reg {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.music-font-light {
+  font-family: "Grenze Gotisch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.email-font-bold {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.email-font-reg {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.email-font-2 {
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.contact-font-bold {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.contact-font-reg{
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.chat-font-bold {
+  font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 3;
+}
+
+.chat-font-reg {
+  font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 3;
 }

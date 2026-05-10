@@ -99,13 +99,13 @@ const Taskbar = ({windowsState, setWindowsState, openWindows, showStartMenu, set
             textColor={computerData.textColor} />
         ))}
       </div>
-      <div className="system-tray">
+      <div className="system-tray secondary-font-light">
         <div className="system-icons">
           <div className="system-icon">
             <RiVolumeMuteLine />
           </div>
           <div className="system-icon battery">
-            <p>100%</p>
+            <p>86%</p>
             <FiBatteryCharging />
           </div>
           <div className="system-icon">

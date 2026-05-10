@@ -56,7 +56,7 @@ export const CalendarApp = ({ref}) => {
 
   return (
     <div className='calendar-container'>
-      <div className="calendar-header">
+      <div className="calendar-header secondary-font">
         <div id='calendar-directions-div'>
           <MdKeyboardDoubleArrowLeft className='calendar-btns' id='calendar-backward' onClick={() => changeMonth(0)} />
           <p className='calendar-btns' id='calendar-today-btn' onClick={() => changeMonth(2)}>today</p>
@@ -74,10 +74,10 @@ export const CalendarApp = ({ref}) => {
           setSelectedDate={setSelectedDate} />
         <div className='calendar-todo-container'>
           <div className='calendar-todo-inner'>
-            <h3 id='calendar-selected-date'>{format(selectedDate, 'MMM d, yyyy')}</h3>
+            <h3 id='calendar-selected-date' className='secondary-font-heavy'>{format(selectedDate, 'MMM d, yyyy')}</h3>
             <div className='calendar-todo-list'>
               {events && events.filter((ev) => areSameDay(ev, selectedDate)).map((event, index) => (
-                <div key={index} className='calendar-todo-item'>
+                <div key={index} className='calendar-todo-item secondary-font-light'>
                   <h5>{event.time}</h5>
                   <p>{event.event}</p>
                 </div>
@@ -97,12 +97,12 @@ const Calendar = ({ currentDate, anchorDate, days, events, selectedDate, setSele
     <div className='calendar-cal-div'>
       <div className='calendar-day-names'>
         {dayNames.map((dayName) => (
-          <div key={dayName} className='calendar-day-name'>
+          <div key={dayName} className='calendar-day-name secondary-font-heavy'>
             {dayName}
           </div>
         ))}
       </div>
-      <div className="calendar-days">
+      <div className="calendar-days secondary-font-light">
         {days.map((day, index) => (
           <Day key={index} day={day} currentDate={currentDate} anchorDate={anchorDate} events={events} selectedDate={selectedDate} setSelectedDate={setSelectedDate} />
         ))}

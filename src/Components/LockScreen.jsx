@@ -35,10 +35,7 @@ const LockScreen = ({ isLoggedIn, setIsLoggedIn, bgImagePath }) => {
         <div className="lock-screen-content">
           <div className="lock-screen-header">
             <ProfileIcon size={70} img={computerData.profileImagePath}/>
-            {/* <div className="windows-logo-div">
-              <img src={computerData.profileImagePath} alt="Profile Pic" className="windows-logo" draggable="false" />
-            </div> */}
-            <h3 className="lock-screen-title">{getFullName()}</h3>
+            <h3 className="lock-screen-title bold-font">{getFullName()}</h3>
           </div>
           <PasswordForm handlePassword={checkPassword} inputId={'computer-login'} hint={computerData.hint} />
         </div>

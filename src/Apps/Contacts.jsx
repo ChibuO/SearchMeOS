@@ -28,8 +28,8 @@ export const ContactsApp = ({ref}) => {
   return (
     <div className="contacts-app">
       <div className="contacts-sidebar">
-        <h2>Population</h2>
-        <div className='contacts-list'>
+        <h2 className='contact-font-bold'>Population</h2>
+        <div className='contacts-list contact-font-reg'>
           <ul>
             {sortedContacts.map((contact, index) => (
               <li key={index} className={selectedContact === contact ? 'contacts-selected' : ''} onClick={() => selectContact(contact)}>
@@ -45,8 +45,8 @@ export const ContactsApp = ({ref}) => {
             <div className='contact-pic-container'>
               <ProfileIcon letter={selectedContact.emoji} borderRadius='5px' color={profileBgColor} border={profileBorderColor} />
             </div>
-            <h2 className='contact-name'>{selectedContact.contactName}</h2>
-            <div className='contact-info'>
+            <h2 className='contact-name contact-font-bold'>{selectedContact.contactName}</h2>
+            <div className='contact-info contact-font-reg'>
               <p className='contact-text'>Email: {selectedContact.email}</p>
               <p className='contact-text'>Phone: {selectedContact.phone}</p>
               {selectedContact.note && 
@@ -58,7 +58,7 @@ export const ContactsApp = ({ref}) => {
             </div>
           </div>
         ) : (
-          <div className="contacts-no-contact-selected">
+          <div className="contacts-no-contact-selected contact-font-reg">
             <p>Select a contact to view or add a new one.</p>
           </div>
         )}

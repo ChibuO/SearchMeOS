@@ -80,7 +80,7 @@
 }
 
 .contacts-sidebar ul li.contacts-selected {
-    font-weight: bold;
+    letter-spacing: 2px;
     background-color: #000000a6;
     color: rgb(255, 255, 255);
 }
@@ -169,6 +169,7 @@
     white-space: pre-wrap;
     line-height: 20px;
     font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .contacts-no-contact-selected {
