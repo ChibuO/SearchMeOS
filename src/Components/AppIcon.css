@@ -11,6 +11,7 @@
     box-sizing: border-box;
     height: var(--taskbar-icon-size);
     /* width: 500px; */
+    user-select: none;
 }
 
 .task-icon:hover {
@@ -54,6 +55,7 @@
     height: fit-content;
     /* border: 1px solid rgba(0, 128, 0, 0); */
     color: var(--theme-text-color);
+    user-select: none;
 }
 
 .shortcut p {

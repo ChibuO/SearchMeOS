@@ -22,6 +22,14 @@ export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {
                 </div>
                 <div className='menu-body-info-div'>
                     <p>Welcome.</p>
+                    <hr/>
+                    <p>Daily Reminder: call dani</p>
+                    <p>Daily Reminder: text danny</p>
+                    <p>Weekly Reminder: phone home</p>
+                    <p>Monthly Reminder: wash bedsheets</p>
+                    <hr/>
+                    <br />
+                    <p>System up to date</p>
                 </div>
             </div>
         </div>

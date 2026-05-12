@@ -10,7 +10,7 @@
     position: absolute;
     display: none;
     overflow: hidden;
-    /* visibility: hidden; */
+    z-index: 1;
     --title-bar-width: 40px;
     transition: width 1s ease-in;
 }

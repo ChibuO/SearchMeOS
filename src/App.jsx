@@ -62,11 +62,31 @@ export const App = () => {
 
     const [openWindows, setOpenWindows] = useState(getOpenWindowsState);
 
+    const [windowsZ, setWindowsZ] = useState({});
+
+    const [windowsZMax, setWindowsZMax] = useState(0);
+
     const bringToFront = (id) => {
-        document.querySelectorAll(".desktop-window").forEach((w) => {
-            w.style.zIndex = "auto";
+        if (id == '') return;
+        let shiftDown = false;
+        const maxZ = document.querySelectorAll(".maximized").length;
+        // console.log("maxes: " + maxZ);
+        let newZ = windowsZMax + 1;
+        if (newZ > maxZ) {
+            newZ = maxZ;
+            shiftDown = true;
+        }
+        document.querySelector(`#${id}`).style.zIndex = newZ;
+        setWindowsZMax(newZ);
+        // console.log("newZ: " + newZ);
+        document.querySelectorAll(".maximized").forEach((w) => {
+            if (shiftDown && w.id !== id) {
+                let prevZ = w.style.zIndex;
+                if (prevZ - 1 >= 1) w.style.zIndex = prevZ - 1;
+            }
+            // console.log("z: " + w.style.zIndex + " " + w.id);
         });
-        if (id !== '') document.querySelector(`#${id}`).style.zIndex = '1';
+        // console.log("------------------------");
     }
 
     const menuRef = useRef(null);

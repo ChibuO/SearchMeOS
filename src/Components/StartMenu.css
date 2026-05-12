@@ -57,6 +57,11 @@
     overflow-y: auto;
     overflow-x: hidden;
     /* border: 1px solid yellow; */
+    font-size: 14px;
+}
+
+.menu-body-info-div p {
+    padding-bottom: 12px;
 }
 
 .menu-section {

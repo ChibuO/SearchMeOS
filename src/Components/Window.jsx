@@ -19,7 +19,7 @@ import computerData from '../Resources/computerData.json';
 import initialEmails from '../Resources/emailData.json';
 import forgotEmail from '../Resources/forgotEmail.json';
 
-const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFront, resizeWindow }) => {
+const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFront }) => {
   const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform } = useDraggable({
     id: `${windowName}-draggable`,
   });
@@ -37,28 +37,6 @@ const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFron
   const transformStyle = transform ? {
     transform: `translate3d(${transform.x}px, ${transform.y}px, 0)`,
   } : undefined;
-
-  const toggleFullScreen = () => {
-    // const { fullScreen } = windowState;
-    // resizeWindow(windowName, windowState);
-    // const w = document.getElementById(`${windowName}-window`);
-    // console.log(fullScreen, w.classList);
-    // if (!fullScreen) {
-    //   w.classList.add('fullScreen');
-    //   transform = `translate3d(${-positionStyle.left}px, ${-positionStyle.top}px, 0)`;
-    // } else {
-    //   w.classList.remove('fullScreen');
-    // }
-    
-    // if(!windowState.fullScreen) {
-    //   resizeWindow
-    // } else {
-    //   sizeStyle = {
-    //     width: "60%",
-    //     height: "60%"
-    //   }
-    // }
-  }
 
   const closeRef = useRef(null);
 
@@ -101,7 +79,7 @@ const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFron
   }
 
   return (
-    <div id={`${windowName}-window`} className="desktop-window" onFocus={(event) => bringToFront(event.target.id)}
+    <div id={`${windowName}-window`} className="desktop-window" onFocus={() => bringToFront(`${windowName}-window`)}
       ref={setNodeRef} style={{...positionStyle, ...transformStyle}} {...attributes}>
       <div className="title-bar" style={{"backgroundColor": computerData.mainColor }}>
         <div className="title" ref={setActivatorNodeRef} {...listeners}>
@@ -118,7 +96,7 @@ const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFron
           <button 
             className="control-button" 
             onMouseDown={(event) => {event.preventDefault()}}
-            onClick={toggleFullScreen}>
+            onClick={() => {}}>
               <TbMaximize />
           </button>
           <button 

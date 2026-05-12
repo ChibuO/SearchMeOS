@@ -131,8 +131,7 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
               unlockWindow={unlockWindow} 
               windowState={windowsState[appName]} 
               hideWindow={hideWindow} 
-              bringToFront={bringToFront} 
-              resizeWindow={resizeWindow}
+              bringToFront={bringToFront}
             />
           )}
       </div>
