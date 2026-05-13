@@ -5,6 +5,15 @@ import { getFullName } from '../utilities/helpers';
 import './StartMenu.css';
 
 export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {
+
+    const fullscreenButtonHandler = () => {
+    if (document.fullscreenElement) {
+        document.exitFullscreen()
+    } else {
+        document.documentElement.requestFullscreen()
+    }
+    }
+
     return (
         <div ref={menuRef} id="start-menu">
             <div className="menu-header" style={{"backgroundColor": computerData.secondColor, "color": computerData.textColor  }}>
@@ -16,7 +25,7 @@ export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {
             </div>
             <div className="menu-body secondary-font-light">
                 <div className='menu-body-buttons-div'>
-                    <MenuItem label="Settings" icon="⚙️" />
+                    <MenuItem label="Toggle Fullscreen" icon="⚙️" onClick={fullscreenButtonHandler}/>
                     <MenuItem label="Log Out" icon="↩︎" onClick={logOut}/>
                     <MenuItem label="Start Game Over" icon="🔄" onClick={resetWindowsState} />
                 </div>
