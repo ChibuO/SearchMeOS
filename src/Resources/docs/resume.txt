@@ -1,6 +1,6 @@
 %FIRSTNAME% %LASTNAME%
 ---
-cyuanfight@flymail.com | 565-7674 | https://chaz-yuan.linkedin.com | Dutruth, Minnesota
+%EMAIL% | 565-7674 | https://%FIRSTNAME%-%LASTNAME%.linkedin.com | Dutruth, Minnesota
 
 # Education
 > Bachelor of Arts in Economics 
