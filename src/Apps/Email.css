@@ -8,7 +8,7 @@
 .email-app {
     display: flex;
     height: 100%;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     /* overflow: hidden; */
     --email-accent-color: #5227b6;
     --email-bg-color: white;

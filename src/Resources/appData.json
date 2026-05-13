@@ -64,6 +64,7 @@
     "internet": 
     {
         "name": "E-Web",
-        "icon": "internet_icon.png"
+        "icon": "internet_icon.png",
+        "unlocked": true
     }
 }

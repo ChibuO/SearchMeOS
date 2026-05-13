@@ -61,6 +61,7 @@
 .shortcut p {
     margin: 0;
     padding: 0;
+    text-shadow: 0px 0px 3px rgb(31, 31, 31);
 }
 
 .shortcut:hover {

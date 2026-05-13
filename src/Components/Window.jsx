@@ -15,6 +15,7 @@ import { PhotosApp } from '../Apps/Photos';
 import { DocumentsApp } from '../Apps/Documents';
 import { MessengerApp } from '../Apps/Messenger';
 import { MusicApp } from '../Apps/Music';
+import { InternetApp } from '../Apps/Internet';
 import computerData from '../Resources/computerData.json';
 import initialEmails from '../Resources/emailData.json';
 import forgotEmail from '../Resources/forgotEmail.json';
@@ -72,7 +73,7 @@ const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFron
       case "email":
         return <EmailApp ref={closeRef}/>;
       case "internet":
-          break;
+          return <InternetApp ref={closeRef} isMaximized={windowState.maximized}/>
       default:
         break;
     }

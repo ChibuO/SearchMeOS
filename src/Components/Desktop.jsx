@@ -115,13 +115,7 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
           {appData &&
             Object.keys(appData).map((app, index) => 
               <Shortcut key={index} name={appData[app].name} image={appData[app].icon} 
-                onClick={() => {
-                  if (app === 'internet') {
-                    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'Got Ya');
-                  } else {
-                    showWindows(app, windowsState[app]);
-                  }
-                }}/>)}
+                onClick={() => showWindows(app, windowsState[app])}/>)}
         </div>
         {appData &&
           Object.keys(appData).map((appName, index) => 

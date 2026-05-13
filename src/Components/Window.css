@@ -88,3 +88,12 @@
     padding: 0;
     position: relative;
 }
+
+.internet-app {
+    display: flex;
+    height: 100%;
+}
+
+.internet-app iframe {
+    width: 100%;
+}
