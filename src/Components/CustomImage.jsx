@@ -1,6 +1,6 @@
 // so I can handle img require exceptions
 import React from 'react';
-import default_image from '../Images/start-icon.png';
+import default_image from '../Images/smos_transparent.png';
 
 const Img = ({imageName, defaultImg, alt, ...props}) => {
 

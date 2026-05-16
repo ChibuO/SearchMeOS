@@ -121,12 +121,12 @@
 
 .calendar-today {
     background-color: var(--cal-white);
-    color: black;
+    color: var(--smos-pink);
     font-weight: bold;
 }
 
 .calendar-today .calendar-day {
-    border-bottom: .5px solid black;
+    border-bottom: .5px solid  var(--smos-pink);
 }
 
 .calendar-disabled {
@@ -138,12 +138,17 @@
     color: black;
 }
 
+.calendar-today .calendar-event {
+    color: var(--smos-pink);
+}
+
 .calendar-todo-container {
     width: 25%;
     /* border: 1px solid rgb(70, 202, 70); */
     display: flex;
     justify-content: center;
     position: relative;
+    color: var(--smos-pink);
 }
 
 .calendar-todo-inner {
@@ -157,7 +162,6 @@
 }
 
 #calendar-selected-date {
-    color: var(--cal-black);
     border-bottom: 1px solid var(--cal-dark-gray);
     text-align: center;
     margin-bottom: 10px;
@@ -184,5 +188,4 @@
     align-items: center;
     gap: 5px;
     text-align: center;
-    color: var(--cal-black);
 }

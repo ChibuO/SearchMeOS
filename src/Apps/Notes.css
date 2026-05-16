@@ -2,7 +2,7 @@
     --notes-header-color: rgb(51, 51, 51);
     --notes-primary-color: rgb(138, 138, 138);
     --notes-bg-color: rgb(228, 228, 228);
-    --notes-accent-color: teal;
+    --notes-accent-color: var(--smos-pink);
     box-sizing: border-box;
     position: relative;
     height: 100%;

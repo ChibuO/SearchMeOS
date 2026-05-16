@@ -33,6 +33,11 @@
     background-color: red;
 }
 
+#start-button:active .start-img {
+    transform: translate(1px, 1px);
+    /* button looks like it's moving when clicked, so move img a bit to simulate press */
+}
+
 .start-img {
     width: var(--taskbar-icon-img-size);
     height: var(--taskbar-icon-img-size);

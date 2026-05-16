@@ -7,6 +7,15 @@
   --taskbar-height: 55px;
   --scrollbar-standard-color: rgba(255, 255, 255, 0.44);
   --scrollbar-darker-color: rgba(126, 126, 126, 0.788);
+  --smos-orange: #cf3d00ff;
+  --smos-pink: #e825beff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .computer-screen-container {

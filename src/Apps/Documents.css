@@ -7,7 +7,7 @@
     --docs-header-color: rgb(228, 228, 228);
     --docs-bg-color: rgb(51, 51, 51);
     --docs-light-color: #1a2727;
-    --docs-accent-color: rgb(18, 117, 76);
+    --docs-accent-color: var(--smos-orange);
     --docs-doc-bg-color: rgb(215, 215, 215);
     box-sizing: border-box;
     /* border: 2px solid rebeccapurple; */

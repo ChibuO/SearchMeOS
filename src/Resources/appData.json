@@ -2,7 +2,7 @@
     "calendar": 
     {
         "name": "Calendar",
-        "icon": "calendar_icon.png",
+        "icon": "icon_calendar.png",
         "entry": "81032671459",
         "hint": "no punctuation"
     },
@@ -18,14 +18,14 @@
     "photos": 
     {
         "name": "Photos",
-        "icon": "photos_icon.png",
+        "icon": "icon_photos.png",
         "entry": "richfield",
         "hint": "go spartans! no hs"
     },
     "contacts": 
     {
         "name": "My World",
-        "icon": "contacts_icon.png",
+        "icon": "icon_contacts.png",
         "entry": "",
         "hint": "",
         "unlocked": true
@@ -48,7 +48,7 @@
     "docs": 
     {
         "name": "Docs",
-        "icon": "docs_icon.png",
+        "icon": "icon_docs.png",
         "entry": "14m41s",
         "hint": "",
         "forgotPassword": true
@@ -56,7 +56,7 @@
     "notes": 
     {
         "name": "Notes",
-        "icon": "notes_icon.png",
+        "icon": "icon_notes.png",
         "entry": "",
         "hint": "",
         "unlocked": true

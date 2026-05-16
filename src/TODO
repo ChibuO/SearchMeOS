@@ -1,6 +1,3 @@
-Fix z-index (auto sets it to original layering)
-
-
 be able to click start button again to hide menu
 maybe should use useCallback()
 
