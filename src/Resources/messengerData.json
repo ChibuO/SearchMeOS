@@ -1,133 +1,6 @@
 {
     "companyName": "OU Radio Club",
     "chats": {
-        "groups": [
-            {
-                "name": "ou-djs",
-                "messages": [
-                    {
-                        "from": "Josh",
-                        "message": "Hey, you guys down for bar-hopping tonight?"
-                    },
-                    {
-                        "from": "Caleb",
-                        "message": "Yeah, man. Can't wait"
-                    },
-                    {
-                        "from": "%FIRSTNAME% %LASTNAME%",
-                        "message": "LET'S GOOOOOOO"
-                    },
-                    {
-                        "from": "Damien",
-                        "message": "Barney's at 6pm?",
-                        "replies": [
-                            {
-                                "from": "Caleb",
-                                "message": "We told you this last week, mate"
-                            }
-                        ]
-                    },
-                    {
-                        "from": "Josh",
-                        "message": "Yep."
-                    }
-                ]
-            },
-            {
-                "name": "field-trip",
-                "messages": [
-                    {
-                        "from": "Josh",
-                        "message": "What are you all working on?"
-                    },
-                    {
-                        "from": "Caleb",
-                        "message": "Fixing last week's mistake"
-                    },
-                    {
-                        "from": "%FIRSTNAME% %LASTNAME%",
-                        "message": "Paying people"
-                    },
-                    {
-                        "from": "Damien",
-                        "message": "Cleaning the databases"
-                    },
-                    {
-                        "from": "Josh",
-                        "message": "Rounding down"
-                    },
-                    {
-                        "from": "Josh",
-                        "message": "What are you all working on?"
-                    },
-                    {
-                        "from": "Caleb",
-                        "message": "Fixing last week's mistake"
-                    },
-                    {
-                        "from": "%FIRSTNAME% %LASTNAME%",
-                        "message": "Paying people"
-                    },
-                    {
-                        "from": "Damien",
-                        "message": "Cleaning the databases"
-                    },
-                    {
-                        "from": "Josh",
-                        "message": "Rounding down"
-                    },
-                    {
-                        "from": "Josh",
-                        "message": "What are you all working on?"
-                    },
-                    {
-                        "from": "Caleb",
-                        "message": "Fixing last week's mistake"
-                    },
-                    {
-                        "from": "%FIRSTNAME% %LASTNAME%",
-                        "message": "Paying people"
-                    },
-                    {
-                        "from": "Damien",
-                        "message": "Cleaning the databases"
-                    },
-                    {
-                        "from": "Josh",
-                        "message": "Rounding Up"
-                    }
-                ]
-            },
-            {
-                "name": "Me, Riley, Barry",
-                "messages": [
-                    {
-                        "from": "Alice",
-                        "message": "Hello, everyone!"
-                    },
-                    {
-                        "from": "Bob",
-                        "message": "Hi Alice! How are you?"
-                    },
-                    {
-                        "from": "Charlie",
-                        "message": "Good Morning?"
-                    },
-                    {
-                        "from": "Alice",
-                        "message": "Good morning, Charlie! I'm doing great!"
-                    },
-                    {
-                        "from": "Bob",
-                        "message": "Excited for the meeting today?"
-                    },
-                    {
-                        "from": "%FIRSTNAME% %LASTNAME%",
-                        "message": "LET'S GOOOOOOO!"
-                    }
-                ]
-            }
-        ],
         "DMs": [
             {
                 "name": "Josh 🤟",
@@ -149,7 +22,7 @@
                         "message": "that song"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "not if she never finds out 😈"
                     },
                     {
@@ -157,51 +30,51 @@
                         "message": "right on"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "did you catch the party invite?"
                     },
                     {
-                        "from": "Josh🤟",
+                        "from": "Josh 🤟",
                         "message": "no, I think I missed it"
                     },
                     {
-                        "from": "Josh🤟",
+                        "from": "Josh 🤟",
                         "message": "I was doomscrolling"
                     },
                     {
-                        "from": "Josh🤟",
+                        "from": "Josh 🤟",
                         "message": "on the toilet"
                     },
                     {
-                        "from": "Josh🤟",
+                        "from": "Josh 🤟",
                         "message": "before I tuned in"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "are you still on the toilet?"
                     },
                     {
-                        "from": "Josh🤟",
+                        "from": "Josh 🤟",
                         "message": "Yeah"
                     },
                     {
-                        "from": "Josh🤟",
+                        "from": "Josh 🤟",
                         "message": "text me the invite"
                     },
                     {
-                        "from": "Josh🤟",
+                        "from": "Josh 🤟",
                         "message": "Chatto could get compromised"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "sent"
                     },
                     {
-                        "from": "Josh🤟",
+                        "from": "Josh 🤟",
                         "message": "Got it"
                     },
                     {
-                        "from": "Josh🤟",
+                        "from": "Josh 🤟",
                         "message": "thanks"
                     }
                 ]
@@ -214,7 +87,7 @@
                         "message": "Hey %FIRSTNAME%, can you fill in for Katie on the news hour next week? She's going to be out of town."
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "no, i don't know anything about the news"
                     },
                     {
@@ -222,19 +95,19 @@
                         "message": "You just have to read the script. You don't actually have to write anything."
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
-                        "message": "then why can't eric do it alone?"
+                        "from": "%FIRSTNAME%",
+                        "message": "then why can't erik do it alone?"
                     },
                     {
                         "from": "Alice - Pres",
                         "message": "Because then he wouldn't get a break. What's the problem? You said you were free at that time"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
-                        "message": "yeah, free to do my own radio hour. not the news 😴"
+                        "from": "%FIRSTNAME%",
+                        "message": "yeah, free to do my own radio hour. not the snewz 😴"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "ask barry, he's free then too"
                     },
                     {
@@ -242,7 +115,7 @@
                         "message": "You know they don't get along."
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "lol"
                     },
                     {
@@ -250,20 +123,109 @@
                         "message": "Whatever. I'll keep this in mind when we plan next quarter's schedule."
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "wait ok, i'll do it"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "alice...?"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "i'll do it"
                     },
                     {
                         "from": "Alice - Pres",
-                        "message": "Thanks! I'll let Eric know"
+                        "message": "Thanks! I'll let Erik know"
+                    }
+                ]
+            },
+            {
+                "name": "Erik",
+                "messages": [
+                    {
+                        "from": "Erik",
+                        "message": "can You grab my airbuds from the Studio before you Leave?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "sure, these blue ones?"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "Thanks, you can Give it to me in Econ tomorrow"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "ok"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "hey"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "are you a fan of dinah carolina?"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "yeah, Why?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "i noticed you played her a lot last night"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "she Just announunced a new Album so I wanted to Advertise"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "glass slippers"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "yeah! you're a Fan too?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "yea, since daydreaming"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "same! What did You think of Whiplash?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "it's my favorite album of all time"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "a True man of Culture. fave Song?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "bonfire, but it's very close to whiplash"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "no Way! me Too! Unleashed is a close second"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "i Never would've expected You to like Her music. i Thought you were More of a rock/edm Guy"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "don't get me wrong, i still ride for gas petrol, but dinah's cool too"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "i Feel like no one Appreciates her enough arouund Here"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "right, not even my girlfriend likes her all that much"
                     }
                 ]
             },
@@ -271,7 +233,7 @@
                 "name": "Darien",
                 "messages": [
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "hey darien, can you cover my block tonight?"
                     },
                     {
@@ -283,7 +245,7 @@
                         "message": "I've got a report I need to work on..."
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "plz, i covered for you when i was sick"
                     },
                     {
@@ -295,11 +257,11 @@
                         "message": "Fine. I'll just do the report on air"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "do what you want man. that's alice's problem"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "thnx tho"
                     },
                     {
@@ -307,8 +269,97 @@
                         "message": "we're even after this"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "whatever"
+                    }
+                ]
+            },
+            {
+                "name": "Vic",
+                "messages": [
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "here's the link for the petition: https://www.change.org/p/othello-university-dining-hall-bar"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "Thanks mate, how many signatures do you need?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "like 100 to present it to the board, but danny wants like 500 to show real support"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "So how soon can I get hammered at lunch?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "not immediately, first, it's going to be a non-alcoholic bar"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "boo"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "the beer will come later"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "danny has like a 3 year plan. first we get the bar, then danny gets the space used for alumni and grad student events. people naturally will want something harder than an apple mocktini and eventually, the bar gets a liquor license"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "and then we can get wasted after finals senior year"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "Fair dinkum, I'll sign right now"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "thanks mate"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "What if it doesn't happen before you graduate?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "don't be a bummer"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "my bad"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "but danny's also happy to leave a legacy"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "\"Legacy? What is a legacy?\""
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "save the showtunes for your theater kid block"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "Don't you want my signature?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "ugh"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "\"it's planting seeds in a garden you never get to see\""
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "🕺🏾⭐"
                     }
                 ]
             }
@@ -334,7 +385,7 @@
                         "message": "in my friend's dorm"
                     },
                     {
-                        "from": "Riley",
+                        "from": "RILEY",
                         "message": "I HEARD ABOUT THAT, IS IT CAPTEN HALL?"
                     },
                     {
@@ -380,20 +431,326 @@
                         ]
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "where do we keep the list of local djs?"
                     },
                     {
                         "from": "Jaime - Music VP",
-                        "message": "@%FIRSTNAME% %LASTNAME% It is in the online folder under 'Music Resources'"
+                        "message": "@%FIRSTNAME% It is in the online folder under 'Music Resources'"
                     },
                     {
-                        "from": "%FIRSTNAME% %LASTNAME%",
+                        "from": "%FIRSTNAME%",
                         "message": "thnx"
                     },
                     {
                         "from": "Alice - Pres",
                         "message": "@channel Reminder: Meeting this week Wednesday at 6pm in Jersey Hall."
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "The Othello Madlads' next baseball game is an away game in Karkakee. I'm recording a segment for OU Radio. Anyone wanna come with me?",
+                        "replies": [
+                            {
+                                "from": "RILEY",
+                                "message": "WILL IT BE COVERED BY THE CLUB?"
+                            },
+                            {
+                                "from": "Vic",
+                                "message": "I'm in"
+                            },
+                            {
+                                "from": "Josh 🤟",
+                                "message": "That sounds fun"
+                            },
+                            {
+                                "from": "Josh 🤟",
+                                "message": "I wish iI could go"
+                            },
+                            {
+                                "from": "Josh 🤟",
+                                "message": "but I have to work that day"
+                            },
+                            {
+                                "from": "Sam - Sports VP",
+                                "message": "@Riley, no"
+                            },
+                            {
+                                "from": "RILEY",
+                                "message": "BUMMER"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Barry",
+                        "message": "Hey guys!! I was just listening to Katie's interview with the De-Stress Club and it was really good!! I'm really impressed with how they shared their experiences and frustrations without outing anyone or betraying confidences. Great job, Katie!!"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "🫶"
+                    },
+                    {
+                        "from": "Avan - Advisor",
+                        "message": "Katie asked some great questions and the segment was edited really well."
+                    },
+                    {
+                        "from": "Katie - News VP",
+                        "message": "Thanks!"
+                    },
+                    {
+                        "from": "Alice - Pres",
+                        "message": "@channel Reminder: Meeting this week Wednesday at 6pm in Jersey Hall."
+                    },
+                    {
+                        "from": "Mele",
+                        "message": "has anyone here taken Bio 213? I'm thinking about taking it but I've heard good and bad things about it.",
+                        "replies": [
+                            {
+                                "from": "Jaime - Music VP",
+                                "message": "I found it pretty easy. You just gotta follow the textbook. Which I can send you if you decide to take it"
+                            },
+                            {
+                                "from": "Darien",
+                                "message": "Don't take it with Watson... I almost dropped it because of him..."
+                            },
+                            {
+                                "from": "Alice - Pres",
+                                "message": "It's a hard class. I don't know what Jaime's talking about."
+                            },
+                            {
+                                "from": "Jaime - Music VP",
+                                "message": "It wasn't that bad"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "Hey, I'm giving out one of my Def Leppard concert tickets. Text me if you're interested!"
+                    },
+                    {
+                        "from": "Diya - Marketing VP",
+                        "message": "@Vic, I almosted booted you from Chatto! You sound like a bot"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "My bad, mate. The tickets are real though, promise!"
+                    },
+                    {
+                        "from": "Alice - Pres",
+                        "message": "@channel Reminder: Meeting this week Wednesday at 6pm in Jersey Hall."
+                    },
+                    {
+                        "from": "Diya - Marketing VP",
+                        "message": "Reminder: The ad read for Ollie's Soap & Spa now includes the tagline \"From head to toe, you need Ollie's soap!\""
+                    }
+                ]
+            },
+            {
+                "name": "news-feed",
+                "messages": [
+                    {
+                        "from": "Josh 🤟",
+                        "message": "some geese have been hissing at students"
+                    },
+                    {
+                        "from": "Josh 🤟",
+                        "message": "outside the BachBach building"
+                    },
+                    {
+                        "from": "Josh 🤟",
+                        "message": "I saw a girl running for her life lol"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "that meaans they're nesting nearby"
+                    },
+                    {
+                        "from": "Katie - News VP",
+                        "message": "That would make some great audio. Not sure if it's worth getting attacked tho"
+                    },
+                    {
+                        "from": "Erik",
+                        "message": "the Romania club is hosting a film Screening and Dinner next week"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "A business professor is running an experiment where he gives his students money and sees what they do with it"
+                    },
+                    {
+                        "from": "Barry",
+                        "message": "The OU police were seen exiting Younger Hall!! Wonder why?"
+                    },
+                    {
+                        "from": "Darien",
+                        "message": "A dining hall employee told me about some unfavorable working conditions...",
+                        "replies": [
+                            {
+                                "from": "Katie - News VP",
+                                "message": "Can you dm me the details? That could be a good story"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Jaime - Music VP",
+                        "message": "Has anyone seen the kids rollerblading in their underwear at4 in the morning?",
+                        "replies": [
+                            {
+                                "from": "RILEY",
+                                "message": "I HAVE, IT WAS WILD"
+                            },
+                            {
+                                "from": "Josh 🤟",
+                                "message": "That's crazy"
+                            },
+                            {
+                                "from": "Josh 🤟",
+                                "message": "What are you all doing out at 4 in the morning??"
+                            },
+                            {
+                                "from": "Josh 🤟",
+                                "message": "Sleep is sacred"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "The Lady Playwrights have won their 7th game and remain undefeated!"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "A concerning amount of free food events are going vegan"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "THE ROCKET CLUB LAUNCHED A ROCKET (DUH) AND IT HIT A KID ON THE WAY DOWN"
+                    },
+                    {
+                        "from": "Alice - Pres",
+                        "message": "Harvard faculty votes to make it harder for undergrads to earn A's"
+                    },
+                    {
+                        "from": "Mele",
+                        "message": "Some girls in the dining hall was going on about their life-changing study abroad trip where they \"touched nirvana\""
+                    },
+                    {
+                        "from": "Jaime - Music VP",
+                        "message": "The White Hat Hacker Society has struck again. They just posted all the emails of that shady U of U professor",
+                        "replies": [
+                            {
+                                "from": "Katie - News VP",
+                                "message": "I need someone to infiltrate their group and get me a scoop"
+                            },
+                            {
+                                "from": "Jaime - Music VP",
+                                "message": "Literally no one here has the computer skills"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "music-finds",
+                "messages": [
+                    {
+                        "from": "Jaime - Music VP",
+                        "message": "I just found out my RA is in an indie band. They're called Recession Indicator and they're playing at the Oiko tomorrow night. Anyone wanna go?",
+                        "replies": [
+                            {
+                                "from": "Barry",
+                                "message": "I'm down!"
+                            },
+                            {
+                                "from": "Erik",
+                                "message": "me Too"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Darien",
+                        "message": "Scarlet Vision - Witch Boy. banger..."
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "i'm gonna change listeners' lives with this one: one night in arizona by whiplash (album)"
+                    },
+                    {
+                        "from": "Diya - Marketing VP",
+                        "message": "My psych professor played this song in class and i was obsessed. It's called 'You Don't Know What to Do' by Long Island"
+                    },
+                    {
+                        "from": "Jaime - Music VP",
+                        "message": "I think he played that for us last year too. It's a good one!"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "Batties Everywhere",
+                        "replies": [
+                            {
+                                "from": "Jaime - Music VP",
+                                "message": "What is this?"
+                            },
+                            {
+                                "from": "Vic",
+                                "message": "lol"
+                            },
+                            {
+                                "from": "Sam - Sports VP",
+                                "message": "Joey Cannoli dropped a rap song. We should get him for OU Music Fest"
+                            },
+                            {
+                                "from": "Jaime - Music VP",
+                                "message": "He should stick to baseball."
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Darien",
+                        "message": "Young & Average - Benji Stickler. mindblowing..."
+                    },
+                    {
+                        "from": "Katie - News VP",
+                        "message": "White Coat - Janice. Got this from the clurb"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "BUBBLE GUTS - DREAM (ALBUM). SOOOOOO GOOD"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "dovetail - really captures the feeling of what happened last week",
+                        "replies": [
+                            {
+                                "from": "Jaime - Music VP",
+                                "message": "artist?"
+                            },
+                            {
+                                "from": "Mele",
+                                "message": "let me guess... whiplash?"
+                            },
+                            {
+                                "from": "%FIRSTNAME%",
+                                "message": "you know it"
+                            },
+                            {
+                                "from": "%FIRSTNAME%",
+                                "message": "gotta rep the faves"
+                            },
+                            {
+                                "from": "Mele",
+                                "message": "I thought you were repping the crash dummy"
+                            },
+                            {
+                                "from": "Alice - Pres",
+                                "message": "Please don't refer to the student that got hit with a model rocket as a 'crash dummy'! Thanks!"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Jaime - Music VP",
+                        "message": "This one came from the band we interviewed last week: Masters of Everything - Don and the Heels"
+                    },
+                    {
+                        "from": "Darien",
+                        "message": "This is Greenland - Ronny Movora. wicked..."
                     }
                 ]
             },
@@ -402,20 +759,336 @@
                 "messages": [
                     {
                         "from": "Alice - Pres",
-                        "message": ""
+                        "message": "Mele is covering my shift tomorrow and Friday"
                     },
                     {
                         "from": "Katie - News VP",
-                        "message": ""
+                        "message": "Jaime is covering my shift Tuesday night"
                     },
                     {
                         "from": "Jaime - Music VP",
-                        "message": "I'm around. What kind of issues are you seeing?"
+                        "message": "The hip hop power hour will be covered by Diya today"
                     },
                     {
                         "from": "Sam - Sports VP",
-                        "message": "The graphs are showing errors and some data isn't coming through. I think it might be a query issue."
+                        "message": "I'm rerunning my field hockey coverage tomorrow"
+                    },
+                    {
+                        "from": "Katie - News VP",
+                        "message": "Chaz is covering my shifts next week. Thanks Chaz!"
+                    },
+                    {
+                        "from": "Darien",
+                        "message": "josh is covering my shift Thursday"
+                    },
+                    {
+                        "from": "chaz",
+                        "message": "you know what time it is. Avan is covering my shift saturday and everyone else is invited to the party"
+                    },
+                    {
+                        "from": "Alice - Pres",
+                        "message": "Riley is covering my shift Sunday"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "AND I'M COVERING HERS TODAY"
                     }
+                ]
+            }
+        ],
+        "groups": [
+            {
+                "name": "field-trip",
+                "messages": [
+                    {
+                        "from": "Diya - Marketing VP",
+                        "message": "Hey everyone! Who's ready to to Shake It Radio this weekend?! If you're still going, please reply with an emoji! 🎶"
+                    },
+                    {
+                        "from": "Alice - Pres",
+                        "message": "🎶"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "⚾",
+                        "replies": [
+                            {
+                                "from": "Sam - Sports VP",
+                                "message": "Hey, that's my thing"
+                            },
+                            {
+                                "from": "RILEY",
+                                "message": "YOU SNOOZE YOU LOSE"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "🎶"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "😭",
+                        "replies": [
+                            {
+                                "from": "RILEY",
+                                "message": "THERE'S NO CRYING IN BASEBALL"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Mele",
+                        "message": "🎶"
+                    },
+                    {
+                        "from": "Jaime - Music VP",
+                        "message": "🎶"
+                    },
+                    {
+                        "from": "Barry",
+                        "message": "⚡"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "🪿"
+                    },
+                    {
+                        "from": "Avan - Advisor",
+                        "message": "🕶️"
+                    },
+                    {
+                        "from": "Diya - Marketing VP",
+                        "message": "Cool! %FIRSTNAME% and Avan are driving. Get to the office by 11 am on Saturday. Sam, did you decide on food?"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "We're going to eat at Steaks & Shakes at 12 before going to the studio",
+                        "replies": [
+                            {
+                                "from": "RILEY",
+                                "message": "WILL THIS BE ALL PAID FOR BY THE CLUB?"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "and yes it's on the club",
+                        "replies": [
+                            {
+                                "from": "RILEY",
+                                "message": "👍"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Diya - Marketing VP",
+                        "message": "Great! Sam, Riley, Mele, and Barry will ride with Chaz, while Jaime, Vic, Alice, and I will ride with Avan."
+                    },
+                    {
+                        "from": "Barry",
+                        "message": "shotgun!!"
+                    },
+                    {
+                        "from": "Mele",
+                        "message": "Can Chaz air out his car before we get in? He lays the Axe on thick and this is an hour drive :( "
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "the 2 times you were in my car, I had sprayed my cologne on recently. it doesn't normally smell like that",
+                        "replies": [
+                            {
+                                "from": "Vic",
+                                "message": "What cologne do you wear?"
+                            },
+                            {
+                                "from": "%FIRSTNAME%",
+                                "message": "benzin. i'm convinced it ups my testosterone levels"
+                            },
+                            {
+                                "from": "Vic",
+                                "message": "neat"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "Mele",
+                        "message": "Sure. But maybe crack the windows open tonight"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "you know, i'm hoping for an internship at the station. maybe i should smell my best on this trip..."
+                    },
+                    {
+                        "from": "Mele",
+                        "message": "You wouldn't"
+                    },
+                    {
+                        "from": "Vic",
+                        "message": "Mele, we can switch"
+                    },
+                    {
+                        "from": "Mele",
+                        "message": "Thank you so much!"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "🙄"
+                    },
+                    {
+                        "from": "Alice - Pres",
+                        "message": "See you all tomorrow morning! ON TIME at 11am!"
+                    },
+                    {
+                        "from": "Diya - Marketing VP",
+                        "message": "Remember to come with questions!"
+                    },
+                    {
+                        "from": "Diya - Marketing VP",
+                        "message": "Jaime! Where are you? We need to leave now!"
+                    },
+                    {
+                        "from": "Jaime - Music VP",
+                        "message": "Sorry, it turns out I can't go. Y'all have fun!"
+                    }
+                ]
+            },
+            {
+                "name": "Me, Riley, Sam",
+                "messages": [
+                    {
+                        "from": "RILEY",
+                        "message": "CHAZ, WHAT'S GOING ON?"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "what?"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "CHECK THE GENERAL CHANNEL"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "oof"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "i thought they were best buds. something must have happened.sSam was on duty with erik yesterday"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "I'M ADDING SAM"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "SAM, WHAT'S GOING ON?"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "The exec board was just discussing it"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "well let us in on it"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "THE MESSAGES GOT DELETED"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "don't worry, i screenshotted them"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "Yeah, Avan did that. He figured that was best"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "i know katie will hate that"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "She does"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "Yesterday, Erik was ranting on the air about hard his classes were and let slip that Barry was copying his older brother's hw and final project. Not on purpose, he was just venting"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "is that it? it's not like there are that many people listening to college radio nu wave at 2pm"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "CHEATING IS WRONG, CHAZ. BUT I AGREE"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "Well someone heard and complained to the dean. Barry is fuming"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "OMG, I JUST SAW THE TWEET. IT'S TRENDING"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "what?"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "Yeah, Barry tweeted that Erik is selling homemade vapes out of his dorm room"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "WHAT?!"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "i thought everyone knew about that. it's not even the worst thing he sells"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "Not the school. We now have to call them in for an emergency meeting"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "Alice, Avan, and Diya are taking Barry. While Jaime, Katie, and I are taking Erik"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "will they be kicked out?"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "THE ALUMNI LOVE BARRY'S OLDIES HOUR TOO MUCH"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "That's all I'll say for now"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "thank you for sharing"
+                    },
+                    {
+                        "from": "RILEY",
+                        "message": "WE ARE HONORED BY YOUR PRESENCE"
+                    },
+                    {
+                        "from": "Sam - Sports VP",
+                        "message": "I appreciate your discretion"
+                    },
+                    {
+                        "from": "%FIRSTNAME%",
+                        "message": "🤐"
+                    }
+                ]
+            },
+            {
+                "name": "Barry, Erik",
+                "messages": [
+
                 ]
             }
         ]

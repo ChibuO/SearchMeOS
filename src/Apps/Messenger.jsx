@@ -1,4 +1,4 @@
-import React, { useState, useImperativeHandle, useEffect } from 'react';
+import React, { useState, useImperativeHandle, useEffect, useRef } from 'react';
 import messages from '../Resources/messengerData.json';
 import computerData from '../Resources/computerData.json';
 import { ProfileIcon } from '../Components/ProfileIcon';
@@ -9,8 +9,8 @@ import { capitlaizeWord, insertGlobalData } from '../utilities/helpers';
 import './Messenger.css';
 
 export const MessengerApp = ({ref}) => {
-    const [selectedCategory, setSelectedCategory] = useState(Object.keys(messages.chats)[0]);
-    const [selectedChannel, setSelectedChannel] = useState(messages.chats[selectedCategory][0].name);
+    const [selectedCategory, setSelectedCategory] = useState("channels" || Object.keys(messages.chats)[0]);
+    const [selectedChannel, setSelectedChannel] = useState("general"|| messages.chats[selectedCategory][0].name);
     const [selectedChannelId, setSelectedChannelId] = useState(0);
     const [showThread, setShowThread] = useState(false);
     const [inputText, setInputText] = useState("");
@@ -18,8 +18,8 @@ export const MessengerApp = ({ref}) => {
     useImperativeHandle(ref, () => {
         return {
             clearWindow() {
-                setSelectedCategory(Object.keys(messages.chats)[0]);
-                setSelectedChannel(messages.chats[selectedCategory][0].name);
+                setSelectedCategory("channels" || Object.keys(messages.chats)[0]);
+                setSelectedChannel("general" || messages.chats[selectedCategory][0].name);
                 setSelectedChannelId(0);
                 setShowThread(false);
                 setInputText("");
@@ -80,6 +80,7 @@ export const MessengerApp = ({ref}) => {
 const ChatArea = ({ selectedCategory, selectedChannel, selectedChannelId, showThread, setShowThread, inputText, setInputText }) => {
     const [selectedMessageId, setSelectedMessageId] = useState(0);
     const selectedMessages = messages.chats[selectedCategory][selectedChannelId].messages;
+    const messagesListRef = useRef(null);
 
     useEffect(() => {
         const pressEnter = (e) => {
@@ -95,13 +96,20 @@ const ChatArea = ({ selectedCategory, selectedChannel, selectedChannelId, showTh
         return () => {
             messengerInput?.removeEventListener('keypress', pressEnter);
         }
-    });
+    }, [setInputText]);
+
+    useEffect(() => {
+        const messagesList = messagesListRef.current;
+        if (messagesList) {
+            messagesList.scrollTop = messagesList.scrollHeight;
+        }
+    }, [selectedCategory, selectedChannelId]);
 
     return (
         <div className="messenger-chat-area">
             <div className="messenger-chat-header chat-font-bold"># {selectedChannel}</div>
             <div className='messenger-chat-body chat-font-reg'>
-                <div className="messenger-messages-list">
+                <div className="messenger-messages-list" ref={messagesListRef}>
                     {selectedMessages.map((chat, index) => (
                         <SingleChatMessage key={index} chat={chat} index={index} setSelectedMessageId={setSelectedMessageId} showThread={showThread} setShowThread={setShowThread} />
                     ))}
@@ -149,13 +157,14 @@ const ChatReplySecion = ({ selectedCategory, selectedChannelId, selectedMessageI
 }
 
 const SingleChatMessage = ({ chat, index, setSelectedMessageId, showThread, setShowThread, copy = false }) => {
+    const isOsName = chat.from.includes("%FIRSTNAME%");
     return (
         <div className="messenger-message">
             {/* <div className='messenger-message-pic'>
                 <ProfileIcon name={insertGlobalData(chat.from)} borderRadius='5px' size='35' color='var(--messages-accent-color-2)' />
             </div> */}
             <div className='messenger-message-text-div'>
-                <p className='messenger-message-name'><strong>{insertGlobalData(chat.from)}</strong></p>
+                <p className={`messenger-message-name ${isOsName ? 'messenger-message-os-name' : ''}`}><strong>{insertGlobalData(chat.from)}</strong></p>
                 <p className='messenger-message-content'>{insertGlobalData(chat.message)}</p>
                 {chat.replies && !copy &&
                     <div className='messenger-message-replies-box'

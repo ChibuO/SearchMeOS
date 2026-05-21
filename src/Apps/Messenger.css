@@ -12,6 +12,7 @@
     --messages-accent-color-1: rgba(116, 251, 63);
     --messages-accent-color-2: rgba(34, 0, 168);
     --messages-accent-color-1-dark: rgb(70, 151, 38);
+    --messages-accent-color-1-darker: rgb(46, 105, 23);
     background: linear-gradient(32deg, var(--messages-accent-color-1) 0%, var(--messages-accent-color-2) 100%);
 }
 
@@ -135,6 +136,7 @@
 .messenger-message:hover {
     border-left: 1px solid var(--messages-accent-color-2);
     border-right: 1px solid var(--messages-accent-color-2);
+    background-color: rgba(255, 255, 255, 0.438);
 }
 
 .messenger-message-text-div {
@@ -145,6 +147,15 @@
 .messenger-message-name {
     margin-bottom: 5px;
     color: var(--messages-accent-color-2);
+}
+
+.messenger-message-os-name {
+    margin-bottom: 5px;
+    color: var(--messages-accent-color-1-darker);
+}
+
+.messenger-message-content {
+    line-height: 20px;
 }
 
 .messenger-message-replies-box {
@@ -167,7 +178,7 @@
 
 .messenger-message-replies-box:hover {
     /* background-color: white; */
-    border: 1px solid white;
+    border: 1px solid var(--messages-accent-color-2);
 }
 
 .messenger-message-replies-box:hover > .replies-box-next-icon {

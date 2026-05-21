@@ -1,8 +1,8 @@
 :root {
     --taskbar-icon-img-size: 24px;
     --taskbar-icon-size: 36px;
-    --shortcut-icon-img-size: 45px;
-    --shortcut-icon-size: 45px;
+    --shortcut-icon-img-size: 50px;
+    --shortcut-icon-size: 50px;
 }
 
 .desktop {
