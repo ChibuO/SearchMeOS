@@ -33,7 +33,7 @@ jobs:
       - name: Build Project
         run: npm run build
       - name: Upload Build Artifacts
-        uses: actions/upload-pages-artifact@v6
+        uses: actions/upload-pages-artifact@v3
         with:
           name: 'ghp-react-build'
           path: build
