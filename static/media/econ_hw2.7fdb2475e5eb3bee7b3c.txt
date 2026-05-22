@@ -1,0 +1,49 @@
+ECON 310
+Melanie Trill
+Homework #2
+
+1) The current macroeconomic situation features nominal interest rates near zero, high unemployment, lagging GDP recovery after a steep recession, and low inflation.
+    a) Do you think expansionary policy actions are appropriate? (Remember that policy actions often take 1–3 years before they have their full effect on the economy.)
+    
+    b) If expansion is appropriate, which is the more promising policy lever to use under today’s conditions, monetary policy or fiscal policy? Why?
+
+
+2) Consider the following data related to US GDP:
+        GDP: $12 Trillion
+        Consumption: $9.2 Trillion
+        Government Purchases: $1.8 Trillion
+        US investment abroad: $0.4 Trillion
+        Imports: $1.5 Trillion
+        Domestic Investment: $1.6 Trillion
+        Private Savings: $2.2 Trillion
+
+    a) What is the value of US exports? Is the US running a trade deficit or surplus?
+
+    b) What is the amount of foreign investment in the US?
+
+    c) Is the US government running a deficit or surplus? What is the amount of its tax revenues? 
+
+
+3) A competitive labor market. The market for production workers in Dudeville, California is highly competitive. The market supply and demand curves for production workers are given as:
+
+        LS = −2500 + 1000W LD = 10500 − 625W,
+
+where LD = labor demand is full time workers per hour, LS = labor supply is full time workers per hour, and W = hourly wage. RollerBall Manufacturing Co. employs production workers in the manufacture of bearings for skateboards and roller skates. The firm's production function is given by the expression:
+
+        Q = 88.8L − 0.5L2,
+
+where Q = output, measured as boxes of bearings per hour, and L = number of workers employed per hour. From this production function, the marginal product and average product of labor are:
+
+        MP = 88.8 − L AP = 88.8 − 0.5L
+
+RollerBall currently sells bearings for $10 per box and is a price-taker in both output and input markets.
+a) Determine the equilibrium wage and level of employment in the market. Calculate the total rent that is being earned by workers.
+
+b) Determine the number of workers that RollerBall Manufacturing would employ at the wage determined in part (a). What total output will White produce? 
+
+
+
+-------------------------------------------------------------------------------
+Sources:
+https://www.reed.edu/economics/parker/f10/201/asgn.html
+https://public.websites.umich.edu/~alandear/courses/102/homework/hw.html
