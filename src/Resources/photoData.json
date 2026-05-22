@@ -116,5 +116,17 @@
         "photo": "gooseknife.jpg",
         "alt": "goose holding a knife",
         "date": "11 months ago"
+    },
+    "chatto1" :
+    {
+        "photo": "fight1.png",
+        "alt": "first screenshot of barry & erik fight",
+        "date": "6 months ago"
+    },
+    "chatto2" :
+    {
+        "photo": "fight2.png",
+        "alt": "second screenshot of barry & erik fight",
+        "date": "6 months ago"
     }
 }
