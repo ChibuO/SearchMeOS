@@ -9,5 +9,5 @@ export default defineConfig({
     server: {
         open: true
     },
-    base: "/search-me-os/"
+    base: "/searchmeos/"
 })
