@@ -23,9 +23,9 @@ jobs:
     #   if: github.event.pull_request.merged == true
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 24
       - name: Install Dependencies
@@ -33,12 +33,12 @@ jobs:
       - name: Build Project
         run: npm run build
       - name: Upload Build Artifacts
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v7
         with:
           name: 'ghp-react-build'
           path: build
       - name: Deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           artifact_name: 'ghp-react-build'
