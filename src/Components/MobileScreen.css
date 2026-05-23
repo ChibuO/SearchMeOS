@@ -1,30 +1,48 @@
 #mobile-screen-container * {
     -webkit-tap-highlight-color: transparent;
-    --phone-bg-color: #232323;
-    --phone-bg-color-dark: rgb(3, 44, 44);
-    --phone-accent-color: #eabb00;
-    --phone-accent-color-hover: rgba(235, 188, 0, 0.5);
+    --phone-bg-color: rgb(26, 26, 26);
+    --phone-black-color: #0a0a0a;
+    --phone-accent-color: #18d4cb;
+    --phone-accent-color-hover: #28e2d9;
+    --phone-accent-alt: rgb(203, 255, 248);
 }
 
 #mobile-screen-container {
+    --phone-black-color: #0a0a0a;
     position: relative;
     box-sizing: border-box;
     height: 100vh;
+    width: 100%;
     margin: 0;
     padding: 0;
+    background-color: var(--phone-black-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #phone-container {
     position: relative;
     height: 100%;
     overflow: hidden;
-    /* border: 2px solid rgb(235, 41, 73); */
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: var(--phone-bg-color-dark);
+    background-color: var(--phone-bg-color);
     margin: 0;
     padding: 0;
+    width: 100%;
+    /* Only full width/height and no border-radius on mobile by default */
+}
+
+@media (min-width: 600px) {
+    /* For desktops */
+    #phone-container {
+        width: 20%;
+        height: 80%;
+        border-radius: 20px;
+        border: 2px solid white;
+    }
 }
 
 .phone-screen-container * {
@@ -35,25 +53,26 @@
 .phone-screen-container {
     position: relative;
     height: 100%;
+    width: 100%;
     overflow: hidden;
     /* border: 2px solid rgb(235, 41, 73); */
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: var(--phone-bg-color-dark);
+    background-color: var(--phone-bg-color);
     margin: 0;
     padding: 0;
 }
 
 .phone-header-div {
     margin: 0;
-    background-color: white;
+    background-color: var(--phone-black-color);
     border-bottom: 2px solid var(--phone-accent-color);
     height: 60px;
-    padding: 5px 10px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    color: var(--phone-bg-color);
+    color: white;
     gap: 10px;
     user-select: none;
 }
@@ -68,18 +87,17 @@
 }
 
 .phone-body {
-    margin: 20px 10px;
+    padding: 20px 10px;
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     box-sizing: border-box;
 }
 
 #phone-share-body {
     align-items: center;
-    overflow-y: scroll;
-    gap: 20px;
+    /* border: 1px solid red; */
 }
 
 /* Share Screen Styles */
@@ -101,25 +119,27 @@
 }
 
 #phone-contacts-label {
-    color: var(--phone-accent-color);
-    font-size: 1rem;
+    color: rgb(151, 151, 151);
+    font-size: .8rem;
     margin: 20px 0px;
 }
 
 #phone-contact-card {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: #2c0d0d;
+    background-color: var(--phone-black-color);
     border-radius: 20px;
     padding: 20px;
-    transition: background-color .5s;
+    transition: all .5s;
     user-select: none;
     cursor: pointer;
 }
 
-#phone-contact-card:hover {
-    background-color: #702929;
+#phone-contact-card:active {
+    background-color: var(--phone-accent-color);
+    color: var(--phone-black-color);
 }
 
 #phone-contact-card-info-div {
@@ -135,14 +155,26 @@
 }
 
 #phone-contact-card-preview {
-    color: gray;
+    color: lightgrey;
     font-size: 12px;
+}
+
+#phone-contact-card:active #phone-contact-card-name {
+    color: var(--phone-black-color);
+}
+
+#phone-contact-card:active #phone-contact-card-preview {
+    color: var(--phone-black-color);
 }
 
 /* Contact Screen styles */
 
+#phone-back-icon:hover {
+    background-color: rgba(139, 139, 139, 0.7);
+}
+
 #phone-back-icon:active {
-    background-color: rgba(from var(--phone-bg-color-dark) r g b / 0.3);;
+    background-color: rgba(139, 139, 139, 0.5);
 }
 
 #phone-contact-header-info-div {
@@ -150,12 +182,15 @@
 }
 
 #phone-contact-header-number {
-    color: gray;
+    color: lightgray;
     font-size: 13px;
 }
 
-/* #phone-contact-body {
-} */
+#phone-contact-body {
+    scrollbar-color: var(--scrollbar-standard-color) transparent;
+    scrollbar-width: thin;
+    overflow-y: scroll;
+}
 
 .phone-message-div {
     border-radius: 20px;
@@ -169,12 +204,14 @@
 
 .phone-message-left {
     align-self: flex-start;
-    background-color: #473a03;
+    background-color: var(--phone-accent-alt);
+    color: var(--phone-black-color);
 }
 
 .phone-message-right {
     align-self: flex-end;
-    background-color: #276161;
+    background-color: var(--phone-accent-color);
+    color: var(--phone-black-color);
 }
 
 .phone-message-cont {
@@ -209,7 +246,7 @@
 }
 
 #phone-message-input-send {
-  color: #0066ff;
+  color: var(--phone-bg-color);
   margin: 0;
   font-size: 18px;
   background-color: var(--phone-accent-color);
@@ -223,6 +260,16 @@
   user-select: none;
 }
 
+#phone-message-input-send #phone-send-icon {
+    transform: translate(-2px, 0px);
+}
+
+#phone-message-input-send:hover {
+  background-color: var(--phone-accent-color-hover);
+  color: var(--phone-black-color);
+}
+
 #phone-message-input-send:active {
   background-color: var(--phone-accent-color-hover);
+  color: var(--phone-black-color);
 }

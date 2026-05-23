@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import computerData from '../Resources/computerData.json';
-import { MdKeyboardBackspace } from "react-icons/md";
-import { FaPaperPlane } from "react-icons/fa";
+import { IoMdShare as ShareIcon } from "react-icons/io";
+import { MdKeyboardBackspace as BackIcon} from "react-icons/md";
+import { FaPaperPlane as SendIcon } from "react-icons/fa";
 import { ProfileIcon } from './ProfileIcon';
 import './MobileScreen.css';
 
@@ -37,7 +38,6 @@ const ShareScreen = ({ setOpenContact, client }) => {
       contactNumber].includes(input);
     if (ismatch || input == "red") {
       setShowContact(true);
-      setContactInput("");
       return;
     }
     setShowContact(false);
@@ -46,7 +46,7 @@ const ShareScreen = ({ setOpenContact, client }) => {
   return (
     <div className="phone-screen-container">
       <div className="phone-header-div">
-        <MdKeyboardBackspace className="phone-header-icon" id="phone-share-icon" />
+        <ShareIcon className="phone-header-icon" id="phone-share-icon" />
         <h3 className="phone-header-text" id="phone-share-header-text">Send to...</h3>
       </div>
       <div className="phone-body" id="phone-share-body">
@@ -64,7 +64,8 @@ const ShareScreen = ({ setOpenContact, client }) => {
               <ProfileIcon
                 letter={contactEmoji}
                 size={40}
-                color={'var(--phone-accent-color)'}
+                color={'var(--phone-bg-color)'}
+                border={'1px solid var(--phone-accent-color)'}
               />
             </div>
             <div id="phone-contact-card-info-div">
@@ -97,12 +98,13 @@ const ContactScreen = ({setOpenContact, client}) => {
   return (
     <div className="phone-screen-container">
       <div className="phone-header-div">
-        <MdKeyboardBackspace className="phone-header-icon" id="phone-back-icon" onClick={() => setOpenContact(false)}/>
+        <BackIcon className="phone-header-icon" id="phone-back-icon" onClick={() => {setOpenContact(false)}}/>
         <div>
           <ProfileIcon
             letter={contactEmoji}
             size={35}
-            color={'var(--phone-accent-color)'}
+            color={'var(--phone-bg-color)'}
+            border={'1px solid var(--phone-accent-color)'}
           />
         </div>
         <div id="phone-contact-header-info-div">
@@ -132,7 +134,7 @@ const ContactScreen = ({setOpenContact, client}) => {
             value={inputText}
             id="phone-message-input"
             onChange={(e) => setInputText(e.target.value)}/>
-        <button id="phone-message-input-send" onClick={sendMessage}><FaPaperPlane /></button>
+        <button id="phone-message-input-send" onClick={sendMessage}><SendIcon id="phone-send-icon"/></button>
     </div>
     </div>
   );

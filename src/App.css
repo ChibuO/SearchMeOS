@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Grenze+Gotisch:wght@100..900&family=Gluten:slnt,wght@3,300..400&family=Tektur:wght@400..900&family=Roboto+Mono:ital@0;1&family=Racing+Sans+One&Gugi&family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&family=MuseoModerno:ital@0;1&&family=Poiret+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-  --main-theme-color: #062c73;
-  --secondary-theme-color: #0255ed;
+:root {
+  --smos-orange: #cf3d00ff;
+  --smos-pink: oklch(0.64 0.261 339.355);
+  --main-theme-color: #0a0a0a;
+  --secondary-theme-color: rgb(206, 41, 170);
   --theme-text-color: white;
   --taskbar-height: 55px;
   --scrollbar-standard-color: rgba(255, 255, 255, 0.44);
   --scrollbar-darker-color: rgba(126, 126, 126, 0.788);
-  --smos-orange: #cf3d00ff;
-  --smos-pink: #e825beff;
 }
 
 body {

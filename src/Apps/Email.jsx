@@ -165,7 +165,7 @@ const EmailDisplay = ({ selectedCategory, selectedEmailId }) => {
                 <p key={index}>{p}</p>
               )) :
               '[no message]'}
-              {selectedEmail.attachment && <EmailAttachment attachmentLink={selectedEmail.EmailAttachment} />}
+              {selectedEmail.attachment && <EmailAttachment attachmentLink={selectedEmail.attachment} />}
           </div>
         </div>
     </div>

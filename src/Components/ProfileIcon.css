@@ -13,4 +13,5 @@
 
 .initials {
     user-select: none;
+    transform: translate(0px, -1px);
 }

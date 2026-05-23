@@ -53,14 +53,15 @@
     position: absolute;
     bottom: 20px;
     left: 20px;
+    color: var(--smos-orange);
 }
 
 #lock-screen-back-btn:hover {
-    background-color: rgba(255, 255, 255, 0.199);
+    background-color: rgba(112, 112, 112, 0.123);
 }
 
 #lock-screen-back-btn:active {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(112, 112, 112, 0.5);
 }
 
 /* Animation classes */

@@ -22,7 +22,7 @@
     cursor: pointer;
     width: var(--taskbar-icon-size);
     height: var(--taskbar-icon-size);
-    background-color: var(--secondary-theme-color);
+    background-color: var(--main-theme-color);
     display: flex;
     align-items: center;
     justify-content: center;

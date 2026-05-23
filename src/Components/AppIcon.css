@@ -15,7 +15,7 @@
 }
 
 .task-icon:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(117, 117, 117, 0.1);
 }
 
 .task-icon-space {
@@ -71,7 +71,8 @@
     /* border: 1px solid rgb(126, 128, 0); */
     width: var(--shortcut-icon-img-size);
     height: var(--shortcut-icon-img-size);
-    transition: all 0.1s ease;
+    transition: all .1s ease;
+    filter: drop-shadow(0 0 0 transparent);
 }
 
 .shortcut:hover img {

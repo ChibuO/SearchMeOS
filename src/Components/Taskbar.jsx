@@ -81,8 +81,7 @@ const Taskbar = ({windowsState, setWindowsState, openWindows, showStartMenu, set
       <div className="start-icon-container">
         <button 
           id="start-button"
-          onClick={(e) => onStartClick(e)}
-          style={{"backgroundColor": computerData.secondColor }}>
+          onClick={(e) => onStartClick(e)}>
           <img src={start_icon} alt="Start" className="start-img" draggable="false" />
         </button>
       </div>
