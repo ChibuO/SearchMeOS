@@ -165,7 +165,7 @@ const EmailDisplay = ({ selectedCategory, selectedEmailId }) => {
                 <p key={index}>{p}</p>
               )) :
               '[no message]'}
-              {selectedEmail.attachment && <EmailAttachment />}
+              {selectedEmail.attachment && <EmailAttachment attachmentLink={selectedEmail.EmailAttachment} />}
           </div>
         </div>
     </div>
@@ -261,11 +261,11 @@ const sortEmailsByDateDesc = (emails) => {
   });
 }
 
-const EmailAttachment = () => {
+const EmailAttachment = ({ attachmentLink }) => {
   return (
     <div id="email-attachment-div">
-      <img src={attachment_img} alt={"https://chibuo.github.io/SearchMeOS/mobile"} title={"invite list qr code"} draggable="false" />
-      <p id="email-attachment-text">1 attachment: <a href ="https://chibuo.github.io/SearchMeOS/mobile" target='_blank'>invite_list.png</a></p>
+      <img src={attachment_img} alt={"invite list qr code, also shown below"} title={"invite list qr code"} draggable="false" />
+      <p id="email-attachment-text">1 attachment: <a href={attachmentLink} target='_blank'>invite_list.png</a></p>
     </div>
   )
 }
