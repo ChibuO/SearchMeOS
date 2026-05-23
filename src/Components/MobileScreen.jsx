@@ -55,7 +55,6 @@ const ShareScreen = ({ setOpenContact, client }) => {
           placeholder="Enter full name or number"
           className="meta-font"
           id="phone-contact-input"
-          autoFocus
           value={contactInput}
           onChange={(e) => checkContact(e.target.value)} />
         <p id="phone-contacts-label">Contacts</p>
@@ -129,12 +128,11 @@ const ContactScreen = ({setOpenContact, client}) => {
         <input
             className='meta-font'
             type="text"
-            autoFocus
             placeholder=""
             value={inputText}
             id="phone-message-input"
             onChange={(e) => setInputText(e.target.value)}/>
-        <button id="phone-message-input-send" onClick={sendMessage}>{<FaPaperPlane />}</button>
+        <button id="phone-message-input-send" onClick={sendMessage}><FaPaperPlane /></button>
     </div>
     </div>
   );
