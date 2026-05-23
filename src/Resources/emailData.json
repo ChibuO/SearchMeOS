@@ -399,12 +399,12 @@
             "date": "M/D-6/Y",
             "subject": "Party Invite List",
             "message": [
-                "Hey dude,\n\n",
-                "Here's the invite list for the Phi Omega Psi party\n\n",
-                "Invite List\n\n",
+                "Hey bro,\n\n",
+                "You'll find attached the invite list for the Phi Omega Psi party\n\n",
                 "Bye dude,",
                 "Danny"
-            ]
+            ],
+            "attachment": true
         },
         {
             "from": {

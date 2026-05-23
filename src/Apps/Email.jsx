@@ -6,7 +6,9 @@ import contacts from '../Resources/contactData.json';
 import { ProfileIcon } from '../Components/ProfileIcon';
 import { IoMdArrowDropdown } from "react-icons/io";
 import { PasswordScreen } from '../Components/PasswordScreen';
+import Img from '../Components/CustomImage';
 import { capitlaizeWord, insertGlobalData, getFullName, parseDate } from '../utilities/helpers';
+import attachment_img from '../Images/attachment.png';
 import './Email.css'
 
 const sent = "departed";
@@ -163,6 +165,7 @@ const EmailDisplay = ({ selectedCategory, selectedEmailId }) => {
                 <p key={index}>{p}</p>
               )) :
               '[no message]'}
+              {selectedEmail.attachment && <EmailAttachment />}
           </div>
         </div>
     </div>
@@ -256,4 +259,13 @@ const sortEmailsByDateDesc = (emails) => {
     const dateB = parseDate(b.date);
     return dateB - dateA;
   });
+}
+
+const EmailAttachment = () => {
+  return (
+    <div id="email-attachment-div">
+      <img src={attachment_img} alt={"https://chibuo.github.io/SearchMeOS/mobile"} title={"invite list qr code"} draggable="false" />
+      <p id="email-attachment-text">1 attachment: <a href ="https://chibuo.github.io/SearchMeOS/mobile" target='_blank'>invite_list.png</a></p>
+    </div>
+  )
 }

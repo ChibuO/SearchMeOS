@@ -21,5 +21,16 @@
         "The chemist-in-training has developed a cure, but needs to know who to give it to. Thankfully, these house parties are strictly invite-only, so all you need is the list of attendees.\n\n",
         "The chemist has paid good money to keep this quiet, so you've ~acquired~ one of the event organizer's laptops.\n\n",
         "Find the list and pay your rent!"
-    ]
+    ],
+    "client": {
+        "fullName": "Dmitria Mendeleieva",
+        "firstName": "Dmitria",
+        "lastName": "Mendeleieva",
+        "phoneNumber": " 348-0967",
+        "emoji": "🧪",
+        "message": "Remember! Time is of the essence!",
+        "deliverable": "invite_list.png",
+        "thanks": "TYSM! I wenmo'd you the rest of your payment!",
+        "thanks2": "Update: I was able to ~discretely~ spray the cure in everybody's eyes. This could've been real bad! I promise to be more careful next time. Thanks again, see you around!"
+    }
 }

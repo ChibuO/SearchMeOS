@@ -4,11 +4,11 @@
 
 # Education
 > Bachelor of Arts in Economics 
-   Othello University, Shakes, Utah  
-   Expected Graduation: in 2 years
-   Relevant Coursework: Microeconomics, Macroeconomics, Statistics, Financial Accounting
+  Othello University, Shakes, Utah  
+  Expected Graduation: in 2 years
+  Relevant Coursework: Microeconomics, Macroeconomics, Statistics, Financial Accounting
 > Richfield High School
-   Activities: Swim Club, Student Gov, Computer Club
+  Activities: Swim Club, Student Gov, Computer Club
 
 # Skills
 > Data Analysis

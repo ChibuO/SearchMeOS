@@ -291,3 +291,19 @@
 .email-body p {
     white-space: pre-wrap;
 }
+
+#email-attachment-div {
+    margin-top: 20px;
+}
+
+#email-attachment-div img {
+    max-width: 200px;
+    height: 150px;
+    object-fit: contain;
+}
+
+#email-attachment-text {
+    margin-top: 10px;
+    font-size: 14px;
+    border: 1px solid gray;
+}
