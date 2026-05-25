@@ -132,6 +132,22 @@
         },
         {
             "from": {
+                "name": "Kesha Young",
+                "email": "invitations@linkedin.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/D-13/Y",
+            "subject": "I want to connect",
+            "message": [
+                "Kesha Young\n",
+                "Student at Othello University\n",
+                "14 connections in common\n\n",
+                "Accept at linkedin.com"
+            ]
+        },
+        {
+            "from": {
                 "name": "Othello Overview",
                 "email": "othello-overview@othello.edu"
             },
@@ -221,6 +237,32 @@
                 "dear professor becker,\n\n",
                 "can i please get an extension on the reading? at this time in the quarter, i get really sick and it affects my studies. i woke up to today and i think i feel the sickness coming on.\n\n",
                 "thank you,",
+                "%FIRSTNAME%"
+            ]
+        },
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
+                {
+                    "name": "Daniella Cevilla",
+                    "email": "dseeya@flymail.com"
+                }
+            ],
+            "cc": [
+                {
+                    "name": "Danny Clay",
+                    "email": "imdagreatest8@flymail.com"
+                }
+            ],
+            "date": "M-1/27/Y",
+            "subject": "van + trey concert tickets",
+            "message": [
+                "sup guys,\n\n",
+                "I've forwarded the van + trey tickets to you. i also saw some cool merch on the websoite. i'll text the pics.\n\n",
+                "can't wait,",
                 "%FIRSTNAME%"
             ]
         },
@@ -339,6 +381,90 @@
     "canceled": [
         {
             "from": {
+                "name": "Russel Wilson",
+                "email": "invitations@linkedin.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/D-3/Y",
+            "subject": "I want to connect",
+            "message": [
+                "Russell Wilson\n",
+                "Talent Acquisiton at Darpa\n",
+                "0 connections in common\n\n",
+                "Accept at linkedin.com"
+            ]
+        },
+        {
+            "from": {
+                "name": "Russel Wilson",
+                "email": "messages@linkedin.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/D-3/Y",
+            "subject": "Russel just messaged you",
+            "message": [
+                "1 new message awaits your response\n\n",
+                "Russell Wilson: Talent Acquisiton at Darpa\n\n",
+                "\"Hi %FIRSTNAME% %LASTNAME%, I saw you were an economics student at Othello University. Would you be interested in an internship opportunity? ~$500/week...\"\n\n",
+                "View message at linkedin.com"
+            ]
+        },
+        {
+            "from": {
+                "name": "Mario Gomez",
+                "email": "mgomez@u.othello.edu"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/D-4/Y",
+            "subject": "Enlightened Youth Seminar",
+            "message": [
+                "Hi %FIRSTNAME%,\n\n",
+                "I know you were busy after class today but I wanted to follow up on the Enlightened Youth Seminar. I could tell that there's a light inside of you that can shine brighter in our group. Despite what the world says, Ra is alive and well and deserves to be honored.\n\n",
+                "As the sun god, Ra is the source of all life and energy. Those that follow him have shown increased vitality, happiness, and fulfillment. You can learn more about Ra and his teachings in our upcoming seminar as well as meet other like-minded individuals.\n\n",
+                "May Ra shine on you,\n\n",
+                "Mario"
+            ]
+        },
+        {
+            "from": {
+                "name": "Sahara.com",
+                "email": "auto-confirm@sahara.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/D-5/Y",
+            "subject": "Delivered: \"Ping Pong Ball, LED Lights\"",
+            "message": [
+                "Your pack was delivered, %FIRSTNAME%,\n\n",
+                "Delivered today:\n\n",
+                "> 35pc Ping Pong Balls\n",
+                "> 2 Multicolored LED Light Sets\n\n",
+                "Sign in to your account to leave a review.\n\n",
+                "© Sahara.com, Inc. or its afilliates."
+            ]
+        },
+        {
+            "from": {
+                "name": "Sahara.com",
+                "email": "auto-confirm@sahara.com"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/D-2/Y",
+            "subject": "Ordered: \"Leather Onesie\"",
+            "message": [
+                "Thanks for your order, %FIRSTNAME%,\n\n",
+                "Arriving in 1 week:\n\n",
+                "> Leather Onesie Size L\n",
+                "Grand Total: $49.98\n\n",
+                "© Sahara.com, Inc. or its afilliates."
+            ]
+        },
+        {
+            "from": {
                 "name": "Rachel Gatina",
                 "email": "rachelgat9@flymail.com"
             },
@@ -372,6 +498,23 @@
         },
         {
             "from": {
+                "name": "OU Health Services",
+                "email": "ouhealthservices@othello.edu"
+            },
+            "to": [],
+            "cc": [],
+            "date": "M/D-9/Y",
+            "subject": "Unpaid Balance Notice",
+            "message": [
+                "%FIRSTNAME% %LASTNAME%,\n\n",
+                "You have an unpaid balance of $95.00 on your student account.\n\n",
+                "Please log in to your account to view and pay your balance.\n\n",
+                "Thank you,",
+                "OU Health Services"
+            ]
+        },
+        {
+            "from": {
                 "name": "OU Matchmaker",
                 "email": "oumatchmaker@u.othello.com"
             },
@@ -396,11 +539,11 @@
             },
             "to": [],
             "cc": [],
-            "date": "M/D-6/Y",
-            "subject": "Party Invite List",
+            "date": "M/D-12/Y",
+            "subject": "First Sight",
             "message": [
                 "Hey bro,\n\n",
-                "You'll find attached the invite list for the Phi Omega Psi party.\n\n",
+                "You'll find attached the invite list for the Phi Omega Psi party. Remember to delete this email after saving it.\n\n",
                 "Bye bro,",
                 "Danny"
             ],

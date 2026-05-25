@@ -66,19 +66,9 @@ const Taskbar = ({windowsState, setWindowsState, openWindows, showStartMenu, set
     setShowStartMenu(!showStartMenu);
   }
 
-  // const onStartUp = (e) => {
-  //   if (!showStartMenu) {
-
-  //   }
-  //   console.log(e.target.id, showStartMenu);
-  //   let startBtn = document.getElementById(e.target.id);
-  //   // startBtn.disabled = true;
-  //   setShowStartMenu(!showStartMenu);
-  // }
-
   return (
-    <div className="taskbar" style={{"backgroundColor": computerData.mainColor }}>
-      <div className="start-icon-container">
+    <div className="taskbar" style={{"backgroundColor": computerData.mainColor }} id="taskbar-container">
+      <div id="start-icon-container">
         <button 
           id="start-button"
           onClick={(e) => onStartClick(e)}>

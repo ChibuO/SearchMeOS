@@ -62,8 +62,6 @@ export const App = () => {
 
     const [openWindows, setOpenWindows] = useState(getOpenWindowsState);
 
-    const [windowsZ, setWindowsZ] = useState({});
-
     const [windowsZMax, setWindowsZMax] = useState(0);
 
     const bringToFront = (id) => {
@@ -93,16 +91,18 @@ export const App = () => {
 
     useEffect(() => {
         const handleClickOutside = (e) => {
-            if (menuRef?.current && !menuRef.current?.contains(e.target)) {
+            if (e.target.id != "start-button" && menuRef?.current && !menuRef.current?.contains(e.target)) {
                 setShowStartMenu(false);
             }
         }
 
-        const modalElement = document.getElementById('outside-container');
-        modalElement.addEventListener('click', handleClickOutside, true);
+        const desktopElement = document.getElementById('outside-container');
+        const taskbarElement = document.getElementById('taskbar-container');
+        const desktopScreenElement = document.getElementById('desktop-screen-container');
+        desktopScreenElement.addEventListener('click', handleClickOutside, true);
         
         return () => {
-            modalElement.removeEventListener('click', handleClickOutside);
+            desktopScreenElement.removeEventListener('click', handleClickOutside);
         }
     }, []);
 
@@ -133,7 +133,7 @@ export const App = () => {
     return (
         <div className='computer-screen-container'>
             <LockScreen isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} bgImagePath={computerData.lockScreenImagePath}/>
-            <div className='desktop-screen-container'>
+            <div id='desktop-screen-container'>
                 {showStartMenu && <StartMenu menuRef={menuRef} setShowStartMenu={setShowStartMenu} logOut={logOut} resetWindowsState={resetWindowsState} />}
                 <Desktop
                     windowsState={windowsState}

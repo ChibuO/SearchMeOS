@@ -11,7 +11,7 @@
     right: 0;
 }
 
-.start-icon-container {
+#start-icon-container {
     margin: 0;
     padding: 0;
     display: flex;
@@ -44,7 +44,7 @@
     pointer-events: none;
 }
 
-.start-icon-container:hover {
+#start-icon-container:hover {
     filter: brightness(105%);
 }
 
