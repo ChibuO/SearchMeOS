@@ -9,7 +9,7 @@
     "email": 
     {
         "name": "FlyMail",
-        "icon": "email_icon.png",
+        "icon": "icon_email.png",
         "entry": "benzin",
         "hint": "my fave scent",
         "entry2": "rachel gatina",
@@ -33,14 +33,14 @@
     "messages": 
     {
         "name": "Chatto",
-        "icon": "messages_icon.png",
+        "icon": "icon_chat.png",
         "entry": "blacksmith",
         "hint": ""
     },
     "music": 
     {
         "name": "Symph",
-        "icon": "music_icon.png",
+        "icon": "icon_music.png",
         "entry": "",
         "hint": "",
         "unlocked": true
@@ -64,7 +64,7 @@
     "internet": 
     {
         "name": "E-Web",
-        "icon": "internet_icon.png",
+        "icon": "icon_internet.png",
         "unlocked": true
     }
 }

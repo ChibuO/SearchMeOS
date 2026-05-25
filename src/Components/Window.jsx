@@ -113,7 +113,7 @@ const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFron
           displayContent(windowName) : 
             <PasswordScreen 
               appName={windowName} 
-              bgColor={computerData.secondColor} 
+              bgColor={computerData.thirdColor} 
               unlockWindow={unlockWindow} 
               clickForgotPassword={clickForgotPassword} 
             />

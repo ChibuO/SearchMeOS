@@ -1,84 +1,70 @@
+# SearchMe OS
+
+## Gameplay
+
+### Game Overview
+SearchMe OS is a snooping puzzle game where you explore a simulated desktop environment, searching for clues, passwords, and files to solve the main mystery. Each app on the desktop is interactive and can be customized or themed.
+
+### Objective
+You are the greatest private investigator at Othello University and have been hired to investigate a recent incident at a Phi Omega Psi house party—which you weren't invited to. But it turns out that was a good thing!
+
+A chemistry major was hired by the party's organizers to create a serum to make everyone's eyes glow in the dark. It worked great; it was like a dark room full of raccoons. Unfortunately, anyone who drank the serum will lose their eyesight in 2 days.
+
+The chemist-in-training has developed a cure, but needs to know who to give it to. Thankfully, these house parties are strictly invite-only, so all you need is the list of attendees. The chemist has paid good money to keep this quiet, so you've ~acquired~ one of the event organizer's laptops. Find the list and pay your rent!
+
+#### Apps
+- **Calendar**: Check events and find hidden hints.
+- **FlyMail (Email)**: Read and send emails. Some emails contain clues or passwords.
+- **Photos**: Browse through images—some may contain secrets.
+- **My World (Contacts)**: View and interact with contacts.
+- **Chatto (Messages)**: Chat with various characters. Some conversations unlock new clues.
+- **Symph (Music)**: Listen to music tracks.
+- **Docs**: Access documents, essays, and files. Some are password-protected.
+- **Notes**: Jot down clues and reminders.
+- **E-Web (Internet)**: Simulated web browser for in-game research.
+
+Many apps are locked behind puzzles or passwords, and some have multiple layers of access.
+
+### How to Play
+1. Explore the desktop and open different apps.
+2. Read messages, emails, and documents for clues.
+3. Solve puzzles to unlock new apps and files.
+4. Piece together the attendee list and deliver it to the chemist.
+
+Good luck, detective!
+
+---
+
+## Development
+
+### Customization & Modding
+You can easily modify the contents and behavior of the in-game computer by editing the JSON files in the `src/Resources` folder. These files control the data, appearance, and logic for the apps and the system itself.
+
+https://animate.style/#migration is used for the window animations.
+
+#### Key JSON Files:
+- **computerData.json**: Sets the main story, intro text, client info, theme colors, and images for the OS.
+- **appData.json**: Controls the available apps, their names, and icons.
+- **calendarData.json, contactData.json, docsData.json, emailData.json, messengerData.json, musicData.json, noteData.json, photoData.json**: Each file contains the data for its respective app (events, contacts, documents, emails, messages, music, notes, photos, etc.).
+- **documentMap.js**: Maps document IDs to file paths for the Docs app.
+
+#### How to Customize:
+- Change app names, icons, and unlock status in `appData.json`.
+- Edit or add new emails, messages, contacts, and more by modifying the corresponding JSON file.
+- Adjust the story, theme, and system images in `computerData.json`.
+- Add or remove files in the `docs` subfolder to change available documents.
+
+#### Example: Adding a New Note
+To add a new note to the Notes app, open `src/Resources/noteData.json` and add a new object to the notes array. For example:
+
 ```
-<a target="_blank" href="https://icons8.com/icon/11651/file">File</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
-<a href="https://www.flaticon.com/free-icons/wifi" title="wifi icons">Wifi icons created by Google - Flaticon</a>
-
-Photo by <a href="https://unsplash.com/@chatelp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pierre Châtel-Innocenti</a> on <a href="https://unsplash.com/photos/blue-architectural-design-N6Hx4HT4mHg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
-
-<a href="https://www.flaticon.com/free-icons/chat-app" title="chat app icons">Chat app icons created by Shahzaib Ahmad - Flaticon</a>
-  
+[
+  {
+    "title": "Chemistry Clue",
+    "content": "Remember to check the guest list for anyone who left early!",
+    "date": "2026-05-23"
+  }
+]
 ```
-https://animate.style/#migration
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After editing these files, simply restart the development server (if running) to see your changes reflected in the game. This makes SearchMe OS highly customizable for new stories, puzzles, or themes.
