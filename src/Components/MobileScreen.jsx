@@ -36,7 +36,7 @@ const ShareScreen = ({ setOpenContact, client }) => {
     const ismatch = [
       contactFullName.toLowerCase(), 
       contactNumber].includes(input);
-    if (ismatch || input == "red") {
+    if (ismatch) {
       setShowContact(true);
       return;
     }
