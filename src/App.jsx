@@ -46,6 +46,15 @@ export const App = () => {
         return initialWindowState(startingPosition, startingSize);
     };
 
+    const getInitialWindowZMax = () => {
+        try {
+        return localStorage.getItem('windowsZMax');
+        } catch (error) {
+            console.log(error);
+            return 0;
+        }
+    };
+
     const getOpenWindowsState = () => {
         const storedState = localStorage.getItem('openWindowsState');
         if (storedState) {
@@ -62,27 +71,37 @@ export const App = () => {
 
     const [openWindows, setOpenWindows] = useState(getOpenWindowsState);
 
-    const [windowsZMax, setWindowsZMax] = useState(0);
+    const [windowsZMax, setWindowsZMax] = useState(getInitialWindowZMax); // the top current z-index
 
-    const bringToFront = (id) => {
+    // Handles bringing a window to the front by updating its z-index.
+    // - Increments the z-index for the selected window and manages the maximum z-index value.
+    // - If the new z-index would exceed the number of maximized windows, it resets and shifts other windows down to maintain stacking order.
+    // - Persists the z-index state in localStorage for session continuity.
+    const bringToFront = (id, isOpen = false) => {
         if (id == '') return;
         let shiftDown = false;
-        const maxZ = document.querySelectorAll(".maximized").length;
-        // console.log("maxes: " + maxZ);
+        let maxZ = document.querySelectorAll(".maximized").length;
+        if (!isOpen) maxZ += 1; // if the window is already open, don't increase the ammount of max possible z-indexes
+        // console.log("id:", id, "open: ", isOpen, " maxes: " + maxZ, " zMax: ", windowsZMax);
         let newZ = windowsZMax + 1;
         if (newZ > maxZ) {
+            // console.log("z reset to", maxZ)
             newZ = maxZ;
             shiftDown = true;
         }
         document.querySelector(`#${id}`).style.zIndex = newZ;
         setWindowsZMax(newZ);
+        localStorage.setItem("windowsZMax", JSON.stringify(newZ));
         // console.log("newZ: " + newZ);
         document.querySelectorAll(".maximized").forEach((w) => {
             if (shiftDown && w.id !== id) {
-                let prevZ = w.style.zIndex;
-                if (prevZ - 1 >= 1) w.style.zIndex = prevZ - 1;
+                let prevZ = parseInt(w.style.zIndex, 10) || 1;
+                if (prevZ - 1 >= 1) {
+                    w.style.zIndex = prevZ - 1;
+                    // console.log("downshifting", w.id, "from", prevZ, "to",  prevZ-1);
+                }
             }
-            // console.log("z: " + w.style.zIndex + " " + w.id);
+            // console.log("z:" + w.style.zIndex + " - ", w.id);
         });
         // console.log("------------------------");
     }
@@ -96,8 +115,6 @@ export const App = () => {
             }
         }
 
-        const desktopElement = document.getElementById('outside-container');
-        const taskbarElement = document.getElementById('taskbar-container');
         const desktopScreenElement = document.getElementById('desktop-screen-container');
         desktopScreenElement.addEventListener('click', handleClickOutside, true);
         
@@ -119,6 +136,7 @@ export const App = () => {
             localStorage.setItem("windowsState", JSON.stringify(newState));
             localStorage.setItem("openWindowsState", JSON.stringify([]));
             localStorage.setItem("windowUnlocked", false);
+            localStorage.setItem("windowsZMax", 0);
             logOut();
         }
     }

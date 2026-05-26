@@ -43,10 +43,10 @@ const Taskbar = ({windowsState, setWindowsState, openWindows, showStartMenu, set
     // if window isn't active window, bring to front,
     // if window is not max, bring to front when maxing
     if(maximized && !isLast && document.querySelector(`#${window}-window`).style.zIndex !== 1) {
-      bringToFront(`${window}-window`);
+      bringToFront(`${window}-window`, true);
       return;
     } else if (!maximized) {
-      bringToFront(`${window}-window`);
+      bringToFront(`${window}-window`, false);
     }
     
     toggleWindow(window, maximized);

@@ -80,7 +80,7 @@ const Window = ({ windowName, windowState, unlockWindow, hideWindow, bringToFron
   }
 
   return (
-    <div id={`${windowName}-window`} className="desktop-window" onFocus={() => bringToFront(`${windowName}-window`)}
+    <div id={`${windowName}-window`} className="desktop-window" onFocus={() => bringToFront(`${windowName}-window`, true)}
       ref={setNodeRef} style={{...positionStyle, ...transformStyle}} {...attributes}>
       <div className="title-bar" style={{"backgroundColor": computerData.mainColor }}>
         <div className="title" ref={setActivatorNodeRef} {...listeners}>

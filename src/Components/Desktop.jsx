@@ -9,8 +9,8 @@ import { DndContext } from '@dnd-kit/core';
 
 const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, setOpenWindows, bgImagePath }) => {
   const showWindows = (window, windowState) => {
-    bringToFront(`${window}-window`);
     const { open, maximized } = windowState;
+    bringToFront(`${window}-window`, open);
     // not open and not max -> add to task and max
     // open and not max -> don't add to task and max
     if (!open && !maximized) {
@@ -61,8 +61,8 @@ const Desktop = ({ windowsState, setWindowsState, openWindows, bringToFront, set
 
   //for the window control buttons (minimize and close)
   const hideWindow = (window, windowState, option) => {
-    bringToFront(`${window}-window`);
     const { open, maximized } = windowState;
+    bringToFront(`${window}-window`, false);
 
     if (open && maximized) {
       if (option === 'close') setOpenWindows(openWindows.filter(w => w !== window));
