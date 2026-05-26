@@ -338,6 +338,28 @@
             },
             "to": [
                 {
+                    "name": "Blake Dedley PR",
+                    "email": "blakededleyprteam@inward.com"
+                }
+            ],
+            "cc": [],
+            "date": "M/1/Y",
+            "subject": "booking request for truly awesome guy",
+            "message": [
+                "dear blake deadly,\n\n",
+                "my friend danny and i really admire your shows and movies and think your're a legend. it's even cooler that you grew up in the same town as our college. our bro-versary is coming up and i wanted to surprise him with either a visit or a video from you. are you available on february 12th?\n\ni can definitely pay and he would be thrilled.\n\n",
+                "p.s. you were great in 'the cryptkeeper and i.'\n\n",
+                "thank you,",
+                "%FIRSTNAME% %LASTNAME%"
+            ]
+        },
+        {
+            "from": {
+                "name": "%FIRSTNAME% %LASTNAME%",
+                "email": "%EMAIL%"
+            },
+            "to": [
+                {
                     "name": "Daniella Cevilla",
                     "email": "dseeya@flymail.com"
                 }

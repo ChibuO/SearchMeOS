@@ -5,7 +5,7 @@
     },
     "to": [],
     "cc": [],
-    "date": "M/20/Y",
+    "date": "M/D/Y",
     "subject": "Docs - Forgot Password Reminder",
     "message": [
         "Hello %FIRSTNAME%,\n\n",
