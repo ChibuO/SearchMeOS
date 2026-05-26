@@ -1,15 +1,16 @@
 import appData from '../Resources/appData.json';
 import './PasswordScreen.css';
 import { PasswordForm } from './PasswordForm';
+import { compareStrings } from '../utilities/helpers';
 
 export const PasswordScreen = ({ appName, bgColor, unlockWindow, givenEntry = "", givenHint = "", unlockFunction = null, clickForgotPassword = null, givenForgotPassword = null }) => {
-  const  inputId = `${appName}-login`;
+  const inputId = `${appName}-login`;
   const hint = givenHint || appData[appName].hint;
   const forgotPassword = givenForgotPassword || appData[appName]?.forgotPassword;
   const expectedEntry = givenEntry || appData[appName].entry;
 
   const checkPassword = (entry) => {
-    const isCorrect = entry.toLowerCase() === expectedEntry.toLowerCase() || entry === "red";
+    const isCorrect = compareStrings(entry, expectedEntry);
 
     if (isCorrect) {
       if (unlockFunction) {

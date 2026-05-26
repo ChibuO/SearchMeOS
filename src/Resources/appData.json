@@ -3,23 +3,23 @@
     {
         "name": "Calendar",
         "icon": "icon_calendar.png",
-        "entry": "81032671459",
+        "entry": "02baa4f512d9772addff4da87077e7c0a73effaf3bf360548caf141e02301362",
         "hint": "no punctuation"
     },
     "email": 
     {
         "name": "FlyMail",
         "icon": "icon_email.png",
-        "entry": "benzin",
+        "entry": "910108f3a8b119fdc249160f5797a29f4ac72ac4e40c03776bb9668b7b31ee77",
         "hint": "my fave scent",
-        "entry2": "rachel gatina",
+        "entry2": "03e73a8b0632460455c6e5bb773ca2f28426cb092de315cc3d589bce0c20ad5f",
         "hint2": "check the bro-versary"
     },
     "photos": 
     {
         "name": "Photos",
         "icon": "icon_photos.png",
-        "entry": "richfield",
+        "entry": "a397e8ce3fc9fe129bf0057fd2a8cd844de0b5cf366c37aaaa6c32a4a17ea824",
         "hint": "go spartans! no hs"
     },
     "contacts": 
@@ -34,7 +34,7 @@
     {
         "name": "Chatto",
         "icon": "icon_chat.png",
-        "entry": "blacksmith",
+        "entry": "8eae6c54657e94be77a206e430054386a7391f99e2cea017b16d90661037a1ee",
         "hint": ""
     },
     "music": 
@@ -49,7 +49,7 @@
     {
         "name": "Docs",
         "icon": "icon_docs.png",
-        "entry": "14m41s",
+        "entry": "5d05eb1f6d8c706cb408a23264e750560916d97787b194726df77dba22bc552f",
         "hint": "",
         "forgotPassword": true
     },

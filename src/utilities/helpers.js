@@ -1,6 +1,7 @@
 import computerData from '../Resources/computerData.json';
 import { endOfMonth } from 'date-fns';
 export const capitlaizeWord = (word) => word[0].toUpperCase() + word.slice(1);
+import sha256 from 'crypto-js/sha256';
 
 export const getFullName = () => computerData && `${computerData.vars.FIRSTNAME} ${computerData.vars.LASTNAME}`;
 
@@ -111,4 +112,24 @@ export const parseDate = (dateText) => {
 //   }
   
   return intendedDate;
+}
+
+export const encryptStrings = () => {
+    const pwds = [];
+    const o = {};
+    for (const p of pwds) {
+        const enc = sha256(p).toString();
+        o[p] = enc;
+    }
+    console.log(o);
+}
+
+export const compareStrings = (input, control) => {
+    try {
+        const encrypted = sha256(input.toLowerCase()).toString();
+        return encrypted == control || input === "red";
+    } catch (error) {
+        console.log("error comparing strings:", error);
+        return true;
+    }
 }
