@@ -1,5 +1,9 @@
 # SearchMe OS
 
+## Play Here
+https://chibuo.github.io/SearchMeOS/
+
+
 ## Gameplay
 
 ### Game Overview
