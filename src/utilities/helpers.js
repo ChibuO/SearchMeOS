@@ -126,7 +126,7 @@ export const encryptStrings = () => {
 
 export const compareStrings = (input, control) => {
     try {
-        const encrypted = sha256(input.toLowerCase()).toString();
+        const encrypted = sha256(input.replace(/\s+/g, "").toLowerCase()).toString();
         return encrypted == control;
     } catch (error) {
         console.log("error comparing strings:", error);

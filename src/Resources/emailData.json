@@ -7,7 +7,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "M/19/Y",
+            "date": "M/D-4/Y",
             "subject": "request to dj othello party",
             "message": [
                 "Sup %FIRSTNAME%,\n\n",
@@ -27,7 +27,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "M/9/Y",
+            "date": "M/D-1/Y",
             "subject": "ECON311 - A New Grade Has Been Posted",
             "message": [
                 "Hi %FIRSTNAME% %LASTNAME%,\n\n",
@@ -43,7 +43,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "M/8/Y",
+            "date": "M/D-2/Y",
             "subject": "extension on assignment",
             "message": [
                 "Gutentag %FIRSTNAME%,\n\n",
@@ -60,7 +60,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "M/2/Y",
+            "date": "M/D-8/Y",
             "subject": "Fun Swim Meeting this Week!",
             "message": [
                 "Hey all,\n\n",
@@ -77,7 +77,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "M/2/Y",
+            "date": "M/D-8/Y",
             "subject": "New Assignment Posted in Art 101",
             "message": [
                 "Hi %FIRSTNAME% %LASTNAME%,\n\n",
@@ -97,7 +97,7 @@
                 }
             ],
             "cc": [],
-            "date": "M/2/Y",
+            "date": "M/D-7/Y",
             "subject": "Econ 311 Group Project Meeting",
             "message": [
                 "Hi guys,\n\n",
@@ -120,7 +120,7 @@
                     "email": "bball4life@inward.com"
                 }
             ],
-            "date": "M/20/Y",
+            "date": "M/D-2/Y",
             "subject": "Boom Meeting Invite",
             "message": [
                 "You received a Boom meeting invite from Danny Clay:\n\n",
@@ -231,7 +231,7 @@
                 }
             ],
             "cc": [],
-            "date": "M/8/Y",
+            "date": "M/D-4/Y",
             "subject": "extension on assignment",
             "message": [
                 "dear professor becker,\n\n",
@@ -298,7 +298,7 @@
                 }
             ],
             "cc": [],
-            "date": "M/2/Y",
+            "date": "M/D-8/Y",
             "subject": "request to work with ou radio",
             "message": [
                 "dear beatman & blue,\n\n",
@@ -322,7 +322,7 @@
                 }
             ],
             "cc": [],
-            "date": "M/5/Y",
+            "date": "M/D-6/Y",
             "subject": "go over econ310 grades",
             "message": [
                 "dear professor trill,\n\n",
@@ -343,7 +343,7 @@
                 }
             ],
             "cc": [],
-            "date": "M/1/Y",
+            "date": "1/1/Y",
             "subject": "booking request for truly awesome guy",
             "message": [
                 "dear blake deadly,\n\n",
@@ -542,7 +542,7 @@
             },
             "to": [],
             "cc": [],
-            "date": "M/4/Y-1",
+            "date": "M/D-7/Y-1",
             "subject": "Your Results Are In",
             "message": [
                 "Hi %FIRSTNAME%,\n\n",
