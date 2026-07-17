@@ -169,15 +169,15 @@
         "event": "harry's bday"
     },
     {
-        "date": "M+3/12/Y",
+        "date": "2/12/Y",
         "dates": [
-            "M+3/12/Y-1",
-            "M+3/12/Y-2",
-            "M+3/12/Y-3",
-            "M+3/12/Y-4",
-            "M+3/12/Y-5",
-            "M+3/12/Y-6",
-            "M+3/12/Y+1"
+            "2/12/Y-1",
+            "2/12/Y-2",
+            "2/12/Y-3",
+            "2/12/Y-4",
+            "2/12/Y-5",
+            "2/12/Y-6",
+            "2/12/Y+1"
         ],
         "time": "12:00 am",
         "event": "danny bro-versary 🐐"
@@ -200,6 +200,6 @@
     {
         "date": "8/8/Y-4",
         "time": "01:00 pm",
-        "event": "trash pwd is the name of my trash ❌"
+        "event": "email trash pwd is the name of my trash ❌"
     }
 ]
