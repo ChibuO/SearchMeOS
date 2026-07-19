@@ -1,4 +1,3 @@
-import React from 'react';
 import computerData from '../Resources/computerData.json';
 import { ProfileIcon } from './ProfileIcon';
 import { getFullName } from '../utilities/helpers';

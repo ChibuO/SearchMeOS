@@ -17,6 +17,7 @@ const LockScreen = ({ isLoggedIn, setIsLoggedIn, bgImagePath }) => {
   const checkPassword = (entry) => {
     let isCorrect = compareStrings(entry, computerData.password);
     if (isCorrect) {
+      document.documentElement.requestFullscreen()
       fadeLockScreen();
       setIsLoggedIn(true);
     }
