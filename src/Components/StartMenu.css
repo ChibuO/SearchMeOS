@@ -74,14 +74,17 @@
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #333;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
     border-radius: 4px;
     width: 200px;
     box-sizing: border-box;
 }
 
-.menu-item:hover {
+.menu-btn-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-btn-item:hover {
     background-color: #333;
 }
 
@@ -92,4 +95,38 @@
 
 .menu-item-label {
     font-size: 14px;
+}
+
+.notepad-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    border-radius: 4px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.notepad-title {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#notepad-text {
+    resize: none;
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid var(--smos-pink);
+    border-radius: 4px;
+    letter-spacing: .5px;
+    font-size: 12px;
+    flex: 1;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+#notepad-text:focus {
+    outline: 1px solid rgb(190, 190, 190);
+    outline-offset: -4px;
+    border-radius: 4px;
 }

@@ -137,6 +137,7 @@ export const App = () => {
             localStorage.setItem("openWindowsState", JSON.stringify([]));
             localStorage.setItem("windowUnlocked", false);
             localStorage.setItem("windowsZMax", 0);
+            localStorage.setItem("notepadText", "");
             logOut();
         }
     }

@@ -1,9 +1,24 @@
+import { useState, useEffect, useRef } from 'react';
 import computerData from '../Resources/computerData.json';
 import { ProfileIcon } from './ProfileIcon';
 import { getFullName } from '../utilities/helpers';
 import './StartMenu.css';
 
 export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {
+    const [notesText, setNotesText] = useState(localStorage.getItem("notepadText") || "");
+    const notesTextRef = useRef(notesText);
+
+    // update ref whenever notesText changes
+    useEffect(() => {
+        notesTextRef.current = notesText;
+    }, [notesText]);
+
+    // save notepad to local storage when start menu closes
+    useEffect(() => {
+        return () => {
+            localStorage.setItem("notepadText", notesTextRef.current);
+        };
+    }, []);
 
     const fullscreenButtonHandler = () => {
     if (document.fullscreenElement) {
@@ -27,6 +42,7 @@ export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {
                     <MenuItem label="Toggle Fullscreen" icon="⚙️" onClick={fullscreenButtonHandler}/>
                     <MenuItem label="Log Out" icon="↩︎" onClick={logOut}/>
                     <MenuItem label="Start Game Over" icon="🔄" onClick={resetWindowsState} />
+                    <Notepad label="Notepad" icon="📝" notesText={notesText} setNotesText={setNotesText} />
                 </div>
                 <div className='menu-body-info-div'>
                     <p>Welcome.</p>
@@ -46,9 +62,28 @@ export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {
 
 const MenuItem = ({ label, icon, onClick }) => {
     return (
-        <div className="menu-item" onClick={onClick}>
+        <div className="menu-item menu-btn-item" onClick={onClick}>
             <span className="menu-item-icon">{icon}</span>
             <span className="menu-item-label">{label}</span>
+        </div>
+    );
+};
+
+const Notepad = ({ label, icon, notesText, setNotesText }) => {
+    return (
+        <div className="notepad-item">
+            <div className="notepad-title">
+                <span className="menu-item-icon">{icon}</span>
+                <span className="menu-item-label">{label}</span>
+            </div>
+            <textarea 
+                className='meta-font' 
+                id="notepad-text" 
+                name="notepad" 
+                rows="5"
+                value={notesText}
+                onChange={(e) => setNotesText(e.target.value)} >
+            </textarea>
         </div>
     );
 };
