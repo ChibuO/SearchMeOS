@@ -43,6 +43,7 @@
     /* color: #6bc652; */
     color: var(--cal-white);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.336);
+    user-select: none;
 }
 
 .calendar-btns:hover {
