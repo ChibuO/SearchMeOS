@@ -804,7 +804,7 @@
                         "message": "josh is covering my shift Thursday"
                     },
                     {
-                        "from": "chaz",
+                        "from": "%FIRSTNAME%",
                         "message": "you know what time it is. Avan is covering my shift saturday and everyone else is invited to the party"
                     },
                     {
