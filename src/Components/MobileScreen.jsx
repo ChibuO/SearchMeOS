@@ -123,17 +123,17 @@ const ContactScreen = ({setOpenContact, client}) => {
     }
   }
 
-  const colors = ["#cf3d00ff", "#e825be", "#ffffff"];
+  const colors = ["rgb(255, 77, 0)", "#ff23cf", "#ffffff"];
   const shootConfetti = () => {
     confetti({
-      particleCount: 50,
+      particleCount: 80,
       angle: 60,
       spread: 55,
       origin: { x: 0.3, y: .8 },
       colors
     });
     confetti({
-      particleCount: 50,
+      particleCount: 80,
       angle: 120,
       spread: 55,
       origin: { x: .7, y: .8 },
