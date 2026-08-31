@@ -5,7 +5,6 @@ import { MdKeyboardBackspace as BackIcon} from "react-icons/md";
 import { FaPaperPlane as SendIcon } from "react-icons/fa";
 import { ProfileIcon } from './ProfileIcon';
 import './MobileScreen.css';
-import { ca } from 'date-fns/locale';
 
 export const MobileScreen = () => {
   const client = computerData.client;
@@ -33,11 +32,6 @@ const ShareScreen = ({ setOpenContact, client }) => {
   const [contactInput, setContactInput] = useState("");
 
   const checkContact = (input) => {
-    if (input === "") {
-      setShowContact(true);
-      setContactInput("");
-      return;
-    }
     setContactInput(input);
     input = input.replace(/\s+/g, "").trim().toLowerCase();
     const ismatch = [

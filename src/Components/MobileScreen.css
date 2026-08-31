@@ -62,6 +62,7 @@
     letter-spacing: 1px;
     user-select: none;
     padding-bottom: 10px;
+    display: none; /* Hidden by default, shown on larger screens */
 }
 
 .phone-header-div {
@@ -283,6 +284,10 @@
         height: 80%;
         border-radius: 20px;
         border: 2px solid white;
+    }
+
+    #phone-label {
+        display: block;
     }
 
     .phone-message-div {

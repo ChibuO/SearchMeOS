@@ -21,11 +21,11 @@ export const StartMenu = ({menuRef, logOut, resetWindowsState }) => {
     }, []);
 
     const fullscreenButtonHandler = () => {
-    if (document.fullscreenElement) {
-        document.exitFullscreen()
-    } else {
-        document.documentElement.requestFullscreen()
-    }
+        if (document.fullscreenElement) {
+            document.exitFullscreen()
+        } else {
+            document.documentElement.requestFullscreen()
+        }
     }
 
     return (
