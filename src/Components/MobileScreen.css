@@ -190,6 +190,7 @@
     scrollbar-color: var(--scrollbar-standard-color) transparent;
     scrollbar-width: thin;
     overflow-y: auto;
+    flex-direction: column-reverse;
 }
 
 .phone-message-div {

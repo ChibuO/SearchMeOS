@@ -5,6 +5,7 @@ import { MdKeyboardBackspace as BackIcon} from "react-icons/md";
 import { FaPaperPlane as SendIcon } from "react-icons/fa";
 import { ProfileIcon } from './ProfileIcon';
 import './MobileScreen.css';
+import { ca } from 'date-fns/locale';
 
 export const MobileScreen = () => {
   const client = computerData.client;
@@ -32,6 +33,11 @@ const ShareScreen = ({ setOpenContact, client }) => {
   const [contactInput, setContactInput] = useState("");
 
   const checkContact = (input) => {
+    if (input === "") {
+      setShowContact(true);
+      setContactInput("");
+      return;
+    }
     setContactInput(input);
     input = input.replace(/\s+/g, "").trim().toLowerCase();
     const ismatch = [
@@ -96,6 +102,8 @@ const ContactScreen = ({setOpenContact, client}) => {
   const [inputText, setInputText] = useState("");
 
   const sendMessage = () => {
+    const messageList = document.getElementById("phone-contact-body");
+
     if (!fileSent) {
       setFileSent(true);
       setTimeout(() => {
@@ -104,9 +112,16 @@ const ContactScreen = ({setOpenContact, client}) => {
       setTimeout(() => {
         setShowThanks2(true);
         setInputText("No problem");
+        if (messageList) {
+          messageList.scrollTop = (0, messageList.scrollHeight*3);
+        }
       }, 2000);
     } else {
-      shootConfetti();
+      try {
+        shootConfetti();
+      } catch (error) {
+        console.error("Confetti failed to load:", error);
+      }
       setInputText("");
       setTimeout(() => {
         window.alert("Thank you for playing SearchMe!");
@@ -150,22 +165,19 @@ const ContactScreen = ({setOpenContact, client}) => {
         </div>
       </div>
       <div className="phone-body" id="phone-contact-body">
-        <div className="phone-message-div phone-message-left">
-          <p>{contactMessage}</p>
-        </div>
+        {showThanks2 && <div className="phone-message-div phone-message-left">
+          <p>{contactThanks2}</p>
+        </div> }
+        {showThanks && <div className="phone-message-div phone-message-left phone-message-cont">
+          <p>{contactThanks}</p>
+        </div>}
         {fileSent && 
         <div className="phone-message-div phone-message-right">
           <p>{contactDeliverable}</p>
+        </div>}
+        <div className="phone-message-div phone-message-left">
+          <p>{contactMessage}</p>
         </div>
-        }
-        {showThanks && <div className="phone-message-div phone-message-left phone-message-cont">
-          <p>{contactThanks}</p>
-        </div>
-        }
-        {showThanks2 && <div className="phone-message-div phone-message-left">
-          <p>{contactThanks2}</p>
-        </div>
-        }
       </div>
       <div id='phone-message-input-div'>
         <input
