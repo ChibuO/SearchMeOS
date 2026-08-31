@@ -104,12 +104,33 @@ const ContactScreen = ({setOpenContact, client}) => {
       setTimeout(() => {
         setShowThanks2(true);
         setInputText("No problem");
-      }, 2500);
+      }, 2000);
     } else {
-      setInputText("")
-      window.alert("Thank you for playing SearchMe!");
+      shootConfetti();
+      setInputText("");
+      setTimeout(() => {
+        window.alert("Thank you for playing SearchMe!");
+      }, 1500);
     }
   }
+
+  const colors = ["#cf3d00ff", "#e825be", "#ffffff"];
+  const shootConfetti = () => {
+    confetti({
+      particleCount: 50,
+      angle: 60,
+      spread: 55,
+      origin: { x: 0.3, y: .8 },
+      colors
+    });
+    confetti({
+      particleCount: 50,
+      angle: 120,
+      spread: 55,
+      origin: { x: .7, y: .8 },
+      colors
+    });
+  };
 
   return (
     <div className="phone-screen-container">
@@ -133,15 +154,15 @@ const ContactScreen = ({setOpenContact, client}) => {
           <p>{contactMessage}</p>
         </div>
         {fileSent && 
-        <div class="phone-message-div phone-message-right">
+        <div className="phone-message-div phone-message-right">
           <p>{contactDeliverable}</p>
         </div>
         }
-        {showThanks && <div class="phone-message-div phone-message-left phone-message-cont">
+        {showThanks && <div className="phone-message-div phone-message-left phone-message-cont">
           <p>{contactThanks}</p>
         </div>
         }
-        {showThanks2 && <div class="phone-message-div phone-message-left">
+        {showThanks2 && <div className="phone-message-div phone-message-left">
           <p>{contactThanks2}</p>
         </div>
         }
