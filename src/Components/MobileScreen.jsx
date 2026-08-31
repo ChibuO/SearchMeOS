@@ -12,6 +12,7 @@ export const MobileScreen = () => {
 
   return (
     <div id="mobile-screen-container" className='meta-font'>
+      <p id="phone-label">Your Phone</p>
       <div id="phone-container">
         {!openContact ? 
           <ShareScreen setOpenContact={setOpenContact} client={client}/> 
@@ -32,9 +33,9 @@ const ShareScreen = ({ setOpenContact, client }) => {
 
   const checkContact = (input) => {
     setContactInput(input);
-    input = input.trim().toLowerCase();
+    input = input.replace(/\s+/g, "").trim().toLowerCase();
     const ismatch = [
-      contactFullName.toLowerCase(), 
+      contactFullName.replace(/\s+/g, "").toLowerCase(), 
       contactNumber].includes(input);
     if (ismatch) {
       setShowContact(true);
@@ -88,11 +89,26 @@ const ContactScreen = ({setOpenContact, client}) => {
   const contactThanks = client.thanks;
   const contactThanks2 = client.thanks2;
 
-  const [inputText, setInputText] = useState("no problem");
+  const [fileSent, setFileSent] = useState(false);
+  const [showThanks, setShowThanks] = useState(false);
+  const [showThanks2, setShowThanks2] = useState(false);
+
+  const [inputText, setInputText] = useState("");
 
   const sendMessage = () => {
-    setInputText("")
-    window.alert("Thank you for playing SearchMe!");
+    if (!fileSent) {
+      setFileSent(true);
+      setTimeout(() => {
+        setShowThanks(true);
+      }, 1000);
+      setTimeout(() => {
+        setShowThanks2(true);
+        setInputText("No problem");
+      }, 2500);
+    } else {
+      setInputText("")
+      window.alert("Thank you for playing SearchMe!");
+    }
   }
 
   return (
@@ -116,23 +132,28 @@ const ContactScreen = ({setOpenContact, client}) => {
         <div className="phone-message-div phone-message-left">
           <p>{contactMessage}</p>
         </div>
+        {fileSent && 
         <div class="phone-message-div phone-message-right">
           <p>{contactDeliverable}</p>
         </div>
-        <div class="phone-message-div phone-message-left phone-message-cont">
+        }
+        {showThanks && <div class="phone-message-div phone-message-left phone-message-cont">
           <p>{contactThanks}</p>
         </div>
-        <div class="phone-message-div phone-message-left">
+        }
+        {showThanks2 && <div class="phone-message-div phone-message-left">
           <p>{contactThanks2}</p>
         </div>
+        }
       </div>
       <div id='phone-message-input-div'>
         <input
             className='meta-font'
             type="text"
             placeholder=""
-            value={inputText}
+            value={!fileSent ? contactDeliverable : showThanks2 ? inputText : ""}
             id="phone-message-input"
+            disabled={!showThanks2}
             onChange={(e) => setInputText(e.target.value)}/>
         <button id="phone-message-input-send" onClick={sendMessage}><SendIcon id="phone-send-icon"/></button>
     </div>

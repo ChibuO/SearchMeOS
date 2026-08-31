@@ -183,6 +183,20 @@
         "event": "danny bro-versary 🐐"
     },
     {
+        "date": "10/30/Y",
+        "dates": [
+            "10/30/Y-1",
+            "10/30/Y-2",
+            "10/30/Y+5",
+            "10/30/Y+4",
+            "10/30/Y+3",
+            "10/30/Y+2",
+            "10/30/Y+1"
+        ],
+        "time": "12:00 pm",
+        "event": "dani anniversary 🩷"
+    },
+    {
         "date": "2/12/Y",
         "time": "01:00 am",
         "event": "go to august 8th, 4 years ago"

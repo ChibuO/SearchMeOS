@@ -17,6 +17,7 @@
     padding: 0;
     background-color: var(--phone-black-color);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -33,16 +34,6 @@
     padding: 0;
     width: 100%;
     /* Only full width/height and no border-radius on mobile by default */
-}
-
-@media (min-width: 600px) {
-    /* For desktops */
-    #phone-container {
-        width: 20%;
-        height: 80%;
-        border-radius: 20px;
-        border: 2px solid white;
-    }
 }
 
 .phone-screen-container * {
@@ -62,6 +53,15 @@
     background-color: var(--phone-bg-color);
     margin: 0;
     padding: 0;
+}
+
+#phone-label {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    user-select: none;
+    padding-bottom: 10px;
 }
 
 .phone-header-div {
@@ -189,7 +189,7 @@
 #phone-contact-body {
     scrollbar-color: var(--scrollbar-standard-color) transparent;
     scrollbar-width: thin;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .phone-message-div {
@@ -272,4 +272,34 @@
 #phone-message-input-send:active {
   background-color: var(--phone-accent-color-hover);
   color: var(--phone-black-color);
+}
+
+
+@media (min-width: 600px) {
+    /* For desktops */
+    #phone-container {
+        width: 20%;
+        height: 80%;
+        border-radius: 20px;
+        border: 2px solid white;
+    }
+
+    .phone-message-div {
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    #phone-message-input {
+        font-size: 14px;
+    }
+
+    #phone-message-input-div {
+        margin: 0 10px 10px 10px;
+    }
+
+    #phone-message-input-send {
+        width: 30px;
+        height: 30px;
+    }
 }
